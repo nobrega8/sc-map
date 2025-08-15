@@ -99,6 +99,154 @@
         "address": null,
         "latitude": 32.67894354172962,
         "longitude": -16.85744078106183,
-        "url": "https://www.zerozero.pt/equipa/benfica/22"
+        "url": "https://www.zerozero.pt/equipa/uniao-madeira/22"
+    },
+    {
+        "id": "13",
+        "club": "Paços de Ferreira",
+        "stadium": "Estádio Capital do Móvel",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/13_imgbank_1682583483.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/13/13_shirt_20241118144651_pacos_de_ferreira.png",
+                "alt_text": "paços de ferreira"
+            }
+        ],
+        "address": null,
+        "latitude": 41.27144778991801,
+        "longitude": -8.385628783445842,
+        "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13"
+    },
+    
+    {
+        "id": "slbenfica",
+        "club": "Benfica",
+        "stadium": "Estádio da Luz",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [
+            {
+                "type": "Casa",
+                "url": "https://www.zerozero.pt/img/logos/equipas/04/4_shirt_20241014152915_benfica.png",
+                "alt_text": "benfica"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7531359493634,
+        "longitude": -9.184956307391019,
+        "url": "https://www.zerozero.pt/equipa/benfica"
+    },
+    {
+        "id": "23",
+        "club": "SC Covilhã",
+        "stadium": "Estádio Municipal José dos Santos Pinto",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/23_imgbank_1753175883.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/23/23_shirt_20231227102116_sc_covilha.png",
+                "alt_text": "sc covilhã"
+            }
+        ],
+        "address": null,
+        "latitude": 40.283083501011774,
+        "longitude": -7.5124140865056,
+        "url": "https://www.zerozero.pt/equipa/sc-covilha/23"
+    },
+    {
+        "id": "17",
+        "club": "UD Leiria",
+        "stadium": "Estádio Dr. Magalhães Pessoa",
+        "logo": "https://www.zerozero.pt/img_icon/logos/equipas/17_imgbank_1721993809.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/17/17_shirt_20241118144735_ud_leiria.png",
+                "alt_text": "ud leiria"
+            }
+        ],
+        "address": null,
+        "latitude": 39.74900614105751,
+        "longitude": -8.813235139326634,
+        "url": "https://www.zerozero.pt/equipa/ud-leiria/17"
+    },
+    {
+        "id": "35",
+        "club": "Vitória de Setubal",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/35_imgbank_1683027153.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/35/35_shirt_20240418082008_vitoria_fc.png",
+                "alt_text": "vitória fc"
+            }
+        ],
+        "address": null,
+        "latitude": 38.53089809122608,
+        "longitude": -8.89102867036612,
+        "url": "https://www.zerozero.pt/equipa/vitoria-fc/35"
+    },
+    {
+        "id": "18",
+        "club": "Vitória de Guimarães",
+        "stadium": "Estádio D. Afonso Henriques",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/18_imgbank_1691672368.png",
+        "equipamentos": [
+            {
+                "type": "Casa",
+                "url": "https://www.zerozero.pt/img/logos/equipas/18/18_shirt_20241014153008_vitoria_sc.png",
+                "alt_text": "vitória sc"
+            }
+        ],
+        "address": null,
+        "latitude": 41.4457685813183,
+        "longitude": -8.301101264401753,
+        "url": "https://www.zerozero.pt/equipa/vitoria-sc"
+    },
+    {
+        "id": "3969",
+        "club": "Ponterrolense",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3969_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/69/3969_shirt_20240911143505_ponterrolense.png",
+                "alt_text": "ponterrolense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.09684056595246,
+        "longitude": -9.326641777038024,
+        "url": "https://www.zerozero.pt/equipa/ponterrolense/3969"
+    },
+    {
+        "id": "73330",
+        "club": "Varejense Futsal",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/51/287051_logo_varejense.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/30/73330_shirt_20250701172019_varejense.jpg",
+                "alt_text": "varejense "
+            }
+        ],
+        "address": null,
+        "latitude": 38.72699529198073,
+        "longitude": -9.118399977997736,
+        "url": "https://www.zerozero.pt/equipa/varejense-/73330"
+    },
+    {
+        "id": "21659",
+        "club": "Frassati Futsal",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/21659_logo_frassati.gif",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 38.7301591238894,
+        "longitude": -9.131390962655965,
+        "url": "https://www.zerozero.pt/equipa/frassati/21659"
     }
 ]
