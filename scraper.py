@@ -442,30 +442,6 @@ def main():
     
     logger.info(f"✅ {len([d for d in dados_novos if d])} clubes do CSV processados com sucesso")
     
-    # 2. Depois faz descoberta automática (opcional)
-    logger.info("🔍 Iniciando descoberta automática...")
-    clubes_descobertos = descobrir_clubes_multiplas_competicoes()
-    
-    # Filtra clubes novos (que não estão no CSV nem já processados)
-    clubes_novos = {id_clube: url for id_clube, url in clubes_descobertos.items() 
-                   if id_clube not in ids_existentes}
-    
-    logger.info(f"🆕 {len(clubes_novos)} clubes novos para descoberta automática")
-    
-    # Processa clubes descobertos automaticamente
-    if clubes_novos:
-        total = len(clubes_novos)
-        for i, (clube_id, url) in enumerate(clubes_novos.items(), 1):
-            logger.info(f"📌 Processando descoberta {i}/{total}: ID {clube_id}")
-            
-            dados = obter_dados_clube(url)
-            if dados:  # Só adiciona se tiver coordenadas válidas
-                dados_novos.append(dados)
-            
-            # Pausa entre requests
-            if i < total:
-                time.sleep(3)
-    
     # Combina dados existentes com novos (filtra None values)
     dados_validos_novos = [dados for dados in dados_novos if dados is not None]
     todos_dados = dados_existentes + dados_validos_novos
