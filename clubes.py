@@ -133,11 +133,13 @@ def extrair_clubes_competicao(url):
     ]
 
     for estrategia in estrategias:
+        estrategia_encontrou = False
         for seletor in estrategia['seletores']:
             try:
                 links = soup.select(seletor)
                 if links:
                     print(f"    → {estrategia['nome']}: {len(links)} links encontrados com '{seletor}'")
+                    estrategia_encontrou = True
                     
                     for link in links:
                         href = link.get('href')
@@ -161,16 +163,13 @@ def extrair_clubes_competicao(url):
                         
                         if clube_id and clube_id not in clubes_encontrados:
                             clubes_encontrados[clube_id] = (nome, url_clube)
-                    
-                    if clubes_encontrados:
-                        break  # Se encontrou clubes com este seletor, não tenta os outros
             
             except Exception as e:
                 print(f"    ✗ Erro com seletor '{seletor}': {e}")
                 continue
         
-        if clubes_encontrados:
-            break  # Se encontrou clubes com esta estratégia, não tenta as outras
+        # Continue para próxima estratégia se esta não encontrou nada
+        # Remove o break para permitir que todas as estratégias sejam tentadas
 
     clubes_lista = list(clubes_encontrados.values())
     if clubes_lista:
@@ -210,38 +209,56 @@ def processar_todas_competicoes():
     return list(todos_clubes.values())
 
 def salvar_resultados(clubes, nome_arquivo="clubes_zerozero.csv"):
-    """Salva os resultados em CSV com validação e relatório detalhado"""
+    """Salva os resultados em CSV com validação e relatório detalhado, preservando dados existentes"""
     if not clubes:
         print("\n⚠ Aviso: Nenhum clube foi encontrado para salvar.")
         return False
     
     try:
-        # Criar DataFrame e processar dados
-        df = pd.DataFrame(clubes, columns=["nome", "url"])
+        # Criar DataFrame com novos clubes
+        df_novos = pd.DataFrame(clubes, columns=["nome", "url"])
+        
+        # Tentar carregar dados existentes
+        df_existentes = pd.DataFrame(columns=["nome", "url"])
+        try:
+            if pd.io.common.file_exists(nome_arquivo):
+                df_existentes = pd.read_csv(nome_arquivo, encoding="utf-8")
+                print(f"📄 Carregados {len(df_existentes)} clubes existentes de '{nome_arquivo}'")
+        except Exception as e:
+            print(f"⚠ Aviso: Não foi possível carregar dados existentes: {e}")
+        
+        # Combinar dados existentes com novos
+        df_combinado = pd.concat([df_existentes, df_novos], ignore_index=True)
+        df_antes_dedup = len(df_combinado)
         
         # Remover duplicados por URL (mais confiável que por nome)
-        df_original_size = len(df)
-        df = df.drop_duplicates(subset="url", keep='first')
-        df_deduplicated_size = len(df)
+        df_combinado = df_combinado.drop_duplicates(subset="url", keep='first')
+        df_depois_dedup = len(df_combinado)
         
         # Ordenar por nome para facilitar consulta
-        df = df.sort_values("nome")
+        df_combinado = df_combinado.sort_values("nome")
         
         # Salvar CSV
-        df.to_csv(nome_arquivo, index=False, encoding="utf-8")
+        df_combinado.to_csv(nome_arquivo, index=False, encoding="utf-8")
         
         # Relatório de resultados
-        print(f"\n✓ Sucesso! {df_deduplicated_size} clubes únicos salvos em '{nome_arquivo}'")
-        if df_original_size != df_deduplicated_size:
-            print(f"  📊 {df_original_size - df_deduplicated_size} duplicados removidos")
+        novos_adicionados = df_depois_dedup - len(df_existentes)
+        print(f"\n✓ Sucesso! {df_depois_dedup} clubes únicos totais em '{nome_arquivo}'")
+        print(f"  📊 {novos_adicionados} clubes novos adicionados")
+        if df_antes_dedup != df_depois_dedup:
+            print(f"  🔄 {df_antes_dedup - df_depois_dedup} duplicados removidos")
         
-        # Mostrar amostra dos resultados
-        print(f"\n📋 Primeiros 10 clubes encontrados:")
-        for i, (nome, url) in enumerate(df.head(10).values, 1):
-            print(f"  {i:2d}. {nome}")
-        
-        if len(df) > 10:
-            print(f"  ... e mais {len(df) - 10} clubes")
+        # Mostrar amostra dos novos resultados
+        if novos_adicionados > 0:
+            print(f"\n📋 Últimos {min(10, novos_adicionados)} clubes adicionados:")
+            df_novos_unicos = df_combinado[~df_combinado['url'].isin(df_existentes['url']) if len(df_existentes) > 0 else slice(None)]
+            for i, (nome, url) in enumerate(df_novos_unicos.head(10).values, 1):
+                print(f"  {i:2d}. {nome}")
+            
+            if len(df_novos_unicos) > 10:
+                print(f"  ... e mais {len(df_novos_unicos) - 10} clubes novos")
+        else:
+            print(f"\n📋 Nenhum clube novo foi encontrado (todos já existiam)")
         
         return True
         

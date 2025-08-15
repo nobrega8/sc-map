@@ -338,10 +338,9 @@ def obter_dados_clube(url):
             except Exception as geo_error:
                 logger.error(f"Erro na geocodificação: {geo_error}")
         
-        # Only return club data if we have valid coordinates
+        # Log warning if coordinates not found but still save the club
         if lat is None or lon is None:
-            logger.warning(f"⚠️ {nome} (ID: {clube_id}) - Coordenadas não encontradas, não será salvo")
-            return None
+            logger.warning(f"⚠️ {nome} (ID: {clube_id}) - Coordenadas não encontradas, mas será salvo mesmo assim")
         
         resultado = {
             "id": clube_id,
