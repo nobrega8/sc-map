@@ -136,16 +136,55 @@ def obter_dados_clube(url):
         # ID do clube
         clube_id = extrair_id_clube(url)
         
-        # Nome do clube - múltiplas tentativas
+        # Nome do clube - múltiplas tentativas mais específicas
         nome = None
-        h1_tag = soup.find("h1")
-        if h1_tag:
-            nome = h1_tag.get_text(strip=True)
         
+        # Primeira tentativa: procurar por título específico da equipa
+        page_title = soup.find("title")
+        if page_title:
+            title_text = page_title.get_text(strip=True)
+            # Remove partes desnecessárias do título
+            if " - ZeroZero.pt" in title_text:
+                potential_name = title_text.replace(" - ZeroZero.pt", "").strip()
+                # Valida se não é só o nome do site
+                if potential_name and potential_name.lower() not in ["zerozero.pt", "zerozero", "www.zerozero.pt"]:
+                    nome = potential_name
+        
+        # Segunda tentativa: h1 com validação
+        if not nome:
+            h1_tags = soup.find_all("h1")
+            for h1_tag in h1_tags:
+                h1_text = h1_tag.get_text(strip=True)
+                # Evita textos genéricos ou de navegação
+                if (h1_text and 
+                    h1_text.lower() not in ["zerozero.pt", "zerozero", "www.zerozero.pt", "equipas", "teams", "futebol"] and
+                    len(h1_text) > 2 and 
+                    not h1_text.startswith("t24") and
+                    "estadios" not in h1_text.lower()):
+                    nome = h1_text
+                    break
+        
+        # Terceira tentativa: classes específicas de team name
         if not nome:
             team_name = soup.find("div", class_="team-name") or soup.find("span", class_="team-name")
             if team_name:
-                nome = team_name.get_text(strip=True)
+                team_text = team_name.get_text(strip=True)
+                if (team_text and 
+                    team_text.lower() not in ["zerozero.pt", "zerozero", "www.zerozero.pt"] and
+                    len(team_text) > 2):
+                    nome = team_text
+        
+        # Quarta tentativa: extrair do URL como fallback
+        if not nome:
+            url_parts = url.split('/')
+            for part in url_parts:
+                if (part and 
+                    part not in ['equipa', 'team', 'www.zerozero.pt', 'zerozero.pt', 'https:', 'http:'] and 
+                    not part.isdigit() and 
+                    len(part) > 2):
+                    # Converte formato URL para nome mais legível
+                    nome = part.replace('-', ' ').replace('_', ' ').title()
+                    break
         
         # Logo do clube - procura pelo emblema no CDN
         logo_url = None
@@ -277,12 +316,23 @@ def obter_dados_clube(url):
         # Limita a 5 equipamentos para evitar spam
         equipamentos = equipamentos[:5]
         
-        # Nome do estádio
+        # Nome do estádio com validação melhorada
         estadio_nome = None
-        estadio_link = soup.find("a", href=lambda href: href and "estadio" in href.lower())
-        if estadio_link:
-            estadio_nome = estadio_link.get_text(strip=True)
         
+        # Primeira tentativa: links específicos de estádio (mais restritivo)
+        estadio_links = soup.find_all("a", href=lambda href: href and "estadio" in href.lower())
+        for link in estadio_links:
+            link_text = link.get_text(strip=True)
+            # Valida se o texto parece ser um nome de estádio
+            if (link_text and 
+                len(link_text) > 3 and
+                not link_text.lower().startswith("t24") and
+                "estadios" not in link_text.lower() and
+                link_text.lower() not in ["zerozero.pt", "zerozero", "equipas", "estádios"]):
+                estadio_nome = link_text
+                break
+        
+        # Segunda tentativa: tabelas com informações do clube
         if not estadio_nome:
             rows = soup.find_all("tr")
             for row in rows:
@@ -290,8 +340,23 @@ def obter_dados_clube(url):
                 if len(cells) >= 2:
                     header = cells[0].get_text(strip=True).lower()
                     if "estádio" in header or "stadium" in header:
-                        estadio_nome = cells[1].get_text(strip=True)
-                        break
+                        potential_stadium = cells[1].get_text(strip=True)
+                        # Valida se o texto parece ser um nome de estádio válido
+                        if (potential_stadium and 
+                            len(potential_stadium) > 3 and
+                            not potential_stadium.lower().startswith("t24") and
+                            "estadios" not in potential_stadium.lower() and
+                            potential_stadium.lower() not in ["zerozero.pt", "zerozero", "-", "n/a", "não disponível"]):
+                            estadio_nome = potential_stadium
+                            break
+        
+        # Validação final para evitar dados incorretos
+        if estadio_nome and (
+            estadio_nome.lower().startswith("t24") or
+            "estadios" in estadio_nome.lower() or
+            estadio_nome.lower() in ["zerozero.pt", "zerozero", "www.zerozero.pt"]
+        ):
+            estadio_nome = None
         
         # Localização/Morada
         morada = None
@@ -337,6 +402,20 @@ def obter_dados_clube(url):
                 
             except Exception as geo_error:
                 logger.error(f"Erro na geocodificação: {geo_error}")
+        
+        # Validação final dos dados extraídos
+        if not nome or nome.lower() in ["zerozero.pt", "zerozero", "www.zerozero.pt"]:
+            logger.error(f"❌ Nome de clube inválido ou não encontrado para {url}")
+            return None
+        
+        if len(nome) < 2:
+            logger.error(f"❌ Nome de clube muito curto para {url}: '{nome}'")
+            return None
+            
+        # Rejeita nomes que começam com "t24" ou contêm "estadios"
+        if nome.lower().startswith("t24") or "estadios" in nome.lower():
+            logger.error(f"❌ Nome de clube parece ser texto de navegação para {url}: '{nome}'")
+            return None
         
         # Log warning if coordinates not found but still save the club
         if lat is None or lon is None:
