@@ -36,26 +36,80 @@ def obter_dados_clube(url):
             if team_name:
                 nome = team_name.get_text(strip=True)
         
-        # Logo - múltiplas tentativas
+        # Logo do clube - estratégia melhorada
         logo_url = None
+        
+        # Procura especificamente pelo emblema do clube, evitando logos do site
         logo_selectors = [
-            "img.logo",
-            "img[alt*='logo']",
+            "img[src*='emblemas']",  # ZeroZero usa pasta 'emblemas' para logos de clubes
+            "img[src*='shield']",
+            "img[src*='badge']",
+            "img[alt*='emblema']",
+            "img[title*='emblema']",
             ".team-logo img",
             ".club-logo img",
-            "img[src*='logo']"
+            "img.logo"
         ]
         
         for selector in logo_selectors:
-            logo_tag = soup.select_one(selector)
-            if logo_tag and logo_tag.get("src"):
-                logo_url = logo_tag["src"]
-                # Tornar URL absoluta se necessário
-                if logo_url.startswith("//"):
-                    logo_url = "https:" + logo_url
-                elif logo_url.startswith("/"):
-                    logo_url = "https://www.zerozero.pt" + logo_url
+            logo_candidates = soup.select(selector)
+            for logo_tag in logo_candidates:
+                src = logo_tag.get("src", "")
+                alt = logo_tag.get("alt", "").lower()
+                title = logo_tag.get("title", "").lower()
+                
+                # Evita logos do próprio zerozero e outros sites
+                if any(avoid in src.lower() for avoid in ['zerozero', 'zz.pt', 'logo_zz', 'site']):
+                    continue
+                
+                # Prefere imagens que claramente são emblemas
+                if any(keyword in src.lower() for keyword in ['emblema', 'shield', 'badge', 'crest']):
+                    logo_url = src
+                    break
+                elif any(keyword in alt for keyword in ['emblema', 'logo', 'escudo']):
+                    logo_url = src
+                    break
+                elif any(keyword in title for keyword in ['emblema', 'logo', 'escudo']):
+                    logo_url = src
+                    break
+                elif src and not logo_url:  # Fallback se não encontrar nada mais específico
+                    logo_url = src
+            
+            if logo_url:
                 break
+        
+        # Se ainda não encontrou, procura na estrutura da página do clube
+        if not logo_url:
+            # Procura por imagens pequenas que podem ser emblemas (geralmente 50-200px)
+            all_images = soup.find_all("img")
+            for img in all_images:
+                src = img.get("src", "")
+                if not src:
+                    continue
+                    
+                # Evita logos do site
+                if any(avoid in src.lower() for avoid in ['zerozero', 'zz.pt', 'logo_zz', 'site']):
+                    continue
+                
+                # Verifica se tem dimensões típicas de emblema
+                width = img.get("width")
+                height = img.get("height")
+                
+                if width and height:
+                    try:
+                        w, h = int(width), int(height)
+                        if 30 <= w <= 200 and 30 <= h <= 200:  # Dimensões típicas de emblemas
+                            logo_url = src
+                            break
+                    except ValueError:
+                        continue
+        
+        # Tornar URL absoluta se necessário
+        if logo_url:
+            if logo_url.startswith("//"):
+                logo_url = "https:" + logo_url
+            elif logo_url.startswith("/"):
+                logo_url = "https://www.zerozero.pt" + logo_url
         
         # Nome do estádio - múltiplas tentativas
         estadio_nome = None

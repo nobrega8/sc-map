@@ -1,12 +1,11 @@
-// Criar o mapa centrado em Portugal
 const map = L.map('map').setView([39.5, -8.0], 7);
 
-// Adicionar tiles do OpenStreetMap
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
 }).addTo(map);
 
-// Função para criar ícone a partir do logo
 function criarIcon(logoUrl) {
     return L.icon({
         iconUrl: logoUrl,
@@ -15,7 +14,6 @@ function criarIcon(logoUrl) {
     });
 }
 
-// Carregar JSON com fetch
 fetch('clubes.json')
     .then(response => response.json())
     .then(data => {
