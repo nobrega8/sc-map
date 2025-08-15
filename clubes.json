@@ -1,0 +1,38 @@
+[
+    {
+        "club": "Sporting",
+        "stadium": "Estádio José Alvalade",
+        "logo": "https://cdn-files.zerozero.pt/files/settings/zerozero_logo-principal_horizontal_v1.svg",
+        "address": null,
+        "latitude": 38.7612164,
+        "longitude": -9.1607831,
+        "url": "https://www.zerozero.pt/team.php?id=16"
+    },
+    {
+        "club": "Benfica",
+        "stadium": "Estádio do Sport Lisboa e Benfica",
+        "logo": "https://cdn-files.zerozero.pt/files/settings/zerozero_logo-principal_horizontal_v1.svg",
+        "address": null,
+        "latitude": 38.7526893,
+        "longitude": -9.1846899,
+        "url": "https://www.zerozero.pt/team.php?id=4"
+    },
+    {
+        "club": "Lourinhanense",
+        "stadium": "Estádio Municipal da Lourinhã",
+        "logo": "https://cdn-files.zerozero.pt/files/settings/zerozero_logo-principal_horizontal_v1.svg",
+        "address": null,
+        "latitude": 39.2397491,
+        "longitude": -9.3084912,
+        "url": "https://www.zerozero.pt/equipa/lourinhanense/3598"
+    },
+    {
+        "club": "Torreense",
+        "stadium": "Estádio Manuel Marques",
+        "logo": "https://cdn-files.zerozero.pt/files/settings/zerozero_logo-principal_horizontal_v1.svg",
+        "address": null,
+        "latitude": 39.0947814,
+        "longitude": -9.256795,
+        "url": "https://www.zerozero.pt/equipa/torreense/2178"
+    }
+]
