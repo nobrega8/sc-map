@@ -36,6 +36,92 @@ function createEquipmentHTML(equipamentos) {
     return equipmentHTML;
 }
 
+// Toggle submission form
+function toggleSubmissionForm() {
+    const form = document.getElementById('submission-form');
+    form.classList.toggle('hidden');
+    
+    // Reset form when closing
+    if (form.classList.contains('hidden')) {
+        document.getElementById('club-form').reset();
+    }
+}
+
+// Handle form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('club-form');
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Extract club ID from ZeroZero URL
+        const url = document.getElementById('club-url').value;
+        const clubId = extractClubId(url);
+        
+        const clubData = {
+            id: clubId,
+            club: document.getElementById('club-name').value,
+            stadium: document.getElementById('club-stadium').value || null,
+            logo: document.getElementById('club-logo').value,
+            equipamentos: [], // Empty for now, can be filled manually
+            address: document.getElementById('club-address').value || null,
+            latitude: parseFloat(document.getElementById('club-latitude').value),
+            longitude: parseFloat(document.getElementById('club-longitude').value),
+            url: url
+        };
+        
+        // Load existing submissions or create new array
+        loadExistingSubmissions()
+            .then(submissions => {
+                submissions.push(clubData);
+                downloadSubmissions(submissions);
+                toggleSubmissionForm();
+                alert('Submissão criada! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+            })
+            .catch(err => {
+                console.error('Erro ao carregar submissões existentes:', err);
+                // If no existing file, create new one
+                downloadSubmissions([clubData]);
+                toggleSubmissionForm();
+                alert('Submissão criada! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+            });
+    });
+});
+
+// Extract club ID from ZeroZero URL
+function extractClubId(url) {
+    const match = url.match(/\/(\d+)$/);
+    return match ? match[1] : new Date().getTime().toString();
+}
+
+// Load existing submissions.json if it exists
+async function loadExistingSubmissions() {
+    try {
+        const response = await fetch('submissions.json');
+        if (response.ok) {
+            return await response.json();
+        }
+        throw new Error('No existing submissions file');
+    } catch (err) {
+        return [];
+    }
+}
+
+// Download submissions as JSON file
+function downloadSubmissions(submissions) {
+    const dataStr = JSON.stringify(submissions, null, 4);
+    const dataBlob = new Blob([dataStr], {type: 'application/json'});
+    const url = URL.createObjectURL(dataBlob);
+    
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'submissions.json';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    URL.revokeObjectURL(url);
+}
+
 fetch('clubes.json')
     .then(response => response.json())
     .then(data => {
