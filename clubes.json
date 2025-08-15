@@ -1,0 +1,121 @@
+[
+    {
+        "id": "2",
+        "club": "Beira-Mar",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2_imgbank_1683209128.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/02/2_shirt_20240221084801_beira_mar.png",
+                "alt_text": "beira-mar"
+            }
+        ],
+        "address": null,
+        "latitude": 40.6434864,
+        "longitude": -8.6542323,
+        "url": "https://www.zerozero.pt/equipa/beira-mar/2"
+    },
+    {
+        "id": "2178",
+        "club": "Torreense",
+        "stadium": "Estádio Manuel Marques",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2178_imgbank_1682588244.png",
+        "equipamentos": [
+            {
+                "type": "Casa",
+                "url": "https://www.zerozero.pt/img/logos/equipas/78/2178_shirt_20241118144730_torreense.png",
+                "alt_text": "torreense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.09468870445161,
+        "longitude": -9.256681547301007,
+        "url": "https://www.zerozero.pt/equipa/torreense/2178"
+    },
+    {
+        "id": "3598",
+        "club": "Lourinhanense",
+        "stadium": "Estádio Municipal da Lourinhã",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3598_imgbank_1683111100.png",
+        "equipamentos": [
+            {
+                "type": "Casa",
+                "url": "https://www.zerozero.pt/img/logos/equipas/98/3598_shirt_20250715150012_lourinhanense.png",
+                "alt_text": "lourinhanense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.239725857087585,
+        "longitude": -9.309107208662232,
+        "url": "https://www.zerozero.pt/equipa/lourinhanense/3598"
+    },
+    {
+        "id": "19",
+        "club": "Académica OAF",
+        "stadium": "Estádio Municipal da Cidade de Coimbra",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19_imgbank_1752061481.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/19/19_shirt_20231227103544_academica_oaf.png",
+                "alt_text": "académica oaf"
+            }
+        ],
+        "address": null,
+        "latitude": 40.20289574659429,
+        "longitude": -8.407569212880802,
+        "url": "https://www.zerozero.pt/equipa/academica-oaf/19"
+    },
+    {
+        "id": "3",
+        "club": "Belenenses",
+        "stadium": "Estádio do Restelo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3_imgbank_1682589777.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/03/3_shirt_20250523113255_belenenses.png",
+                "alt_text": "belenenses"
+            }
+        ],
+        "address": null,
+        "latitude": 38.702135423428984,
+        "longitude": -9.207755425230948,
+        "url": "https://www.zerozero.pt/equipa/belenenses/3"
+    },
+    {
+        "id": "22",
+        "club": "União Madeira",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/22_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/22/22_shirt_20190422104859_u_madeira.png",
+                "alt_text": "união madeira"
+            }
+        ],
+        "address": null,
+        "latitude": 32.67894354172962,
+        "longitude": -16.85744078106183,
+        "url": "https://www.zerozero.pt/equipa/benfica/22"
+    },
+    {
+        "id": "3969",
+        "club": "Ponterrolense",
+        "stadium": "Campo Novo",
+        "logo": "",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "",
+                "alt_text": "ponterrolense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.097090358954354,
+        "longitude": -9.327070930465402,
+        "url": "https://www.zerozero.pt/equipa/ponterrolense/3969"
+    }
+]
