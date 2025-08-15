@@ -4,88 +4,85 @@ import pandas as pd
 import time
 from urllib.parse import urljoin
 
+# Configurações
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+TIMEOUT = 10
+DELAY = 2
+
 # URLs base para competições
 COMPETICOES = [
-    "https://www.zerozero.pt/competicao/supertaca-candido-de-oliveira",
-    "https://www.zerozero.pt/competicao/liga-portuguesa",
-    "https://www.zerozero.pt/competicao/taca-de-portugal",
-    "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
-    "https://www.zerozero.pt/competicao/liga-3",
-    "https://www.zerozero.pt/associacao/af-lisboa",
-    "https://www.zerozero.pt/competicao/liga-inglesa"
+    "https://www.zerozero.pt/edition.php?id=193396",  # Supertaça
+    "https://www.zerozero.pt/edition.php?id=193392",  # Liga Portuguesa
+    "https://www.zerozero.pt/edition.php?id=193394",  # Taça de Portugal
+    "https://www.zerozero.pt/edition.php?id=193393",  # Segunda Liga
+    "https://www.zerozero.pt/edition.php?id=193395",  # Liga 3
+    "https://www.zerozero.pt/edition.php?tp=31",      # AF Lisboa
+    "https://www.zerozero.pt/edition.php?id=189547"   # Liga Inglesa
 ]
 
-# Função para extrair clubes de uma página de competição
+def fazer_requisicao(url):
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+        return response
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao aceder {url}: {str(e)}")
+        return None
+
 def extrair_clubes_competicao(url):
-    response = requests.get(url)
-    if response.status_code != 200:
-        print(f"Erro ao aceder à página: {url}")
+    response = fazer_requisicao(url)
+    if not response:
         return []
 
     soup = BeautifulSoup(response.text, "html.parser")
     clubes_info = []
 
-    # Encontrar links para clubes - pode variar conforme a página
-    links_clubes = soup.select("a.team-name, table.table-striped a, a.team-title, a.team")
-    
-    for link in links_clubes:
-        href = link.get('href')
-        if href and ('equipa' in href or 'team' in href):
-            nome = link.text.strip()
-            url_clube = urljoin("https://www.zerozero.pt", href)
-            clubes_info.append((nome, url_clube))
-    
-    return clubes_info
+    # Tentar diferentes seletores para encontrar clubes
+    seletores = [
+        "a.team-name", "table.stats-table a.team", 
+        "div.team-list a", "a.team-title"
+    ]
 
-# Função para extrair clubes de uma página de associação
-def extrair_clubes_associacao(url):
-    response = requests.get(url)
-    if response.status_code != 200:
-        print(f"Erro ao aceder à página: {url}")
-        return []
+    for seletor in seletores:
+        for link in soup.select(seletor):
+            href = link.get('href')
+            if href and ('equipa' in href or 'team' in href):
+                nome = link.text.strip()
+                url_clube = urljoin("https://www.zerozero.pt", href)
+                clubes_info.append((nome, url_clube))
+                break  # Se encontrar com um seletor, passa para o próximo
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    clubes_info = []
-
-    # Tentar encontrar divisões primeiro
-    divisoes = soup.select("div.competition-list a")
-    for divisao in divisoes:
-        url_divisao = urljoin("https://www.zerozero.pt", divisao.get('href'))
-        clubes_info.extend(extrair_clubes_competicao(url_divisao))
-        time.sleep(1)
-    
     return clubes_info
 
 def main():
-    # Lista para armazenar os clubes (usamos set para evitar duplicados)
     clubes = set()
 
-    # Extrair clubes de cada competição
     for url in COMPETICOES:
-        print(f"Extraindo clubes de: {url}")
+        print(f"\nProcessando: {url}")
         
-        if 'associacao' in url:
-            clubes.update(extrair_clubes_associacao(url))
-        else:
-            # Tentar extrair de várias páginas da competição
-            for pagina in range(1, 6):  # Tenta 5 páginas
-                url_pagina = f"{url}?pagina={pagina}" if pagina > 1 else url
-                novos_clubes = extrair_clubes_competicao(url_pagina)
-                if not novos_clubes:
-                    break
+        # Tentar várias vezes em caso de falha
+        for tentativa in range(3):
+            novos_clubes = extrair_clubes_competicao(url)
+            if novos_clubes:
                 clubes.update(novos_clubes)
-                time.sleep(1)
+                print(f"Encontrados {len(novos_clubes)} clubes")
+                break
+            else:
+                print(f"Tentativa {tentativa+1} falhou, aguardando...")
+                time.sleep(DELAY * 2)
         
-        time.sleep(2)  # Pausa maior entre competições
+        time.sleep(DELAY)
 
-    # Converter para DataFrame e salvar
-    df = pd.DataFrame(sorted(clubes), columns=["nome", "url"])
-    
-    # Remover duplicados por URL (pode haver clubes com nomes ligeiramente diferentes mas mesma URL)
-    df = df.drop_duplicates(subset="url")
-    
-    df.to_csv("clubes_zerozero_completo.csv", index=False, encoding="utf-8")
-    print(f"Scraping concluído! {len(df)} clubes únicos guardados em 'clubes_zerozero_completo.csv'")
+    # Salvar resultados
+    if clubes:
+        df = pd.DataFrame(sorted(clubes), columns=["nome", "url"])
+        df.drop_duplicates(subset="url", inplace=True)
+        df.to_csv("clubes_zerozero.csv", index=False, encoding="utf-8")
+        print(f"\nSucesso! {len(df)} clubes salvos.")
+    else:
+        print("\nAviso: Nenhum clube foi encontrado.")
 
 if __name__ == "__main__":
     main()
