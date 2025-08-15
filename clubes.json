@@ -251,29 +251,29 @@
     {
         "id": "76395",
         "club": "1 Julho Alcoitão",
-        "stadium": "t24 164Estádios",
+        "stadium": "",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95/76395_logo_1_julho_alcoitao.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.73308839250083,
+        "longitude": -9.394770610485807,
         "url": "https://www.zerozero.pt/equipa/1-julho-alcoitao/76395"
     },
     {
         "id": "331861",
         "club": "18 de Maio",
-        "stadium": "t24 164Estádios",
+        "stadium": "Parque Desportivo Engenheiro Leonardo de Carvalho",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/27/49727_logo_18_de_maio.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.775627568457274,
+        "longitude": -9.286925450536147,
         "url": "https://www.zerozero.pt/equipa/18-de-maio/331861"
     },
     {
         "id": "3543",
         "club": "1º Dezembro",
-        "stadium": "",
+        "stadium": "Complexo Desportivo Conde de Sucena",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3543_imgbank_1683278279.png",
         "equipamentos": [
             {
@@ -283,19 +283,19 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.788191243376325,
+        "longitude": -9.374552542903107,
         "url": "https://www.zerozero.pt/equipa/1-dezembro/3543"
     },
     {
         "id": "112742",
         "club": "3 d´Agosto 1885",
-        "stadium": "",
+        "stadium": "Engenheiro Carlos Salema",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/42/112742_logo_3_d_agosto_1885.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.743395851322276,
+        "longitude": -9.109467913223883,
         "url": "https://www.zerozero.pt/equipa/3-d-agosto-1885/112742"
     },
     {
@@ -305,19 +305,19 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12693_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.738001639198046,
+        "longitude": -9.34329338630895,
         "url": "https://www.zerozero.pt/equipa/9-abril-trajouce/12693"
     },
     {
         "id": "11170",
         "club": "A dos Cunhados",
-        "stadium": "",
+        "stadium": "Maximino Franco dos Santos",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11170_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.154314230595524,
+        "longitude": -9.289082445210541,
         "url": "https://www.zerozero.pt/equipa/a-dos-cunhados/11170"
     },
     {
