@@ -46,4 +46,4 @@ venv.bak/
 logs/
 
 # Dependencies
-node_modules/
+node_modules/__pycache__/
