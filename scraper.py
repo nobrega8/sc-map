@@ -36,69 +36,93 @@ def obter_dados_clube(url):
             if team_name:
                 nome = team_name.get_text(strip=True)
         
-        # Logo do clube - estratégia melhorada
+        # Logo do clube - procura pelo emblema no CDN
         logo_url = None
         
-        # Procura especificamente pelo emblema do clube, evitando logos do site
-        logo_selectors = [
-            "img[src*='emblemas']",  # ZeroZero usa pasta 'emblemas' para logos de clubes
-            "img[src*='shield']",
-            "img[src*='badge']",
-            "img[alt*='emblema']",
-            "img[title*='emblema']",
-            ".team-logo img",
-            ".club-logo img",
-            "img.logo"
-        ]
-        
-        for selector in logo_selectors:
-            logo_candidates = soup.select(selector)
-            for logo_tag in logo_candidates:
-                src = logo_tag.get("src", "")
-                alt = logo_tag.get("alt", "").lower()
-                title = logo_tag.get("title", "").lower()
-                
-                # Evita logos do próprio zerozero e outros sites
-                if any(avoid in src.lower() for avoid in ['zerozero', 'zz.pt', 'logo_zz', 'site']):
-                    continue
-                
-                # Prefere imagens que claramente são emblemas
-                if any(keyword in src.lower() for keyword in ['emblema', 'shield', 'badge', 'crest']):
-                    logo_url = src
-                    break
-                elif any(keyword in alt for keyword in ['emblema', 'logo', 'escudo']):
-                    logo_url = src
-                    break
-                elif any(keyword in title for keyword in ['emblema', 'logo', 'escudo']):
-                    logo_url = src
-                    break
-                elif src and not logo_url:  # Fallback se não encontrar nada mais específico
-                    logo_url = src
+        # Primeira prioridade: emblemas no CDN do ZeroZero
+        all_images = soup.find_all("img")
+        for img in all_images:
+            src = img.get("src", "")
+            if not src:
+                continue
             
-            if logo_url:
+            # Procura especificamente por emblemas no CDN
+            if "cdn-img.zerozero.pt/img/logos/equipas/" in src:
+                logo_url = src
+                logger.info(f"Emblema encontrado no CDN: {src}")
+                break
+            
+            # Também aceita outros CDNs com logos/equipas
+            if any(pattern in src.lower() for pattern in [
+                "/img/logos/equipas/",
+                "/logos/equipas/",
+                "/emblemas/equipas/"
+            ]):
+                logo_url = src
+                logger.info(f"Emblema encontrado: {src}")
                 break
         
-        # Se ainda não encontrou, procura na estrutura da página do clube
+        # Segunda prioridade: procura por seletores específicos de emblemas
         if not logo_url:
-            # Procura por imagens pequenas que podem ser emblemas (geralmente 50-200px)
-            all_images = soup.find_all("img")
+            logo_selectors = [
+                "img[src*='logos/equipas']",
+                "img[src*='emblemas']",
+                "img[alt*='emblema']",
+                "img[title*='emblema']",
+                ".team-logo img",
+                ".club-logo img",
+                "img.logo"
+            ]
+            
+            for selector in logo_selectors:
+                logo_candidates = soup.select(selector)
+                for logo_tag in logo_candidates:
+                    src = logo_tag.get("src", "")
+                    alt = logo_tag.get("alt", "").lower()
+                    title = logo_tag.get("title", "").lower()
+                    
+                    # Evita logos do próprio zerozero (mas aceita do CDN)
+                    if any(avoid in src.lower() for avoid in ['zerozero.pt/img/', 'logo_zz']) and "cdn-img.zerozero.pt" not in src:
+                        continue
+                    
+                    # Evita equipamentos/kits
+                    if any(kit_word in src.lower() for kit_word in ['equipamento', 'kit', 'jersey', 'shirt']):
+                        continue
+                    if any(kit_word in alt for kit_word in ['equipamento', 'kit', 'jersey', 'shirt']):
+                        continue
+                    
+                    # Aceita se é claramente um emblema
+                    if any(keyword in src.lower() for keyword in ['emblema', 'logo', 'shield', 'badge', 'crest']):
+                        logo_url = src
+                        break
+                    elif any(keyword in alt for keyword in ['emblema', 'logo', 'escudo']) and not any(kit_word in alt for kit_word in ['equipamento', 'kit']):
+                        logo_url = src
+                        break
+                    elif src and not logo_url:  # Fallback
+                        logo_url = src
+                
+                if logo_url:
+                    break
+        
+        # Terceira prioridade: imagens pequenas que podem ser emblemas
+        if not logo_url:
             for img in all_images:
                 src = img.get("src", "")
                 if not src:
                     continue
-                    
-                # Evita logos do site
-                if any(avoid in src.lower() for avoid in ['zerozero', 'zz.pt', 'logo_zz', 'site']):
+                
+                # Evita equipamentos e logos do site principal
+                if any(avoid in src.lower() for avoid in ['equipamento', 'kit', 'jersey', 'zerozero.pt/img/']):
                     continue
                 
-                # Verifica se tem dimensões típicas de emblema
+                # Verifica dimensões típicas de emblema
                 width = img.get("width")
                 height = img.get("height")
                 
                 if width and height:
                     try:
                         w, h = int(width), int(height)
-                        if 30 <= w <= 200 and 30 <= h <= 200:  # Dimensões típicas de emblemas
+                        if 20 <= w <= 150 and 20 <= h <= 150:  # Dimensões típicas de emblemas
                             logo_url = src
                             break
                     except ValueError:

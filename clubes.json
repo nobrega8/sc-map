@@ -2,7 +2,7 @@
     {
         "club": "Sporting",
         "stadium": "Estádio José Alvalade",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/16/16_shirt_20241014153100_sporting.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16_imgbank_1741687081.png",
         "address": null,
         "latitude": 38.7612164,
         "longitude": -9.1607831,
@@ -11,7 +11,7 @@
     {
         "club": "Benfica",
         "stadium": "Estádio do Sport Lisboa e Benfica",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/04/4_shirt_20241014152915_benfica.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
         "address": null,
         "latitude": 38.7526893,
         "longitude": -9.1846899,
@@ -20,7 +20,7 @@
     {
         "club": "Lourinhanense",
         "stadium": "Estádio Municipal da Lourinhã",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/98/3598_shirt_20250715150012_lourinhanense.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3598_imgbank_1683111100.png",
         "address": null,
         "latitude": 39.2397491,
         "longitude": -9.3084912,
@@ -29,7 +29,7 @@
     {
         "club": "Torreense",
         "stadium": "Estádio Manuel Marques",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/78/2178_shirt_20241118144730_torreense.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2178_imgbank_1682588244.png",
         "address": null,
         "latitude": 39.0947814,
         "longitude": -9.256795,
