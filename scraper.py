@@ -375,10 +375,14 @@ def carregar_clubes_csv(arquivo_csv="clubes_zerozero.csv"):
         with open(arquivo_csv, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if 'nome' in row and 'url' in row:
+                # Handle column names with or without spaces
+                nome_col = 'nome' if 'nome' in row else next((k for k in row.keys() if k.strip() == 'nome'), None)
+                url_col = 'url' if 'url' in row else next((k for k in row.keys() if k.strip() == 'url'), None)
+                
+                if nome_col and url_col and row[nome_col] and row[url_col]:
                     clubes_csv.append({
-                        'nome': row['nome'].strip(),
-                        'url': row['url'].strip()
+                        'nome': row[nome_col].strip(),
+                        'url': row[url_col].strip()
                     })
         
         logger.info(f"📋 {len(clubes_csv)} clubes carregados do CSV")
