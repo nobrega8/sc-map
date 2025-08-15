@@ -15,6 +15,15 @@ DELAY = 3
 
 # URLs base para competições portuguesas e principais europeias
 COMPETICOES = [
+    #alguns
+    "https://www.zerozero.pt/competicao/supertaca-candido-de-oliveira",
+    "https://www.zerozero.pt/competicao/liga-portuguesa",
+    "https://www.zerozero.pt/competicao/taca-de-portugal",
+    "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
+    "https://www.zerozero.pt/competicao/liga-3",
+    "https://www.zerozero.pt/associacao/af-lisboa",
+    "https://www.zerozero.pt/competicao/liga-inglesa"
+    
     # Portugal - Competições principais
     "https://www.zerozero.pt/edition.php?id=193392",  # Liga Portuguesa
     "https://www.zerozero.pt/edition.php?id=193393",  # Segunda Liga
