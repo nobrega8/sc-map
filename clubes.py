@@ -73,21 +73,29 @@ def extrair_id_clube(url):
     return match.group(1) if match else None
 
 def limpar_nome_clube(nome):
-    """Limpa e normaliza o nome do clube"""
+    """Limpa e normaliza o nome do clube de forma menos restritiva"""
     if not nome:
         return ""
     
-    # Remove espaços extras e caracteres especiais
+    # Remove espaços extras
     nome = re.sub(r'\s+', ' ', nome.strip())
-    nome = re.sub(r'[^\w\s\-\(\)\.\'\"ãáàâêéèëíìîïóòôõúùûüçñ]', '', nome, flags=re.IGNORECASE)
     
-    # Remove sufixos comuns desnecessários
-    sufixos_remover = [' FC', ' CF', ' SC', ' CD', ' UD', ' AD', ' SAD']
+    # Remove apenas caracteres claramente problemáticos
+    nome = re.sub(r'[<>{}[\]|\\`~]', '', nome)
+    
+    # Remove números isolados no final
+    nome = re.sub(r'\s+\d+\s*$', '', nome)
+    
+    # Remove sufixos muito comuns apenas se resultar em nome não vazio
+    sufixos_remover = [' FC', ' CF', ' SC', ' CD', ' UD', ' AD', ' SAD', ' AC', ' EC']
     for sufixo in sufixos_remover:
         if nome.upper().endswith(sufixo):
-            nome = nome[:-len(sufixo)].strip()
+            nome_sem_sufixo = nome[:-len(sufixo)].strip()
+            if len(nome_sem_sufixo) >= 3:  # Só remover se ainda sobrar nome decente
+                nome = nome_sem_sufixo
+            break
     
-    return nome
+    return nome.strip()
 
 def extrair_clubes_competicao(url):
     """Extrai clubes de uma competição com múltiplas estratégias otimizadas"""
@@ -97,6 +105,10 @@ def extrair_clubes_competicao(url):
 
     soup = BeautifulSoup(response.text, "html.parser")
     clubes_encontrados = {}  # Usar dict para evitar duplicados
+    
+    # Contadores para debug
+    total_links_processados = 0
+    links_rejeitados = 0
 
     # Estratégias otimizadas em ordem de prioridade
     estrategias = [
@@ -142,47 +154,68 @@ def extrair_clubes_competicao(url):
     ]
 
     for estrategia in estrategias:
-        estrategia_encontrou = False
         for seletor in estrategia['seletores']:
             try:
                 links = soup.select(seletor)
                 if links:
                     print(f"    → {estrategia['nome']}: {len(links)} links encontrados com '{seletor}'")
-                    estrategia_encontrou = True
                     
                     for link in links:
+                        total_links_processados += 1
                         href = link.get('href')
                         if not href or not ('/equipa/' in href or '/team/' in href or '/club/' in href):
+                            links_rejeitados += 1
                             continue
                         
-                        # Extrair nome do clube
-                        nome = link.text.strip()
-                        if not nome:
-                            # Tentar extrair de elementos filhos
-                            texto_elementos = link.find_all(text=True, recursive=True)
-                            nome = ' '.join([t.strip() for t in texto_elementos if t.strip()])
-                        
-                        nome = limpar_nome_clube(nome)
-                        if not nome or len(nome) < 2:
-                            continue
-                        
-                        # Construir URL completa
+                        # Construir URL completa primeiro
                         url_clube = urljoin("https://www.zerozero.pt", href)
                         clube_id = extrair_id_clube(url_clube)
                         
-                        if clube_id and clube_id not in clubes_encontrados:
-                            clubes_encontrados[clube_id] = (nome, url_clube)
+                        # Só processar se temos um ID válido e não está duplicado
+                        if not clube_id or clube_id in clubes_encontrados:
+                            if not clube_id:
+                                links_rejeitados += 1
+                            continue
+                        
+                        # Extrair nome do clube com múltiplas estratégias
+                        nome = ""
+                        
+                        # Estratégia 1: Texto direto do link
+                        texto_link = link.get_text(strip=True)
+                        if texto_link:
+                            nome = texto_link
+                        
+                        # Estratégia 2: Atributo title ou alt
+                        if not nome:
+                            nome = link.get('title', '').strip() or link.get('alt', '').strip()
+                        
+                        # Estratégia 3: Tentar extrair do href se ainda não temos nome
+                        if not nome:
+                            # Extrair nome do URL, ex: /equipa/benfica/22 -> benfica
+                            url_parts = href.split('/')
+                            for part in url_parts:
+                                if part and part != 'equipa' and part != 'team' and part != 'club' and not part.isdigit():
+                                    nome = part.replace('_', ' ').replace('-', ' ').title()
+                                    break
+                        
+                        # Limpar nome de forma menos restritiva
+                        if nome:
+                            nome_limpo = limpar_nome_clube(nome)
+                            
+                            # Aceitar praticamente qualquer nome não vazio
+                            if nome_limpo and len(nome_limpo.strip()) >= 1:
+                                clubes_encontrados[clube_id] = (nome_limpo, url_clube)
+                            else:
+                                links_rejeitados += 1
             
             except Exception as e:
                 print(f"    ✗ Erro com seletor '{seletor}': {e}")
                 continue
-        
-        # Continue para próxima estratégia se esta não encontrou nada
-        # Remove o break para permitir que todas as estratégias sejam tentadas
 
     clubes_lista = list(clubes_encontrados.values())
     if clubes_lista:
         print(f"    ✓ Total de clubes únicos extraídos: {len(clubes_lista)}")
+        print(f"    📊 Links processados: {total_links_processados}, rejeitados: {links_rejeitados}")
     
     return clubes_lista
 
