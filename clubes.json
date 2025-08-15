@@ -323,7 +323,7 @@
     {
         "id": "15982",
         "club": "A-da-Rainha",
-        "stadium": "t24 164Estádios",
+        "stadium": "",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82/15982_logo_a_da_rainha.png",
         "equipamentos": [],
         "address": null,
@@ -338,58 +338,58 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/09/82309_logo_aa_quinta_da_luz.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.758124396517864,
+        "longitude": -9.183139754701655,
         "url": "https://www.zerozero.pt/equipa/aa-quinta-da-luz/82309"
     },
     {
         "id": "286976",
         "club": "ABCD Brandoa",
-        "stadium": "t24 164Estádios",
+        "stadium": "",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/08/21408_logo_acd_brandoa.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.765881635983845,
+        "longitude": -9.215275531258037,
         "url": "https://www.zerozero.pt/equipa/abcd-brandoa/286976"
     },
     {
         "id": "252124",
         "club": "AC Musgueira Sul",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/24/252124_logo_ac_musgueira_sul.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.77470773764683,
+        "longitude": -9.145432130959573,
         "url": "https://www.zerozero.pt/equipa/ac-musgueira-sul/252124"
     },
     {
         "id": "300116",
         "club": "ACD São Marcos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16/300116_logo_acd_sao_marcos_20231016101708.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.75017586930072,
+        "longitude": -9.297235928293583,
         "url": "https://www.zerozero.pt/equipa/acd-sao-marcos/300116"
     },
     {
         "id": "313406",
         "club": "ACDR Reguengo Grande",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/06/313406_logo_acdr_reguengo_grande.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.285830970856225,
+        "longitude": -9.216173272693528,
         "url": "https://www.zerozero.pt/equipa/acdr-reguengo-grande/313406"
     },
     {
         "id": "286974",
         "club": "ACO",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/33/21133_logo_aco.png",
         "equipamentos": [],
         "address": null,
@@ -404,25 +404,25 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/06/228806_logo_acr_carvalhal.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.90601760630456,
+        "longitude": -9.353940327498858,
         "url": "https://www.zerozero.pt/equipa/acr-carvalhal/228806"
     },
     {
         "id": "11172",
         "club": "ACRD Furadouro",
-        "stadium": "",
+        "stadium": "Campo de Futebol das Arroteias",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/72/11172_logo_acrd_furadouro.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.02589801975295,
+        "longitude": -9.211061128842042,
         "url": "https://www.zerozero.pt/equipa/acrd-furadouro/11172"
     },
     {
         "id": "286975",
         "club": "ACSA",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/259364_logo_acsa.png",
         "equipamentos": [],
         "address": null,
@@ -444,7 +444,7 @@
     {
         "id": "113029",
         "club": "AD Barra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/29/113029_logo_ad_barra.png",
         "equipamentos": [
             {
@@ -512,7 +512,7 @@
     {
         "id": "64570",
         "club": "AD Quinta da Luz",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/70/64570_logo_ad_quinta_da_luz.jpg",
         "equipamentos": [
             {
@@ -529,7 +529,7 @@
     {
         "id": "303271",
         "club": "AD Vermelha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -568,7 +568,7 @@
     {
         "id": "287010",
         "club": "ADCR Moradores Idanha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10/287010_logo_adcr_moradores_idanha.png",
         "equipamentos": [],
         "address": null,
@@ -579,7 +579,7 @@
     {
         "id": "57988",
         "club": "ADJ Ajudense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/88/57988_logo_adj_ajudense.jpg",
         "equipamentos": [],
         "address": null,
@@ -590,7 +590,7 @@
     {
         "id": "286025",
         "club": "ADM BicesseFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/25054_logo_adm_bicesse.jpg",
         "equipamentos": [],
         "address": null,
@@ -601,7 +601,7 @@
     {
         "id": "74299",
         "club": "ADR Achada",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/99/74299_logo_adr_achada.jpg",
         "equipamentos": [],
         "address": null,
@@ -612,7 +612,7 @@
     {
         "id": "292054",
         "club": "ADR Bairro Fraternidade",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/292054_logo_adr_bairro_fraternidade.png",
         "equipamentos": [],
         "address": null,
@@ -623,7 +623,7 @@
     {
         "id": "311726",
         "club": "ADR Paraíso",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/26/311726_logo_adr_paraiso.png",
         "equipamentos": [],
         "address": null,
@@ -634,7 +634,7 @@
     {
         "id": "69259",
         "club": "AF Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/69259_logo_af_lisboa.jpg",
         "equipamentos": [],
         "address": null,
@@ -645,7 +645,7 @@
     {
         "id": "287025",
         "club": "AM Torres Bela Vista",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -656,7 +656,7 @@
     {
         "id": "276416",
         "club": "AMSACFeminino",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4363_imgbank_1711978327.png",
         "equipamentos": [],
         "address": null,
@@ -667,7 +667,7 @@
     {
         "id": "310336",
         "club": "APSS Esp. Ponte Bica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -689,7 +689,7 @@
     {
         "id": "287033",
         "club": "ATM Bairro Lóios",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/07/21207_logo_atm_bairro_loios.jpg",
         "equipamentos": [],
         "address": null,
@@ -700,7 +700,7 @@
     {
         "id": "15968",
         "club": "Abrunheira - URCA",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/68/15968_logo_abrunheira_urca.jpg",
         "equipamentos": [],
         "address": null,
@@ -728,7 +728,7 @@
     {
         "id": "286097",
         "club": "Acad. CiênciasFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/13/16013_logo_acad_ciencias.png",
         "equipamentos": [],
         "address": null,
@@ -739,7 +739,7 @@
     {
         "id": "303329",
         "club": "Academia 1 Setembro 1867",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -761,7 +761,7 @@
     {
         "id": "310670",
         "club": "Académica Timor",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -789,7 +789,7 @@
     {
         "id": "57216",
         "club": "Académico de Loures",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16/57216_logo_academico_de_loures.png",
         "equipamentos": [],
         "address": null,
@@ -800,7 +800,7 @@
     {
         "id": "317941",
         "club": "Acb S. Ant. Varatojo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/41/317941_logo_acb_s_ant_varatojo.png",
         "equipamentos": [],
         "address": null,
@@ -811,7 +811,7 @@
     {
         "id": "303216",
         "club": "Acd Estrelas Serra Branca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -822,7 +822,7 @@
     {
         "id": "303335",
         "club": "Acr Charquinho",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -833,7 +833,7 @@
     {
         "id": "311542",
         "club": "Ad Estrela",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -844,7 +844,7 @@
     {
         "id": "287009",
         "club": "Ad São Marcos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -855,7 +855,7 @@
     {
         "id": "311575",
         "club": "Adcs Parque Res. Vialonga",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -866,7 +866,7 @@
     {
         "id": "318621",
         "club": "Adr Marítimo Atalaia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/21/318621_logo_adr_maritimo_atalaia.png",
         "equipamentos": [],
         "address": null,
@@ -877,7 +877,7 @@
     {
         "id": "321546",
         "club": "Adrc Melh. Dois Portos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/46/321546_logo_adrc_melh_dois_portos.png",
         "equipamentos": [],
         "address": null,
@@ -888,7 +888,7 @@
     {
         "id": "310347",
         "club": "Ae Ext. Nac. Moscavide",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -899,7 +899,7 @@
     {
         "id": "310686",
         "club": "Ae Fac. Medicina Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -927,7 +927,7 @@
     {
         "id": "303459",
         "club": "Agdr Magriços",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -949,7 +949,7 @@
     {
         "id": "310236",
         "club": "Aj Sacramento",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -960,7 +960,7 @@
     {
         "id": "92441",
         "club": "Ajudense FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -971,7 +971,7 @@
     {
         "id": "11186",
         "club": "Albarraque",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/11186_logo_albarraque.jpg",
         "equipamentos": [],
         "address": null,
@@ -982,7 +982,7 @@
     {
         "id": "310781",
         "club": "Albertino H. Silva Lda",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1021,7 +1021,7 @@
     {
         "id": "286981",
         "club": "Alfornelos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/81/286981_logo_alfornelos.png",
         "equipamentos": [],
         "address": null,
@@ -1032,7 +1032,7 @@
     {
         "id": "292115",
         "club": "AlfornelosFut.7  Jun.G S7",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/17/21417_logo_alfornelos.png",
         "equipamentos": [
             {
@@ -1105,7 +1105,7 @@
     {
         "id": "287014",
         "club": "Alto Eira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/39/21139_logo_alto_eira.png",
         "equipamentos": [],
         "address": null,
@@ -1127,7 +1127,7 @@
     {
         "id": "57459",
         "club": "Alverca City",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1138,7 +1138,7 @@
     {
         "id": "287023",
         "club": "Am Casal Novo Caneças",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1183,7 +1183,7 @@
     {
         "id": "292065",
         "club": "Amigos LuzFut.7  Jun.F S9",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/36/233436_logo_amigos_luz.jpg",
         "equipamentos": [],
         "address": null,
@@ -1194,7 +1194,7 @@
     {
         "id": "311677",
         "club": "Andorinha FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/77/311677_logo_andorinha_fc.png",
         "equipamentos": [],
         "address": null,
@@ -1216,7 +1216,7 @@
     {
         "id": "321166",
         "club": "Ap Quinta Serra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1227,7 +1227,7 @@
     {
         "id": "332293",
         "club": "ApelaçonenseJun.C S15",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/39/32039_logo_apelaconense.jpg",
         "equipamentos": [],
         "address": null,
@@ -1238,7 +1238,7 @@
     {
         "id": "321666",
         "club": "Ar Leais Amigos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1249,7 +1249,7 @@
     {
         "id": "311686",
         "club": "Ar Pocariça",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1260,7 +1260,7 @@
     {
         "id": "321549",
         "club": "Arc Praia Assenta",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1271,7 +1271,7 @@
     {
         "id": "303085",
         "club": "Arcd Bairro Santiago",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1293,7 +1293,7 @@
     {
         "id": "11611",
         "club": "Arroios",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11/11611_logo_arroios.jpg",
         "equipamentos": [],
         "address": null,
@@ -1338,7 +1338,7 @@
     {
         "id": "310684",
         "club": "Ases Alto Pina",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1349,7 +1349,7 @@
     {
         "id": "322267",
         "club": "Ass. Mor. Familiar",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1360,7 +1360,7 @@
     {
         "id": "321236",
         "club": "Ass. Mor. Lugar Ereira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1478,7 +1478,7 @@
     {
         "id": "311644",
         "club": "Atl. Cl. Sacavém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/44/311644_logo_atl_cl_sacavem.jpg",
         "equipamentos": [],
         "address": null,
@@ -1523,7 +1523,7 @@
     {
         "id": "83744",
         "club": "Atlético da Encarnação",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/44/83744_logo_atletico_da_encarnacao.jpg",
         "equipamentos": [],
         "address": null,
@@ -1567,7 +1567,7 @@
     {
         "id": "287022",
         "club": "Bairro Flamenga",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1589,7 +1589,7 @@
     {
         "id": "57469",
         "club": "Bairro da Soda",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/69/57469_logo_bairro_da_soda.jpg",
         "equipamentos": [],
         "address": null,
@@ -1622,7 +1622,7 @@
     {
         "id": "286973",
         "club": "Barroense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/00/16000_logo_barroense.png",
         "equipamentos": [],
         "address": null,
@@ -1633,7 +1633,7 @@
     {
         "id": "286122",
         "club": "Benfica CadavalFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/22598_logo_benfica_cadaval.jpg",
         "equipamentos": [],
         "address": null,
@@ -1644,7 +1644,7 @@
     {
         "id": "321198",
         "club": "Biba Cd",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1655,7 +1655,7 @@
     {
         "id": "260932",
         "club": "Bless Academy",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32/260932_logo_bless_academy.jpg",
         "equipamentos": [
             {
@@ -1672,7 +1672,7 @@
     {
         "id": "209924",
         "club": "Boa-Hora",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/209924_imgbank.png",
         "equipamentos": [
             {
@@ -1740,7 +1740,7 @@
     {
         "id": "333912",
         "club": "Bons DiasJun.C S15",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/23/21423_logo_bons_dias.jpg",
         "equipamentos": [],
         "address": null,
@@ -1751,7 +1751,7 @@
     {
         "id": "287034",
         "club": "Botica FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1784,7 +1784,7 @@
     {
         "id": "310414",
         "club": "C. Formação Desportiva",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1795,7 +1795,7 @@
     {
         "id": "98236",
         "club": "C2foot",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/36/98236_logo_c2foot.jpg",
         "equipamentos": [],
         "address": null,
@@ -1806,7 +1806,7 @@
     {
         "id": "286862",
         "club": "CA OlivaisFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/77/115377_logo_cao.png",
         "equipamentos": [],
         "address": null,
@@ -1817,7 +1817,7 @@
     {
         "id": "330669",
         "club": "CAAJun.C S15",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/15/58415_logo_caa.jpg",
         "equipamentos": [],
         "address": null,
@@ -1856,7 +1856,7 @@
     {
         "id": "36427",
         "club": "CB Agualva Cacém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/27/36427_logo_cb_agualva_cacem.jpg",
         "equipamentos": [],
         "address": null,
@@ -1867,7 +1867,7 @@
     {
         "id": "37061",
         "club": "CB Alverca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61/37061_logo_cb_alverca.jpg",
         "equipamentos": [],
         "address": null,
@@ -1878,7 +1878,7 @@
     {
         "id": "105410",
         "club": "CB Castanheira Ribatejo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10/105410_logo_cb_castanheira_ribatejo.jpg",
         "equipamentos": [],
         "address": null,
@@ -1889,7 +1889,7 @@
     {
         "id": "100986",
         "club": "CB Loures",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/100986_imgbank.png",
         "equipamentos": [],
         "address": null,
@@ -1911,7 +1911,7 @@
     {
         "id": "322067",
         "club": "CCAV Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/77/87377_logo_ccav_lisboa.jpg",
         "equipamentos": [],
         "address": null,
@@ -1922,7 +1922,7 @@
     {
         "id": "310351",
         "club": "CCD Caxias",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1933,7 +1933,7 @@
     {
         "id": "310558",
         "club": "CCD Rádio Marconi",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58/310558_logo_ccd_radio_marconi.jpg",
         "equipamentos": [],
         "address": null,
@@ -1944,7 +1944,7 @@
     {
         "id": "306538",
         "club": "CCR Bairro Girassol",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -1972,7 +1972,7 @@
     {
         "id": "61197",
         "club": "CD Charneca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/97/61197_logo_cd_charneca.png",
         "equipamentos": [],
         "address": null,
@@ -2000,7 +2000,7 @@
     {
         "id": "287045",
         "club": "CD Os Académicos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2011,7 +2011,7 @@
     {
         "id": "58029",
         "club": "CD Palhavã",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/29/58029_logo_cd_palhava.jpg",
         "equipamentos": [],
         "address": null,
@@ -2033,7 +2033,7 @@
     {
         "id": "287048",
         "club": "CDCR Moinhos Funcheira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2044,7 +2044,7 @@
     {
         "id": "12233",
         "club": "CDR Massamá",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/33/12233_logo_cdr_massama.jpg",
         "equipamentos": [],
         "address": null,
@@ -2055,7 +2055,7 @@
     {
         "id": "303228",
         "club": "CDRC Lobos Planalto",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/28/303228_logo_cdrc_lobos_planalto.jpg",
         "equipamentos": [],
         "address": null,
@@ -2066,7 +2066,7 @@
     {
         "id": "50740",
         "club": "CDUL",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/40/50740_logo_20200813200228_cdul.jpg",
         "equipamentos": [],
         "address": null,
@@ -2077,7 +2077,7 @@
     {
         "id": "278487",
         "club": "CE Salesiano",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/87/278487_logo_ce_salesiano.png",
         "equipamentos": [],
         "address": null,
@@ -2088,7 +2088,7 @@
     {
         "id": "303314",
         "club": "CEUL",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2110,7 +2110,7 @@
     {
         "id": "310388",
         "club": "CF Queijas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2121,7 +2121,7 @@
     {
         "id": "112741",
         "club": "CF Sassoeiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/112741_imgbank_1742991644.png",
         "equipamentos": [
             {
@@ -2166,7 +2166,7 @@
     {
         "id": "65203",
         "club": "CMF Janitas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/03/65203_logo_20221026125459_afpdc_torres_vedras.png",
         "equipamentos": [],
         "address": null,
@@ -2177,7 +2177,7 @@
     {
         "id": "317918",
         "club": "CP Alcoentre",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/317918_imgbank_1747306193.png",
         "equipamentos": [],
         "address": null,
@@ -2188,7 +2188,7 @@
     {
         "id": "287709",
         "club": "CPCDFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/87/16087_logo_cpcd.jpg",
         "equipamentos": [],
         "address": null,
@@ -2199,7 +2199,7 @@
     {
         "id": "66123",
         "club": "CR Foot",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/23/66123_logo_cr_foot.jpg",
         "equipamentos": [],
         "address": null,
@@ -2210,7 +2210,7 @@
     {
         "id": "303484",
         "club": "CR Monte Pedral",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2221,7 +2221,7 @@
     {
         "id": "303487",
         "club": "CR Pontinhense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2249,7 +2249,7 @@
     {
         "id": "287543",
         "club": "CR Vida",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2260,7 +2260,7 @@
     {
         "id": "303308",
         "club": "CR Águias Aeroporto",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2271,7 +2271,7 @@
     {
         "id": "303492",
         "club": "CS Pedrouços",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/92/303492_logo_cs_pedroucos.jpg",
         "equipamentos": [],
         "address": null,
@@ -2293,7 +2293,7 @@
     {
         "id": "57467",
         "club": "CSPD Sobralinho",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/67/57467_logo_cspd_sobralinho.jpg",
         "equipamentos": [],
         "address": null,
@@ -2304,7 +2304,7 @@
     {
         "id": "287035",
         "club": "Ca Além Caneças",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2315,7 +2315,7 @@
     {
         "id": "311510",
         "club": "Ca Cascalheira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2326,7 +2326,7 @@
     {
         "id": "311540",
         "club": "Ca Chelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2337,7 +2337,7 @@
     {
         "id": "99672",
         "club": "Cabedense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/72/99672_logo_cabedense.jpg",
         "equipamentos": [],
         "address": null,
@@ -2370,7 +2370,7 @@
     {
         "id": "332660",
         "club": "Calhariz BenficaJun.B S17",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/94/109794_logo_calhariz_benfica.png",
         "equipamentos": [],
         "address": null,
@@ -2392,7 +2392,7 @@
     {
         "id": "309683",
         "club": "Campinense Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2425,7 +2425,7 @@
     {
         "id": "310643",
         "club": "Canoa Fc Oeiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2436,7 +2436,7 @@
     {
         "id": "2187",
         "club": "Carcavelinhos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2187_imgbank.png",
         "equipamentos": [],
         "address": null,
@@ -2447,7 +2447,7 @@
     {
         "id": "61287",
         "club": "Carcavelos SC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/87/61287_logo_carcavelos_sc.png",
         "equipamentos": [],
         "address": null,
@@ -2475,7 +2475,7 @@
     {
         "id": "61286",
         "club": "Carcavelos Club",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/61286_logo_carcavelos_club.png",
         "equipamentos": [],
         "address": null,
@@ -2486,7 +2486,7 @@
     {
         "id": "24852",
         "club": "Cardosas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/52/24852_logo_cardosas.jpg",
         "equipamentos": [],
         "address": null,
@@ -2514,7 +2514,7 @@
     {
         "id": "311734",
         "club": "Carnaxide Sc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2553,7 +2553,7 @@
     {
         "id": "287039",
         "club": "Casa Benfica Tires",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2598,7 +2598,7 @@
     {
         "id": "287040",
         "club": "Casa Povo Aveiras Cima",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2609,7 +2609,7 @@
     {
         "id": "286977",
         "club": "Casal Mira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2631,7 +2631,7 @@
     {
         "id": "210091",
         "club": "Caselas FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/210091_simbolo.png",
         "equipamentos": [],
         "address": null,
@@ -2642,7 +2642,7 @@
     {
         "id": "311691",
         "club": "Caselenese Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2653,7 +2653,7 @@
     {
         "id": "74910",
         "club": "Castelo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/04/8204_logo_castelo.jpg",
         "equipamentos": [],
         "address": null,
@@ -2675,7 +2675,7 @@
     {
         "id": "310370",
         "club": "Catujal Benfica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2697,7 +2697,7 @@
     {
         "id": "331053",
         "club": "CaxiensesJun.A S19",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/01/21401_logo_caxienses_20240119102309.png",
         "equipamentos": [],
         "address": null,
@@ -2708,7 +2708,7 @@
     {
         "id": "303162",
         "club": "Ccdr Madorna",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2719,7 +2719,7 @@
     {
         "id": "287542",
         "club": "Ccr Os Pescadores Cambelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2730,7 +2730,7 @@
     {
         "id": "311658",
         "club": "Ccr Paiol",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2741,7 +2741,7 @@
     {
         "id": "309548",
         "club": "Cd Arneiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2752,7 +2752,7 @@
     {
         "id": "311732",
         "club": "Cd Católico Portugal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2763,7 +2763,7 @@
     {
         "id": "310407",
         "club": "Cd Cá-Te-Espero",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2774,7 +2774,7 @@
     {
         "id": "311684",
         "club": "Cd Leais Beira Olivais Sul",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2785,7 +2785,7 @@
     {
         "id": "310719",
         "club": "Cd Sera Luz",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2796,7 +2796,7 @@
     {
         "id": "320834",
         "club": "Cdr Olivais Velho",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2807,7 +2807,7 @@
     {
         "id": "311707",
         "club": "Cduc Bairro Angola",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2835,7 +2835,7 @@
     {
         "id": "15975",
         "club": "Centro Ribamar",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/75/15975_logo_centro_ribamar.png",
         "equipamentos": [],
         "address": null,
@@ -2863,7 +2863,7 @@
     {
         "id": "311745",
         "club": "Cf Abades",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2874,7 +2874,7 @@
     {
         "id": "303300",
         "club": "Cf Os Ases",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2885,7 +2885,7 @@
     {
         "id": "287050",
         "club": "Cf Sta. Catarina",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2946,7 +2946,7 @@
     {
         "id": "303161",
         "club": "Chinquilho Cruzeirense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61/303161_logo_chinquilho_cruzeirense.jpg",
         "equipamentos": [],
         "address": null,
@@ -2957,7 +2957,7 @@
     {
         "id": "310721",
         "club": "Cj Os Artilheiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2968,7 +2968,7 @@
     {
         "id": "310641",
         "club": "Cl. Estrelas Campolide",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2979,7 +2979,7 @@
     {
         "id": "311737",
         "club": "Cl. Junqueiro 1979",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -2990,7 +2990,7 @@
     {
         "id": "287053",
         "club": "Cl. Leões Fonte",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3012,7 +3012,7 @@
     {
         "id": "311738",
         "club": "Clube 1831",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3023,7 +3023,7 @@
     {
         "id": "69764",
         "club": "Clube Carvoeira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/69764_logo_clube_carvoeira.jpg",
         "equipamentos": [],
         "address": null,
@@ -3034,7 +3034,7 @@
     {
         "id": "310263",
         "club": "Clube Pessoal Cme",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3056,7 +3056,7 @@
     {
         "id": "210089",
         "club": "Clube TAP",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/210089_simbolo.png",
         "equipamentos": [],
         "address": null,
@@ -3067,7 +3067,7 @@
     {
         "id": "244811",
         "club": "Clube Urban Park",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11/244811_logo_clube_urban_park.png",
         "equipamentos": [
             {
@@ -3095,7 +3095,7 @@
     {
         "id": "57319",
         "club": "Clube de Carnaxide",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19/57319_logo_20230503115820_clube_de_carnaxide.jpg",
         "equipamentos": [],
         "address": null,
@@ -3106,7 +3106,7 @@
     {
         "id": "253905",
         "club": "Colinas Cruzeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/05/253905_logo_colinas_cruzeiro.jpg",
         "equipamentos": [],
         "address": null,
@@ -3117,7 +3117,7 @@
     {
         "id": "37063",
         "club": "Colégio Monte Maior",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/63/37063_logo_colegio_monte_maior.png",
         "equipamentos": [],
         "address": null,
@@ -3128,7 +3128,7 @@
     {
         "id": "95972",
         "club": "Colégio Pedro Arrupe",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95972_imgbank_1735315647.png",
         "equipamentos": [],
         "address": null,
@@ -3139,7 +3139,7 @@
     {
         "id": "88555",
         "club": "Colégio SCM Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/46/86946_logo_colegio_scm_lisboa.jpg",
         "equipamentos": [],
         "address": null,
@@ -3150,7 +3150,7 @@
     {
         "id": "58289",
         "club": "Comercial FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/58289_logo_comercial_f_c_.png",
         "equipamentos": [],
         "address": null,
@@ -3161,7 +3161,7 @@
     {
         "id": "310555",
         "club": "Conc. Musical 1 Junho 1914",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3172,7 +3172,7 @@
     {
         "id": "55805",
         "club": "Conde Oeiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/05/55805_logo_conde_oeiras.jpg",
         "equipamentos": [],
         "address": null,
@@ -3183,7 +3183,7 @@
     {
         "id": "303349",
         "club": "Confecções Biba",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3194,7 +3194,7 @@
     {
         "id": "310486",
         "club": "Coop. Prod. Cons. Alcântara",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3205,7 +3205,7 @@
     {
         "id": "287583",
         "club": "Correio da Manhã",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/33/25333_logo_correio_da_manha.jpg",
         "equipamentos": [],
         "address": null,
@@ -3216,7 +3216,7 @@
     {
         "id": "112738",
         "club": "Corvos XXI",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/46986_logo_corvos_xxi.png",
         "equipamentos": [],
         "address": null,
@@ -3227,7 +3227,7 @@
     {
         "id": "303331",
         "club": "Cosmos Buraca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3238,7 +3238,7 @@
     {
         "id": "244043",
         "club": "Costa do EstorilFeminino",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/43/244043_logo_costa_do_estoril.jpg",
         "equipamentos": [],
         "address": null,
@@ -3249,7 +3249,7 @@
     {
         "id": "16027",
         "club": "Costa do Sol",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/27/16027_logo_costa_do_sol.jpg",
         "equipamentos": [],
         "address": null,
@@ -3299,7 +3299,7 @@
     {
         "id": "311752",
         "club": "Cp Bairro Liberdade",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3310,7 +3310,7 @@
     {
         "id": "311665",
         "club": "Cpr Cultura Bairro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3321,7 +3321,7 @@
     {
         "id": "310176",
         "club": "Cr Anjos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3332,7 +3332,7 @@
     {
         "id": "310508",
         "club": "Cr Atl. Algés",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3343,7 +3343,7 @@
     {
         "id": "303212",
         "club": "Cr Leões Fc Odivelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3354,7 +3354,7 @@
     {
         "id": "310668",
         "club": "Crc Albergaria-A-Velha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3365,7 +3365,7 @@
     {
         "id": "309582",
         "club": "Crd Armadorense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3376,7 +3376,7 @@
     {
         "id": "287061",
         "club": "Crd Buraca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3387,7 +3387,7 @@
     {
         "id": "321649",
         "club": "Crd Santas Martas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3398,7 +3398,7 @@
     {
         "id": "321682",
         "club": "Crj Chelense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3409,7 +3409,7 @@
     {
         "id": "54321",
         "club": "Cruz Negra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/21/54321_logo_cruz_negra.png",
         "equipamentos": [],
         "address": null,
@@ -3420,7 +3420,7 @@
     {
         "id": "58050",
         "club": "Cruz Quebrada",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3431,7 +3431,7 @@
     {
         "id": "310194",
         "club": "Cruzeirense Ac",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3442,7 +3442,7 @@
     {
         "id": "318620",
         "club": "Cs Abelheira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3453,7 +3453,7 @@
     {
         "id": "303367",
         "club": "Cs Lisboa Reboleira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3464,7 +3464,7 @@
     {
         "id": "311657",
         "club": "Csrd Vila Chã",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3475,7 +3475,7 @@
     {
         "id": "287062",
         "club": "Cultura-Merceana",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3486,7 +3486,7 @@
     {
         "id": "287064",
         "club": "DC Linha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3497,7 +3497,7 @@
     {
         "id": "99746",
         "club": "Dagorda",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/46/99746_logo_dagorda.jpg",
         "equipamentos": [],
         "address": null,
@@ -3536,7 +3536,7 @@
     {
         "id": "17554",
         "club": "Del Negro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/17554_logo_del_negro.png",
         "equipamentos": [],
         "address": null,
@@ -3547,7 +3547,7 @@
     {
         "id": "311702",
         "club": "Desp. Cl. Carmo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3558,7 +3558,7 @@
     {
         "id": "310399",
         "club": "Desp. Monte Real",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3620,7 +3620,7 @@
     {
         "id": "287544",
         "club": "Dj Mira-Sintra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3631,7 +3631,7 @@
     {
         "id": "15974",
         "club": "Dois Maio",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3653,7 +3653,7 @@
     {
         "id": "303455",
         "club": "Dínamo Massamá Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3675,7 +3675,7 @@
     {
         "id": "18492",
         "club": "EAS Alta de Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/92/18492_logo_eas_alta_de_lisboa.jpg",
         "equipamentos": [],
         "address": null,
@@ -3697,7 +3697,7 @@
     {
         "id": "18498",
         "club": "EAS Cacém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/18498_logo_eas_cacem.jpg",
         "equipamentos": [],
         "address": null,
@@ -3708,7 +3708,7 @@
     {
         "id": "18586",
         "club": "EAS Carcavelos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/18586_logo_eas_carcavelos.jpg",
         "equipamentos": [],
         "address": null,
@@ -3752,7 +3752,7 @@
     {
         "id": "18104",
         "club": "EAS Manique",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/04/18104_logo_eas_manique.jpg",
         "equipamentos": [],
         "address": null,
@@ -3774,7 +3774,7 @@
     {
         "id": "113025",
         "club": "EAS Sintra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/25/113025_logo_20160927130818_eas_sintra.png",
         "equipamentos": [],
         "address": null,
@@ -3785,7 +3785,7 @@
     {
         "id": "18462",
         "club": "EAS Sintra (Extinto)",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/62/18462_logo_eas_sintra.jpg",
         "equipamentos": [],
         "address": null,
@@ -3796,7 +3796,7 @@
     {
         "id": "247549",
         "club": "EAS TelheirasJun.C S15",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/49/247549_logo_eas_telheiras.jpg",
         "equipamentos": [],
         "address": null,
@@ -3824,7 +3824,7 @@
     {
         "id": "278564",
         "club": "EF Belém Algés",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/278564_logo_ef_belem_alges.png",
         "equipamentos": [],
         "address": null,
@@ -3846,7 +3846,7 @@
     {
         "id": "224241",
         "club": "EF Belém Lisboa Centro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/41/224241_logo_ef_belem_lisboa_centro.png",
         "equipamentos": [],
         "address": null,
@@ -3874,7 +3874,7 @@
     {
         "id": "95745",
         "club": "EF Belém Odivelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/45/95745_logo_ef_belem.png",
         "equipamentos": [],
         "address": null,
@@ -3885,7 +3885,7 @@
     {
         "id": "224220",
         "club": "EF Belém Parque das Nações",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/20/224220_logo_ef_belem_parque_das_nacoes.png",
         "equipamentos": [],
         "address": null,
@@ -3896,7 +3896,7 @@
     {
         "id": "224332",
         "club": "EF Belém Queluz",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32/224332_logo_ef_belem_queluz.png",
         "equipamentos": [],
         "address": null,
@@ -3918,7 +3918,7 @@
     {
         "id": "106847",
         "club": "EF Benfica Oeiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/47/106847_logo_benfica_escola_de_oeiras.png",
         "equipamentos": [],
         "address": null,
@@ -3951,7 +3951,7 @@
     {
         "id": "303450",
         "club": "Egc Serra Minas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -3973,7 +3973,7 @@
     {
         "id": "35458",
         "club": "Enxara do Bispo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58/35458_logo_enxara_do_bispo.png",
         "equipamentos": [],
         "address": null,
@@ -3984,7 +3984,7 @@
     {
         "id": "303475",
         "club": "Ep Prof. Delfim Santos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/75/303475_logo_ep_prof_delfim_santos.jpg",
         "equipamentos": [],
         "address": null,
@@ -3995,7 +3995,7 @@
     {
         "id": "335696",
         "club": "Equipa Amizade",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4040,7 +4040,7 @@
     {
         "id": "235032",
         "club": "Esc. Fut. Benfica Cascais",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32/235032_logo_esc_fut_benfica_cascais.png",
         "equipamentos": [],
         "address": null,
@@ -4051,7 +4051,7 @@
     {
         "id": "18072",
         "club": "Escaravilheira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/72/18072_logo_escaravilheira.png",
         "equipamentos": [],
         "address": null,
@@ -4062,7 +4062,7 @@
     {
         "id": "309657",
         "club": "Escola Clube Portugal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4073,7 +4073,7 @@
     {
         "id": "287594",
         "club": "Escorpiões",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/79/15979_logo_escorpioes.jpg",
         "equipamentos": [],
         "address": null,
@@ -4084,7 +4084,7 @@
     {
         "id": "276242",
         "club": "Escorpiões Audazes",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4095,7 +4095,7 @@
     {
         "id": "310335",
         "club": "Esp. Ponte Bica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4106,7 +4106,7 @@
     {
         "id": "310511",
         "club": "Esperanças FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4117,7 +4117,7 @@
     {
         "id": "287550",
         "club": "Esperanças Alcoitão",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4128,7 +4128,7 @@
     {
         "id": "287056",
         "club": "Espírito Santo Odivelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/56/287056_logo_espirito_santo_odivelas.png",
         "equipamentos": [],
         "address": null,
@@ -4156,7 +4156,7 @@
     {
         "id": "40093",
         "club": "Estoril & Xixo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4195,7 +4195,7 @@
     {
         "id": "334416",
         "club": "Estrelas S.J. Brito",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16/334416_logo_20241018111153_estrelas_s_j_brito.jpg",
         "equipamentos": [],
         "address": null,
@@ -4206,7 +4206,7 @@
     {
         "id": "209965",
         "club": "Estrelas da Avenida",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/65/209965_logo_20170526155631_centro_recreativo_estrelas_da_avenida.jpg",
         "equipamentos": [],
         "address": null,
@@ -4217,7 +4217,7 @@
     {
         "id": "330875",
         "club": "Estrelas de Sassoeiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4228,7 +4228,7 @@
     {
         "id": "334289",
         "club": "FC AltinhoJun.C S15",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4256,7 +4256,7 @@
     {
         "id": "25301",
         "club": "FC Cascais",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/01/25301_logo_fc_cascais.jpg",
         "equipamentos": [],
         "address": null,
@@ -4267,7 +4267,7 @@
     {
         "id": "287068",
         "club": "FC Curas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4289,7 +4289,7 @@
     {
         "id": "287069",
         "club": "FC Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4311,7 +4311,7 @@
     {
         "id": "287551",
         "club": "FC São Brás",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4322,7 +4322,7 @@
     {
         "id": "287067",
         "club": "Falagueira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32/21132_logo_falagueira.jpg",
         "equipamentos": [],
         "address": null,
@@ -4401,7 +4401,7 @@
     {
         "id": "303347",
         "club": "Fc Café Pocaricense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4429,7 +4429,7 @@
     {
         "id": "310727",
         "club": "Fc Kabulake Timor",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4457,7 +4457,7 @@
     {
         "id": "311105",
         "club": "Fc Ribadense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4485,7 +4485,7 @@
     {
         "id": "311517",
         "club": "Fcr Azinhagas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4513,7 +4513,7 @@
     {
         "id": "287552",
         "club": "Filc Int Lisb C Desportivo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4524,7 +4524,7 @@
     {
         "id": "259424",
         "club": "Fogueteirense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4574,7 +4574,7 @@
     {
         "id": "85760",
         "club": "Fonte Santense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/85760_logo_fonte_santense.jpg",
         "equipamentos": [],
         "address": null,
@@ -4585,7 +4585,7 @@
     {
         "id": "15964",
         "club": "Foot 21",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/15964_logo_foot_21.jpg",
         "equipamentos": [],
         "address": null,
@@ -4618,7 +4618,7 @@
     {
         "id": "267486",
         "club": "Footevolution",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/267486_logo_20211126112526_footevolution.jpg",
         "equipamentos": [],
         "address": null,
@@ -4640,7 +4640,7 @@
     {
         "id": "287013",
         "club": "Frassati",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/21659_logo_frassati.gif",
         "equipamentos": [],
         "address": null,
@@ -4673,7 +4673,7 @@
     {
         "id": "282432",
         "club": "Fundação CEBIFut.7  Jun.D S13",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/43/55843_logo_fundacao_cebi.jpg",
         "equipamentos": [],
         "address": null,
@@ -4712,7 +4712,7 @@
     {
         "id": "310693",
         "club": "Fut. Benfica Musgueira Norte",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4723,7 +4723,7 @@
     {
         "id": "287554",
         "club": "Futsal Massamá",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4734,7 +4734,7 @@
     {
         "id": "303319",
         "club": "GCR Estrela Bairro Olaio",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4762,7 +4762,7 @@
     {
         "id": "306921",
         "club": "GD Bairro Azul",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4773,7 +4773,7 @@
     {
         "id": "57730",
         "club": "GD Leião",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/30/57730_logo_gd_leiao.jpg",
         "equipamentos": [],
         "address": null,
@@ -4784,7 +4784,7 @@
     {
         "id": "311164",
         "club": "GD Operário",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/16059_logo_gd_operario.jpg",
         "equipamentos": [],
         "address": null,
@@ -4795,7 +4795,7 @@
     {
         "id": "311713",
         "club": "GD Operário Alverca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4806,7 +4806,7 @@
     {
         "id": "287578",
         "club": "GD Quinta Pinheiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4817,7 +4817,7 @@
     {
         "id": "274074",
         "club": "GD Ramilux",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -4828,7 +4828,7 @@
     {
         "id": "303219",
         "club": "GD Securitas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19/303219_logo_gd_securitas.png",
         "equipamentos": [],
         "address": null,
@@ -4839,7 +4839,7 @@
     {
         "id": "114689",
         "club": "GD Serra da Vila",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/114689_logo_gd_serra_da_vila.jpg",
         "equipamentos": [],
         "address": null,
@@ -4889,7 +4889,7 @@
     {
         "id": "311574",
         "club": "GD Zip-Zip",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/74/311574_logo_gd_zip_zip.jpg",
         "equipamentos": [],
         "address": null,
@@ -4911,7 +4911,7 @@
     {
         "id": "303289",
         "club": "GDRC Obra Ardina",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/303289_logo_gdrc_obra_ardina.jpg",
         "equipamentos": [],
         "address": null,
@@ -4939,7 +4939,7 @@
     {
         "id": "287590",
         "club": "GM 1.º de Dezembro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/287590_imgbank_1751377691.png",
         "equipamentos": [],
         "address": null,
@@ -4950,7 +4950,7 @@
     {
         "id": "287595",
         "club": "GR Galinheiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95/287595_logo_gr_galinheiras.jpg",
         "equipamentos": [],
         "address": null,
@@ -4972,7 +4972,7 @@
     {
         "id": "287600",
         "club": "GRCP Casal do Rato",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/71/21171_logo_grcp_casal_do_rato.png",
         "equipamentos": [],
         "address": null,
@@ -4983,7 +4983,7 @@
     {
         "id": "310560",
         "club": "GRD Bairro Cruz Vermelha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/310560_logo_grd_bairro_cruz_vermelha.jpg",
         "equipamentos": [],
         "address": null,
@@ -4994,7 +4994,7 @@
     {
         "id": "334628",
         "club": "GROBJun.A S19",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/79/22679_logo_grob.jpg",
         "equipamentos": [],
         "address": null,
@@ -5022,7 +5022,7 @@
     {
         "id": "321632",
         "club": "Gc Alfama",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5033,7 +5033,7 @@
     {
         "id": "287555",
         "club": "Gc Estrelas Amadora",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5044,7 +5044,7 @@
     {
         "id": "287556",
         "club": "Gcrd Os Kapas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5055,7 +5055,7 @@
     {
         "id": "309538",
         "club": "Gd 2 Maio",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5066,7 +5066,7 @@
     {
         "id": "311715",
         "club": "Gd Académicos Ermegeira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5077,7 +5077,7 @@
     {
         "id": "287558",
         "club": "Gd Amigos S. António Cavaleiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5088,7 +5088,7 @@
     {
         "id": "321552",
         "club": "Gd Assenta",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5099,7 +5099,7 @@
     {
         "id": "311529",
         "club": "Gd Bomb. Vol. Alverca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5110,7 +5110,7 @@
     {
         "id": "310674",
         "club": "Gd Camba",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5121,7 +5121,7 @@
     {
         "id": "303647",
         "club": "Gd Elevadores Fortis",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5132,7 +5132,7 @@
     {
         "id": "287563",
         "club": "Gd Joaninhas Leião",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5143,7 +5143,7 @@
     {
         "id": "303473",
         "club": "Gd Jovalto",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5154,7 +5154,7 @@
     {
         "id": "303423",
         "club": "Gd Jovens Damaia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5165,7 +5165,7 @@
     {
         "id": "310449",
         "club": "Gd Leões Alfornel",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5176,7 +5176,7 @@
     {
         "id": "303277",
         "club": "Gd Lusitano",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5187,7 +5187,7 @@
     {
         "id": "310714",
         "club": "Gd Mouraria",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5198,7 +5198,7 @@
     {
         "id": "310529",
         "club": "Gd Murtalense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5209,7 +5209,7 @@
     {
         "id": "310570",
         "club": "Gd O Trabalho - Comp. Seguros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5220,7 +5220,7 @@
     {
         "id": "303299",
         "club": "Gd Os Ases",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5231,7 +5231,7 @@
     {
         "id": "301787",
         "club": "Gd Os Jovens",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5242,7 +5242,7 @@
     {
         "id": "311694",
         "club": "Gd Os Nacionais",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5253,7 +5253,7 @@
     {
         "id": "321550",
         "club": "Gd Os Três Unidos Arcos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5264,7 +5264,7 @@
     {
         "id": "287567",
         "club": "Gd Pedreirense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5275,7 +5275,7 @@
     {
         "id": "310547",
         "club": "Gd Pena",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5286,7 +5286,7 @@
     {
         "id": "311541",
         "club": "Gd Penha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5297,7 +5297,7 @@
     {
         "id": "311736",
         "club": "Gd Pessoal Cel Cat",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5308,7 +5308,7 @@
     {
         "id": "287572",
         "club": "Gd Porto Santo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5319,7 +5319,7 @@
     {
         "id": "310683",
         "club": "Gd Quiminova",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5330,7 +5330,7 @@
     {
         "id": "311576",
         "club": "Gd S. Eulália",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5341,7 +5341,7 @@
     {
         "id": "303322",
         "club": "Gd Santos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5352,7 +5352,7 @@
     {
         "id": "310705",
         "club": "Gd Trab. Cm Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5363,7 +5363,7 @@
     {
         "id": "321691",
         "club": "Gd Vila Nova Ceira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5374,7 +5374,7 @@
     {
         "id": "310371",
         "club": "Gd Águias Catujal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5385,7 +5385,7 @@
     {
         "id": "287582",
         "club": "Gda Ajuda",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5396,7 +5396,7 @@
     {
         "id": "303446",
         "club": "Gdc Bairro Angola",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5407,7 +5407,7 @@
     {
         "id": "308899",
         "club": "Gdc Nova Imagem Algueirão",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5418,7 +5418,7 @@
     {
         "id": "303479",
         "club": "Gdc Os Mouros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5429,7 +5429,7 @@
     {
         "id": "287584",
         "club": "Gdc Povos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5440,7 +5440,7 @@
     {
         "id": "303422",
         "club": "Gdc Rangers Damaia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5451,7 +5451,7 @@
     {
         "id": "287585",
         "club": "Gdcr S. João Brito",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5462,7 +5462,7 @@
     {
         "id": "321246",
         "club": "Gdcsrc Maceira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5473,7 +5473,7 @@
     {
         "id": "311573",
         "club": "Gdm Recreativo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5484,7 +5484,7 @@
     {
         "id": "321696",
         "club": "Gdr 1 Janeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5495,7 +5495,7 @@
     {
         "id": "309583",
         "club": "Gdr Armadorense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5506,7 +5506,7 @@
     {
         "id": "324961",
         "club": "Gdr Francos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5517,7 +5517,7 @@
     {
         "id": "310649",
         "club": "Gdr Os Estrelas Serra Luz",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5528,7 +5528,7 @@
     {
         "id": "322298",
         "club": "Gdr Papagovas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5539,7 +5539,7 @@
     {
         "id": "317999",
         "club": "Gdr Pomarinho",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5550,7 +5550,7 @@
     {
         "id": "310385",
         "club": "Gdr Vale Grande",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5561,7 +5561,7 @@
     {
         "id": "287586",
         "club": "Gdr Águias Serra Luz",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5572,7 +5572,7 @@
     {
         "id": "310565",
         "club": "Gdrc Gomes Pereira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5583,7 +5583,7 @@
     {
         "id": "321152",
         "club": "Gdrc S. Mamede Ventosa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5594,7 +5594,7 @@
     {
         "id": "310382",
         "club": "Gdu Alegria Estacalense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5605,7 +5605,7 @@
     {
         "id": "321084",
         "club": "Gec Monte",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5627,7 +5627,7 @@
     {
         "id": "57994",
         "club": "Gilman",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5638,7 +5638,7 @@
     {
         "id": "236215",
         "club": "Ginásio Europa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5649,7 +5649,7 @@
     {
         "id": "334306",
         "club": "Gonçalvinhense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/06/334306_logo_goncalvinhense.jpg",
         "equipamentos": [],
         "address": null,
@@ -5660,7 +5660,7 @@
     {
         "id": "321674",
         "club": "Gr Mariapiense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5671,7 +5671,7 @@
     {
         "id": "303214",
         "club": "Gr Quinta Monsenhor",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5693,7 +5693,7 @@
     {
         "id": "210925",
         "club": "Grupo Sacavém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5704,7 +5704,7 @@
     {
         "id": "303231",
         "club": "Gs Adicense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5715,7 +5715,7 @@
     {
         "id": "303336",
         "club": "Gs Chinquilho Junqueirense Giestal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5726,7 +5726,7 @@
     {
         "id": "302910",
         "club": "Gud Alcabideche",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5737,7 +5737,7 @@
     {
         "id": "321676",
         "club": "Humberto Alfaiate",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5748,7 +5748,7 @@
     {
         "id": "71406",
         "club": "ICP",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/06/71406_logo_icp.jpg",
         "equipamentos": [],
         "address": null,
@@ -5793,7 +5793,7 @@
     {
         "id": "74911",
         "club": "Império Cruzeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11/74911_logo_imperio_cruzeiro.jpg",
         "equipamentos": [],
         "address": null,
@@ -5804,7 +5804,7 @@
     {
         "id": "311535",
         "club": "Independente Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5815,7 +5815,7 @@
     {
         "id": "334230",
         "club": "InfantadoJun.A S19",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/81/15981_logo_infantado.jpg",
         "equipamentos": [],
         "address": null,
@@ -5848,7 +5848,7 @@
     {
         "id": "286340",
         "club": "IsmailitasFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16/10516_logo_ismailitas.jpg",
         "equipamentos": [],
         "address": null,
@@ -5859,7 +5859,7 @@
     {
         "id": "303297",
         "club": "JD Aires",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5887,7 +5887,7 @@
     {
         "id": "287314",
         "club": "Jardim AmoreiraFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/38/59838_logo_jardim_amoreira_20250331150957.png",
         "equipamentos": [],
         "address": null,
@@ -5898,7 +5898,7 @@
     {
         "id": "311735",
         "club": "Jc Massamá",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5909,7 +5909,7 @@
     {
         "id": "322207",
         "club": "Jd Caneças",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5920,7 +5920,7 @@
     {
         "id": "311755",
         "club": "Jdr Brandoa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5948,7 +5948,7 @@
     {
         "id": "328895",
         "club": "José MiraFut.7  Jun.G S7",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/66/34866_logo_jose_mira_futsal.png",
         "equipamentos": [],
         "address": null,
@@ -5959,7 +5959,7 @@
     {
         "id": "37062",
         "club": "Jovens da Apelação",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/62/37062_logo_jovens_da_apelacao.jpg",
         "equipamentos": [],
         "address": null,
@@ -5970,7 +5970,7 @@
     {
         "id": "310689",
         "club": "Juv. Acad. Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -5981,7 +5981,7 @@
     {
         "id": "286704",
         "club": "Juv. Horta NovaFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58/21658_logo_juventude_horta_nova.jpg",
         "equipamentos": [],
         "address": null,
@@ -6003,7 +6003,7 @@
     {
         "id": "12308",
         "club": "Juventude Belém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/08/12308_logo_juventude_belem.jpg",
         "equipamentos": [],
         "address": null,
@@ -6031,7 +6031,7 @@
     {
         "id": "303495",
         "club": "Juventude Uc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6053,7 +6053,7 @@
     {
         "id": "15977",
         "club": "Leceia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/77/15977_logo_leceia.jpg",
         "equipamentos": [],
         "address": null,
@@ -6098,7 +6098,7 @@
     {
         "id": "287058",
         "club": "Leões Sto. António",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/31/76831_logo_leoes_sto_antonio.png",
         "equipamentos": [],
         "address": null,
@@ -6109,7 +6109,7 @@
     {
         "id": "287059",
         "club": "Leões das Furnas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/15889_logo_leoes_das_furnas.jpg",
         "equipamentos": [],
         "address": null,
@@ -6120,7 +6120,7 @@
     {
         "id": "112735",
         "club": "Liberdade AC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/72/15972_logo_liberdade_ac.jpg",
         "equipamentos": [],
         "address": null,
@@ -6159,7 +6159,7 @@
     {
         "id": "95782",
         "club": "Linhó",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82/95782_logo_linho.jpg",
         "equipamentos": [],
         "address": null,
@@ -6187,7 +6187,7 @@
     {
         "id": "58028",
         "club": "Lisboa FC (Campo Grande)",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6198,7 +6198,7 @@
     {
         "id": "85758",
         "club": "Lisboa FC (Campo Ourique)",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58/85758_logo_lisboa_fc_campo_ourique_.png",
         "equipamentos": [],
         "address": null,
@@ -6220,7 +6220,7 @@
     {
         "id": "57986",
         "club": "Lisbon Cricket",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86/57986_logo_20200814162153_lisbon_cricket.png",
         "equipamentos": [],
         "address": null,
@@ -6242,7 +6242,7 @@
     {
         "id": "292175",
         "club": "Lus. Fc Odivelas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6253,7 +6253,7 @@
     {
         "id": "303283",
         "club": "Lus. Penha de França",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/83/303283_logo_lus_penha_de_franca.png",
         "equipamentos": [],
         "address": null,
@@ -6264,7 +6264,7 @@
     {
         "id": "310289",
         "club": "Lusitano Clube",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/310289_logo_lusitano_clube.png",
         "equipamentos": [],
         "address": null,
@@ -6292,7 +6292,7 @@
     {
         "id": "16025",
         "club": "Luta Pela Casa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/25/16025_logo_luta_pela_casa.png",
         "equipamentos": [],
         "address": null,
@@ -6337,7 +6337,7 @@
     {
         "id": "287593",
         "club": "Manique",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/73/24873_logo_manique.jpg",
         "equipamentos": [],
         "address": null,
@@ -6359,7 +6359,7 @@
     {
         "id": "112740",
         "club": "Manjoeira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/18/16018_logo_manjoeira.jpg",
         "equipamentos": [],
         "address": null,
@@ -6370,7 +6370,7 @@
     {
         "id": "288079",
         "club": "Marista Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/94/15894_logo_marista_lisboa.png",
         "equipamentos": [],
         "address": null,
@@ -6398,7 +6398,7 @@
     {
         "id": "286303",
         "club": "Marteleira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95/235295_logo_marteleira.png",
         "equipamentos": [],
         "address": null,
@@ -6409,7 +6409,7 @@
     {
         "id": "287060",
         "club": "Marvila Jovem",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/57/21657_logo_marvila_jovem.jpg",
         "equipamentos": [],
         "address": null,
@@ -6481,7 +6481,7 @@
     {
         "id": "112736",
         "club": "Milharado",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/01/16001_logo_milharado.jpg",
         "equipamentos": [],
         "address": null,
@@ -6514,7 +6514,7 @@
     {
         "id": "65175",
         "club": "Miúdos Talentosos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/75/65175_logo_miudos_talentosos.png",
         "equipamentos": [],
         "address": null,
@@ -6547,7 +6547,7 @@
     {
         "id": "287030",
         "club": "Morad. B. 25 Abril Linda-A-Velha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6586,7 +6586,7 @@
     {
         "id": "244050",
         "club": "Mártir SantoFeminino",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6597,7 +6597,7 @@
     {
         "id": "17383",
         "club": "NS Alcabideche",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/83/17383_logo_ns_alcabideche.jpg",
         "equipamentos": [],
         "address": null,
@@ -6625,7 +6625,7 @@
     {
         "id": "310306",
         "club": "Nobres Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6658,7 +6658,7 @@
     {
         "id": "310667",
         "club": "Novar",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6669,7 +6669,7 @@
     {
         "id": "299264",
         "club": "Novos Diamantes",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/299264_logo_20231017170352_novos_diamantes.jpg",
         "equipamentos": [],
         "address": null,
@@ -6697,7 +6697,7 @@
     {
         "id": "17550",
         "club": "Núcleo Chasa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/50/17550_logo_nucleo_chasa.jpg",
         "equipamentos": [],
         "address": null,
@@ -6719,7 +6719,7 @@
     {
         "id": "311528",
         "club": "Núcleo Sport. V. F. Xira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6775,7 +6775,7 @@
     {
         "id": "287601",
         "club": "Onze Unidos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12/10512_logo_onze_unidos.jpg",
         "equipamentos": [],
         "address": null,
@@ -6831,7 +6831,7 @@
     {
         "id": "312592",
         "club": "Oriental RecreativoJun.A S19",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/92/73692_logo_oriental_recreativo.jpg",
         "equipamentos": [],
         "address": null,
@@ -6842,7 +6842,7 @@
     {
         "id": "289139",
         "club": "Oriental Recreativo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/92/73692_logo_oriental_recreativo.jpg",
         "equipamentos": [],
         "address": null,
@@ -6864,7 +6864,7 @@
     {
         "id": "303062",
         "club": "Os Ases Avenidas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6875,7 +6875,7 @@
     {
         "id": "310507",
         "club": "Os Bebés",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6897,7 +6897,7 @@
     {
         "id": "311693",
         "club": "Os Cobras Lisboa Cl.",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -6908,7 +6908,7 @@
     {
         "id": "287598",
         "club": "Os Económicos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/65/16065_logo_os_economicos.jpg",
         "equipamentos": [],
         "address": null,
@@ -6930,7 +6930,7 @@
     {
         "id": "58089",
         "club": "Os Fósforos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/58089_logo_os_fosforos.jpg",
         "equipamentos": [],
         "address": null,
@@ -6941,7 +6941,7 @@
     {
         "id": "330467",
         "club": "Os LobinhosJun.B S17",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/47/26347_logo_os_lobinhos.png",
         "equipamentos": [
             {
@@ -6975,7 +6975,7 @@
     {
         "id": "286143",
         "club": "Os PatuscosFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/90/23190_logo_os_patuscos.jpg",
         "equipamentos": [],
         "address": null,
@@ -6986,7 +6986,7 @@
     {
         "id": "289173",
         "club": "Os Paulenses",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/40/21640_logo_os_paulenses.png",
         "equipamentos": [],
         "address": null,
@@ -6997,7 +6997,7 @@
     {
         "id": "112737",
         "club": "Os Torpedos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/03/8203_logo_os_torpedos.jpg",
         "equipamentos": [],
         "address": null,
@@ -7008,7 +7008,7 @@
     {
         "id": "311746",
         "club": "Os Vampiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7019,7 +7019,7 @@
     {
         "id": "286229",
         "club": "Os VinhaisFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16079_imgbank.png",
         "equipamentos": [
             {
@@ -7047,7 +7047,7 @@
     {
         "id": "286318",
         "club": "PSAACFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/37/20637_logo_povoa_st_adriao.jpg",
         "equipamentos": [],
         "address": null,
@@ -7075,7 +7075,7 @@
     {
         "id": "16157",
         "club": "Parede FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16157_imgbank.png",
         "equipamentos": [],
         "address": null,
@@ -7086,7 +7086,7 @@
     {
         "id": "49349",
         "club": "Paroquial Brandoa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/49/49349_logo_paroquial_brandoa.jpg",
         "equipamentos": [],
         "address": null,
@@ -7108,7 +7108,7 @@
     {
         "id": "99676",
         "club": "Pero Negro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/76/99676_logo_pero_negro.jpg",
         "equipamentos": [],
         "address": null,
@@ -7141,7 +7141,7 @@
     {
         "id": "292051",
         "club": "Pombais Sc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7163,7 +7163,7 @@
     {
         "id": "227977",
         "club": "Portela",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/94/8094_logo_portela.png",
         "equipamentos": [
             {
@@ -7197,7 +7197,7 @@
     {
         "id": "236",
         "club": "Equipas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
         "equipamentos": [],
         "address": null,
@@ -7225,7 +7225,7 @@
     {
         "id": "287024",
         "club": "Portugal Novo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7236,7 +7236,7 @@
     {
         "id": "209963",
         "club": "Portugal Telecom",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/63/209963_logo_20170526155259_portugal_telecom.gif",
         "equipamentos": [],
         "address": null,
@@ -7247,7 +7247,7 @@
     {
         "id": "310713",
         "club": "Povoense Ac",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7269,7 +7269,7 @@
     {
         "id": "287602",
         "club": "Priorenses",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7280,7 +7280,7 @@
     {
         "id": "303428",
         "club": "Progresso Clube",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/28/303428_logo_progresso_clube.jpg",
         "equipamentos": [],
         "address": null,
@@ -7308,7 +7308,7 @@
     {
         "id": "82312",
         "club": "Quinta Dalias",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/74/22774_logo_quinta_dalias.gif",
         "equipamentos": [],
         "address": null,
@@ -7330,7 +7330,7 @@
     {
         "id": "286200",
         "club": "Quinta dos LombosFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/16391_imgbank_1700039429.png",
         "equipamentos": [],
         "address": null,
@@ -7369,7 +7369,7 @@
     {
         "id": "303346",
         "club": "RD Benfica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7391,7 +7391,7 @@
     {
         "id": "287579",
         "club": "Ramiro José",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/16089_logo_ramiro_jose.jpg",
         "equipamentos": [],
         "address": null,
@@ -7402,7 +7402,7 @@
     {
         "id": "290481",
         "club": "Rangel",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/66/16066_logo_rangel.jpg",
         "equipamentos": [],
         "address": null,
@@ -7413,7 +7413,7 @@
     {
         "id": "310447",
         "club": "Rc Falagueira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7424,7 +7424,7 @@
     {
         "id": "307298",
         "club": "Rc Os Dragões",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7435,7 +7435,7 @@
     {
         "id": "310400",
         "club": "Rc Santo Amaro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7463,7 +7463,7 @@
     {
         "id": "243708",
         "club": "Real Benfica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7474,7 +7474,7 @@
     {
         "id": "330624",
         "club": "Real Buraca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/69/34869_logo_real_buraca.jpg",
         "equipamentos": [],
         "address": null,
@@ -7485,7 +7485,7 @@
     {
         "id": "311661",
         "club": "Real Cl. Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7496,7 +7496,7 @@
     {
         "id": "106530",
         "club": "Real Futsal Clube",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/30/106530_logo_real_futsal_clube.jpg",
         "equipamentos": [],
         "address": null,
@@ -7507,7 +7507,7 @@
     {
         "id": "321686",
         "club": "Real Juventude Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7546,7 +7546,7 @@
     {
         "id": "302361",
         "club": "Real Quinta Caxias Ciacdrl",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7557,7 +7557,7 @@
     {
         "id": "310477",
         "club": "Rebelde Dafundo Cl.",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7568,7 +7568,7 @@
     {
         "id": "311524",
         "club": "Recordação de Apolo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/230959_logo_recordacao_d_apolo.jpg",
         "equipamentos": [],
         "address": null,
@@ -7579,7 +7579,7 @@
     {
         "id": "12675",
         "club": "Recreio Cultura",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/75/12675_logo_recreio_cultura.jpg",
         "equipamentos": [],
         "address": null,
@@ -7607,7 +7607,7 @@
     {
         "id": "295191",
         "club": "Reguilas TiresFut.7  Jun.G S7",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/89/62989_logo_20170207100521_tires_futsal.jpg",
         "equipamentos": [],
         "address": null,
@@ -7629,7 +7629,7 @@
     {
         "id": "303489",
         "club": "Rfc Fundação",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7640,7 +7640,7 @@
     {
         "id": "15568",
         "club": "Ribamar",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/68/15568_logo_ribamar.jpg",
         "equipamentos": [],
         "address": null,
@@ -7662,7 +7662,7 @@
     {
         "id": "258398",
         "club": "Ribeira de Palheiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/258398_logo_ribeira_de_palheiros.jpg",
         "equipamentos": [],
         "address": null,
@@ -7690,7 +7690,7 @@
     {
         "id": "310174",
         "club": "Ro Picheleira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7701,7 +7701,7 @@
     {
         "id": "303327",
         "club": "Romeira Scrc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7712,7 +7712,7 @@
     {
         "id": "220182",
         "club": "Rossão",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82/220182_logo_rossao.jpg",
         "equipamentos": [],
         "address": null,
@@ -7723,7 +7723,7 @@
     {
         "id": "287055",
         "club": "S. Ant. Cavaleiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/55/287055_logo_s_ant_cavaleiros.png",
         "equipamentos": [],
         "address": null,
@@ -7734,7 +7734,7 @@
     {
         "id": "287581",
         "club": "S. Julião do Tojal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/287581_imgbank_1719996621.png",
         "equipamentos": [],
         "address": null,
@@ -7745,7 +7745,7 @@
     {
         "id": "286980",
         "club": "S. Sebastião Guerreiros",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/05/25005_logo_s_sebastiao_guerreiros.jpg",
         "equipamentos": [],
         "address": null,
@@ -7756,7 +7756,7 @@
     {
         "id": "302844",
         "club": "SC Amoreiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7778,7 +7778,7 @@
     {
         "id": "76054",
         "club": "SC Estefânia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -7806,7 +7806,7 @@
     {
         "id": "302633",
         "club": "SC Liberdade",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/43/1142943_med__20240630154332_sc_liberdade.jpg",
         "equipamentos": [],
         "address": null,
@@ -7817,7 +7817,7 @@
     {
         "id": "330459",
         "club": "SC Liberdade",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/73/15973_logo_sc_liberdade.jpg",
         "equipamentos": [],
         "address": null,
@@ -7845,7 +7845,7 @@
     {
         "id": "333139",
         "club": "SC Moitense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/52598_logo_sc_moitense.jpg",
         "equipamentos": [],
         "address": null,
@@ -7873,7 +7873,7 @@
     {
         "id": "18055",
         "club": "SC Serra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/55/18055_logo_serra.jpg",
         "equipamentos": [],
         "address": null,
@@ -7895,7 +7895,7 @@
     {
         "id": "311511",
         "club": "SF  Alunos Esperança",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11/311511_logo_sf_alunos_esperanca.png",
         "equipamentos": [],
         "address": null,
@@ -7906,7 +7906,7 @@
     {
         "id": "310548",
         "club": "SF João Rodrigues Cordeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/48/310548_logo_sf_joao_rodrigues_cordeiro.jpg",
         "equipamentos": [],
         "address": null,
@@ -7917,7 +7917,7 @@
     {
         "id": "303298",
         "club": "SFR Familiar Lameiras",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/303298_logo_sfr_familiar_lameiras.jpg",
         "equipamentos": [],
         "address": null,
@@ -7928,7 +7928,7 @@
     {
         "id": "259421",
         "club": "SL Campo de Ourique",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/20/259420_logo_sl_campo_de_ourique.jpg",
         "equipamentos": [],
         "address": null,
@@ -7956,7 +7956,7 @@
     {
         "id": "303517",
         "club": "SL Os Onze",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/17/303517_logo_sl_os_onze.jpg",
         "equipamentos": [],
         "address": null,
@@ -7967,7 +7967,7 @@
     {
         "id": "311566",
         "club": "SR A-do-Mourão",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/66/311566_logo_sr_a_do_mourao.jpg",
         "equipamentos": [],
         "address": null,
@@ -7978,7 +7978,7 @@
     {
         "id": "303478",
         "club": "SR Beneficiência Montemor",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/78/303478_logo_sr_beneficiencia_montemor.jpg",
         "equipamentos": [],
         "address": null,
@@ -7989,7 +7989,7 @@
     {
         "id": "303167",
         "club": "SR Povoense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8017,7 +8017,7 @@
     {
         "id": "307409",
         "club": "SU Colarense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/09/307409_logo_su_colarense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8067,7 +8067,7 @@
     {
         "id": "310791",
         "club": "Santa Cruz Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8078,7 +8078,7 @@
     {
         "id": "287043",
         "club": "Santa Engrácia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/37/64737_logo_santa_engracia.gif",
         "equipamentos": [],
         "address": null,
@@ -8106,7 +8106,7 @@
     {
         "id": "291464",
         "club": "Santana FC",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/67/16067_logo_santana_fc.jpg",
         "equipamentos": [],
         "address": null,
@@ -8117,7 +8117,7 @@
     {
         "id": "311668",
         "club": "Santar Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8150,7 +8150,7 @@
     {
         "id": "310676",
         "club": "Santos Venda Nova",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/93/60693_logo_santos_v_nova.jpg",
         "equipamentos": [],
         "address": null,
@@ -8161,7 +8161,7 @@
     {
         "id": "311705",
         "club": "Sc Estribeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8172,7 +8172,7 @@
     {
         "id": "303361",
         "club": "Sc Fortaleza",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8183,7 +8183,7 @@
     {
         "id": "318340",
         "club": "Sc Freixofeira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8194,7 +8194,7 @@
     {
         "id": "311669",
         "club": "Sc Timor",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8205,7 +8205,7 @@
     {
         "id": "320829",
         "club": "Sc Vila Facaia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8216,7 +8216,7 @@
     {
         "id": "303291",
         "club": "Sdr Albuguer",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8227,7 +8227,7 @@
     {
         "id": "287026",
         "club": "Serpa Pinto",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/46/32046_logo_serpa_pinto.jpg",
         "equipamentos": [],
         "address": null,
@@ -8238,7 +8238,7 @@
     {
         "id": "287028",
         "club": "Serra da Silveira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/25/87225_logo_serra_da_silveira.jpg",
         "equipamentos": [],
         "address": null,
@@ -8249,7 +8249,7 @@
     {
         "id": "311722",
         "club": "Sfra Amadora",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8260,7 +8260,7 @@
     {
         "id": "321215",
         "club": "Sib Voz Operário",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8271,7 +8271,7 @@
     {
         "id": "287049",
         "club": "Silveirenses",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/90/24490_logo_silveirenses.jpg",
         "equipamentos": [],
         "address": null,
@@ -8316,7 +8316,7 @@
     {
         "id": "311591",
         "club": "Sl Alcântara",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8327,7 +8327,7 @@
     {
         "id": "300684",
         "club": "Sobralense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/84/300684_logo_20250618142306_sobralense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8355,7 +8355,7 @@
     {
         "id": "99748",
         "club": "Sobrena",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8366,7 +8366,7 @@
     {
         "id": "311747",
         "club": "Soc. Ordem Progresso",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8377,7 +8377,7 @@
     {
         "id": "114505",
         "club": "Soccer Cascais",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/05/114505_logo_20161026113402_soccer_cascais.png",
         "equipamentos": [],
         "address": null,
@@ -8388,7 +8388,7 @@
     {
         "id": "287042",
         "club": "Sol Nasce Para Todos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/67/75167_logo_sol_nasce_para_todos.jpg",
         "equipamentos": [],
         "address": null,
@@ -8427,7 +8427,7 @@
     {
         "id": "310785",
         "club": "Sport Benfica Corvense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8438,7 +8438,7 @@
     {
         "id": "260465",
         "club": "Sport Bom Sucesso",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/65/260465_logo_sport_bom_sucesso.jpg",
         "equipamentos": [],
         "address": null,
@@ -8449,7 +8449,7 @@
     {
         "id": "335120",
         "club": "Sport Ereira e BenficaJun.D S13",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/02/8102_logo_ereira_e_benf_.gif",
         "equipamentos": [],
         "address": null,
@@ -8477,7 +8477,7 @@
     {
         "id": "310695",
         "club": "Sport Lisboa e Campolide",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95/310695_logo_sport_lisboa_e_campolide.png",
         "equipamentos": [],
         "address": null,
@@ -8488,7 +8488,7 @@
     {
         "id": "311544",
         "club": "Sport Lisboa e Lapa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/44/311544_logo_sport_lisboa_e_lapa.png",
         "equipamentos": [],
         "address": null,
@@ -8538,7 +8538,7 @@
     {
         "id": "61198",
         "club": "Sporting da Torre",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/98/61198_logo_sporting_da_torre.jpg",
         "equipamentos": [],
         "address": null,
@@ -8549,7 +8549,7 @@
     {
         "id": "311518",
         "club": "Sr Camarnal",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/311518_imgbank_1753102874.png",
         "equipamentos": [],
         "address": null,
@@ -8560,7 +8560,7 @@
     {
         "id": "318366",
         "club": "Sr Os Alegres Maceira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8571,7 +8571,7 @@
     {
         "id": "309539",
         "club": "Sr Sta. Susana Sobral",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8582,7 +8582,7 @@
     {
         "id": "321843",
         "club": "Sr Vila Rei",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8593,7 +8593,7 @@
     {
         "id": "311682",
         "club": "Src Alapraia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8615,7 +8615,7 @@
     {
         "id": "310682",
         "club": "São Domingos Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8637,7 +8637,7 @@
     {
         "id": "103560",
         "club": "São João de Deus",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/103560_logo_sao_joao_de_deus.jpg",
         "equipamentos": [],
         "address": null,
@@ -8665,7 +8665,7 @@
     {
         "id": "318363",
         "club": "T. 1º Dez. Caparidense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/63/318363_logo_t_1_dez_caparidense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8693,7 +8693,7 @@
     {
         "id": "321650",
         "club": "Tarujense Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8704,7 +8704,7 @@
     {
         "id": "331254",
         "club": "Tejolense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/47/259547_logo_tejolense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8715,7 +8715,7 @@
     {
         "id": "310313",
         "club": "Tempo Novo Cche",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8743,7 +8743,7 @@
     {
         "id": "287597",
         "club": "Tercena",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10/22610_logo_tercena.jpg",
         "equipamentos": [],
         "address": null,
@@ -8754,7 +8754,7 @@
     {
         "id": "244749",
         "club": "Tojeira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/56/24456_logo_tojeira.jpg",
         "equipamentos": [],
         "address": null,
@@ -8776,7 +8776,7 @@
     {
         "id": "321683",
         "club": "Trj Chelense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8787,7 +8787,7 @@
     {
         "id": "290031",
         "club": "Tunelense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/07/25007_logo_tunelense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8826,7 +8826,7 @@
     {
         "id": "58848",
         "club": "U. Técnica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/48/58848_logo_u_tecnica.jpg",
         "equipamentos": [],
         "address": null,
@@ -8837,7 +8837,7 @@
     {
         "id": "310229",
         "club": "UC Curraleira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/29/310229_logo_uc_curraleira.png",
         "equipamentos": [],
         "address": null,
@@ -8865,7 +8865,7 @@
     {
         "id": "311556",
         "club": "UDC Adoslouquense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/56/311556_logo_udc_adoslouquense.jpg",
         "equipamentos": [],
         "address": null,
@@ -8876,7 +8876,7 @@
     {
         "id": "244061",
         "club": "UDC CamarateFeminino",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8887,7 +8887,7 @@
     {
         "id": "330832",
         "club": "UDC ForteJun.A S19",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/80/16080_logo_udc_forte.png",
         "equipamentos": [],
         "address": null,
@@ -8898,7 +8898,7 @@
     {
         "id": "294721",
         "club": "UDOB",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8926,7 +8926,7 @@
     {
         "id": "291140",
         "club": "UPVN",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/15884_imgbank_1671548227.png",
         "equipamentos": [
             {
@@ -8943,7 +8943,7 @@
     {
         "id": "303268",
         "club": "UR Dafundo",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/68/303268_logo_ur_dafundo.png",
         "equipamentos": [],
         "address": null,
@@ -8965,7 +8965,7 @@
     {
         "id": "310286",
         "club": "Uc Buraca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8976,7 +8976,7 @@
     {
         "id": "303169",
         "club": "Ucdr Bairro São Carlos",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -8987,7 +8987,7 @@
     {
         "id": "311733",
         "club": "Ud Calica",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9015,7 +9015,7 @@
     {
         "id": "310648",
         "club": "Ud Pontinha",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9026,7 +9026,7 @@
     {
         "id": "311712",
         "club": "Ud Vila Rei",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9037,7 +9037,7 @@
     {
         "id": "310638",
         "club": "Udrc Sarge",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9048,7 +9048,7 @@
     {
         "id": "321688",
         "club": "Uj Amadora",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9059,7 +9059,7 @@
     {
         "id": "330428",
         "club": "Unidos Glória",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/63360_logo_unidos_gloria.png",
         "equipamentos": [],
         "address": null,
@@ -9070,7 +9070,7 @@
     {
         "id": "321659",
         "club": "Unidos Rc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9081,7 +9081,7 @@
     {
         "id": "286100",
         "club": "Unidos de ArcenaFut.7  Jun.E S11",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/00/21200_logo_unidos_de_arcena.png",
         "equipamentos": [],
         "address": null,
@@ -9092,7 +9092,7 @@
     {
         "id": "58100",
         "club": "Unidos de Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/00/58100_logo_unidos_de_lisboa_20240410143728.png",
         "equipamentos": [],
         "address": null,
@@ -9103,7 +9103,7 @@
     {
         "id": "303250",
         "club": "Unidos do Cacém",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/07/10507_logo_unidos_do_cacem.gif",
         "equipamentos": [],
         "address": null,
@@ -9114,7 +9114,7 @@
     {
         "id": "307990",
         "club": "Univ. Católica Portuguesa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/90/307990_logo_univ_catolica_portuguesa.jpg",
         "equipamentos": [],
         "address": null,
@@ -9136,7 +9136,7 @@
     {
         "id": "310784",
         "club": "União Dc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9147,7 +9147,7 @@
     {
         "id": "47151",
         "club": "União Juv. Alverca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/47151_imgbank.png",
         "equipamentos": [],
         "address": null,
@@ -9186,7 +9186,7 @@
     {
         "id": "36423",
         "club": "União Outeirense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/23/36423_logo_uniao_outeirense.jpg",
         "equipamentos": [],
         "address": null,
@@ -9197,7 +9197,7 @@
     {
         "id": "287589",
         "club": "União Rana",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/24454_logo_uniao_rana.png",
         "equipamentos": [],
         "address": null,
@@ -9208,7 +9208,7 @@
     {
         "id": "303461",
         "club": "União Recreativa Brandoense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61/303461_logo_uniao_recreativa_brandoense.jpg",
         "equipamentos": [],
         "address": null,
@@ -9236,7 +9236,7 @@
     {
         "id": "321232",
         "club": "Urc Camarate",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9247,7 +9247,7 @@
     {
         "id": "305850",
         "club": "Utl 81 - Univ. Técn. Lisboa",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9258,7 +9258,7 @@
     {
         "id": "321324",
         "club": "Vale Formoso Fc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9269,7 +9269,7 @@
     {
         "id": "330495",
         "club": "Valejas",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/70/16070_logo_valejas.png",
         "equipamentos": [],
         "address": null,
@@ -9280,7 +9280,7 @@
     {
         "id": "287051",
         "club": "Varejense",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/51/287051_logo_varejense.png",
         "equipamentos": [],
         "address": null,
@@ -9291,7 +9291,7 @@
     {
         "id": "334231",
         "club": "Varge MondarJun.B S17",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/97/15997_logo_varge_mondar.jpg",
         "equipamentos": [],
         "address": null,
@@ -9302,7 +9302,7 @@
     {
         "id": "95970",
         "club": "Vedetaremate",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/70/95970_logo_vedetaremate.png",
         "equipamentos": [],
         "address": null,
@@ -9313,7 +9313,7 @@
     {
         "id": "277611",
         "club": "Veiga Ferreira",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11/277611_logo_veiga_ferreira.jpg",
         "equipamentos": [],
         "address": null,
@@ -9369,7 +9369,7 @@
     {
         "id": "287046",
         "club": "Vila Saloia",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/91/21391_logo_vila_saloia.jpg",
         "equipamentos": [],
         "address": null,
@@ -9408,7 +9408,7 @@
     {
         "id": "312560",
         "club": "Vit. Olivais",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/93/8193_logo_vit_olivais.jpg",
         "equipamentos": [],
         "address": null,
@@ -9419,7 +9419,7 @@
     {
         "id": "321551",
         "club": "Vitral Roma Pub. Lda",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9474,7 +9474,7 @@
     {
         "id": "21393",
         "club": "Zambujeira e Serra",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/93/21393_logo_zambujeira_e_serra.jpg",
         "equipamentos": [],
         "address": null,
@@ -9485,7 +9485,7 @@
     {
         "id": "16154",
         "club": "Zambujeiro",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/16154_logo_zambujeiro.jpg",
         "equipamentos": [],
         "address": null,
@@ -9496,7 +9496,7 @@
     {
         "id": "308352",
         "club": "Águia Sc Campolide",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9507,7 +9507,7 @@
     {
         "id": "308363",
         "club": "Águias Alto Pina",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/63/308363_logo_aguias_alto_pina.png",
         "equipamentos": [],
         "address": null,
@@ -9518,7 +9518,7 @@
     {
         "id": "311681",
         "club": "Águias Rc",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
@@ -9529,7 +9529,7 @@
     {
         "id": "57315",
         "club": "Águias da Charneca",
-        "stadium": "t24 164Estádios",
+        "stadium": " ",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/15/57315_logo_aguias_da_charneca.jpg",
         "equipamentos": [],
         "address": null,
