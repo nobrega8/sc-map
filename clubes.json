@@ -426,8 +426,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/64/259364_logo_acsa.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.76045806594024,
+        "longitude": -9.228914734786759,
         "url": "https://www.zerozero.pt/equipa/acsa/286975"
     },
     {
@@ -437,8 +437,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/235452_imgbank_1699892049.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.76747687768195,
+        "longitude": -9.22529491958279,
         "url": "https://www.zerozero.pt/equipa/ad-amadora/235452"
     },
     {
@@ -454,8 +454,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.677877973603906,
+        "longitude": -9.32162296263541,
         "url": "https://www.zerozero.pt/equipa/ad-barra/113029"
     },
     {
@@ -471,8 +471,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.705181455608006,
+        "longitude": -9.254822128682548,
         "url": "https://www.zerozero.pt/equipa/ad-conquistadores/266443"
     },
     {
@@ -488,14 +488,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.68598819894692,
+        "longitude": -9.313964931991666,
         "url": "https://www.zerozero.pt/equipa/ad-oeiras/3936"
     },
     {
         "id": "239755",
         "club": "AD Pastéis",
-        "stadium": "",
+        "stadium": "Campo Clube Ferroviário de Portugal",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/239755_imgbank_1690803209.png",
         "equipamentos": [
             {
@@ -505,37 +505,9 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.7385275981468,
+        "longitude": -9.108722619785247,
         "url": "https://www.zerozero.pt/equipa/ad-pasteis/239755"
-    },
-    {
-        "id": "64570",
-        "club": "AD Quinta da Luz",
-        "stadium": " ",
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/70/64570_logo_ad_quinta_da_luz.jpg",
-        "equipamentos": [
-            {
-                "type": "desconhecido",
-                "url": "https://www.zerozero.pt/img/logos/equipas/70/64570_shirt_ad_quinta_da_luz.jpg",
-                "alt_text": "ad quinta da luz"
-            }
-        ],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/ad-quinta-da-luz/64570"
-    },
-    {
-        "id": "303271",
-        "club": "AD Vermelha",
-        "stadium": " ",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/ad-vermelha/303271"
     },
     {
         "id": "11192",
@@ -550,8 +522,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.77853679537365,
+        "longitude": -9.121779470063155,
         "url": "https://www.zerozero.pt/equipa/adceo/11192"
     },
     {
@@ -561,8 +533,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/08/277608_logo_bairro_da_boavista.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.7308666246517,
+        "longitude": -9.206256171912674,
         "url": "https://www.zerozero.pt/equipa/adcr-bairro-da-boavista/277608"
     },
     {
@@ -572,8 +544,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10/287010_logo_adcr_moradores_idanha.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.01629018642061,
+        "longitude": -8.619886713920144,
         "url": "https://www.zerozero.pt/equipa/adcr-moradores-idanha/287010"
     },
     {
