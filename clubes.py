@@ -23,32 +23,6 @@ COMPETICOES = [
     "https://www.zerozero.pt/competicao/liga-3",
     "https://www.zerozero.pt/associacao/af-lisboa",
     "https://www.zerozero.pt/competicao/liga-inglesa"
-    
-    # Portugal - Competições principais
-    "https://www.zerozero.pt/edition.php?id=193392",  # Liga Portuguesa
-    "https://www.zerozero.pt/edition.php?id=193393",  # Segunda Liga
-    "https://www.zerozero.pt/edition.php?id=193395",  # Liga 3
-    "https://www.zerozero.pt/edition.php?id=193394",  # Taça de Portugal
-    "https://www.zerozero.pt/edition.php?id=193396",  # Supertaça
-    
-    # Portugal - Competições distritais
-    "https://www.zerozero.pt/edition.php?tp=31",      # AF Lisboa
-    "https://www.zerozero.pt/edition.php?tp=32",      # AF Porto
-    "https://www.zerozero.pt/edition.php?tp=35",      # AF Braga
-    "https://www.zerozero.pt/edition.php?tp=33",      # AF Aveiro
-    "https://www.zerozero.pt/edition.php?tp=34",      # AF Coimbra
-    
-    # Competições europeias principais
-    "https://www.zerozero.pt/edition.php?id=193441",  # Champions League
-    "https://www.zerozero.pt/edition.php?id=193442",  # Europa League
-    "https://www.zerozero.pt/edition.php?id=193443",  # Conference League
-    
-    # Principais ligas europeias
-    "https://www.zerozero.pt/edition.php?id=193381",  # La Liga (Espanha)
-    "https://www.zerozero.pt/edition.php?id=193384",  # Serie A (Itália)
-    "https://www.zerozero.pt/edition.php?id=193379",  # Bundesliga (Alemanha)
-    "https://www.zerozero.pt/edition.php?id=193377",  # Ligue 1 (França)
-    "https://www.zerozero.pt/edition.php?id=189547",  # Premier League (Inglaterra)
 ]
 
 def fazer_requisicao(url, max_tentativas=3):

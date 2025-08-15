@@ -100,5 +100,22 @@
         "latitude": 32.67894354172962,
         "longitude": -16.85744078106183,
         "url": "https://www.zerozero.pt/equipa/benfica/22"
+    },
+    {
+        "id": "3969",
+        "club": "Ponterrolense",
+        "stadium": "Campo Novo",
+        "logo": "",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "",
+                "alt_text": "ponterrolense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.097090358954354,
+        "longitude": -9.327070930465402,
+        "url": "https://www.zerozero.pt/equipa/ponterrolense/3969"
     }
 ]
