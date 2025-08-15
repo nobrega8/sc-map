@@ -342,6 +342,7 @@ def obter_dados_clube(url):
             "club": nome,
             "stadium": estadio_nome,
             "logo": logo_url,
+            "equipamentos": equipamentos,
             "address": morada,
             "latitude": lat,
             "longitude": lon,
@@ -354,7 +355,7 @@ def obter_dados_clube(url):
     except Exception as e:
         logger.error(f"Erro ao processar {url}: {e}")
         return {"id": extrair_id_clube(url), "club": None, "stadium": None, 
-                "logo": None, "address": None, "latitude": None, 
+                "logo": None, "equipamentos": [], "address": None, "latitude": None, 
                 "longitude": None, "url": url, "error": str(e)}
 
 def carregar_dados_existentes(arquivo_json="clubes.json"):

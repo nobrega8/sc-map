@@ -14,6 +14,28 @@ function criarIcon(logoUrl) {
     });
 }
 
+function createEquipmentHTML(equipamentos) {
+    if (!equipamentos || equipamentos.length === 0) {
+        return '';
+    }
+    
+    let equipmentHTML = '<div class="equipment-container">';
+    equipamentos.forEach(equipment => {
+        if (equipment.url) {
+            equipmentHTML += `
+                <div class="equipment-item">
+                    <img src="${equipment.url}" alt="${equipment.alt_text || equipment.type}" class="equipment-img" 
+                         onerror="this.style.display='none'">
+                    <span class="equipment-type">${equipment.type}</span>
+                </div>
+            `;
+        }
+    });
+    equipmentHTML += '</div>';
+    
+    return equipmentHTML;
+}
+
 fetch('clubes.json')
     .then(response => response.json())
     .then(data => {
@@ -24,10 +46,16 @@ fetch('clubes.json')
                     { icon: criarIcon(clube.logo) }
                 ).addTo(map);
 
+                const equipmentHTML = createEquipmentHTML(clube.equipamentos);
+                const stadiumInfo = clube.stadium ? `<div class="popup-info">Estádio: ${clube.stadium}</div>` : '';
+                
                 const popupHTML = `
-                    <b>${clube.club}</b><br>
-                    Estádio: ${clube.stadium}<br>
-                    <a href="${clube.url}" target="_blank">Ver no ZeroZero</a>
+                    <div class="popup-content">
+                        <div class="popup-title">${clube.club}</div>
+                        ${stadiumInfo}
+                        ${equipmentHTML}
+                        <a href="${clube.url}" target="_blank" class="popup-link">Ver no ZeroZero</a>
+                    </div>
                 `;
                 marker.bindPopup(popupHTML);
             }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "2178",
+    "club": null,
+    "stadium": null,
+    "logo": null,
+    "equipamentos": [],
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "url": "https://www.zerozero.pt/equipa/torreense/2178",
+    "error": "HTTPSConnectionPool(host='www.zerozero.pt', port=443): Max retries exceeded with url: /equipa/torreense/2178 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f02282fdfd0>: Failed to resolve 'www.zerozero.pt' ([Errno -5] No address associated with hostname)\"))"
+  }
+]

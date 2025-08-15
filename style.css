@@ -1,8 +1,110 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #map {
     height: 100%;
     width: 100%;
+}
+
+/* Frosted glass effects for popups */
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #333;
+}
+
+.leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Club icon styling */
+.club-icon {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.club-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px 0 rgba(31, 38, 135, 0.4);
+}
+
+/* Popup content styling */
+.popup-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.popup-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.popup-info {
+    margin: 8px 0;
+    color: #34495e;
+}
+
+.popup-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: rgba(52, 152, 219, 0.2);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2980b9;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.popup-link:hover {
+    background: rgba(52, 152, 219, 0.3);
+    border-color: rgba(52, 152, 219, 0.5);
+    transform: translateY(-2px);
+}
+
+.equipment-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.equipment-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.equipment-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+}
+
+.equipment-type {
+    font-size: 10px;
+    margin-top: 3px;
+    color: #7f8c8d;
+    text-transform: capitalize;
 }
