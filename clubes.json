@@ -1,14 +1,19 @@
 [
-  {
-    "id": "2178",
-    "club": null,
-    "stadium": null,
-    "logo": null,
-    "equipamentos": [],
-    "address": null,
-    "latitude": null,
-    "longitude": null,
-    "url": "https://www.zerozero.pt/equipa/torreense/2178",
-    "error": "HTTPSConnectionPool(host='www.zerozero.pt', port=443): Max retries exceeded with url: /equipa/torreense/2178 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f02282fdfd0>: Failed to resolve 'www.zerozero.pt' ([Errno -5] No address associated with hostname)\"))"
-  }
+    {
+        "id": "2178",
+        "club": "Torreense",
+        "stadium": "Estádio Manuel Marques",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2178_imgbank_1682588244.png",
+        "equipamentos": [
+            {
+                "type": "casa",
+                "url": "https://www.zerozero.pt/img/logos/equipas/78/2178_shirt_20241118144730_torreense.png",
+                "alt_text": "Equipamento principal Torreense"
+            }
+        ],
+        "address": "Torres Vedras",
+        "latitude": 39.0908,
+        "longitude": -9.2581,
+        "url": "https://www.zerozero.pt/equipa/torreense/2178"
+    }
 ]
