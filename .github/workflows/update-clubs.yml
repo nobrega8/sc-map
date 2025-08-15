@@ -1,0 +1,33 @@
+name: Atualizar Clubes
+
+on:
+  push:
+    paths:
+      - 'queries.json'
+
+jobs:
+  update_clubes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 geopy
+
+      - name: Run scraper for new queries
+        run: |
+          python scraper.py --process-queries
+
+      - name: Commit updated clubes.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add clubes.json
+          git commit -m "Atualizar clubes a partir de queries.json" || echo "No changes to commit"
+          git push
