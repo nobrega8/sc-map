@@ -49,5 +49,56 @@
         "latitude": 39.239725857087585,
         "longitude": -9.309107208662232,
         "url": "https://www.zerozero.pt/equipa/lourinhanense/3598"
+    },
+    {
+        "id": "19",
+        "club": "Académica OAF",
+        "stadium": "Estádio Municipal da Cidade de Coimbra",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19_imgbank_1752061481.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/19/19_shirt_20231227103544_academica_oaf.png",
+                "alt_text": "académica oaf"
+            }
+        ],
+        "address": null,
+        "latitude": 40.20289574659429,
+        "longitude": -8.407569212880802,
+        "url": "https://www.zerozero.pt/equipa/academica-oaf/19"
+    },
+    {
+        "id": "3",
+        "club": "Belenenses",
+        "stadium": "Estádio do Restelo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3_imgbank_1682589777.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/03/3_shirt_20250523113255_belenenses.png",
+                "alt_text": "belenenses"
+            }
+        ],
+        "address": null,
+        "latitude": 38.702135423428984,
+        "longitude": -9.207755425230948,
+        "url": "https://www.zerozero.pt/equipa/belenenses/3"
+    },
+    {
+        "id": "22",
+        "club": "União Madeira",
+        "stadium": "",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/22_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/22/22_shirt_20190422104859_u_madeira.png",
+                "alt_text": "união madeira"
+            }
+        ],
+        "address": null,
+        "latitude": 32.67894354172962,
+        "longitude": -16.85744078106183,
+        "url": "https://www.zerozero.pt/equipa/benfica/22"
     }
 ]
