@@ -555,20 +555,9 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/88/57988_logo_adj_ajudense.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.71172909341134,
+        "longitude": -9.203717698105226,
         "url": "https://www.zerozero.pt/equipa/adj-ajudense/57988"
-    },
-    {
-        "id": "286025",
-        "club": "ADM BicesseFut.7  Jun.E S11",
-        "stadium": " ",
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/54/25054_logo_adm_bicesse.jpg",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/adm-bicesse/286025"
     },
     {
         "id": "74299",
@@ -577,8 +566,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/99/74299_logo_adr_achada.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.96911302862067,
+        "longitude": -9.362896369023204,
         "url": "https://www.zerozero.pt/equipa/adr-achada/74299"
     },
     {
@@ -599,8 +588,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/26/311726_logo_adr_paraiso.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.11515422876845,
+        "longitude": -8.884209687798856,
         "url": "https://www.zerozero.pt/equipa/adr-paraiso/311726"
     },
     {
@@ -610,8 +599,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/59/69259_logo_af_lisboa.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.72485156557863,
+        "longitude": -9.152104119673245,
         "url": "https://www.zerozero.pt/equipa/af-lisboa/69259"
     },
     {
@@ -621,31 +610,9 @@
         "logo": "https://www.zerozero.pt/img/logos/equipas/",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.81183454279344,
+        "longitude": -9.180359791086273,
         "url": "https://www.zerozero.pt/equipa/am-torres-bela-vista/287025"
-    },
-    {
-        "id": "276416",
-        "club": "AMSACFeminino",
-        "stadium": " ",
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4363_imgbank_1711978327.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/amsac/276416"
-    },
-    {
-        "id": "310336",
-        "club": "APSS Esp. Ponte Bica",
-        "stadium": " ",
-        "logo": "https://www.zerozero.pt/img/logos/equipas/",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/apss-esp-ponte-bica/310336"
     },
     {
         "id": "62338",
@@ -654,8 +621,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/38/62338_logo_santa_cruz.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.12432203260512,
+        "longitude": -8.015974431520865,
         "url": "https://www.zerozero.pt/equipa/arc-santa-cruz/62338"
     },
     {
@@ -665,8 +632,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/07/21207_logo_atm_bairro_loios.jpg",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.75956382716361,
+        "longitude": -9.12316040500142,
         "url": "https://www.zerozero.pt/equipa/atm-bairro-loios/287033"
     },
     {
