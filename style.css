@@ -29,14 +29,12 @@ html, body {
 /* Club icon styling */
 .club-icon {
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
 }
 
 .club-icon:hover {
     transform: scale(1.1);
-    box-shadow: 0 6px 20px 0 rgba(31, 38, 135, 0.4);
 }
 
 /* Popup content styling */

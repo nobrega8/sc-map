@@ -7,6 +7,7 @@ import logging
 import re
 from urllib.parse import urljoin, urlparse, parse_qs
 import os
+import csv
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -337,6 +338,11 @@ def obter_dados_clube(url):
             except Exception as geo_error:
                 logger.error(f"Erro na geocodificação: {geo_error}")
         
+        # Only return club data if we have valid coordinates
+        if lat is None or lon is None:
+            logger.warning(f"⚠️ {nome} (ID: {clube_id}) - Coordenadas não encontradas, não será salvo")
+            return None
+        
         resultado = {
             "id": clube_id,
             "club": nome,
@@ -354,9 +360,34 @@ def obter_dados_clube(url):
         
     except Exception as e:
         logger.error(f"Erro ao processar {url}: {e}")
-        return {"id": extrair_id_clube(url), "club": None, "stadium": None, 
-                "logo": None, "equipamentos": [], "address": None, "latitude": None, 
-                "longitude": None, "url": url, "error": str(e)}
+        return None
+
+def carregar_clubes_csv(arquivo_csv="clubes_zerozero.csv"):
+    """
+    Carrega lista de clubes do arquivo CSV
+    """
+    clubes_csv = []
+    
+    if not os.path.exists(arquivo_csv):
+        logger.warning(f"Arquivo CSV {arquivo_csv} não encontrado")
+        return clubes_csv
+    
+    try:
+        with open(arquivo_csv, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if 'nome' in row and 'url' in row:
+                    clubes_csv.append({
+                        'nome': row['nome'].strip(),
+                        'url': row['url'].strip()
+                    })
+        
+        logger.info(f"📋 {len(clubes_csv)} clubes carregados do CSV")
+        return clubes_csv
+        
+    except Exception as e:
+        logger.error(f"Erro ao ler CSV {arquivo_csv}: {e}")
+        return clubes_csv
 
 def carregar_dados_existentes(arquivo_json="clubes.json"):
     """
@@ -384,43 +415,61 @@ def salvar_dados(dados_clubes, arquivo_json="clubes.json"):
         return False
 
 def main():
-    """Função principal - descoberta automática de clubes"""
-    logger.info("🚀 Iniciando descoberta automática de clubes portugueses...")
+    """Função principal - processa CSV primeiro, depois descoberta automática"""
+    logger.info("🚀 Iniciando processamento de clubes...")
     
     # Carrega dados existentes
     dados_existentes = carregar_dados_existentes()
     ids_existentes = {clube.get('id') for clube in dados_existentes if clube.get('id')}
     logger.info(f"📋 {len(dados_existentes)} clubes já existem no arquivo")
     
-    # Descobre novos clubes
+    dados_novos = []
+    
+    # 1. Primeiro processa clubes do CSV
+    logger.info("📄 Processando clubes do CSV...")
+    clubes_csv = carregar_clubes_csv()
+    
+    for clube_csv in clubes_csv:
+        url = clube_csv['url']
+        clube_id = extrair_id_clube(url)
+        
+        if clube_id and clube_id not in ids_existentes:
+            logger.info(f"📌 Processando clube do CSV: {clube_csv['nome']}")
+            dados = obter_dados_clube(url)
+            if dados:  # Só adiciona se tiver coordenadas válidas
+                dados_novos.append(dados)
+                ids_existentes.add(clube_id)  # Evita reprocessar na descoberta automática
+            time.sleep(3)  # Pausa entre requests
+    
+    logger.info(f"✅ {len([d for d in dados_novos if d])} clubes do CSV processados com sucesso")
+    
+    # 2. Depois faz descoberta automática (opcional)
+    logger.info("🔍 Iniciando descoberta automática...")
     clubes_descobertos = descobrir_clubes_multiplas_competicoes()
     
-    # Filtra clubes novos
+    # Filtra clubes novos (que não estão no CSV nem já processados)
     clubes_novos = {id_clube: url for id_clube, url in clubes_descobertos.items() 
                    if id_clube not in ids_existentes}
     
-    logger.info(f"🆕 {len(clubes_novos)} clubes novos para processar")
+    logger.info(f"🆕 {len(clubes_novos)} clubes novos para descoberta automática")
     
-    if not clubes_novos:
-        logger.info("✅ Nenhum clube novo encontrado!")
-        return
+    # Processa clubes descobertos automaticamente
+    if clubes_novos:
+        total = len(clubes_novos)
+        for i, (clube_id, url) in enumerate(clubes_novos.items(), 1):
+            logger.info(f"📌 Processando descoberta {i}/{total}: ID {clube_id}")
+            
+            dados = obter_dados_clube(url)
+            if dados:  # Só adiciona se tiver coordenadas válidas
+                dados_novos.append(dados)
+            
+            # Pausa entre requests
+            if i < total:
+                time.sleep(3)
     
-    # Processa clubes novos
-    dados_novos = []
-    total = len(clubes_novos)
-    
-    for i, (clube_id, url) in enumerate(clubes_novos.items(), 1):
-        logger.info(f"📌 Processando clube {i}/{total}: ID {clube_id}")
-        
-        dados = obter_dados_clube(url)
-        dados_novos.append(dados)
-        
-        # Pausa entre requests
-        if i < total:
-            time.sleep(3)
-    
-    # Combina dados existentes com novos
-    todos_dados = dados_existentes + dados_novos
+    # Combina dados existentes com novos (filtra None values)
+    dados_validos_novos = [dados for dados in dados_novos if dados is not None]
+    todos_dados = dados_existentes + dados_validos_novos
     
     # Remove duplicados baseado no ID
     dados_unicos = {}
@@ -428,22 +477,19 @@ def main():
         clube_id = clube.get('id')
         if clube_id and clube_id not in dados_unicos:
             dados_unicos[clube_id] = clube
-        elif not clube_id:  # Dados sem ID (erros)
-            dados_unicos[f"erro_{len(dados_unicos)}"] = clube
     
     dados_finais = list(dados_unicos.values())
     
     # Salva resultado
     if salvar_dados(dados_finais):
-        sucessos = sum(1 for clube in dados_finais if clube.get('club'))
-        logger.info(f"🎯 Resultado final: {sucessos}/{len(dados_finais)} clubes processados")
-        logger.info(f"📊 {len(dados_novos)} clubes novos adicionados")
+        sucessos = len(dados_finais)
+        logger.info(f"🎯 Resultado final: {sucessos} clubes salvos")
+        logger.info(f"📊 {len(dados_validos_novos)} clubes novos adicionados")
         
         # Mostra alguns exemplos
         for clube in dados_finais[-5:]:  # Últimos 5
-            if clube.get('club'):
-                coords = f"({clube['latitude']}, {clube['longitude']})" if clube['latitude'] else "sem coords"
-                logger.info(f"  ✓ {clube['club']} (ID: {clube['id']}) - {coords}")
+            coords = f"({clube['latitude']}, {clube['longitude']})"
+            logger.info(f"  ✓ {clube['club']} (ID: {clube['id']}) - {coords}")
 
 if __name__ == "__main__":
     main()
