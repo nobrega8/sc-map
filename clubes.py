@@ -15,14 +15,15 @@ DELAY = 3
 
 # URLs base para competições portuguesas e principais europeias
 COMPETICOES = [
-    #alguns
-    "https://www.zerozero.pt/competicao/supertaca-candido-de-oliveira",
-    "https://www.zerozero.pt/competicao/liga-portuguesa",
-    "https://www.zerozero.pt/competicao/taca-de-portugal",
-    "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
-    "https://www.zerozero.pt/competicao/liga-3",
-    "https://www.zerozero.pt/associacao/af-lisboa",
-    "https://www.zerozero.pt/competicao/liga-inglesa"
+    "https://www.zerozero.pt/competicao/liga-inglesa",
+    "https://www.zerozero.pt/competicao/liga-espanhola",
+    "https://www.zerozero.pt/competicao/liga-italiana",
+    "https://www.zerozero.pt/competicao/brasileirao-serie-a",
+    "https://www.zerozero.pt/competicao/liga-francesa",
+    "https://www.zerozero.pt/competicao/liga-alema",
+    "https://www.zerozero.pt/competicao/major-league-soccer",
+    "https://www.zerozero.pt/competicao/liga-neerlandesa",
+    "https://www.zerozero.pt/competicao/liga-turca"
 ]
 
 def fazer_requisicao(url, max_tentativas=3):
