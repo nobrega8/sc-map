@@ -1,42 +1,76 @@
 nome,url
-FC Famalicão, https://www.zerozero.pt/equipa/fc-famalicao/2175
-FC Porto, https://www.zerozero.pt/equipa/fc-porto
-SC Braga, https://www.zerozero.pt/equipa/sc-braga
-FC Arouca, https://www.zerozero.pt/equipa/fc-arouca/3555
-Gil Vicente, https://www.zerozero.pt/equipa/gil-vicente
-Sporting CP, https://www.zerozero.pt/equipa/sporting
-Maritimo, https://www.zerozero.pt/equipa/maritimo
-Moreirense, https://www.zerozero.pt/equipa/moreirense/6
-Estrela Amadora, https://www.zerozero.pt/equipa/est-amadora/253884
-Estoril Praia, https://www.zerozero.pt/equipa/estoril-praia/1734
-Rio Ave, https://www.zerozero.pt/equipa/rio-ave/31
-Alverca, https://www.zerozero.pt/equipa/fc-alverca/1
-Casa Pia, https://www.zerozero.pt/equipa/casa-pia-ac/2412
-Nacional, https://www.zerozero.pt/equipa/nacional/27
-Santa Clara, https://www.zerozero.pt/equipa/santa-clara/32
-Tondela, https://www.zerozero.pt/equipa/cd-tondela/4336
-Leixões, https://www.zerozero.pt/equipa/leixoes/1727
-Portimonense, https://www.zerozero.pt/equipa/portimonense/33
-Vizela, https://www.zerozero.pt/equipa/fc-vizela/2197
-Lusitania de Lourosa, https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599
-GD Chaves, https://www.zerozero.pt/equipa/gd-chaves/20
-Farense, https://www.zerozero.pt/equipa/farense/10
-Oliveirense, https://www.zerozero.pt/equipa/ud-oliveirense/2199
-Feirense, https://www.zerozero.pt/equipa/feirense/1728
-Académico, https://www.zerozero.pt/equipa/academico/2181
-Penafiel, https://www.zerozero.pt/equipa/fc-penafiel/30
-Felgueiras, https://www.zerozero.pt/equipa/fc-felgueiras/11129
-Olhanense, https://www.zerozero.pt/equipa/olhanense/2172
-Fafe, https://www.zerozero.pt/equipa/fafe/2191
-Amarante, https://www.zerozero.pt/equipa/amarante-fc/4330
-Varzim, https://www.zerozero.pt/equipa/varzim/36
-Trofense, https://www.zerozero.pt/equipa/trofense/3664
-Anadia, https://www.zerozero.pt/equipa/anadia-fc/3554
-São João Ver, https://www.zerozero.pt/equipa/s-joao-ver/3642
-Vilaverdense, https://www.zerozero.pt/equipa/vilaverdense-fc/3676
-Sanjoanense, https://www.zerozero.pt/equipa/ad-sanjoanense/2185
-Santarém, https://www.zerozero.pt/associacao/af-santarem
-Atlético CP, https://www.zerozero.pt/equipa/atletico-cp/2170
-Caldas SC, https://www.zerozero.pt/equipa/caldas-sc/2182
-Oliveira Hospital, https://www.zerozero.pt/equipa/fc-oliv-hospital/3618
-Lusitania dos Açores, https://www.zerozero.pt/equipa/lusitania-dos-acores/3601
+FC Famalicão,https://www.zerozero.pt/equipa/fc-famalicao/2175
+FC Porto,https://www.zerozero.pt/equipa/fc-porto
+SC Braga,https://www.zerozero.pt/equipa/sc-braga
+FC Arouca,https://www.zerozero.pt/equipa/fc-arouca/3555
+Gil Vicente,https://www.zerozero.pt/equipa/gil-vicente
+Sporting CP,https://www.zerozero.pt/equipa/sporting
+Maritimo,https://www.zerozero.pt/equipa/maritimo
+Moreirense,https://www.zerozero.pt/equipa/moreirense/6
+Estrela Amadora,https://www.zerozero.pt/equipa/est-amadora/253884
+Estoril Praia,https://www.zerozero.pt/equipa/estoril-praia/1734
+Rio Ave,https://www.zerozero.pt/equipa/rio-ave/31
+Alverca,https://www.zerozero.pt/equipa/fc-alverca/1
+Casa Pia,https://www.zerozero.pt/equipa/casa-pia-ac/2412
+Nacional,https://www.zerozero.pt/equipa/nacional/27
+Santa Clara,https://www.zerozero.pt/equipa/santa-clara/32
+Tondela,https://www.zerozero.pt/equipa/cd-tondela/4336
+Leixões,https://www.zerozero.pt/equipa/leixoes/1727
+Portimonense,https://www.zerozero.pt/equipa/portimonense/33
+Vizela,https://www.zerozero.pt/equipa/fc-vizela/2197
+Lusitania de Lourosa,https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599
+GD Chaves,https://www.zerozero.pt/equipa/gd-chaves/20
+Farense,https://www.zerozero.pt/equipa/farense/10
+Oliveirense,https://www.zerozero.pt/equipa/ud-oliveirense/2199
+Feirense,https://www.zerozero.pt/equipa/feirense/1728
+Académico,https://www.zerozero.pt/equipa/academico/2181
+Penafiel,https://www.zerozero.pt/equipa/fc-penafiel/30
+Felgueiras,https://www.zerozero.pt/equipa/fc-felgueiras/11129
+Olhanense,https://www.zerozero.pt/equipa/olhanense/2172
+Fafe,https://www.zerozero.pt/equipa/fafe/2191
+Amarante,https://www.zerozero.pt/equipa/amarante-fc/4330
+Varzim,https://www.zerozero.pt/equipa/varzim/36
+Trofense,https://www.zerozero.pt/equipa/trofense/3664
+Anadia,https://www.zerozero.pt/equipa/anadia-fc/3554
+São João Ver,https://www.zerozero.pt/equipa/s-joao-ver/3642
+Vilaverdense,https://www.zerozero.pt/equipa/vilaverdense-fc/3676
+Sanjoanense,https://www.zerozero.pt/equipa/ad-sanjoanense/2185
+Santarém,https://www.zerozero.pt/associacao/af-santarem
+Atlético CP,https://www.zerozero.pt/equipa/atletico-cp/2170
+Caldas SC,https://www.zerozero.pt/equipa/caldas-sc/2182
+Oliveira Hospital,https://www.zerozero.pt/equipa/fc-oliv-hospital/3618
+Lusitania dos Açores,https://www.zerozero.pt/equipa/lusitania-dos-acores/3601
+GS Loures,https://www.zerozero.pt/equipa/gs-loures/3597
+Oriental,https://www.zerozero.pt/equipa/oriental/2176
+Alta de Lisboa,https://www.zerozero.pt/equipa/alta-de-lisboa/3963
+Malveira,https://www.zerozero.pt/equipa/at-malveira/3558
+Moscavide,https://www.zerozero.pt/equipa/desportivo-o-moscavide/3700
+Real SC,https://www.zerozero.pt/equipa/real-sc/3632
+Sp. Lourel,https://www.zerozero.pt/equipa/sp-lourel/3958
+Sacavense,https://www.zerozero.pt/equipa/sacavenense/3644
+Ericeirense,https://www.zerozero.pt/equipa/ericeirense/3957
+Murteirense,https://www.zerozero.pt/equipa/associacao-murteirense/28970
+Atletico Cacém,https://www.zerozero.pt/equipa/atletico-cacem/3880
+At. Tojal,https://www.zerozero.pt/equipa/at-tojal/10223
+GDS Cascais,https://www.zerozero.pt/equipa/gds-cascais/7943
+GD Vialonga,https://www.zerozero.pt/equipa/gd-vialonga/3671
+Santo António Lisboa,https://www.zerozero.pt/equipa/santo-antonio-lisboa/10880
+Damaiense,https://www.zerozero.pt/equipa/damaiense/11188
+Bobadelense,https://www.zerozero.pt/equipa/bobadelense/11206
+Santa Iria,https://www.zerozero.pt/equipa/santa-iria/10856
+Linda-a-Velha,https://www.zerozero.pt/equipa/linda-a-velha/7990
+Vila F. Rosário,https://www.zerozero.pt/equipa/vila-f-rosario/10853
+U. Tires,https://www.zerozero.pt/equipa/u-tires/3882
+Arneiros,https://www.zerozero.pt/equipa/arneiros/11178
+Venda do Pinheiro,https://www.zerozero.pt/equipa/venda-do-pinheiro/6393
+União dos Santos,https://www.zerozero.pt/equipa/uniao-dos-santos/217690
+Águias de Camarate,https://www.zerozero.pt/equipa/aguias-de-camarate/3908
+Jerumelo,https://www.zerozero.pt/equipa/jerumelo/10852
+CD Belas,https://www.zerozero.pt/equipa/cd-belas/10219
+CSD Bairro da Boavista,https://www.zerozero.pt/equipa/csd-bairro-da-boavista/74820
+Ponte Frielas,https://www.zerozero.pt/equipa/ponte-frielas/11207
+Fundação Salesianos,https://www.zerozero.pt/equipa/fundacao-salesianos/86489
+São Pedro,https://www.zerozero.pt/equipa/sao-pedro/11181
+Aboboda,https://www.zerozero.pt/equipa/aboboda/12819
+Sobreirense,https://www.zerozero.pt/equipa/sobreirense/11169
+Operário Lisboa,https://www.zerozero.pt/equipa/operario-lisboa/12335
