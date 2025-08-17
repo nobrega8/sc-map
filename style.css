@@ -35,6 +35,24 @@ html, body {
     transform: scale(1.1);
 }
 
+/* Placeholder icon styling */
+.placeholder-icon {
+    background: rgba(52, 152, 219, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.placeholder-club-icon {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+}
+
 /* Popup content styling */
 .popup-content {
     text-align: center;
