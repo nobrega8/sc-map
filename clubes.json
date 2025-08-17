@@ -1861,8 +1861,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.80786426942413,
+        "longitude": -9.33327261825644,
         "url": "https://www.zerozero.pt/equipa/rd-algueirao/12674"
     },
     {
@@ -1878,8 +1878,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.04576805752226,
+        "longitude": -9.001966346705172,
         "url": "https://www.zerozero.pt/equipa/alenquer-e-benfica/3905"
     },
     {
@@ -1923,8 +1923,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.793270182530996,
+        "longitude": -9.326630355035629,
         "url": "https://www.zerozero.pt/equipa/uniao-merces/12716"
     },
     {
@@ -1957,8 +1957,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.778346455342664,
+        "longitude": -9.205458785178982,
         "url": "https://www.zerozero.pt/equipa/tenente-valdez/12545"
     },
     {
@@ -1968,8 +1968,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11197_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.92141305759614,
+        "longitude": -9.292780764615035,
         "url": "https://www.zerozero.pt/equipa/alcainca-ac/11197"
     },
     {
@@ -1985,8 +1985,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.743212339234105,
+        "longitude": -9.22674515212149,
         "url": "https://www.zerozero.pt/equipa/lisboa-sc/32132"
     },
     {
@@ -2002,8 +2002,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.70004841165095,
+        "longitude": -9.440713060589218,
         "url": "https://www.zerozero.pt/equipa/assoc-torre/3962"
     },
     {
@@ -2019,8 +2019,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.76206127583298,
+        "longitude": -9.10759562143579,
         "url": "https://www.zerozero.pt/equipa/sl-olivais/3708"
     },
     {
@@ -2118,5 +2118,71 @@
         "latitude": 32.6468371,
         "longitude": -16.9014788,
         "url": "https://www.zerozero.pt/equipa/arsenal-72/15002"
+    },
+    {
+        "id": "999991",
+        "club": "Fc Porto",
+        "stadium": "Estádio do Dragão",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 41.161632657942164,
+        "longitude": -8.583869952546106,
+        "url": "https://www.zerozero.pt/equipa/fc-porto/999991"
+    },
+    {
+        "id": "999992",
+        "club": "Maritimo",
+        "stadium": "Estádio dos Barreiros",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 32.64569870710826,
+        "longitude": -16.92856680554994,
+        "url": "https://www.zerozero.pt/equipa/maritimo/999992"
+    },
+    {
+        "id": "7890333",
+        "club": "Sc Braga",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 41.56734720879225,
+        "longitude": -8.425597259988999,
+        "url": "https://www.zerozero.pt/equipa/sc-braga/7890333"
+    },
+    {
+        "id": "7737148429",
+        "club": "Gil Vicente",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 41.55107701362607,
+        "longitude": -8.622856620128811,
+        "url": "https://www.zerozero.pt/equipa/gil-vicente/7737148429"
+    },
+    {
+        "id": "75842924",
+        "club": "Sporting",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 38.760760901279106,
+        "longitude": -9.160368400546037,
+        "url": "https://www.zerozero.pt/equipa/sporting/75842924"
+    },
+    {
+        "id": "784924240",
+        "club": "Associação de Futebol de Santarém",
+        "stadium": null,
+        "logo": null,
+        "equipamentos": [],
+        "address": null,
+        "latitude": 39.23180035685741,
+        "longitude": -8.686150388665137,
+        "url": "https://www.zerozero.pt/associacao/af-santarem/784924240"
     }
 ]
