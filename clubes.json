@@ -609,7 +609,7 @@
         "id": "2181",
         "club": "Académico",
         "stadium": "Estádio Municipal do Fontelo",
-        "logo": "https://www.zerozero.pt/img_icon/logos/equipas/5670_imgbank.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas_a_data/4555_logo__20250806143546.png",
         "equipamentos": [
             {
                 "type": "desconhecido",
@@ -1720,8 +1720,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/15003_imgbank_1712656101.png",
         "equipamentos": [],
         "address": null,
-        "latitude": 38.3676435,
-        "longitude": -8.5008592,
+        "latitude": 38.801051382096,
+        "longitude": -9.235444934661542,
         "url": "https://www.zerozero.pt/equipa/fc-despertar/15003"
     },
     {
@@ -2184,5 +2184,1474 @@
         "latitude": 39.23180035685741,
         "longitude": -8.686150388665137,
         "url": "https://www.zerozero.pt/associacao/af-santarem/84447"
+    },
+    {
+        "id": "13705",
+        "club": "1. FC Heidenheim 1846",
+        "stadium": "Voith-Arena",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/13705_imgbank_1683884953.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/05/13705_shirt_20240208165243_1_fc_heidenheim_1846.jpg",
+                "alt_text": "1. fc heidenheim 1846"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/1-fc-heidenheim-1846/13705"
+    },
+    {
+        "id": "37",
+        "club": "Alavés",
+        "stadium": "Mendizorroza",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/37_imgbank_1684485278.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/37/37_shirt_20210504142138_alaves.png",
+                "alt_text": "alavés"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/alaves/37"
+    },
+    {
+        "id": "3828",
+        "club": "Angers",
+        "stadium": "Stade Raymond-Kopa",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3828_imgbank_1684500425.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/28/3828_shirt_20210504174756_angers.png",
+                "alt_text": "angers"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/angers/3828"
+    },
+    {
+        "id": "7882",
+        "club": "Antalyaspor",
+        "stadium": "Antalya Stadyumu",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7882_imgbank_1687939392.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/82/7882_shirt_20210507173613_antalyaspor.png",
+                "alt_text": "antalyaspor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/antalyaspor/7882"
+    },
+    {
+        "id": "867005",
+        "club": "Arsenal",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/arsenal/867005"
+    },
+    {
+        "id": "76",
+        "club": "Aston Villa",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/76_imgbank_1717164084.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/76/76_shirt_20241004113939_aston_villa.png",
+                "alt_text": "aston villa"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/aston-villa/76"
+    },
+    {
+        "id": "101805",
+        "club": "Atlanta United",
+        "stadium": "Mercedes-Benz Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/101805_imgbank_1686736758.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/atlanta-united/101805"
+    },
+    {
+        "id": "237366",
+        "club": "Austin FC",
+        "stadium": "Q2 Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/237366_imgbank_1686662533.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/austin-fc/237366"
+    },
+    {
+        "id": "114",
+        "club": "Auxerre",
+        "stadium": "Stade de l´Abbé-Deschamps",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/114_imgbank_1684487707.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/14/114_shirt_20210505234138_auxerre.png",
+                "alt_text": "auxerre"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/auxerre/114"
+    },
+    {
+        "id": "2231",
+        "club": "Bahia",
+        "stadium": "Arena Fonte Nova",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2231_imgbank_1683640771.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/31/2231_shirt_20200115114213_bahia.png",
+                "alt_text": "bahia"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/bahia/2231"
+    },
+    {
+        "id": "5",
+        "club": "Boavista",
+        "stadium": "Estádio do Bessa Séc. XXI",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5_imgbank_1683106885.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/05/5_shirt_20241014152921_boavista.png",
+                "alt_text": "boavista"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/boavista/5"
+    },
+    {
+        "id": "58",
+        "club": "Bologna",
+        "stadium": "Stadio Renato Dall´Ara",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58_imgbank_1683890729.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/58/58_shirt_20240422113836_bologna.png",
+                "alt_text": "bologna"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/bologna/58"
+    },
+    {
+        "id": "4929",
+        "club": "Bournemouth",
+        "stadium": "Adepto que abusou racialmente de Semenyo banido de estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4929_imgbank_1683908293.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/4929_shirt_20210507113406_afc_bournemouth.png",
+                "alt_text": "bournemouth"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/bournemouth/4929"
+    },
+    {
+        "id": "2460",
+        "club": "USM Blida",
+        "stadium": "Stade Moustapha Tchaker",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/2460_logo_usm_blida.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/braga/2460"
+    },
+    {
+        "id": "2600",
+        "club": "Brentford",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2600_imgbank_1683908103.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/00/2600_shirt_20250715150207_brentford.png",
+                "alt_text": "brentford"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/brentford/2600"
+    },
+    {
+        "id": "2580",
+        "club": "Burnley",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2580_imgbank_1691751345.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/80/2580_shirt_20210507090900_burnley.png",
+                "alt_text": "burnley"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/burnley/2580"
+    },
+    {
+        "id": "9865",
+        "club": "CF Montréal",
+        "stadium": "Stade Saputo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/9865_imgbank_1686736441.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/65/9865_shirt_impact_montreal.png",
+                "alt_text": "cf montréal"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cf-montreal/9865"
+    },
+    {
+        "id": "3720",
+        "club": "Cagliari",
+        "stadium": "Sardegna Arena",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3720_imgbank_1683903517.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/20/3720_shirt_20240422113843_cagliari.png",
+                "alt_text": "cagliari"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cagliari/3720"
+    },
+    {
+        "id": "2543",
+        "club": "Ituano",
+        "stadium": "Dr. Novelli Júnior",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2543_imgbank_1683641599.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/43/2543_shirt_20230827162848_ituano.png",
+                "alt_text": "ituano"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/casa_pia/2543"
+    },
+    {
+        "id": "86717",
+        "club": "Caykur Rizespor",
+        "stadium": "Yeni Rize Şehir Stadı",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86717_imgbank_1687957302.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/17/86717_shirt_20210507173607_caykur_rizespor.png",
+                "alt_text": "caykur rizespor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/caykur-rizespor/86717"
+    },
+    {
+        "id": "257515",
+        "club": "Charlotte FC",
+        "stadium": "Bank of America Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/257515_imgbank_1686662478.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/charlotte-fc/257515"
+    },
+    {
+        "id": "2470",
+        "club": "MC Oran",
+        "stadium": "Stade Ahmed Zabana",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2470_imgbank_1688037691.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/70/2470_shirt_20220321083230_mc_oran.png",
+                "alt_text": "mc oran"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/chaves/2470"
+    },
+    {
+        "id": "867004",
+        "club": "Chelsea",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/chelsea/867004"
+    },
+    {
+        "id": "2492",
+        "club": "Chicago Fire",
+        "stadium": "Soldier Field",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2492_imgbank_1686647582.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/92/2492_shirt_chicago_fire.png",
+                "alt_text": "chicago fire"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/chicago-fire/2492"
+    },
+    {
+        "id": "2494",
+        "club": "Columbus Crew",
+        "stadium": "Lower.com Field",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2494_imgbank_1686647777.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/94/2494_shirt_columbus_crew.png",
+                "alt_text": "columbus crew"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/columbus-crew/2494"
+    },
+    {
+        "id": "61",
+        "club": "Como 1907",
+        "stadium": "Stadio Giuseppe Sinigaglia",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61_imgbank_1683902263.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/61/61_shirt_20220714154820_como.png",
+                "alt_text": "como 1907"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/como-1907/61"
+    },
+    {
+        "id": "3725",
+        "club": "Cremonese",
+        "stadium": "Giovanni Zini",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3725_imgbank_1683890542.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/25/3725_shirt_20210507090539_cremonese.png",
+                "alt_text": "cremonese"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cremonese/3725"
+    },
+    {
+        "id": "2495",
+        "club": "DC United",
+        "stadium": "Audi Field",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2495_imgbank_1686647949.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/95/2495_shirt_20200301213017_dc_united.png",
+                "alt_text": "dc united"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/dc-united/2495"
+    },
+    {
+        "id": "2548",
+        "club": "Elche",
+        "stadium": "Manuel Martínez Valero",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2548_imgbank_1684423957.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/48/2548_shirt_20210504142219_elche.png",
+                "alt_text": "elche"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/elche/2548"
+    },
+    {
+        "id": "43",
+        "club": "Espanyol",
+        "stadium": "RCDE Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/43_imgbank_1684423033.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/43/43_shirt_20210505203818_espanyol.png",
+                "alt_text": "espanyol"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/espanyol/43"
+    },
+    {
+        "id": "82",
+        "club": "Everton",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82_imgbank_1683906570.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/82/82_shirt_20210507090658_everton.png",
+                "alt_text": "everton"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/everton/82"
+    },
+    {
+        "id": "5359",
+        "club": "Excelsior",
+        "stadium": "Woudestein",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5359_imgbank_1687180745.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/59/5359_shirt_excelsior.png",
+                "alt_text": "excelsior"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/excelsior/5359"
+    },
+    {
+        "id": "24502",
+        "club": "Eyupspor",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/24502_imgbank_1687942010.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/02/24502_shirt_20200402085818_eyupspor.png",
+                "alt_text": "eyupspor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/eyupspor/24502"
+    },
+    {
+        "id": "1933",
+        "club": "FC Groningen",
+        "stadium": "Euroborg",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1933_imgbank_1687180673.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/33/1933_shirt_20210507135251_fc_groningen.png",
+                "alt_text": "fc groningen"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-groningen/1933"
+    },
+    {
+        "id": "5038",
+        "club": "FC St. Pauli",
+        "stadium": "Millerntor-Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5038_imgbank_1683887849.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/38/5038_shirt_20210507103756_fc_st_pauli.png",
+                "alt_text": "fc st. pauli"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-st-pauli/5038"
+    },
+    {
+        "id": "1935",
+        "club": "FC Volendam",
+        "stadium": "Kras Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1935_imgbank_1687180698.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/35/1935_shirt_fc_volendam.png",
+                "alt_text": "fc volendam"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-volendam/1935"
+    },
+    {
+        "id": "8210",
+        "club": "FC Augsburg",
+        "stadium": "WWK Arena",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8210_imgbank_1683732701.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/10/8210_shirt_20240208165134_fc_augsburg.jpg",
+                "alt_text": "fc augsburg"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-augsburg/8210"
+    },
+    {
+        "id": "108516",
+        "club": "FC Cincinnati",
+        "stadium": "TQL Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/108516_imgbank_1686662824.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/16/108516_shirt_20190306103831_fc_cincinnati.png",
+                "alt_text": "fc cincinnati"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-cincinnati/108516"
+    },
+    {
+        "id": "1114",
+        "club": "FC Utrecht",
+        "stadium": "Stadion Galgenwaard",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1114_imgbank_1687180594.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/14/1114_shirt_20210507135239_fc_utrecht.png",
+                "alt_text": "fc utrecht"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fc-utrecht/1114"
+    },
+    {
+        "id": "4485",
+        "club": "Fortuna Sittard",
+        "stadium": "Fortuna Sittard Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4485_imgbank_1687180723.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/85/4485_shirt_20210507135322_fortuna_sittard.png",
+                "alt_text": "fortuna sittard"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fortuna-sittard/4485"
+    },
+    {
+        "id": "83",
+        "club": "Fulham",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/83_imgbank_1683906668.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/83/83_shirt_20210507090927_fulham.png",
+                "alt_text": "fulham"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fulham/83"
+    },
+    {
+        "id": "8697",
+        "club": "Gazisehir Gaziantep",
+        "stadium": "Gaziantep Kamil Ocak",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8697_imgbank_1687939110.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/97/8697_shirt_20210507173456_gazisehir_gaziantep.png",
+                "alt_text": "gazisehir gaziantep"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/gazisehir-gaziantep/8697"
+    },
+    {
+        "id": "1107",
+        "club": "Gençlerbirligi",
+        "stadium": "Eryaman Stadyumu",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1107_imgbank_1687940342.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/07/1107_shirt_20210507174611_genclerbirligi.png",
+                "alt_text": "gençlerbirligi"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/genclerbirligi/1107"
+    },
+    {
+        "id": "3728",
+        "club": "Genoa",
+        "stadium": "Luigi Ferraris",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3728_imgbank_1683903533.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/28/3728_shirt_20240305151357_genoa.jpg",
+                "alt_text": "genoa"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/genoa/3728"
+    },
+    {
+        "id": "3753",
+        "club": "Getafe",
+        "stadium": "Coliseum Alfonso Pérez",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3753_imgbank_1684422939.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/53/3753_shirt_20210504142124_getafe.png",
+                "alt_text": "getafe"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/getafe/3753"
+    },
+    {
+        "id": "5121",
+        "club": "Girona",
+        "stadium": "Estadio Municipal de Montilivi",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5121_imgbank_1684422339.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/21/5121_shirt_20210505233058_girona.png",
+                "alt_text": "girona"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/girona/5121"
+    },
+    {
+        "id": "5792",
+        "club": "Go Ahead Eagles",
+        "stadium": "De Adelaarshorst",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5792_imgbank_1687180766.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/92/5792_shirt_go_ahead_eagles.png",
+                "alt_text": "go ahead eagles"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/go-ahead-eagles/5792"
+    },
+    {
+        "id": "9050",
+        "club": "Goztepe",
+        "stadium": "Gürsel Aksel Stadyumu",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/9050_imgbank_1687941819.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/50/9050_shirt_20210507173505_goztepe.png",
+                "alt_text": "goztepe"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/goztepe/9050"
+    },
+    {
+        "id": "1929",
+        "club": "Heerenveen",
+        "stadium": "Abe Lenstra",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1929_imgbank_1687180626.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/1929_shirt_20231117091102_heerenveen.jpg",
+                "alt_text": "heerenveen"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/heerenveen/1929"
+    },
+    {
+        "id": "5948",
+        "club": "Heracles Almelo",
+        "stadium": "Polman Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5948_imgbank_1691139733.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/48/5948_shirt_20210507135304_heracles_almelo.png",
+                "alt_text": "heracles almelo"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/heracles-almelo/5948"
+    },
+    {
+        "id": "2246",
+        "club": "Juventude",
+        "stadium": "Alfredo Jaconi",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2246_imgbank_1683626208.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/46/2246_shirt_20240124163830_juventude.png",
+                "alt_text": "juventude"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/juventude/2246"
+    },
+    {
+        "id": "84935",
+        "club": "Karagumruk",
+        "stadium": "Vefa Stadi",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/84935_imgbank_1687875951.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/35/84935_shirt_20210507173511_karagumruk.png",
+                "alt_text": "karagumruk"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/karagumruk/84935"
+    },
+    {
+        "id": "8695",
+        "club": "Kasimpasa",
+        "stadium": "Recep Tayyip Erdoğan",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8695_imgbank_1687939225.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/95/8695_shirt_20210507173713_kasimpasa.png",
+                "alt_text": "kasimpasa"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/kasimpasa/8695"
+    },
+    {
+        "id": "4181",
+        "club": "Kayserispor",
+        "stadium": "Kadir Has",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4181_imgbank_1687939603.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/81/4181_shirt_20210507173723_kayserispor.png",
+                "alt_text": "kayserispor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/kayserispor/4181"
+    },
+    {
+        "id": "3875",
+        "club": "Kocaelispor",
+        "stadium": "Kocaeli Stadyumu",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3875_imgbank_1687941245.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/75/3875_shirt_kocaelispor.gif",
+                "alt_text": "kocaelispor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/kocaelispor/3875"
+    },
+    {
+        "id": "118",
+        "club": "Le Havre",
+        "stadium": "Stade Océane",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/118_imgbank_1729691946.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/18/118_shirt_20210505234359_le_havre.png",
+                "alt_text": "le havre"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/le-havre/118"
+    },
+    {
+        "id": "1129",
+        "club": "Lecce",
+        "stadium": "Stadio Via del Mare",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1129_imgbank_1683890572.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/1129_shirt_20240422114344_lecce.png",
+                "alt_text": "lecce"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/lecce/1129"
+    },
+    {
+        "id": "84",
+        "club": "Leeds United",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/84_imgbank_1683906764.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/84/84_shirt_20210507090733_leeds_united.png",
+                "alt_text": "leeds united"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/leeds-united/84"
+    },
+    {
+        "id": "2570",
+        "club": "Levante",
+        "stadium": "Ciutat de València",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2570_imgbank_1684486109.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/70/2570_shirt_20210504142059_levante.png",
+                "alt_text": "levante"
+            }
+        ],
+        "address": null,
+        "latitude": 39.9740503,
+        "longitude": -0.0693076,
+        "url": "https://www.zerozero.pt/equipa/levante/2570"
+    },
+    {
+        "id": "867003",
+        "club": "Liverpool",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/liverpool/867003"
+    },
+    {
+        "id": "3859",
+        "club": "Lorient",
+        "stadium": "Stade du Moustoir",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3859_imgbank_1684488042.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/59/3859_shirt_20210504174904_lorient.png",
+                "alt_text": "lorient"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/lorient/3859"
+    },
+    {
+        "id": "96424",
+        "club": "Los Angeles FC",
+        "stadium": "BMO Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/96424_imgbank_1686736713.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/24/96424_shirt_20190306104438_los_angeles_fc.png",
+                "alt_text": "los angeles fc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/los-angeles-fc/96424"
+    },
+    {
+        "id": "44",
+        "club": "Mallorca",
+        "stadium": "Estadio Mallorca Son Moix",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/44_imgbank_1684423101.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/44/44_shirt_20210505203827_mallorca.png",
+                "alt_text": "mallorca"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/mallorca/44"
+    },
+    {
+        "id": "867001",
+        "club": "Manchester City",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/manchester-city/867001"
+    },
+    {
+        "id": "867002",
+        "club": "Manchester United",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/manchester-united/867002"
+    },
+    {
+        "id": "1139",
+        "club": "Metz",
+        "stadium": "Stade Saint-Symphorien",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1139_imgbank_1731920832.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/39/1139_shirt_20210504174706_metz.png",
+                "alt_text": "metz"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/metz/1139"
+    },
+    {
+        "id": "41442",
+        "club": "Minnesota United",
+        "stadium": "Allianz Field",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/41442_imgbank_1686736546.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/42/41442_shirt_20200302150826_minnesota_united.png",
+                "alt_text": "minnesota united"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/minnesota-united/41442"
+    },
+    {
+        "id": "3348",
+        "club": "Mirassol",
+        "stadium": "José Maria de Campos Maia",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3348_imgbank_1685113760.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/48/3348_shirt_20220704100034_mirassol.png",
+                "alt_text": "mirassol"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/mirassol/3348"
+    },
+    {
+        "id": "1104",
+        "club": "NAC Breda",
+        "stadium": "Rat Verlegh Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1104_imgbank_1688574698.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/04/1104_shirt_nac_breda.png",
+                "alt_text": "nac breda"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/nac-breda/1104"
+    },
+    {
+        "id": "1120",
+        "club": "NEC",
+        "stadium": "De Goffert",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1120_imgbank_1687180602.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/20/1120_shirt_nec.png",
+                "alt_text": "nec"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/nec/1120"
+    },
+    {
+        "id": "2579",
+        "club": "Nottingham Forest",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2579_imgbank_1712221459.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/79/2579_shirt_20210507135450_nottingham_forest.png",
+                "alt_text": "nottingham forest"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/nottingham-forest/2579"
+    },
+    {
+        "id": "55657",
+        "club": "Orlando City",
+        "stadium": "Inter&Co Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/55657_imgbank_1686736594.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/57/55657_shirt_orlando_city.jpg",
+                "alt_text": "orlando city"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/orlando-city/55657"
+    },
+    {
+        "id": "3852",
+        "club": "Paris FC",
+        "stadium": "Paris FC reserva dez por cento da capacidade do estádio para associações e clubes locais",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3852_imgbank_1686819580.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/52/3852_shirt_20210505234126_paris_fc.png",
+                "alt_text": "paris fc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/paris-fc/3852"
+    },
+    {
+        "id": "68",
+        "club": "Parma",
+        "stadium": "Stadio Ennio Tardini",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/68_imgbank_1683902298.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/68/68_shirt_20210506003334_parma.png",
+                "alt_text": "parma"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/parma/68"
+    },
+    {
+        "id": "3740",
+        "club": "Pisa",
+        "stadium": "Stadio Romeo Anconetani",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3740_imgbank_1683903671.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/40/3740_shirt_20210507090555_pisa.png",
+                "alt_text": "pisa"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/pisa/3740"
+    },
+    {
+        "id": "236",
+        "club": "Porto",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/porto/236"
+    },
+    {
+        "id": "2545",
+        "club": "Real Oviedo",
+        "stadium": "Nuevo Carlos Tartiere",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2545_imgbank_1684485755.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/45/2545_shirt_20210505232717_real_oviedo.png",
+                "alt_text": "real oviedo"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/real-oviedo/2545"
+    },
+    {
+        "id": "2501",
+        "club": "SJ Earthquakes",
+        "stadium": "PayPal Park",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2501_imgbank_1686736238.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/01/2501_shirt_sj_earthquakes.png",
+                "alt_text": "sj earthquakes"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sj-earthquakes/2501"
+    },
+    {
+        "id": "2148",
+        "club": "Samsunspor",
+        "stadium": "Samsun 19 Mayıs Stadyumu (2017)",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2148_imgbank_1687940663.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/48/2148_shirt_20200402093415_samsunspor.png",
+                "alt_text": "samsunspor"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/samsunspor/2148"
+    },
+    {
+        "id": "323701",
+        "club": "San Diego FC",
+        "stadium": "Snapdragon Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/323701_imgbank_1717687831.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/san-diego-fc/323701"
+    },
+    {
+        "id": "4983",
+        "club": "Sparta Rotterdam",
+        "stadium": "Sparta Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4983_imgbank_1687180734.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/83/4983_shirt_20210507135313_sparta_rotterdam.png",
+                "alt_text": "sparta rotterdam"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sparta-rotterdam/4983"
+    },
+    {
+        "id": "2257",
+        "club": "Sport",
+        "stadium": "Adelmar da Costa Carvalho (Ilha do Retiro)",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2257_imgbank_1683640732.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/57/2257_shirt_20220516090703_sport.png",
+                "alt_text": "sport"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sport/2257"
+    },
+    {
+        "id": "268550",
+        "club": "St. Louis City SC",
+        "stadium": "Energizer Park",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/268550_imgbank_1686662428.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/st-louis-city-sc/268550"
+    },
+    {
+        "id": "91",
+        "club": "Sunderland",
+        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/91_imgbank_1695724560.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/91/91_shirt_20220720163123_sunderland.png",
+                "alt_text": "sunderland"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sunderland/91"
+    },
+    {
+        "id": "8241",
+        "club": "Telstar",
+        "stadium": "711 Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8241_imgbank_1691139503.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/41/8241_shirt_telstar.png",
+                "alt_text": "telstar"
+            }
+        ],
+        "address": null,
+        "latitude": -21.1275374,
+        "longitude": -44.2434866,
+        "url": "https://www.zerozero.pt/equipa/telstar/8241"
+    },
+    {
+        "id": "8512",
+        "club": "Toronto FC",
+        "stadium": "BMO Field",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8512_imgbank_1686736315.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/12/8512_shirt_toronto_fc.png",
+                "alt_text": "toronto fc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/toronto-fc/8512"
+    },
+    {
+        "id": "1140",
+        "club": "Toulouse",
+        "stadium": "Stadium de Toulouse",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1140_imgbank_1684500382.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/40/1140_shirt_20210505234112_toulouse.png",
+                "alt_text": "toulouse"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/toulouse/1140"
+    },
+    {
+        "id": "8065",
+        "club": "Vancouver Whitecaps",
+        "stadium": "BC Place",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8065_imgbank_1686736298.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/65/8065_shirt_vancouver_whitecaps.jpg",
+                "alt_text": "vancouver whitecaps"
+            }
+        ],
+        "address": null,
+        "latitude": 43.7026588,
+        "longitude": -0.263165,
+        "url": "https://www.zerozero.pt/equipa/vancouver-whitecaps/8065"
+    },
+    {
+        "id": "2259",
+        "club": "Vitória",
+        "stadium": "Manoel Barradas (Barradão)",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2259_imgbank_1683640658.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/59/2259_shirt_20231122085158_vit_ria.png",
+                "alt_text": "vitória"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/vitoria/2259"
+    },
+    {
+        "id": "2469",
+        "club": "Bordj Bou Arréridj",
+        "stadium": "Stade 20 Août 1955",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/69/2469_logo_20210105160816_bordj_bou_arreridj.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/vitoria_guimaraes/2469"
+    },
+    {
+        "id": "1938",
+        "club": "Zwolle",
+        "stadium": "Oosterenk Stadion",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1938_imgbank_1691140429.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/38/1938_shirt_20231117091132_zwolle.jpg",
+                "alt_text": "zwolle"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/zwolle/1938"
     }
 ]
