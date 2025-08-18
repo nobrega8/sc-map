@@ -1,0 +1,17 @@
+{
+  "id": "10857",
+  "club": "SC Sanjoanense",
+  "stadium": "Campo do Sport Clube Sanjoanense",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10857_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/57/10857_shirt_20221013090026_sc_sanjoanense.png",
+      "alt_text": "sc sanjoanense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.8218751,
+  "longitude": -9.0947429,
+  "url": "https://www.zerozero.pt/equipa/sc-sanjoanense/10857"
+}

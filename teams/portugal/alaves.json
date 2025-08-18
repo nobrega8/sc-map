@@ -1,0 +1,17 @@
+{
+  "id": "37",
+  "club": "Alavés",
+  "stadium": "Mendizorroza",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/37_imgbank_1684485278.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/37/37_shirt_20210504142138_alaves.png",
+      "alt_text": "alavés"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/alaves/37"
+}

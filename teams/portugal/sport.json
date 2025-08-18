@@ -1,0 +1,17 @@
+{
+  "id": "2257",
+  "club": "Sport",
+  "stadium": "Adelmar da Costa Carvalho (Ilha do Retiro)",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2257_imgbank_1683640732.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/57/2257_shirt_20220516090703_sport.png",
+      "alt_text": "sport"
+    }
+  ],
+  "address": null,
+  "latitude": -5.6676705,
+  "longitude": -35.2998034,
+  "url": "https://www.zerozero.pt/equipa/sport/2257"
+}

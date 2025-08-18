@@ -1,0 +1,17 @@
+{
+  "id": "3963",
+  "club": "Alta de Lisboa",
+  "stadium": "Complexo Desportivo do Alto do Lumiar",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3963_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/63/3963_shirt_20230419084259_alta_de_lisboa.png",
+      "alt_text": "alta de lisboa"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7760344,
+  "longitude": -9.1512778,
+  "url": "https://www.zerozero.pt/equipa/alta-de-lisboa/3963"
+}

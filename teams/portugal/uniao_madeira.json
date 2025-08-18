@@ -1,0 +1,17 @@
+{
+  "id": "22",
+  "club": "União Madeira",
+  "stadium": "",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/22_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/22/22_shirt_20190422104859_u_madeira.png",
+      "alt_text": "união madeira"
+    }
+  ],
+  "address": null,
+  "latitude": 32.67894354172962,
+  "longitude": -16.85744078106183,
+  "url": "https://www.zerozero.pt/equipa/uniao-madeira/22"
+}

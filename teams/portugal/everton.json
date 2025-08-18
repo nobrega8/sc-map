@@ -1,0 +1,17 @@
+{
+  "id": "82",
+  "club": "Everton",
+  "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82_imgbank_1683906570.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/82/82_shirt_20210507090658_everton.png",
+      "alt_text": "everton"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/everton/82"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "10",
+  "club": "Farense",
+  "stadium": "Estádio de São Luís",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10_imgbank_1682585361.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/10/10_shirt_20241014152951_farense.png",
+      "alt_text": "farense"
+    }
+  ],
+  "address": null,
+  "latitude": 37.0228852,
+  "longitude": -7.9282722,
+  "url": "https://www.zerozero.pt/equipa/farense/10"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3907",
+  "club": "Fontainhas",
+  "stadium": "Campo Abel Viegas Lopes",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3907_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/07/3907_shirt_20250217165441_fontainhas.png",
+      "alt_text": "fontainhas"
+    }
+  ],
+  "address": null,
+  "latitude": 39.9141181,
+  "longitude": -8.8767937,
+  "url": "https://www.zerozero.pt/equipa/fontainhas/3907"
+}

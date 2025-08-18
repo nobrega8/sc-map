@@ -1,0 +1,17 @@
+{
+  "id": "2176",
+  "club": "Oriental",
+  "stadium": "Estádio Eng.º Carlos Salema",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2176_imgbank_1712323859.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/76/2176_shirt_20240418085111_oriental.png",
+      "alt_text": "oriental"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7357797,
+  "longitude": -9.1207913,
+  "url": "https://www.zerozero.pt/equipa/oriental/2176"
+}

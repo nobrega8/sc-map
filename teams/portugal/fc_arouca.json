@@ -1,0 +1,17 @@
+{
+  "id": "3555",
+  "club": "FC Arouca",
+  "stadium": "Estádio Municipal de Arouca",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3555_imgbank_1682582864.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/55/3555_shirt_20241014153311_fc_arouca.png",
+      "alt_text": "fc arouca"
+    }
+  ],
+  "address": null,
+  "latitude": 40.9322921,
+  "longitude": -8.2504309,
+  "url": "https://www.zerozero.pt/equipa/fc-arouca/3555"
+}

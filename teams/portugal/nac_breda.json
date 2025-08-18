@@ -1,0 +1,17 @@
+{
+  "id": "1104",
+  "club": "NAC Breda",
+  "stadium": "Rat Verlegh Stadion",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1104_imgbank_1688574698.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/04/1104_shirt_nac_breda.png",
+      "alt_text": "nac breda"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/nac-breda/1104"
+}

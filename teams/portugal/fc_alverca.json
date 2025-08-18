@@ -1,0 +1,17 @@
+{
+  "id": "1",
+  "club": "FC Alverca",
+  "stadium": "Complexo Desportivo FC Alverca",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1_imgbank_1682589747.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/01/1_shirt_20241119100452_fc_alverca.png",
+      "alt_text": "fc alverca"
+    }
+  ],
+  "address": null,
+  "latitude": 38.8983149,
+  "longitude": -9.0361398,
+  "url": "https://www.zerozero.pt/equipa/fc-alverca/1"
+}

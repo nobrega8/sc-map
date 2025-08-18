@@ -489,15 +489,121 @@ def carregar_dados_existentes(arquivo_json="clubes.json"):
             return []
     return []
 
-def salvar_dados(dados_clubes, arquivo_json="clubes.json"):
+def clean_filename(name):
+    """Clean club name for use as filename"""
+    # Remove accents and special characters
+    cleaned = name.lower()
+    # Replace accented characters
+    accent_map = {
+        'á': 'a', 'à': 'a', 'ã': 'a', 'â': 'a',
+        'é': 'e', 'ê': 'e',
+        'í': 'i',
+        'ó': 'o', 'ô': 'o', 'õ': 'o',
+        'ú': 'u', 'ü': 'u',
+        'ç': 'c'
+    }
+    for accented, plain in accent_map.items():
+        cleaned = cleaned.replace(accented, plain)
+    
+    # Remove special characters and replace spaces/hyphens with underscores
+    cleaned = re.sub(r'[^\w\s-]', '', cleaned)
+    cleaned = re.sub(r'[-\s]+', '_', cleaned)
+    return cleaned.strip('_')
+
+def determine_country(club):
+    """Determine country for a club (defaulting to Portugal for this project)"""
+    # For this Portuguese football map, default all clubs to Portugal
+    # Can be enhanced later if international clubs are added
+    return 'portugal'
+
+def salvar_dados_nova_estrutura(dados_clubes):
     """
-    Salva os dados no arquivo JSON
+    Salva os dados na nova estrutura teams/country/nome.json
     """
     try:
+        # Create teams directory if it doesn't exist
+        teams_dir = "teams"
+        if not os.path.exists(teams_dir):
+            os.makedirs(teams_dir)
+        
+        # Group clubs by country and save individually
+        country_stats = {}
+        
+        for club in dados_clubes:
+            country = determine_country(club)
+            filename = clean_filename(club.get('club', f"clube_{club.get('id', 'unknown')}"))
+            
+            # Create country directory
+            country_dir = os.path.join(teams_dir, country)
+            if not os.path.exists(country_dir):
+                os.makedirs(country_dir)
+            
+            # Handle duplicate filenames
+            original_filename = filename
+            counter = 1
+            club_file = os.path.join(country_dir, f"{filename}.json")
+            while os.path.exists(club_file):
+                filename = f"{original_filename}_{counter}"
+                club_file = os.path.join(country_dir, f"{filename}.json")
+                counter += 1
+            
+            # Save individual club file
+            with open(club_file, "w", encoding="utf-8") as f:
+                json.dump(club, f, ensure_ascii=False, indent=2)
+            
+            # Update stats
+            if country not in country_stats:
+                country_stats[country] = []
+            country_stats[country].append({
+                'name': club.get('club', 'Unknown'),
+                'filename': filename,
+                'id': club.get('id', 'unknown')
+            })
+        
+        # Create index file
+        index = {
+            'countries': list(country_stats.keys()),
+            'total_clubs': len(dados_clubes),
+            'structure': {}
+        }
+        
+        for country, clubs in country_stats.items():
+            index['structure'][country] = {
+                'count': len(clubs),
+                'files': [f"{club['filename']}.json" for club in clubs]
+            }
+        
+        index_file = os.path.join(teams_dir, 'index.json')
+        with open(index_file, 'w', encoding='utf-8') as f:
+            json.dump(index, f, ensure_ascii=False, indent=2)
+        
+        total_countries = len(country_stats)
+        total_clubs = len(dados_clubes)
+        logger.info(f"✅ Dados salvos na nova estrutura:")
+        logger.info(f"   📁 {total_countries} países")
+        logger.info(f"   ⚽ {total_clubs} clubes")
+        for country, clubs in country_stats.items():
+            logger.info(f"   📍 {country}: {len(clubs)} clubes")
+        
+        return True
+    except Exception as e:
+        logger.error(f"Erro ao salvar na nova estrutura: {e}")
+        return False
+
+def salvar_dados(dados_clubes, arquivo_json="clubes.json"):
+    """
+    Salva os dados no arquivo JSON (mantém compatibilidade com estrutura antiga)
+    """
+    try:
+        # Save to new structure
+        success_new = salvar_dados_nova_estrutura(dados_clubes)
+        
+        # Also save to old format for backward compatibility
         with open(arquivo_json, "w", encoding="utf-8") as f:
             json.dump(dados_clubes, f, ensure_ascii=False, indent=4)
-        logger.info(f"✅ Dados salvos em {arquivo_json}")
-        return True
+        logger.info(f"✅ Dados também salvos em {arquivo_json} (compatibilidade)")
+        
+        return success_new
     except Exception as e:
         logger.error(f"Erro ao salvar: {e}")
         return False

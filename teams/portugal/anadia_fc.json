@@ -1,0 +1,17 @@
+{
+  "id": "3554",
+  "club": "Anadia FC",
+  "stadium": "Estádio Municipal Engº Sílvio Henriques Cerveira",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3554_imgbank_1726671102.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/54/3554_shirt_20231227102154_anadia_fc.png",
+      "alt_text": "anadia fc"
+    }
+  ],
+  "address": null,
+  "latitude": 40.4276839,
+  "longitude": -8.4400437,
+  "url": "https://www.zerozero.pt/equipa/anadia-fc/3554"
+}

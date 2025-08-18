@@ -1,0 +1,17 @@
+{
+  "id": "3700",
+  "club": "Desportivo O. Moscavide",
+  "stadium": "Estádio Alfredo Marques Augusto",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3700_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/00/3700_shirt_20230419084940_desportivo_o_moscavide.png",
+      "alt_text": "desportivo o. moscavide"
+    }
+  ],
+  "address": null,
+  "latitude": 38.77438551857168,
+  "longitude": -9.10238443305758,
+  "url": "https://www.zerozero.pt/equipa/desportivo-o-moscavide/3700"
+}

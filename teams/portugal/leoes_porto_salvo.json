@@ -1,0 +1,17 @@
+{
+  "id": "323483",
+  "club": "Leões Porto Salvo",
+  "stadium": "Complexo Desportivo Carlos Queiróz",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/14914_imgbank_1700050459.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/14/14914_shirt_20210315085840_leoes_porto_salvo.png",
+      "alt_text": "leões porto salvo"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7234024,
+  "longitude": -9.2262578,
+  "url": "https://www.zerozero.pt/equipa/leoes-porto-salvo/323483"
+}

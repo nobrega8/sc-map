@@ -1,0 +1,17 @@
+{
+  "id": "1120",
+  "club": "NEC",
+  "stadium": "De Goffert",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1120_imgbank_1687180602.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/20/1120_shirt_nec.png",
+      "alt_text": "nec"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/nec/1120"
+}

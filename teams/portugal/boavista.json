@@ -1,0 +1,17 @@
+{
+  "id": "5",
+  "club": "Boavista",
+  "stadium": "Estádio do Bessa Séc. XXI",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5_imgbank_1683106885.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/05/5_shirt_20241014152921_boavista.png",
+      "alt_text": "boavista"
+    }
+  ],
+  "address": null,
+  "latitude": 41.1628532,
+  "longitude": -8.6420534,
+  "url": "https://www.zerozero.pt/equipa/boavista/5"
+}

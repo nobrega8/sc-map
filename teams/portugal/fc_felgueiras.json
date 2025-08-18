@@ -1,0 +1,17 @@
+{
+  "id": "11129",
+  "club": "FC Felgueiras",
+  "stadium": "Estádio Dr. Machado de Matos",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11129_imgbank_1690895311.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/29/11129_shirt_20241118145014_fc_felgueiras.png",
+      "alt_text": "fc felgueiras"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3559387,
+  "longitude": -8.1907976,
+  "url": "https://www.zerozero.pt/equipa/fc-felgueiras/11129"
+}

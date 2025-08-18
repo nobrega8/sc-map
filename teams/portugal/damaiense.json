@@ -1,0 +1,17 @@
+{
+  "id": "11188",
+  "club": "Damaiense",
+  "stadium": "Complexo Desportivo Eugénia e Joaquim Cannas da Silva",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11188_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/88/11188_shirt_20190227110349_damaiense.png",
+      "alt_text": "damaiense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.74350732243668,
+  "longitude": -9.227048389423246,
+  "url": "https://www.zerozero.pt/equipa/damaiense/11188"
+}

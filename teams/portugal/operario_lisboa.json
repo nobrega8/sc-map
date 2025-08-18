@@ -1,0 +1,17 @@
+{
+  "id": "12335",
+  "club": "Operário Lisboa",
+  "stadium": "Parque de Jogos Victor Peralta",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12335_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/35/12335_shirt_20230224092828_operario_lisboa.jpg",
+      "alt_text": "operário lisboa"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7153801,
+  "longitude": -9.1289228,
+  "url": "https://www.zerozero.pt/equipa/operario-lisboa/12335"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "slbenfica",
+  "club": "Benfica",
+  "stadium": "Estádio da Luz",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+  "equipamentos": [
+    {
+      "type": "Casa",
+      "url": "https://www.zerozero.pt/img/logos/equipas/04/4_shirt_20241014152915_benfica.png",
+      "alt_text": "benfica"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7531359493634,
+  "longitude": -9.184956307391019,
+  "url": "https://www.zerozero.pt/equipa/benfica"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "6392",
+  "club": "Igreja Nova",
+  "stadium": "Parque de Jogos Domingos Pinto Jorge",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6392_imgbank_1697706147.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/92/6392_shirt_20221026103031_igreja_nova.jpg",
+      "alt_text": "igreja nova"
+    }
+  ],
+  "address": null,
+  "latitude": 41.6210275,
+  "longitude": -8.546124,
+  "url": "https://www.zerozero.pt/equipa/igreja-nova/6392"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "11182",
+  "club": "Coutada",
+  "stadium": "Campo da Salseira",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11182_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/82/11182_shirt_20230419085005_coutada.png",
+      "alt_text": "coutada"
+    }
+  ],
+  "address": null,
+  "latitude": 40.1900948,
+  "longitude": -7.589851,
+  "url": "https://www.zerozero.pt/equipa/coutada/11182"
+}

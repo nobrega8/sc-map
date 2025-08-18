@@ -1,0 +1,17 @@
+{
+  "id": "5359",
+  "club": "Excelsior",
+  "stadium": "Woudestein",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5359_imgbank_1687180745.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/59/5359_shirt_excelsior.png",
+      "alt_text": "excelsior"
+    }
+  ],
+  "address": null,
+  "latitude": 38.6950554,
+  "longitude": -9.3412102,
+  "url": "https://www.zerozero.pt/equipa/excelsior/5359"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "73330",
+  "club": "Varejense Futsal",
+  "stadium": "",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/51/287051_logo_varejense.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/30/73330_shirt_20250701172019_varejense.jpg",
+      "alt_text": "varejense "
+    }
+  ],
+  "address": null,
+  "latitude": 38.72699529198073,
+  "longitude": -9.118399977997736,
+  "url": "https://www.zerozero.pt/equipa/varejense-/73330"
+}

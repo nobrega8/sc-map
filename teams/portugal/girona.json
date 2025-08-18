@@ -1,0 +1,17 @@
+{
+  "id": "5121",
+  "club": "Girona",
+  "stadium": "Estadio Municipal de Montilivi",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5121_imgbank_1684422339.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/21/5121_shirt_20210505233058_girona.png",
+      "alt_text": "girona"
+    }
+  ],
+  "address": null,
+  "latitude": 42.2655305,
+  "longitude": 2.9830419,
+  "url": "https://www.zerozero.pt/equipa/girona/5121"
+}

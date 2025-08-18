@@ -1,0 +1,17 @@
+{
+  "id": "3348",
+  "club": "Mirassol",
+  "stadium": "José Maria de Campos Maia",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3348_imgbank_1685113760.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/48/3348_shirt_20220704100034_mirassol.png",
+      "alt_text": "mirassol"
+    }
+  ],
+  "address": null,
+  "latitude": 41.4580287,
+  "longitude": -8.2686833,
+  "url": "https://www.zerozero.pt/equipa/mirassol/3348"
+}

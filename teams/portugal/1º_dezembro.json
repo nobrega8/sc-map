@@ -1,0 +1,17 @@
+{
+  "id": "3543",
+  "club": "1º Dezembro",
+  "stadium": "Complexo Desportivo Conde de Sucena",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3543_imgbank_1683278279.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/43/3543_shirt_20231227103353_1_dezembro.png",
+      "alt_text": "1º dezembro"
+    }
+  ],
+  "address": null,
+  "latitude": 38.788191243376325,
+  "longitude": -9.374552542903107,
+  "url": "https://www.zerozero.pt/equipa/1-dezembro/3543"
+}

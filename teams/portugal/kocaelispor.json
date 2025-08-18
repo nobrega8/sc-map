@@ -1,0 +1,17 @@
+{
+  "id": "3875",
+  "club": "Kocaelispor",
+  "stadium": "Kocaeli Stadyumu",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3875_imgbank_1687941245.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/75/3875_shirt_kocaelispor.gif",
+      "alt_text": "kocaelispor"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/kocaelispor/3875"
+}

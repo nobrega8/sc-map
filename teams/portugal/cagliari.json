@@ -1,0 +1,17 @@
+{
+  "id": "3720",
+  "club": "Cagliari",
+  "stadium": "Sardegna Arena",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3720_imgbank_1683903517.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/20/3720_shirt_20240422113843_cagliari.png",
+      "alt_text": "cagliari"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/cagliari/3720"
+}

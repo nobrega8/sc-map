@@ -1,0 +1,17 @@
+{
+  "id": "8065",
+  "club": "Vancouver Whitecaps",
+  "stadium": "BC Place",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8065_imgbank_1686736298.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/65/8065_shirt_vancouver_whitecaps.jpg",
+      "alt_text": "vancouver whitecaps"
+    }
+  ],
+  "address": null,
+  "latitude": 43.7026588,
+  "longitude": -0.263165,
+  "url": "https://www.zerozero.pt/equipa/vancouver-whitecaps/8065"
+}

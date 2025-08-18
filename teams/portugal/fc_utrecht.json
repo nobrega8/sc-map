@@ -1,0 +1,17 @@
+{
+  "id": "1114",
+  "club": "FC Utrecht",
+  "stadium": "Stadion Galgenwaard",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1114_imgbank_1687180594.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/14/1114_shirt_20210507135239_fc_utrecht.png",
+      "alt_text": "fc utrecht"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/fc-utrecht/1114"
+}

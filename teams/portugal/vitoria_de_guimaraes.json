@@ -1,0 +1,17 @@
+{
+  "id": "18",
+  "club": "Vitória de Guimarães",
+  "stadium": "Estádio D. Afonso Henriques",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/18_imgbank_1691672368.png",
+  "equipamentos": [
+    {
+      "type": "Casa",
+      "url": "https://www.zerozero.pt/img/logos/equipas/18/18_shirt_20241014153008_vitoria_sc.png",
+      "alt_text": "vitória sc"
+    }
+  ],
+  "address": null,
+  "latitude": 41.4457685813183,
+  "longitude": -8.301101264401753,
+  "url": "https://www.zerozero.pt/equipa/vitoria-sc"
+}

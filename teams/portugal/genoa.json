@@ -1,0 +1,17 @@
+{
+  "id": "3728",
+  "club": "Genoa",
+  "stadium": "Luigi Ferraris",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3728_imgbank_1683903533.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/28/3728_shirt_20240305151357_genoa.jpg",
+      "alt_text": "genoa"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/genoa/3728"
+}

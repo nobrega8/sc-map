@@ -1,0 +1,17 @@
+{
+  "id": "58",
+  "club": "Bologna",
+  "stadium": "Stadio Renato Dall´Ara",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/58_imgbank_1683890729.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/58/58_shirt_20240422113836_bologna.png",
+      "alt_text": "bologna"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/bologna/58"
+}

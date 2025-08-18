@@ -1,0 +1,17 @@
+{
+  "id": "1933",
+  "club": "FC Groningen",
+  "stadium": "Euroborg",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1933_imgbank_1687180673.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/33/1933_shirt_20210507135251_fc_groningen.png",
+      "alt_text": "fc groningen"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/fc-groningen/1933"
+}

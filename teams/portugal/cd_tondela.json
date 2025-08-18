@@ -1,0 +1,17 @@
+{
+  "id": "4336",
+  "club": "CD Tondela",
+  "stadium": "Estádio João Cardoso",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4336_imgbank_1682585219.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/36/4336_shirt_20241118144723_cd_tondela.png",
+      "alt_text": "cd tondela"
+    }
+  ],
+  "address": null,
+  "latitude": 40.5119993,
+  "longitude": -8.0827943,
+  "url": "https://www.zerozero.pt/equipa/cd-tondela/4336"
+}

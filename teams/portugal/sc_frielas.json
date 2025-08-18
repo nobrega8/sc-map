@@ -1,0 +1,17 @@
+{
+  "id": "11201",
+  "club": "SC Frielas",
+  "stadium": "Campo da Corredoura",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11201_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/01/11201_shirt_frielas.jpg",
+      "alt_text": "sc frielas"
+    }
+  ],
+  "address": null,
+  "latitude": 38.4609748,
+  "longitude": -9.1030362,
+  "url": "https://www.zerozero.pt/equipa/sc-frielas/11201"
+}

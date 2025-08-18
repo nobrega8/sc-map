@@ -1,0 +1,17 @@
+{
+  "id": "2570",
+  "club": "Levante",
+  "stadium": "Ciutat de València",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2570_imgbank_1684486109.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/70/2570_shirt_20210504142059_levante.png",
+      "alt_text": "levante"
+    }
+  ],
+  "address": null,
+  "latitude": 39.9740503,
+  "longitude": -0.0693076,
+  "url": "https://www.zerozero.pt/equipa/levante/2570"
+}

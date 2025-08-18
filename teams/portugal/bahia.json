@@ -1,0 +1,17 @@
+{
+  "id": "2231",
+  "club": "Bahia",
+  "stadium": "Arena Fonte Nova",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2231_imgbank_1683640771.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/31/2231_shirt_20200115114213_bahia.png",
+      "alt_text": "bahia"
+    }
+  ],
+  "address": null,
+  "latitude": -12.8750724,
+  "longitude": -38.4643369,
+  "url": "https://www.zerozero.pt/equipa/bahia/2231"
+}

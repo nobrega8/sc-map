@@ -1,0 +1,17 @@
+{
+  "id": "2178",
+  "club": "Torreense",
+  "stadium": "Estádio Manuel Marques",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2178_imgbank_1682588244.png",
+  "equipamentos": [
+    {
+      "type": "Casa",
+      "url": "https://www.zerozero.pt/img/logos/equipas/78/2178_shirt_20241118144730_torreense.png",
+      "alt_text": "torreense"
+    }
+  ],
+  "address": null,
+  "latitude": 39.09468870445161,
+  "longitude": -9.256681547301007,
+  "url": "https://www.zerozero.pt/equipa/torreense/2178"
+}

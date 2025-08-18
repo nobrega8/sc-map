@@ -1,0 +1,17 @@
+{
+  "id": "3859",
+  "club": "Lorient",
+  "stadium": "Stade du Moustoir",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3859_imgbank_1684488042.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/59/3859_shirt_20210504174904_lorient.png",
+      "alt_text": "lorient"
+    }
+  ],
+  "address": null,
+  "latitude": 47.6672815,
+  "longitude": -3.0075029,
+  "url": "https://www.zerozero.pt/equipa/lorient/3859"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3967",
+  "club": "Juventude Castanheira",
+  "stadium": "Campo São João",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3967_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/67/3967_shirt_20210714122614_juventude_castanheira.jpg",
+      "alt_text": "juventude castanheira"
+    }
+  ],
+  "address": null,
+  "latitude": 40.2369927,
+  "longitude": -8.5117919,
+  "url": "https://www.zerozero.pt/equipa/juventude-castanheira/3967"
+}

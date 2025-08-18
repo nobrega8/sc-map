@@ -1,0 +1,17 @@
+{
+  "id": "10878",
+  "club": "Talaíde",
+  "stadium": "Campo Fernando Sabido",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10878_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/78/10878_shirt_talaide.png",
+      "alt_text": "talaíde"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7378165,
+  "longitude": -9.3128737,
+  "url": "https://www.zerozero.pt/equipa/talaide/10878"
+}

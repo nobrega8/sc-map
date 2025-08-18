@@ -1,0 +1,17 @@
+{
+  "id": "3908",
+  "club": "Águias de Camarate",
+  "stadium": "Campo da Quinta dos Barros",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3908_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/08/3908_shirt_20210531095906_aguias_de_camarate.png",
+      "alt_text": "águias de camarate"
+    }
+  ],
+  "address": null,
+  "latitude": 38.8045797,
+  "longitude": -9.1382946,
+  "url": "https://www.zerozero.pt/equipa/aguias-de-camarate/3908"
+}

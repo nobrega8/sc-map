@@ -21,12 +21,12 @@ Acesse o mapa em: [https://nobrega8.github.io/sc-map/](https://nobrega8.github.i
 Para corrigir informações existentes ou adicionar novos clubes:
 
 1. **Fork** este repositório
-2. **Edite** o arquivo `clubes.json` com as correções/adições necessárias
+2. **Adicione/Edite** o arquivo JSON do clube na pasta `teams/country/nome.json`
 3. **Submeta** um Pull Request com as suas alterações
 
 ### Formato dos Dados
 
-Cada clube no `clubes.json` deve seguir esta estrutura:
+Cada clube tem o seu próprio arquivo JSON na estrutura `teams/country/nome.json` e deve seguir esta estrutura:
 
 ```json
 {
@@ -78,7 +78,13 @@ sc-map/
 ├── index.html          # Página principal
 ├── style.css           # Estilos CSS
 ├── script.js           # JavaScript do mapa
-├── clubes.json         # Dados dos clubes
+├── teams/              # Dados dos clubes organizados por país
+│   ├── index.json      # Índice dos clubes por país
+│   └── portugal/       # Clubes portugueses
+│       ├── benfica.json
+│       ├── porto.json
+│       └── ...         # Cada clube tem o seu próprio arquivo
+├── clubes.json         # Dados dos clubes (compatibilidade)
 ├── submissions.json    # Submissões pendentes
 ├── scraper.py          # Script para extrair dados
 ├── clubes.py           # Script auxiliar

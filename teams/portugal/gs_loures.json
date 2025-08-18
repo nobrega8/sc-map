@@ -1,0 +1,17 @@
+{
+  "id": "3597",
+  "club": "GS Loures",
+  "stadium": "Campo Conde Mendia",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3597_imgbank_1683304026.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/97/3597_shirt_20230419084216_gs_loures.png",
+      "alt_text": "gs loures"
+    }
+  ],
+  "address": null,
+  "latitude": 38.827999346415154,
+  "longitude": -9.165090825307251,
+  "url": "https://www.zerozero.pt/equipa/gs-loures/3597"
+}

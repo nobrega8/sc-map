@@ -1,0 +1,17 @@
+{
+  "id": "12819",
+  "club": "Abóboda",
+  "stadium": "Complexo Desportivo da Abóboda",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12819_imgbank_1695398406.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/19/12819_shirt_20220726112033_aboboda.png",
+      "alt_text": "abóboda"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7261865,
+  "longitude": -9.3327264,
+  "url": "https://www.zerozero.pt/equipa/aboboda/12819"
+}

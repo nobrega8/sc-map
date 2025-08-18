@@ -1,0 +1,17 @@
+{
+  "id": "3642",
+  "club": "S. João Ver",
+  "stadium": "Estádio Sp. Clube São João de Ver",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3642_imgbank_1683023495.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/42/3642_shirt_20240221084938_s_joao_ver.png",
+      "alt_text": "s. joão ver"
+    }
+  ],
+  "address": null,
+  "latitude": 40.949911,
+  "longitude": -8.5570739,
+  "url": "https://www.zerozero.pt/equipa/s-joao-ver/3642"
+}

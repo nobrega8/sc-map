@@ -1,0 +1,17 @@
+{
+  "id": "31",
+  "club": "Rio Ave",
+  "stadium": "Estádio do Rio Ave FC (Arcos)",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/31_imgbank_1682584600.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/31/31_shirt_20241014153049_rio_ave.png",
+      "alt_text": "rio ave"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3627303,
+  "longitude": -8.740132,
+  "url": "https://www.zerozero.pt/equipa/rio-ave/31"
+}

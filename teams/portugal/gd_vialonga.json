@@ -1,0 +1,17 @@
+{
+  "id": "3671",
+  "club": "GD Vialonga",
+  "stadium": "Parque de Jogos do GD Vialonga",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3671_imgbank_1746607072.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/71/3671_shirt_vialonga.png",
+      "alt_text": "gd vialonga"
+    }
+  ],
+  "address": null,
+  "latitude": 38.87422988778116,
+  "longitude": -9.079519272225252,
+  "url": "https://www.zerozero.pt/equipa/gd-vialonga/3671"
+}

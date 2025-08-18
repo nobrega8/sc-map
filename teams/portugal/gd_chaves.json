@@ -1,0 +1,17 @@
+{
+  "id": "20",
+  "club": "GD Chaves",
+  "stadium": "Estádio Municipal Eng.º Manuel Branco Teixeira",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/20_imgbank_1682584093.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/20/20_shirt_20241118145002_gd_chaves.png",
+      "alt_text": "gd chaves"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/gd-chaves/20"
+}

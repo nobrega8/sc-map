@@ -1,0 +1,17 @@
+{
+  "id": "19",
+  "club": "Académica OAF",
+  "stadium": "Estádio Municipal da Cidade de Coimbra",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19_imgbank_1752061481.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/19/19_shirt_20231227103544_academica_oaf.png",
+      "alt_text": "académica oaf"
+    }
+  ],
+  "address": null,
+  "latitude": 40.20289574659429,
+  "longitude": -8.407569212880802,
+  "url": "https://www.zerozero.pt/equipa/academica-oaf/19"
+}

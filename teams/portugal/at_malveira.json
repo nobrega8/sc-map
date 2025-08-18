@@ -1,0 +1,17 @@
+{
+  "id": "3558",
+  "club": "At. Malveira",
+  "stadium": "Estádio das Seixas",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3558_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/58/3558_shirt_20230419084254_at_malveira.png",
+      "alt_text": "at. malveira"
+    }
+  ],
+  "address": null,
+  "latitude": 38.9342324,
+  "longitude": -9.2564742,
+  "url": "https://www.zerozero.pt/equipa/at-malveira/3558"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3644",
+  "club": "Sacavenense",
+  "stadium": "Complexo Desportivo Elias Pereira",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3644_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/44/3644_shirt_20230419084306_sacavenense.png",
+      "alt_text": "sacavenense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7907347,
+  "longitude": -9.1064643,
+  "url": "https://www.zerozero.pt/equipa/sacavenense/3644"
+}

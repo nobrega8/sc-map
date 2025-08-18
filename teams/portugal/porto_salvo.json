@@ -1,0 +1,17 @@
+{
+  "id": "10879",
+  "club": "Porto Salvo",
+  "stadium": "Complexo Desportivo de Porto Salvo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10879_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/79/10879_shirt_porto_salvo.png",
+      "alt_text": "porto salvo"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7293967,
+  "longitude": -9.3036149,
+  "url": "https://www.zerozero.pt/equipa/porto-salvo/10879"
+}

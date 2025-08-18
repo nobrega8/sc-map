@@ -1,0 +1,17 @@
+{
+  "id": "12545",
+  "club": "Tenente Valdez",
+  "stadium": "Parque de Jogos do C.E.R. Tenente Valdez",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12545_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/45/12545_shirt_20171228110320_tenente_valdez.jpg",
+      "alt_text": "tenente valdez"
+    }
+  ],
+  "address": null,
+  "latitude": 38.778346455342664,
+  "longitude": -9.205458785178982,
+  "url": "https://www.zerozero.pt/equipa/tenente-valdez/12545"
+}

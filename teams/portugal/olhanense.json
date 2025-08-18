@@ -1,0 +1,17 @@
+{
+  "id": "2172",
+  "club": "Olhanense",
+  "stadium": "Estádio José Arcanjo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2172_imgbank_1683211227.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/72/2172_shirt_20250715145729_olhanense.jpg",
+      "alt_text": "olhanense"
+    }
+  ],
+  "address": null,
+  "latitude": 37.0292357,
+  "longitude": -7.8485194,
+  "url": "https://www.zerozero.pt/equipa/olhanense/2172"
+}

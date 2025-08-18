@@ -1,0 +1,17 @@
+{
+  "id": "118",
+  "club": "Le Havre",
+  "stadium": "Stade Océane",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/118_imgbank_1729691946.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/18/118_shirt_20210505234359_le_havre.png",
+      "alt_text": "le havre"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/le-havre/118"
+}

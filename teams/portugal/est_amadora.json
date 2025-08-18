@@ -1,0 +1,17 @@
+{
+  "id": "253884",
+  "club": "Est. Amadora",
+  "stadium": "Estádio José Gomes",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/253884_imgbank_1691766850.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/84/253884_shirt_20241014152940_est_amadora.png",
+      "alt_text": "est. amadora"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7521562,
+  "longitude": -9.2280007,
+  "url": "https://www.zerozero.pt/equipa/est-amadora/253884"
+}

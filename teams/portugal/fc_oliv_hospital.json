@@ -1,0 +1,17 @@
+{
+  "id": "3618",
+  "club": "FC Oliv. Hospital",
+  "stadium": "Estádio Municipal de Tábua",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3618_imgbank_1716997255.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/18/3618_shirt_20231227102122_fc_oliv_hospital.png",
+      "alt_text": "fc oliv. hospital"
+    }
+  ],
+  "address": null,
+  "latitude": 40.3693983,
+  "longitude": -8.023016,
+  "url": "https://www.zerozero.pt/equipa/fc-oliv-hospital/3618"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1107",
+  "club": "Gençlerbirligi",
+  "stadium": "Eryaman Stadyumu",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1107_imgbank_1687940342.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/07/1107_shirt_20210507174611_genclerbirligi.png",
+      "alt_text": "gençlerbirligi"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/genclerbirligi/1107"
+}

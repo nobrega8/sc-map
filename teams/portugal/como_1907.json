@@ -1,0 +1,17 @@
+{
+  "id": "61",
+  "club": "Como 1907",
+  "stadium": "Stadio Giuseppe Sinigaglia",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61_imgbank_1683902263.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/61/61_shirt_20220714154820_como.png",
+      "alt_text": "como 1907"
+    }
+  ],
+  "address": null,
+  "latitude": 39.1239869,
+  "longitude": -8.9075054,
+  "url": "https://www.zerozero.pt/equipa/como-1907/61"
+}

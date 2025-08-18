@@ -1,0 +1,17 @@
+{
+  "id": "10856",
+  "club": "Santa Iria",
+  "stadium": "Campo de Jogos Tomaz Reynolds",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10856_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/56/10856_shirt_20210315085836_santa_iria.png",
+      "alt_text": "santa iria"
+    }
+  ],
+  "address": null,
+  "latitude": 37.8880494,
+  "longitude": -7.5602075,
+  "url": "https://www.zerozero.pt/equipa/santa-iria/10856"
+}

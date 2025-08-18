@@ -1,0 +1,17 @@
+{
+  "id": "5038",
+  "club": "FC St. Pauli",
+  "stadium": "Millerntor-Stadion",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5038_imgbank_1683887849.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/38/5038_shirt_20210507103756_fc_st_pauli.png",
+      "alt_text": "fc st. pauli"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/fc-st-pauli/5038"
+}

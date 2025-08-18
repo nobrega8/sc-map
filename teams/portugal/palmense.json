@@ -1,0 +1,17 @@
+{
+  "id": "10881",
+  "club": "Palmense",
+  "stadium": "Campo José Ramos",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10881_imgbank_1728896229.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/81/10881_shirt_palmense.png",
+      "alt_text": "palmense"
+    }
+  ],
+  "address": null,
+  "latitude": 40.6028395,
+  "longitude": -6.8292051,
+  "url": "https://www.zerozero.pt/equipa/palmense/10881"
+}

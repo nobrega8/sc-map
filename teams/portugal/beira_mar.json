@@ -1,0 +1,17 @@
+{
+  "id": "2",
+  "club": "Beira-Mar",
+  "stadium": null,
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2_imgbank_1683209128.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/02/2_shirt_20240221084801_beira_mar.png",
+      "alt_text": "beira-mar"
+    }
+  ],
+  "address": null,
+  "latitude": 40.6434864,
+  "longitude": -8.6542323,
+  "url": "https://www.zerozero.pt/equipa/beira-mar/2"
+}

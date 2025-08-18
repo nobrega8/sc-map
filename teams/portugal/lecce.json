@@ -1,0 +1,17 @@
+{
+  "id": "1129",
+  "club": "Lecce",
+  "stadium": "Stadio Via del Mare",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1129_imgbank_1683890572.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/29/1129_shirt_20240422114344_lecce.png",
+      "alt_text": "lecce"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/lecce/1129"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "6",
+  "club": "Moreirense",
+  "stadium": "Estádio Comendador Joaquim de Almeida Freitas",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6_imgbank_1682585615.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/06/6_shirt_20241014153032_moreirense.png",
+      "alt_text": "moreirense"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3780317,
+  "longitude": -8.3549951,
+  "url": "https://www.zerozero.pt/equipa/moreirense/6"
+}

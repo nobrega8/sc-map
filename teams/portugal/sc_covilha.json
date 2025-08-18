@@ -1,0 +1,17 @@
+{
+  "id": "23",
+  "club": "SC Covilhã",
+  "stadium": "Estádio Municipal José dos Santos Pinto",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/23_imgbank_1753175883.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/23/23_shirt_20231227102116_sc_covilha.png",
+      "alt_text": "sc covilhã"
+    }
+  ],
+  "address": null,
+  "latitude": 40.283083501011774,
+  "longitude": -7.5124140865056,
+  "url": "https://www.zerozero.pt/equipa/sc-covilha/23"
+}

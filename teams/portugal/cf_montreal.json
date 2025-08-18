@@ -1,0 +1,17 @@
+{
+  "id": "9865",
+  "club": "CF Montréal",
+  "stadium": "Stade Saputo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/9865_imgbank_1686736441.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/65/9865_shirt_impact_montreal.png",
+      "alt_text": "cf montréal"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/cf-montreal/9865"
+}

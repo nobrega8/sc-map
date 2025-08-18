@@ -1,0 +1,17 @@
+{
+  "id": "11206",
+  "club": "Bobadelense",
+  "stadium": "Parque Desportivo e Municipal da Bobadela",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11206_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/06/11206_shirt_bobadelense.jpg",
+      "alt_text": "bobadelense"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/bobadelense/11206"
+}

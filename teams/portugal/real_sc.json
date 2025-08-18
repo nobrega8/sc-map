@@ -1,0 +1,17 @@
+{
+  "id": "3632",
+  "club": "Real SC",
+  "stadium": "Complexo Desportivo do Real SC",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3632_imgbank_1683023578.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/32/3632_shirt_20240418102849_real_sc.png",
+      "alt_text": "real sc"
+    }
+  ],
+  "address": null,
+  "latitude": 38.751921631110996,
+  "longitude": -9.27000393776758,
+  "url": "https://www.zerozero.pt/equipa/real-sc/3632"
+}

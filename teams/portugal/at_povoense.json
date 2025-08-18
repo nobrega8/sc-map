@@ -1,0 +1,17 @@
+{
+  "id": "3881",
+  "club": "At. Povoense",
+  "stadium": "Complexo Desportivo da Quinta da Piedade",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3881_imgbank_1710930519.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/81/3881_shirt_20230419084929_at_povoense.png",
+      "alt_text": "at. povoense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.8655259,
+  "longitude": -9.0704266,
+  "url": "https://www.zerozero.pt/equipa/at-povoense/3881"
+}

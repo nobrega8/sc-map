@@ -1,0 +1,17 @@
+{
+  "id": "35",
+  "club": "Vitória de Setubal",
+  "stadium": "",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/35_imgbank_1683027153.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/35/35_shirt_20240418082008_vitoria_fc.png",
+      "alt_text": "vitória fc"
+    }
+  ],
+  "address": null,
+  "latitude": 38.53089809122608,
+  "longitude": -8.89102867036612,
+  "url": "https://www.zerozero.pt/equipa/vitoria-fc/35"
+}

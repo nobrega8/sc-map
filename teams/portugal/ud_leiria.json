@@ -1,0 +1,17 @@
+{
+  "id": "17",
+  "club": "UD Leiria",
+  "stadium": "Estádio Dr. Magalhães Pessoa",
+  "logo": "https://www.zerozero.pt/img_icon/logos/equipas/17_imgbank_1721993809.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/17/17_shirt_20241118144735_ud_leiria.png",
+      "alt_text": "ud leiria"
+    }
+  ],
+  "address": null,
+  "latitude": 39.74900614105751,
+  "longitude": -8.813235139326634,
+  "url": "https://www.zerozero.pt/equipa/ud-leiria/17"
+}

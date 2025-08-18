@@ -1,0 +1,17 @@
+{
+  "id": "4330",
+  "club": "Amarante FC",
+  "stadium": "Estádio Municipal de Amarante",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4330_imgbank_1683279045.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/30/4330_shirt_20240221085047_amarante_fc.png",
+      "alt_text": "amarante fc"
+    }
+  ],
+  "address": null,
+  "latitude": 41.2820554,
+  "longitude": -8.0757742,
+  "url": "https://www.zerozero.pt/equipa/amarante-fc/4330"
+}

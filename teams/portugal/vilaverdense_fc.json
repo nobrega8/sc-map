@@ -1,0 +1,17 @@
+{
+  "id": "3676",
+  "club": "Vilaverdense FC",
+  "stadium": "Campo da Cruz do Reguengo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3676_imgbank_1723543928.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/76/3676_shirt_20240821184120_vilaverdense_fc.png",
+      "alt_text": "vilaverdense fc"
+    }
+  ],
+  "address": null,
+  "latitude": 41.6494206,
+  "longitude": -8.4230603,
+  "url": "https://www.zerozero.pt/equipa/vilaverdense-fc/3676"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2470",
+  "club": "MC Oran",
+  "stadium": "Stade Ahmed Zabana",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2470_imgbank_1688037691.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/70/2470_shirt_20220321083230_mc_oran.png",
+      "alt_text": "mc oran"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/chaves/2470"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "11191",
+  "club": "Rio de Mouro",
+  "stadium": "Complexo Desportivo de Rio de Mouro",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11191_imgbank_1753102049.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/91/11191_shirt_20230419085014_rio_de_mouro.png",
+      "alt_text": "rio de mouro"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7812301,
+  "longitude": -9.3209903,
+  "url": "https://www.zerozero.pt/equipa/rio-de-mouro/11191"
+}

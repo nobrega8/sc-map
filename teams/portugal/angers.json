@@ -1,0 +1,17 @@
+{
+  "id": "3828",
+  "club": "Angers",
+  "stadium": "Stade Raymond-Kopa",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3828_imgbank_1684500425.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/28/3828_shirt_20210504174756_angers.png",
+      "alt_text": "angers"
+    }
+  ],
+  "address": null,
+  "latitude": 47.5250152,
+  "longitude": -0.6030171,
+  "url": "https://www.zerozero.pt/equipa/angers/3828"
+}

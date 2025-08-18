@@ -1,0 +1,17 @@
+{
+  "id": "44",
+  "club": "Mallorca",
+  "stadium": "Estadio Mallorca Son Moix",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/44_imgbank_1684423101.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/44/44_shirt_20210505203827_mallorca.png",
+      "alt_text": "mallorca"
+    }
+  ],
+  "address": null,
+  "latitude": -33.5975969,
+  "longitude": -70.5889528,
+  "url": "https://www.zerozero.pt/equipa/mallorca/44"
+}

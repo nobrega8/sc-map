@@ -1,0 +1,17 @@
+{
+  "id": "3708",
+  "club": "SL Olivais",
+  "stadium": "Campo Branca Lucas",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3708_imgbank_1740400689.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/08/3708_shirt_20161004124518_sl_olivais.png",
+      "alt_text": "sl olivais"
+    }
+  ],
+  "address": null,
+  "latitude": 38.76206127583298,
+  "longitude": -9.10759562143579,
+  "url": "https://www.zerozero.pt/equipa/sl-olivais/3708"
+}

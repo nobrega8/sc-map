@@ -1,0 +1,17 @@
+{
+  "id": "30",
+  "club": "FC Penafiel",
+  "stadium": "Estádio Municipal 25 de Abril",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/30_imgbank_1682588497.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/30/30_shirt_20241118144657_fc_penafiel.png",
+      "alt_text": "fc penafiel"
+    }
+  ],
+  "address": null,
+  "latitude": 41.211805,
+  "longitude": -8.277222,
+  "url": "https://www.zerozero.pt/equipa/fc-penafiel/30"
+}

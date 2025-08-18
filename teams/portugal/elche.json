@@ -1,0 +1,17 @@
+{
+  "id": "2548",
+  "club": "Elche",
+  "stadium": "Manuel Martínez Valero",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2548_imgbank_1684423957.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/48/2548_shirt_20210504142219_elche.png",
+      "alt_text": "elche"
+    }
+  ],
+  "address": null,
+  "latitude": 38.2571883,
+  "longitude": -0.7822362,
+  "url": "https://www.zerozero.pt/equipa/elche/2548"
+}

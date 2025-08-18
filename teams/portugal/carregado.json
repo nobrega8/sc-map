@@ -1,0 +1,17 @@
+{
+  "id": "3571",
+  "club": "Carregado",
+  "stadium": "Campo José Lacerda Pinto Barreiros",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3571_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/71/3571_shirt_20220908121357_carregado.png",
+      "alt_text": "carregado"
+    }
+  ],
+  "address": null,
+  "latitude": 39.0230782,
+  "longitude": -8.9768885,
+  "url": "https://www.zerozero.pt/equipa/carregado/3571"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1140",
+  "club": "Toulouse",
+  "stadium": "Stadium de Toulouse",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1140_imgbank_1684500382.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/40/1140_shirt_20210505234112_toulouse.png",
+      "alt_text": "toulouse"
+    }
+  ],
+  "address": null,
+  "latitude": 43.7124658,
+  "longitude": 1.4623028,
+  "url": "https://www.zerozero.pt/equipa/toulouse/1140"
+}

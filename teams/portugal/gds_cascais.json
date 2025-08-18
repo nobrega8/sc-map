@@ -1,0 +1,17 @@
+{
+  "id": "7943",
+  "club": "GDS Cascais",
+  "stadium": "Campo Guilherme Pinto Basto",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7943_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/43/7943_shirt_20221013114437_gds_cascais.png",
+      "alt_text": "gds cascais"
+    }
+  ],
+  "address": null,
+  "latitude": 38.70003988193956,
+  "longitude": -9.440456902153961,
+  "url": "https://www.zerozero.pt/equipa/gds-cascais/7943"
+}

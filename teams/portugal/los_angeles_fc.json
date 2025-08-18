@@ -1,0 +1,17 @@
+{
+  "id": "96424",
+  "club": "Los Angeles FC",
+  "stadium": "BMO Stadium",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/96424_imgbank_1686736713.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/24/96424_shirt_20190306104438_los_angeles_fc.png",
+      "alt_text": "los angeles fc"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/los-angeles-fc/96424"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "36",
+  "club": "Varzim",
+  "stadium": "Estádio do Varzim Sport Club",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/36_imgbank_1683038512.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/36/36_shirt_20231227103307_varzim.png",
+      "alt_text": "varzim"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3794188,
+  "longitude": -8.7598689,
+  "url": "https://www.zerozero.pt/equipa/varzim/36"
+}

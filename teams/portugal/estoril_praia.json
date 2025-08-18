@@ -1,0 +1,17 @@
+{
+  "id": "1734",
+  "club": "Estoril Praia",
+  "stadium": "Estádio António Coimbra da Mota",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1734_imgbank_1682584220.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/34/1734_shirt_20241014152935_estoril_praia.png",
+      "alt_text": "estoril praia"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7158618,
+  "longitude": -9.4064087,
+  "url": "https://www.zerozero.pt/equipa/estoril-praia/1734"
+}

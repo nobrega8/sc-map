@@ -1,0 +1,17 @@
+{
+  "id": "8368",
+  "club": "Olivais Sul",
+  "stadium": "Campo de Futebol do Olivais Sul",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8368_imgbank_1712920715.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/68/8368_shirt_20200923101743_olivais_sul.jpg",
+      "alt_text": "olivais sul"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7627434,
+  "longitude": -9.1149854,
+  "url": "https://www.zerozero.pt/equipa/olivais-sul/8368"
+}

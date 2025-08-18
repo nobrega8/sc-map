@@ -1,0 +1,17 @@
+{
+  "id": "1935",
+  "club": "FC Volendam",
+  "stadium": "Kras Stadion",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1935_imgbank_1687180698.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/35/1935_shirt_fc_volendam.png",
+      "alt_text": "fc volendam"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/fc-volendam/1935"
+}

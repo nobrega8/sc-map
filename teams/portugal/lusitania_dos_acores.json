@@ -1,0 +1,17 @@
+{
+  "id": "3601",
+  "club": "Lusitânia dos Açores",
+  "stadium": "Campo de Jogos de São Mateus da Calheta",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3601_imgbank_1697792345.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/01/3601_shirt_20240227122801_lusitania_dos_acores.png",
+      "alt_text": "lusitânia dos açores"
+    }
+  ],
+  "address": null,
+  "latitude": 38.6717842,
+  "longitude": -27.2559348,
+  "url": "https://www.zerozero.pt/equipa/lusitania-dos-acores/3601"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3598",
+  "club": "Lourinhanense",
+  "stadium": "Estádio Municipal da Lourinhã",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3598_imgbank_1683111100.png",
+  "equipamentos": [
+    {
+      "type": "Casa",
+      "url": "https://www.zerozero.pt/img/logos/equipas/98/3598_shirt_20250715150012_lourinhanense.png",
+      "alt_text": "lourinhanense"
+    }
+  ],
+  "address": null,
+  "latitude": 39.239725857087585,
+  "longitude": -9.309107208662232,
+  "url": "https://www.zerozero.pt/equipa/lourinhanense/3598"
+}

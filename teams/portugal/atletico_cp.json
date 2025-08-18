@@ -1,0 +1,17 @@
+{
+  "id": "2170",
+  "club": "Atlético CP",
+  "stadium": "Estádio da Tapadinha",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2170_imgbank_1741690587.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/70/2170_shirt_20231227102103_atletico_cp.png",
+      "alt_text": "atlético cp"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7097014,
+  "longitude": -9.1808232,
+  "url": "https://www.zerozero.pt/equipa/atletico-cp/2170"
+}

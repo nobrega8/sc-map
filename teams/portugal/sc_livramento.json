@@ -1,0 +1,17 @@
+{
+  "id": "10854",
+  "club": "SC Livramento",
+  "stadium": "Campo do Marco",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10854_imgbank_1712917847.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/54/10854_shirt_20250816202915_sc_livramento.jpg",
+      "alt_text": "sc livramento"
+    }
+  ],
+  "address": null,
+  "latitude": 38.6131544,
+  "longitude": -9.0881007,
+  "url": "https://www.zerozero.pt/equipa/sc-livramento/10854"
+}

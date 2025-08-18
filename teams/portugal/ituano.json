@@ -1,0 +1,17 @@
+{
+  "id": "2543",
+  "club": "Ituano",
+  "stadium": "Dr. Novelli Júnior",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2543_imgbank_1683641599.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/43/2543_shirt_20230827162848_ituano.png",
+      "alt_text": "ituano"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/casa_pia/2543"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "32132",
+  "club": "Lisboa SC",
+  "stadium": "Complexo Desportivo Eugénia e Joaquim Cannas da Silva",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32132_imgbank_1741950853.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/32/32132_shirt_lisboa_sc.jpg",
+      "alt_text": "lisboa sc"
+    }
+  ],
+  "address": null,
+  "latitude": 38.743212339234105,
+  "longitude": -9.22674515212149,
+  "url": "https://www.zerozero.pt/equipa/lisboa-sc/32132"
+}

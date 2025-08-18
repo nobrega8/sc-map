@@ -1,0 +1,17 @@
+{
+  "id": "11194",
+  "club": "UDR Santa Maria",
+  "stadium": "Campo Desportivo UDR Santa Maria",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11194_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/94/11194_shirt_udr_santa_maria.jpg",
+      "alt_text": "udr santa maria"
+    }
+  ],
+  "address": null,
+  "latitude": 38.775919,
+  "longitude": -9.1952159,
+  "url": "https://www.zerozero.pt/equipa/udr-santa-maria/11194"
+}

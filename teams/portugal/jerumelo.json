@@ -1,0 +1,17 @@
+{
+  "id": "10852",
+  "club": "Jerumelo",
+  "stadium": "Campo de Futebol do Jerumelo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10852_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/52/10852_shirt_20230419084959_jerumelo.png",
+      "alt_text": "jerumelo"
+    }
+  ],
+  "address": null,
+  "latitude": 38.9554059,
+  "longitude": -9.2406369,
+  "url": "https://www.zerozero.pt/equipa/jerumelo/10852"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2412",
+  "club": "Casa Pia AC",
+  "stadium": "Estádio Municipal de Rio Maior",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2412_imgbank_1695724045.png",
+  "equipamentos": [
+    {
+      "type": "casa",
+      "url": "https://www.zerozero.pt/img/logos/equipas/12/2412_shirt_20241014152931_casa_pia_ac.png",
+      "alt_text": "casa pia ac"
+    }
+  ],
+  "address": null,
+  "latitude": 39.3445766,
+  "longitude": -8.9344835,
+  "url": "https://www.zerozero.pt/equipa/casa-pia-ac/2412"
+}

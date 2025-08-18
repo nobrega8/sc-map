@@ -1,0 +1,17 @@
+{
+  "id": "2197",
+  "club": "FC Vizela",
+  "stadium": "Estádio do Futebol Clube de Vizela",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2197_imgbank_1682583338.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/97/2197_shirt_20241118144741_fc_vizela.png",
+      "alt_text": "fc vizela"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3889481,
+  "longitude": -8.3075383,
+  "url": "https://www.zerozero.pt/equipa/fc-vizela/2197"
+}

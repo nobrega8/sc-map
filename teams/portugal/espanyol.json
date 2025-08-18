@@ -1,0 +1,17 @@
+{
+  "id": "43",
+  "club": "Espanyol",
+  "stadium": "RCDE Stadium",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/43_imgbank_1684423033.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/43/43_shirt_20210505203818_espanyol.png",
+      "alt_text": "espanyol"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/espanyol/43"
+}

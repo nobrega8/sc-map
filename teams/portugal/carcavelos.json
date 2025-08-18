@@ -1,0 +1,17 @@
+{
+  "id": "11193",
+  "club": "Carcavelos",
+  "stadium": "Campo da Quinta Nova",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11193_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/93/11193_shirt_carcavelos.png",
+      "alt_text": "carcavelos"
+    }
+  ],
+  "address": null,
+  "latitude": 38.2850492,
+  "longitude": -8.037577,
+  "url": "https://www.zerozero.pt/equipa/carcavelos/11193"
+}

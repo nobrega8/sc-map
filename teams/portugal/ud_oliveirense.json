@@ -1,0 +1,17 @@
+{
+  "id": "2199",
+  "club": "UD Oliveirense",
+  "stadium": "Estádio Carlos Osório",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2199_imgbank_1682588053.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/99/2199_shirt_20241118144616_ud_oliveirense.png",
+      "alt_text": "ud oliveirense"
+    }
+  ],
+  "address": null,
+  "latitude": 40.8418112,
+  "longitude": -8.4704214,
+  "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199"
+}

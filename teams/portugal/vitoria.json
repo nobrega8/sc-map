@@ -1,0 +1,17 @@
+{
+  "id": "2259",
+  "club": "Vitória",
+  "stadium": "Manoel Barradas (Barradão)",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2259_imgbank_1683640658.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/59/2259_shirt_20231122085158_vit_ria.png",
+      "alt_text": "vitória"
+    }
+  ],
+  "address": null,
+  "latitude": 38.5313641,
+  "longitude": -8.8911587,
+  "url": "https://www.zerozero.pt/equipa/vitoria/2259"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "28970",
+  "club": "Associação Murteirense",
+  "stadium": "Campo de Jogos João Jacinto",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/28970_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/70/28970_shirt_20250218162101_associacao_murteirense.jpg",
+      "alt_text": "associação murteirense"
+    }
+  ],
+  "address": null,
+  "latitude": 39.236819716569116,
+  "longitude": -9.06270912054545,
+  "url": "https://www.zerozero.pt/equipa/associacao-murteirense/28970"
+}

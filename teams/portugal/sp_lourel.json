@@ -1,0 +1,17 @@
+{
+  "id": "3958",
+  "club": "Sp. Lourel",
+  "stadium": "Complexo Desportivo Sargento Arménio",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3958_imgbank_1748614610.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/58/3958_shirt_20230418122007_sp_lourel.png",
+      "alt_text": "sp. lourel"
+    }
+  ],
+  "address": null,
+  "latitude": 38.8107102,
+  "longitude": -9.3665298,
+  "url": "https://www.zerozero.pt/equipa/sp-lourel/3958"
+}

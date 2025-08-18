@@ -1,0 +1,17 @@
+{
+  "id": "2492",
+  "club": "Chicago Fire",
+  "stadium": "Soldier Field",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2492_imgbank_1686647582.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/92/2492_shirt_chicago_fire.png",
+      "alt_text": "chicago fire"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/chicago-fire/2492"
+}

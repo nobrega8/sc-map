@@ -1,0 +1,17 @@
+{
+  "id": "33",
+  "club": "Portimonense",
+  "stadium": "Estádio Municipal de Portimão",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/33_imgbank_1682584345.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/33/33_shirt_20241118144702_portimonense.png",
+      "alt_text": "portimonense"
+    }
+  ],
+  "address": null,
+  "latitude": 37.1356935,
+  "longitude": -8.5398305,
+  "url": "https://www.zerozero.pt/equipa/portimonense/33"
+}

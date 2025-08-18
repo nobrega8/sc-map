@@ -1,0 +1,17 @@
+{
+  "id": "2545",
+  "club": "Real Oviedo",
+  "stadium": "Nuevo Carlos Tartiere",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2545_imgbank_1684485755.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/45/2545_shirt_20210505232717_real_oviedo.png",
+      "alt_text": "real oviedo"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/real-oviedo/2545"
+}

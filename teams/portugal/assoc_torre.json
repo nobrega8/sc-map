@@ -1,0 +1,17 @@
+{
+  "id": "3962",
+  "club": "Assoc. Torre",
+  "stadium": "Campo Alfredo Pinheiro",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3962_imgbank_1690803826.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/62/3962_shirt_20190111091054_assoc_torre.jpg",
+      "alt_text": "assoc. torre"
+    }
+  ],
+  "address": null,
+  "latitude": 38.70004841165095,
+  "longitude": -9.440713060589218,
+  "url": "https://www.zerozero.pt/equipa/assoc-torre/3962"
+}

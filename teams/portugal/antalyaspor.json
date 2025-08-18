@@ -1,0 +1,17 @@
+{
+  "id": "7882",
+  "club": "Antalyaspor",
+  "stadium": "Antalya Stadyumu",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7882_imgbank_1687939392.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/82/7882_shirt_20210507173613_antalyaspor.png",
+      "alt_text": "antalyaspor"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/antalyaspor/7882"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2246",
+  "club": "Juventude",
+  "stadium": "Alfredo Jaconi",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2246_imgbank_1683626208.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/46/2246_shirt_20240124163830_juventude.png",
+      "alt_text": "juventude"
+    }
+  ],
+  "address": null,
+  "latitude": 40.1817708,
+  "longitude": -8.0279658,
+  "url": "https://www.zerozero.pt/equipa/juventude/2246"
+}

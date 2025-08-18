@@ -1,0 +1,17 @@
+{
+  "id": "3",
+  "club": "Belenenses",
+  "stadium": "Estádio do Restelo",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3_imgbank_1682589777.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/03/3_shirt_20250523113255_belenenses.png",
+      "alt_text": "belenenses"
+    }
+  ],
+  "address": null,
+  "latitude": 38.702135423428984,
+  "longitude": -9.207755425230948,
+  "url": "https://www.zerozero.pt/equipa/belenenses/3"
+}

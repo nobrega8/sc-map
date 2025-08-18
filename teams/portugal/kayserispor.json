@@ -1,0 +1,17 @@
+{
+  "id": "4181",
+  "club": "Kayserispor",
+  "stadium": "Kadir Has",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4181_imgbank_1687939603.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/81/4181_shirt_20210507173723_kayserispor.png",
+      "alt_text": "kayserispor"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/kayserispor/4181"
+}

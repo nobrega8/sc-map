@@ -1,0 +1,17 @@
+{
+  "id": "10876",
+  "club": "Algés",
+  "stadium": "Estádio Dr. Simões Alves",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10876_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/76/10876_shirt_20250723101828_alges.jpg",
+      "alt_text": "algés"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7027915,
+  "longitude": -9.2287735,
+  "url": "https://www.zerozero.pt/equipa/alges/10876"
+}

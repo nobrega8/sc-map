@@ -1,0 +1,17 @@
+{
+  "id": "2501",
+  "club": "SJ Earthquakes",
+  "stadium": "PayPal Park",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2501_imgbank_1686736238.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/01/2501_shirt_sj_earthquakes.png",
+      "alt_text": "sj earthquakes"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/sj-earthquakes/2501"
+}

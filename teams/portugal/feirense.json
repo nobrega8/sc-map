@@ -1,0 +1,17 @@
+{
+  "id": "1728",
+  "club": "Feirense",
+  "stadium": "Estádio Marcolino Castro",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1728_imgbank_1682588314.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/28/1728_shirt_20241118145007_feirense.png",
+      "alt_text": "feirense"
+    }
+  ],
+  "address": null,
+  "latitude": 40.9266318,
+  "longitude": -8.5459213,
+  "url": "https://www.zerozero.pt/equipa/feirense/1728"
+}

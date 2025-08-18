@@ -1,0 +1,17 @@
+{
+  "id": "3740",
+  "club": "Pisa",
+  "stadium": "Stadio Romeo Anconetani",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3740_imgbank_1683903671.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/40/3740_shirt_20210507090555_pisa.png",
+      "alt_text": "pisa"
+    }
+  ],
+  "address": null,
+  "latitude": 37.2269626,
+  "longitude": -7.5111187,
+  "url": "https://www.zerozero.pt/equipa/pisa/3740"
+}

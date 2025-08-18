@@ -1,0 +1,17 @@
+{
+  "id": "2495",
+  "club": "DC United",
+  "stadium": "Audi Field",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2495_imgbank_1686647949.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/95/2495_shirt_20200301213017_dc_united.png",
+      "alt_text": "dc united"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/dc-united/2495"
+}

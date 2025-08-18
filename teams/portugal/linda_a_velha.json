@@ -1,0 +1,17 @@
+{
+  "id": "7990",
+  "club": "Linda-a-Velha",
+  "stadium": "Estádio Fernando Magalhães",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7990_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/90/7990_shirt_20220725144045_linda_a_velha.png",
+      "alt_text": "linda-a-velha"
+    }
+  ],
+  "address": null,
+  "latitude": 38.7144913,
+  "longitude": -9.2457005,
+  "url": "https://www.zerozero.pt/equipa/linda-a-velha/7990"
+}

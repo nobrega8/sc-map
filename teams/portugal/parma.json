@@ -1,0 +1,17 @@
+{
+  "id": "68",
+  "club": "Parma",
+  "stadium": "Stadio Ennio Tardini",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/68_imgbank_1683902298.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/68/68_shirt_20210506003334_parma.png",
+      "alt_text": "parma"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/parma/68"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "9050",
+  "club": "Goztepe",
+  "stadium": "Gürsel Aksel Stadyumu",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/9050_imgbank_1687941819.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/50/9050_shirt_20210507173505_goztepe.png",
+      "alt_text": "goztepe"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/goztepe/9050"
+}

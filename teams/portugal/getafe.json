@@ -1,0 +1,17 @@
+{
+  "id": "3753",
+  "club": "Getafe",
+  "stadium": "Coliseum Alfonso Pérez",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3753_imgbank_1684422939.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/53/3753_shirt_20210504142124_getafe.png",
+      "alt_text": "getafe"
+    }
+  ],
+  "address": null,
+  "latitude": 40.3264421,
+  "longitude": -3.7358973,
+  "url": "https://www.zerozero.pt/equipa/getafe/3753"
+}

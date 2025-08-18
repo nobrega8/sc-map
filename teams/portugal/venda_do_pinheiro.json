@@ -1,0 +1,17 @@
+{
+  "id": "6393",
+  "club": "Venda do Pinheiro",
+  "stadium": "Estádio Municipal da Venda do Pinheiro",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6393_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/93/6393_shirt_20220929100709_venda_do_pinheiro.png",
+      "alt_text": "venda do pinheiro"
+    }
+  ],
+  "address": null,
+  "latitude": 38.929071,
+  "longitude": -9.2280052,
+  "url": "https://www.zerozero.pt/equipa/venda-do-pinheiro/6393"
+}

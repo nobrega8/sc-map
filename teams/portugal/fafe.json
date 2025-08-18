@@ -1,0 +1,17 @@
+{
+  "id": "2191",
+  "club": "Fafe",
+  "stadium": "Estádio Municipal de Fafe",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2191_imgbank_1683026098.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/91/2191_shirt_20250402135620_fafe.jpg",
+      "alt_text": "fafe"
+    }
+  ],
+  "address": null,
+  "latitude": 41.4471519,
+  "longitude": -8.1690937,
+  "url": "https://www.zerozero.pt/equipa/fafe/2191"
+}

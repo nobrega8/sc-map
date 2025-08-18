@@ -1,0 +1,17 @@
+{
+  "id": "13",
+  "club": "Paços de Ferreira",
+  "stadium": "Estádio Capital do Móvel",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/13_imgbank_1682583483.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/13/13_shirt_20241118144651_pacos_de_ferreira.png",
+      "alt_text": "paços de ferreira"
+    }
+  ],
+  "address": null,
+  "latitude": 41.27144778991801,
+  "longitude": -8.385628783445842,
+  "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "8241",
+  "club": "Telstar",
+  "stadium": "711 Stadion",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8241_imgbank_1691139503.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/41/8241_shirt_telstar.png",
+      "alt_text": "telstar"
+    }
+  ],
+  "address": null,
+  "latitude": -21.1275374,
+  "longitude": -44.2434866,
+  "url": "https://www.zerozero.pt/equipa/telstar/8241"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "11185",
+  "club": "Malveira da Serra",
+  "stadium": "Campo 22 de Março",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11185_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/85/11185_shirt_20221012142741_malveira_da_serra.jpg",
+      "alt_text": "malveira da serra"
+    }
+  ],
+  "address": null,
+  "latitude": 38.2587871,
+  "longitude": -7.9946209,
+  "url": "https://www.zerozero.pt/equipa/malveira-da-serra/11185"
+}

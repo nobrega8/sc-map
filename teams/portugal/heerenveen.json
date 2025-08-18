@@ -1,0 +1,17 @@
+{
+  "id": "1929",
+  "club": "Heerenveen",
+  "stadium": "Abe Lenstra",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1929_imgbank_1687180626.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/29/1929_shirt_20231117091102_heerenveen.jpg",
+      "alt_text": "heerenveen"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/heerenveen/1929"
+}

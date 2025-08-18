@@ -1,0 +1,17 @@
+{
+  "id": "10223",
+  "club": "At. Tojal",
+  "stadium": "Campo Meia Laranja",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10223_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/23/10223_shirt_20190227100037_at_tojal.png",
+      "alt_text": "at. tojal"
+    }
+  ],
+  "address": null,
+  "latitude": 41.297658,
+  "longitude": -7.7460478,
+  "url": "https://www.zerozero.pt/equipa/at-tojal/10223"
+}

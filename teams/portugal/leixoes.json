@@ -1,0 +1,17 @@
+{
+  "id": "1727",
+  "club": "Leixões",
+  "stadium": "Estádio do Mar",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1727_imgbank_1746806303.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/27/1727_shirt_20241118145024_leixoes.png",
+      "alt_text": "leixões"
+    }
+  ],
+  "address": null,
+  "latitude": 41.1842636,
+  "longitude": -8.6662164,
+  "url": "https://www.zerozero.pt/equipa/leixoes/1727"
+}

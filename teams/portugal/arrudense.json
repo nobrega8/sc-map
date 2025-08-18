@@ -1,0 +1,17 @@
+{
+  "id": "12775",
+  "club": "Arrudense",
+  "stadium": "Campo Municipal de Arruda dos Vinhos",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12775_imgbank_1727875597.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/75/12775_shirt_20220929094306_arrudense.png",
+      "alt_text": "arrudense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.9810618,
+  "longitude": -9.0787625,
+  "url": "https://www.zerozero.pt/equipa/arrudense/12775"
+}

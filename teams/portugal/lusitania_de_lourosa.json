@@ -1,0 +1,17 @@
+{
+  "id": "3599",
+  "club": "Lusitânia de Lourosa",
+  "stadium": "Estádio do Lusitânia de Lourosa FC",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3599_imgbank_1683304198.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/99/3599_shirt_20241213204350_lusitania_de_lourosa.png",
+      "alt_text": "lusitânia de lourosa"
+    }
+  ],
+  "address": null,
+  "latitude": 40.9847639,
+  "longitude": -8.5469789,
+  "url": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599"
+}

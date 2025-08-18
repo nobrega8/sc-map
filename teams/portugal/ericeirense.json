@@ -1,0 +1,17 @@
+{
+  "id": "3957",
+  "club": "Ericeirense",
+  "stadium": "Campo Henrique Tomás Frade",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3957_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/57/3957_shirt_20230419084934_ericeirense.png",
+      "alt_text": "ericeirense"
+    }
+  ],
+  "address": null,
+  "latitude": 38.9661287,
+  "longitude": -9.4105556,
+  "url": "https://www.zerozero.pt/equipa/ericeirense/3957"
+}

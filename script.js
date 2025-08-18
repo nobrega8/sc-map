@@ -207,12 +207,45 @@ function downloadSubmissions(submissions) {
     URL.revokeObjectURL(url);
 }
 
-// Load club data and initialize lazy loading
-fetch('clubes.json')
-    .then(response => response.json())
-    .then(data => {
-        allClubs = data;
-        console.log(`Loaded ${allClubs.length} clubs. Implementing lazy loading for better performance.`);
+// Load club data from new structure and initialize lazy loading
+async function loadClubsFromNewStructure() {
+    try {
+        // First, load the index to know which countries and files exist
+        const indexResponse = await fetch('teams/index.json');
+        const index = await indexResponse.json();
+        
+        console.log(`Loading clubs from ${index.countries.length} countries...`);
+        
+        allClubs = [];
+        
+        // Load clubs from each country
+        for (const country of index.countries) {
+            const files = index.structure[country].files;
+            console.log(`Loading ${files.length} clubs from ${country}...`);
+            
+            // Load all club files for this country
+            const clubPromises = files.map(async filename => {
+                try {
+                    const response = await fetch(`teams/${country}/${filename}`);
+                    if (!response.ok) {
+                        console.warn(`Failed to load teams/${country}/${filename}`);
+                        return null;
+                    }
+                    return await response.json();
+                } catch (err) {
+                    console.warn(`Error loading teams/${country}/${filename}:`, err);
+                    return null;
+                }
+            });
+            
+            const countryClubs = await Promise.all(clubPromises);
+            const validClubs = countryClubs.filter(club => club !== null);
+            allClubs.push(...validClubs);
+            
+            console.log(`Loaded ${validClubs.length}/${files.length} clubs from ${country}`);
+        }
+        
+        console.log(`Total loaded: ${allClubs.length} clubs. Implementing lazy loading for better performance.`);
         
         // Initial load of visible markers
         loadVisibleMarkers();
@@ -220,5 +253,24 @@ fetch('clubes.json')
         // Log performance info
         const clubsWithLogos = allClubs.filter(club => club.logo).length;
         console.log(`${clubsWithLogos} clubs have logos. Only loading logos for clubs in viewport.`);
-    })
-    .catch(err => console.error('Erro ao carregar clubes.json:', err));
+        
+    } catch (err) {
+        console.error('Erro ao carregar dados dos clubes:', err);
+        
+        // Fallback to old structure if new structure fails
+        console.log('Trying fallback to old clubes.json structure...');
+        try {
+            const response = await fetch('clubes.json');
+            const data = await response.json();
+            allClubs = data;
+            console.log(`Fallback: Loaded ${allClubs.length} clubs from clubes.json`);
+            loadVisibleMarkers();
+        } catch (fallbackErr) {
+            console.error('Fallback also failed:', fallbackErr);
+            alert('Erro ao carregar dados dos clubes. Verifique a conexão.');
+        }
+    }
+}
+
+// Initialize the map with club data
+loadClubsFromNewStructure();

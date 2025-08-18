@@ -1,0 +1,17 @@
+{
+  "id": "1139",
+  "club": "Metz",
+  "stadium": "Stade Saint-Symphorien",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1139_imgbank_1731920832.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/39/1139_shirt_20210504174706_metz.png",
+      "alt_text": "metz"
+    }
+  ],
+  "address": null,
+  "latitude": -33.594287,
+  "longitude": -70.5913338,
+  "url": "https://www.zerozero.pt/equipa/metz/1139"
+}

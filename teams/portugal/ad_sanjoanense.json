@@ -1,0 +1,17 @@
+{
+  "id": "2185",
+  "club": "AD Sanjoanense",
+  "stadium": "Estádio Conde Dias Garcia",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2185_imgbank_1683026338.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/85/2185_shirt_20240821185954_ad_sanjoanense.jpg",
+      "alt_text": "ad sanjoanense"
+    }
+  ],
+  "address": null,
+  "latitude": 40.8982398,
+  "longitude": -8.4989063,
+  "url": "https://www.zerozero.pt/equipa/ad-sanjoanense/2185"
+}

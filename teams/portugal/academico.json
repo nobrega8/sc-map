@@ -1,0 +1,17 @@
+{
+  "id": "2181",
+  "club": "Académico",
+  "stadium": "Estádio Municipal do Fontelo",
+  "logo": "https://www.zerozero.pt/img_icon/logos/equipas/5670_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/81/2181_shirt_20241119114216_academico.png",
+      "alt_text": "académico"
+    }
+  ],
+  "address": null,
+  "latitude": 40.6595417,
+  "longitude": -7.9004499,
+  "url": "https://www.zerozero.pt/equipa/academico/2181"
+}

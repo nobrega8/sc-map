@@ -1,0 +1,17 @@
+{
+  "id": "3880",
+  "club": "Atlético Cacém",
+  "stadium": "Complexo Desportivo Joaquim Vieira - Campo n.º 2",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3880_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/80/3880_shirt_20230419084947_atletico_cacem.png",
+      "alt_text": "atlético cacém"
+    }
+  ],
+  "address": null,
+  "latitude": 38.77467167574203,
+  "longitude": -9.318496792579072,
+  "url": "https://www.zerozero.pt/equipa/atletico-cacem/3880"
+}

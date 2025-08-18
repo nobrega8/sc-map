@@ -1,0 +1,17 @@
+{
+  "id": "15002",
+  "club": "Arsenal 72",
+  "stadium": "Parque Desportivo Municipal José Pereira",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/15002_imgbank_1712654954.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/02/15002_shirt_arsenal_72.jpg",
+      "alt_text": "arsenal 72"
+    }
+  ],
+  "address": null,
+  "latitude": 32.6468371,
+  "longitude": -16.9014788,
+  "url": "https://www.zerozero.pt/equipa/arsenal-72/15002"
+}

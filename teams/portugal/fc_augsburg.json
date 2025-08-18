@@ -1,0 +1,17 @@
+{
+  "id": "8210",
+  "club": "FC Augsburg",
+  "stadium": "WWK Arena",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8210_imgbank_1683732701.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/10/8210_shirt_20240208165134_fc_augsburg.jpg",
+      "alt_text": "fc augsburg"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/fc-augsburg/8210"
+}

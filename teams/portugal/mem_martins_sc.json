@@ -1,0 +1,17 @@
+{
+  "id": "6394",
+  "club": "Mem Martins SC",
+  "stadium": "Complexo Desportivo da Quinta do Recanto",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6394_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/94/6394_shirt_20230419085009_mem_martins_sc.png",
+      "alt_text": "mem martins sc"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/mem-martins-sc/6394"
+}

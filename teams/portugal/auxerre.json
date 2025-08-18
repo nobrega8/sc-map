@@ -1,0 +1,17 @@
+{
+  "id": "114",
+  "club": "Auxerre",
+  "stadium": "Stade de l´Abbé-Deschamps",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/114_imgbank_1684487707.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/14/114_shirt_20210505234138_auxerre.png",
+      "alt_text": "auxerre"
+    }
+  ],
+  "address": null,
+  "latitude": null,
+  "longitude": null,
+  "url": "https://www.zerozero.pt/equipa/auxerre/114"
+}

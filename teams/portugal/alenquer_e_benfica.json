@@ -1,0 +1,17 @@
+{
+  "id": "3905",
+  "club": "Alenquer e Benfica",
+  "stadium": "Parque de Jogos do Sport Alenquer e Benfica",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3905_imgbank.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/05/3905_shirt_20220929094213_alenquer_e_benfica.png",
+      "alt_text": "alenquer e benfica"
+    }
+  ],
+  "address": null,
+  "latitude": 39.04576805752226,
+  "longitude": -9.001966346705172,
+  "url": "https://www.zerozero.pt/equipa/alenquer-e-benfica/3905"
+}

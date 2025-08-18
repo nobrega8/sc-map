@@ -1,0 +1,17 @@
+{
+  "id": "3664",
+  "club": "Trofense",
+  "stadium": "Estádio Clube Desportivo Trofense",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3664_imgbank_1682587963.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/64/3664_shirt_20231227103254_trofense.png",
+      "alt_text": "trofense"
+    }
+  ],
+  "address": null,
+  "latitude": 41.3331182,
+  "longitude": -8.5644689,
+  "url": "https://www.zerozero.pt/equipa/trofense/3664"
+}

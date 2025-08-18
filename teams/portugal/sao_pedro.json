@@ -1,0 +1,17 @@
+{
+  "id": "11181",
+  "club": "São Pedro",
+  "stadium": "Campo José Maria dos Santos",
+  "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11181_imgbank_1712918092.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/81/11181_shirt_sao_pedro.jpg",
+      "alt_text": "são pedro"
+    }
+  ],
+  "address": null,
+  "latitude": 32.6515776,
+  "longitude": -16.9163687,
+  "url": "https://www.zerozero.pt/equipa/sao-pedro/11181"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "32",
+  "club": "Santa Clara",
+  "stadium": "Estádio de São Miguel",
+  "logo": "https://www.zerozero.pt/img_icon/logos/equipas/32_imgbank_1720775732.png",
+  "equipamentos": [
+    {
+      "type": "desconhecido",
+      "url": "https://www.zerozero.pt/img/logos/equipas/32/32_shirt_20241014153054_santa_clara.png",
+      "alt_text": "santa clara"
+    }
+  ],
+  "address": null,
+  "latitude": 37.7639923,
+  "longitude": -25.6228123,
+  "url": "https://www.zerozero.pt/equipa/santa-clara/32"
+}
