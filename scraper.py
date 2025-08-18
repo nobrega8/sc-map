@@ -8,6 +8,7 @@ import re
 from urllib.parse import urljoin, urlparse, parse_qs
 import os
 import csv
+import hashlib
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -135,6 +136,11 @@ def obter_dados_clube(url):
         
         # ID do clube
         clube_id = extrair_id_clube(url)
+        
+        # Se não tem ID, criar um identificador único baseado na URL
+        if not clube_id:
+            url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
+            clube_id = f"url_{url_hash}"
         
         # Nome do clube - múltiplas tentativas mais específicas
         nome = None
@@ -372,36 +378,30 @@ def obter_dados_clube(url):
                     cidade = morada
                     break
         
-        # Obter coordenadas via Nominatim
+        # Obter coordenadas via Nominatim - apenas usar nome do estádio
         lat, lon = None, None
-        if estadio_nome or morada or cidade:
+        if estadio_nome:
             try:
                 geolocator = Nominatim(user_agent="clubes-portugal-discovery")
                 
-                search_terms = []
-                if estadio_nome:
-                    search_terms.append(f"{estadio_nome}, Portugal")
-                if morada:
-                    search_terms.append(f"{morada}, Portugal")
-                if cidade:
-                    search_terms.append(f"{cidade}, Portugal")
-                if nome:
-                    search_terms.append(f"{nome} FC, Portugal")
-                
-                for term in search_terms:
-                    try:
-                        location = geolocator.geocode(term, timeout=10)
-                        if location:
-                            lat, lon = location.latitude, location.longitude
-                            logger.info(f"Coordenadas encontradas para {nome}: {lat}, {lon}")
-                            break
-                    except:
-                        continue
+                # Usar apenas o nome do estádio para evitar coordenadas incorretas
+                search_term = f"{estadio_nome}, Portugal"
+                try:
+                    location = geolocator.geocode(search_term, timeout=10)
+                    if location:
+                        lat, lon = location.latitude, location.longitude
+                        logger.info(f"Coordenadas encontradas para {nome} usando estádio '{estadio_nome}': {lat}, {lon}")
+                    else:
+                        logger.warning(f"Coordenadas não encontradas para estádio '{estadio_nome}' do clube {nome}")
+                except Exception as search_error:
+                    logger.warning(f"Erro na pesquisa de coordenadas para estádio '{estadio_nome}': {search_error}")
                 
                 time.sleep(1)  # Rate limit do Nominatim
                 
             except Exception as geo_error:
                 logger.error(f"Erro na geocodificação: {geo_error}")
+        else:
+            logger.info(f"Nome do estádio não encontrado para {nome} - coordenadas não serão extraídas")
         
         # Validação final dos dados extraídos
         if not nome or nome.lower() in ["zerozero.pt", "zerozero", "www.zerozero.pt"]:
