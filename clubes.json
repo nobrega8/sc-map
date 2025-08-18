@@ -3296,8 +3296,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 44.953017010883094,
+        "longitude": -93.1647400603248,
         "url": "https://www.zerozero.pt/equipa/minnesota-united/41442"
     },
     {
@@ -3313,8 +3313,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -20.822261797909402,
+        "longitude": -49.50642790402208,
         "url": "https://www.zerozero.pt/equipa/mirassol/3348"
     },
     {
@@ -3330,8 +3330,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.594669072531694,
+        "longitude": 4.75053848786803,
         "url": "https://www.zerozero.pt/equipa/nac-breda/1104"
     },
     {
@@ -3347,8 +3347,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.82229054715022,
+        "longitude": 5.8372264265079865,
         "url": "https://www.zerozero.pt/equipa/nec/1120"
     },
     {
@@ -3364,8 +3364,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.93965839205523,
+        "longitude": -1.1324248676950737,
         "url": "https://www.zerozero.pt/equipa/nottingham-forest/2579"
     },
     {
@@ -3381,14 +3381,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 28.541031975567808,
+        "longitude": -81.38885472656018,
         "url": "https://www.zerozero.pt/equipa/orlando-city/55657"
     },
     {
         "id": "3852",
         "club": "Paris FC",
-        "stadium": "Paris FC reserva dez por cento da capacidade do estádio para associações e clubes locais",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3852_imgbank_1686819580.png",
         "equipamentos": [
             {
@@ -3398,8 +3398,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 48.74318594863722,
+        "longitude": 2.4105132322426734,
         "url": "https://www.zerozero.pt/equipa/paris-fc/3852"
     },
     {
@@ -3415,8 +3415,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 44.7948089768267,
+        "longitude": 10.338371398818516,
         "url": "https://www.zerozero.pt/equipa/parma/68"
     },
     {
@@ -3432,20 +3432,9 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 43.703075487283044,
+        "longitude": 10.423281351528495,
         "url": "https://www.zerozero.pt/equipa/pisa/3740"
-    },
-    {
-        "id": "236",
-        "club": "Porto",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/porto/236"
     },
     {
         "id": "2545",
@@ -3460,8 +3449,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 43.3606021925049,
+        "longitude": -5.870048280957194,
         "url": "https://www.zerozero.pt/equipa/real-oviedo/2545"
     },
     {
