@@ -2616,8 +2616,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 45.137096898260026,
+        "longitude": 10.047036523033533,
         "url": "https://www.zerozero.pt/equipa/cremonese/3725"
     },
     {
@@ -2633,8 +2633,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.86819206575807,
+        "longitude": -77.01284784232857,
         "url": "https://www.zerozero.pt/equipa/dc-united/2495"
     },
     {
@@ -2650,8 +2650,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.267264824994264,
+        "longitude": -0.6633260870491403,
         "url": "https://www.zerozero.pt/equipa/elche/2548"
     },
     {
@@ -2667,14 +2667,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.34796537785195,
+        "longitude": 2.075784584461287,
         "url": "https://www.zerozero.pt/equipa/espanyol/43"
     },
     {
         "id": "82",
         "club": "Everton",
-        "stadium": null,
+        "stadium": "Hill Dickson Stadium",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82_imgbank_1683906570.png",
         "equipamentos": [
             {
@@ -2684,8 +2684,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 53.42484620428747,
+        "longitude": -3.002774231082648,
         "url": "https://www.zerozero.pt/equipa/everton/82"
     },
     {
@@ -2701,8 +2701,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.91705919487093,
+        "longitude": 4.5206064672122785,
         "url": "https://www.zerozero.pt/equipa/excelsior/5359"
     },
     {
@@ -2718,8 +2718,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.04724418656445,
+        "longitude": 28.930044988357107,
         "url": "https://www.zerozero.pt/equipa/eyupspor/24502"
     },
     {
@@ -2735,8 +2735,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 53.20604327994876,
+        "longitude": 6.5918405892560585,
         "url": "https://www.zerozero.pt/equipa/fc-groningen/1933"
     },
     {
@@ -2752,8 +2752,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 53.554924968431756,
+        "longitude": 9.967989932145334,
         "url": "https://www.zerozero.pt/equipa/fc-st-pauli/5038"
     },
     {
@@ -2769,8 +2769,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.49437731080892,
+        "longitude": 5.066431319042807,
         "url": "https://www.zerozero.pt/equipa/fc-volendam/1935"
     },
     {
@@ -2786,8 +2786,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 48.323291913636,
+        "longitude": 10.885806953866481,
         "url": "https://www.zerozero.pt/equipa/fc-augsburg/8210"
     },
     {
@@ -2803,8 +2803,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.11078777499916,
+        "longitude": -84.52211948385872,
         "url": "https://www.zerozero.pt/equipa/fc-cincinnati/108516"
     },
     {
@@ -2820,8 +2820,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.078330831180104,
+        "longitude": 5.145888773014269,
         "url": "https://www.zerozero.pt/equipa/fc-utrecht/1114"
     },
     {
@@ -2837,14 +2837,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 50.99192260646025,
+        "longitude": 5.843618311123988,
         "url": "https://www.zerozero.pt/equipa/fortuna-sittard/4485"
     },
     {
         "id": "83",
         "club": "Fulham",
-        "stadium": null,
+        "stadium": "Craven Cottage",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/83_imgbank_1683906668.png",
         "equipamentos": [
             {
@@ -2854,8 +2854,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.4747866685699,
+        "longitude": -0.22126447960222065,
         "url": "https://www.zerozero.pt/equipa/fulham/83"
     },
     {
@@ -2871,8 +2871,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.12345637222737,
+        "longitude": 37.382662651001795,
         "url": "https://www.zerozero.pt/equipa/gazisehir-gaziantep/8697"
     },
     {
@@ -2888,8 +2888,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.979753733806405,
+        "longitude": 32.6141015380856,
         "url": "https://www.zerozero.pt/equipa/genclerbirligi/1107"
     },
     {
@@ -2905,8 +2905,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 44.41659999386522,
+        "longitude": 8.952572641501206,
         "url": "https://www.zerozero.pt/equipa/genoa/3728"
     },
     {
@@ -2922,8 +2922,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.325750030303944,
+        "longitude": -3.7147721991522853,
         "url": "https://www.zerozero.pt/equipa/getafe/3753"
     },
     {
@@ -2939,8 +2939,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.96097479161524,
+        "longitude": 2.8284633003729844,
         "url": "https://www.zerozero.pt/equipa/girona/5121"
     },
     {
@@ -2956,8 +2956,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.26028113202917,
+        "longitude": 6.172865778564209,
         "url": "https://www.zerozero.pt/equipa/go-ahead-eagles/5792"
     },
     {
@@ -2973,8 +2973,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.39683401245233,
+        "longitude": 27.076000071934335,
         "url": "https://www.zerozero.pt/equipa/goztepe/9050"
     },
     {
@@ -2990,8 +2990,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.958514900399706,
+        "longitude": 5.93656342101513,
         "url": "https://www.zerozero.pt/equipa/heerenveen/1929"
     },
     {
@@ -3007,8 +3007,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.3387777981759,
+        "longitude": 6.651083101398111,
         "url": "https://www.zerozero.pt/equipa/heracles-almelo/5948"
     },
     {
@@ -3024,8 +3024,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -29.162608934681334,
+        "longitude": -51.176051457226954,
         "url": "https://www.zerozero.pt/equipa/juventude/2246"
     },
     {
@@ -3041,8 +3041,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.02789065081708,
+        "longitude": 28.93909962089279,
         "url": "https://www.zerozero.pt/equipa/karagumruk/84935"
     },
     {
@@ -3058,8 +3058,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.032648579049656,
+        "longitude": 28.972397036770563,
         "url": "https://www.zerozero.pt/equipa/kasimpasa/8695"
     },
     {
@@ -3075,8 +3075,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.76470345638675,
+        "longitude": 35.45940769332711,
         "url": "https://www.zerozero.pt/equipa/kayserispor/4181"
     },
     {
@@ -3092,8 +3092,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.77478155240389,
+        "longitude": 30.017593549287717,
         "url": "https://www.zerozero.pt/equipa/kocaelispor/3875"
     },
     {
@@ -3109,8 +3109,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 49.49881907499264,
+        "longitude": 0.16955198961537102,
         "url": "https://www.zerozero.pt/equipa/le-havre/118"
     },
     {
@@ -3126,14 +3126,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.36494633210293,
+        "longitude": 18.209266578564208,
         "url": "https://www.zerozero.pt/equipa/lecce/1129"
     },
     {
         "id": "84",
         "club": "Leeds United",
-        "stadium": null,
+        "stadium": "Eland Road",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/84_imgbank_1683906764.png",
         "equipamentos": [
             {
@@ -3143,8 +3143,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 53.77768937496805,
+        "longitude": -1.5718012794861154,
         "url": "https://www.zerozero.pt/equipa/leeds-united/84"
     },
     {
@@ -3165,15 +3165,21 @@
         "url": "https://www.zerozero.pt/equipa/levante/2570"
     },
     {
-        "id": "867003",
+        "id": "liverpool",
         "club": "Liverpool",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
+        "stadium": "Anfield Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/85_imgbank_1724929992.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/85/85_shirt_20250806154416_liverpool.png",
+                "alt_text": "liverpool"
+            }
+        ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/liverpool/867003"
+        "latitude": 53.43065131973306,
+        "longitude": -2.9608840338775155,
+        "url": "https://www.zerozero.pt/equipa/liverpool"
     },
     {
         "id": "3859",
@@ -3188,8 +3194,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 47.74860312206547,
+        "longitude": -3.369246484657154,
         "url": "https://www.zerozero.pt/equipa/lorient/3859"
     },
     {
@@ -3205,8 +3211,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 34.01271413372097,
+        "longitude": -118.28402135891564,
         "url": "https://www.zerozero.pt/equipa/los-angeles-fc/96424"
     },
     {
@@ -3222,31 +3228,43 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.589786409074854,
+        "longitude": 2.6300583754218643,
         "url": "https://www.zerozero.pt/equipa/mallorca/44"
     },
     {
-        "id": "867001",
+        "id": "manchester_city",
         "club": "Manchester City",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
+        "stadium": "Ethiad Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86_imgbank_1683906978.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/86/86_shirt_20240919221943_manchester_city.png",
+                "alt_text": "manchester city"
+            }
+        ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/manchester-city/867001"
+        "latitude": 53.48290902142453,
+        "longitude": -2.200328329229678,
+        "url": "https://www.zerozero.pt/equipa/manchester-city"
     },
     {
-        "id": "867002",
+        "id": "manchester_united",
         "club": "Manchester United",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
+        "stadium": "Old Trafford",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/87_imgbank_1683907056.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/87/87_shirt_20240919221943_manchester_united.png",
+                "alt_text": "manchester united"
+            }
+        ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/manchester-united/867002"
+        "latitude": 53.46308442157684,
+        "longitude": -2.2920696630733683,
+        "url": "https://www.zerozero.pt/equipa/manchester-united"
     },
     {
         "id": "1139",
@@ -3261,8 +3279,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 49.10984100488249,
+        "longitude": 6.159363990619916,
         "url": "https://www.zerozero.pt/equipa/metz/1139"
     },
     {
