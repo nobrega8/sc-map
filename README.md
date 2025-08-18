@@ -4,7 +4,7 @@ Mapa interativo dos clubes de futebol portugueses, que mostra a localização, e
 
 ## 🗺️ Ver o Mapa
 
-Acede ao mapa em: [scmap.nobrega.uk](scmap.nobrega.uk)
+Acede ao mapa em: [scmap.nobrega.uk](https:\\scmap.nobrega.uk)
 
 ## 🔄 Como Contribuir
 
