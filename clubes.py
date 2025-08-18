@@ -5,6 +5,7 @@ import time
 from urllib.parse import urljoin
 import re
 import sys
+import hashlib
 
 # Configurações
 HEADERS = {
@@ -146,10 +147,14 @@ def extrair_clubes_competicao(url):
                         url_clube = urljoin("https://www.zerozero.pt", href)
                         clube_id = extrair_id_clube(url_clube)
                         
-                        # Só processar se temos um ID válido e não está duplicado
-                        if not clube_id or clube_id in clubes_encontrados:
-                            if not clube_id:
-                                links_rejeitados += 1
+                        # Se não tem ID, criar um identificador único baseado na URL
+                        if not clube_id:
+                            # Usar hash da URL como ID alternativo
+                            url_hash = hashlib.md5(url_clube.encode()).hexdigest()[:8]
+                            clube_id = f"url_{url_hash}"
+                        
+                        # Só processar se não está duplicado
+                        if clube_id in clubes_encontrados:
                             continue
                         
                         # Extrair nome do clube com múltiplas estratégias

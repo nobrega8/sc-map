@@ -8,6 +8,7 @@ import re
 from urllib.parse import urljoin, urlparse, parse_qs
 import os
 import csv
+import hashlib
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -135,6 +136,11 @@ def obter_dados_clube(url):
         
         # ID do clube
         clube_id = extrair_id_clube(url)
+        
+        # Se não tem ID, criar um identificador único baseado na URL
+        if not clube_id:
+            url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
+            clube_id = f"url_{url_hash}"
         
         # Nome do clube - múltiplas tentativas mais específicas
         nome = None
