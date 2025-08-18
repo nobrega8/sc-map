@@ -2184,49 +2184,4 @@
         "latitude": 39.23180035685741,
         "longitude": -8.686150388665137,
         "url": "https://www.zerozero.pt/associacao/af-santarem/84447"
-    },
-    {
-        "id": "867001",
-        "club": "Manchester City",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/manchester-city/867001"
-    },
-    {
-        "id": "867002",
-        "club": "Manchester United",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/manchester-united/867002"
-    },
-    {
-        "id": "867003",
-        "club": "Liverpool",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/liverpool/867003"
-    },
-    {
-        "id": "867004",
-        "club": "Chelsea",
-        "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
-        "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/chelsea/867004"
     }
-]
