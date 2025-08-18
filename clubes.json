@@ -1173,8 +1173,8 @@
             }
         ],
         "address": null,
-        "latitude": 37.8880494,
-        "longitude": -7.5602075,
+        "latitude": 38.84517781150943,
+        "longitude": -9.089666021657775,
         "url": "https://www.zerozero.pt/equipa/santa-iria/10856"
     },
     {
@@ -1370,8 +1370,8 @@
             }
         ],
         "address": null,
-        "latitude": 32.6515776,
-        "longitude": -16.9163687,
+        "latitude": 39.06903502454939,
+        "longitude": -9.376806771849955,
         "url": "https://www.zerozero.pt/equipa/sao-pedro/11181"
     },
     {
@@ -1624,8 +1624,8 @@
             }
         ],
         "address": null,
-        "latitude": 38.2850492,
-        "longitude": -8.037577,
+        "latitude": 38.68566391337351,
+        "longitude": -9.333704425914506,
         "url": "https://www.zerozero.pt/equipa/carcavelos/11193"
     },
     {
@@ -1771,8 +1771,8 @@
             }
         ],
         "address": null,
-        "latitude": 38.6131544,
-        "longitude": -9.0881007,
+        "latitude": 39.00447417352549,
+        "longitude": -9.286202957372035,
         "url": "https://www.zerozero.pt/equipa/sc-livramento/10854"
     },
     {
@@ -1940,8 +1940,8 @@
             }
         ],
         "address": null,
-        "latitude": -18.720444,
-        "longitude": -39.8764981,
+        "latitude": 38.7889296113371,
+        "longitude": -9.18902212350775,
         "url": "https://www.zerozero.pt/equipa/cac/3935"
     },
     {
@@ -2036,8 +2036,8 @@
             }
         ],
         "address": null,
-        "latitude": 38.4609748,
-        "longitude": -9.1030362,
+        "latitude": 38.823634546689355,
+        "longitude": -9.144602949814324,
         "url": "https://www.zerozero.pt/equipa/sc-frielas/11201"
     },
     {
@@ -2053,8 +2053,8 @@
             }
         ],
         "address": null,
-        "latitude": 38.2587871,
-        "longitude": -7.9946209,
+        "latitude": 38.74309196918266,
+        "longitude": -9.4549701330054,
         "url": "https://www.zerozero.pt/equipa/malveira-da-serra/11185"
     },
     {
@@ -2115,8 +2115,8 @@
             }
         ],
         "address": null,
-        "latitude": 32.6468371,
-        "longitude": -16.9014788,
+        "latitude": 38.79165886098004,
+        "longitude": -9.355195650323417,
         "url": "https://www.zerozero.pt/equipa/arsenal-72/15002"
     },
     {
@@ -2131,15 +2131,21 @@
         "url": "https://www.zerozero.pt/equipa/fc-porto/999991"
     },
     {
-        "id": "999992",
+        "id": "maritimofunchal",
         "club": "Maritimo",
         "stadium": "Estádio dos Barreiros",
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12_imgbank_1682583249.png",
+        "equipamentos": [
+            {
+                "type": "Casa",
+                "url": "https://www.zerozero.pt/equipa/maritimo",
+                "alt_text": "marítimo"
+            }
+        ],
         "address": null,
         "latitude": 32.64569870710826,
         "longitude": -16.92856680554994,
-        "url": "https://www.zerozero.pt/equipa/maritimo/999992"
+        "url": "https://www.zerozero.pt/equipa/maritimo"
     },
     {
         "id": "7890333",
