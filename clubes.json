@@ -1421,8 +1421,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.15382366186873,
+        "longitude": -9.30907988395396,
         "url": "https://www.zerozero.pt/equipa/sobreirense/11169"
     },
     {
@@ -1455,8 +1455,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.78249349327527,
+        "longitude": -9.342206574480407,
         "url": "https://www.zerozero.pt/equipa/mem-martins-sc/6394"
     },
     {
@@ -1483,8 +1483,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10851_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.81311571505277,
+        "longitude": -9.441660128923075,
         "url": "https://www.zerozero.pt/equipa/mucifalense/10851"
     },
     {
@@ -1534,8 +1534,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.77464690862352,
+        "longitude": -9.145396508908929,
         "url": "https://www.zerozero.pt/equipa/aguias-da-musgueira/10224"
     },
     {
@@ -1551,8 +1551,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.73481514979938,
+        "longitude": -9.119717980635555,
         "url": "https://www.zerozero.pt/equipa/tecnico-fc/323311"
     },
     {
@@ -1562,8 +1562,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/57746_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.85962619435738,
+        "longitude": -9.085851829485257,
         "url": "https://www.zerozero.pt/equipa/bragadense/57746"
     },
     {
@@ -1590,8 +1590,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.95613607529068,
+        "longitude": -8.985046580800653,
         "url": "https://www.zerozero.pt/equipa/vilafranquense/3674"
     },
     {
@@ -1692,8 +1692,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.866395837681736,
+        "longitude": -9.425543453455399,
         "url": "https://www.zerozero.pt/equipa/mtba/11203"
     },
     {
@@ -1799,8 +1799,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.86091479116397,
+        "longitude":  -9.32930670416812,
         "url": "https://www.zerozero.pt/equipa/os-montelavarenses/7989"
     },
     {
@@ -2193,7 +2193,7 @@
     },
     {
         "id": "13705",
-        "club": "1. FC Heidenheim 1846",
+        "club": "FC Heidenheim 1846",
         "stadium": "Voith-Arena",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/13705_imgbank_1683884953.png",
         "equipamentos": [
@@ -2204,8 +2204,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 48.66844995892706,
+        "longitude": 10.139611284639239,
         "url": "https://www.zerozero.pt/equipa/1-fc-heidenheim-1846/13705"
     },
     {
@@ -2221,8 +2221,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 42.837040328527614,
+        "longitude": -2.6881182304500446,
         "url": "https://www.zerozero.pt/equipa/alaves/37"
     },
     {
@@ -2238,8 +2238,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 47.460397143148334,
+        "longitude": -0.5308510347077933,
         "url": "https://www.zerozero.pt/equipa/angers/3828"
     },
     {
@@ -2255,25 +2255,31 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 36.888069774222394,
+        "longitude": 30.66862487938236,
         "url": "https://www.zerozero.pt/equipa/antalyaspor/7882"
     },
     {
         "id": "867005",
         "club": "Arsenal",
         "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
-        "equipamentos": [],
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/75_imgbank_1695372514.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/75/75_shirt_20240919221906_arsenal.png",
+                "alt_text": "arsenal"
+            }
+        ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/arsenal/867005"
+        "latitude": 51.55486043780944,
+        "longitude": -0.10836274997040657,
+        "url": "https://www.zerozero.pt/equipa/arsenal"
     },
     {
         "id": "76",
         "club": "Aston Villa",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": "Villa Park",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/76_imgbank_1717164084.png",
         "equipamentos": [
             {
@@ -2283,8 +2289,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.509037569967234,
+        "longitude": -1.8846700683287794,
         "url": "https://www.zerozero.pt/equipa/aston-villa/76"
     },
     {
@@ -2294,8 +2300,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/101805_imgbank_1686736758.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 33.7555551235018,
+        "longitude": -84.40100356023463,
         "url": "https://www.zerozero.pt/equipa/atlanta-united/101805"
     },
     {
@@ -2305,8 +2311,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/237366_imgbank_1686662533.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 30.3879492107919,
+        "longitude": -97.71973361634595,
         "url": "https://www.zerozero.pt/equipa/austin-fc/237366"
     },
     {
@@ -2322,8 +2328,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 47.78796678093368,
+        "longitude": 3.587791021604481,
         "url": "https://www.zerozero.pt/equipa/auxerre/114"
     },
     {
@@ -2339,8 +2345,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -12.979044978890922,
+        "longitude": -38.504264797197145,
         "url": "https://www.zerozero.pt/equipa/bahia/2231"
     },
     {
@@ -2356,8 +2362,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.16218679802323,
+        "longitude": -8.64266673557754,
         "url": "https://www.zerozero.pt/equipa/boavista/5"
     },
     {
@@ -2373,14 +2379,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 44.49216496339921,
+        "longitude": 11.310168076179838,
         "url": "https://www.zerozero.pt/equipa/bologna/58"
     },
     {
         "id": "4929",
         "club": "Bournemouth",
-        "stadium": "Adepto que abusou racialmente de Semenyo banido de estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4929_imgbank_1683908293.png",
         "equipamentos": [
             {
@@ -2390,8 +2396,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 50.73513006703386,
+        "longitude": -1.83822465853025,
         "url": "https://www.zerozero.pt/equipa/bournemouth/4929"
     },
     {
@@ -2401,14 +2407,14 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/60/2460_logo_usm_blida.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 36.49016381227344,
+        "longitude": 2.8468310312103338,
         "url": "https://www.zerozero.pt/equipa/braga/2460"
     },
     {
         "id": "2600",
         "club": "Brentford",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": "Gtech Community Stadium",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2600_imgbank_1683908103.png",
         "equipamentos": [
             {
@@ -2418,14 +2424,14 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.490668746794725,
+        "longitude": -0.28896157723148624,
         "url": "https://www.zerozero.pt/equipa/brentford/2600"
     },
     {
         "id": "2580",
         "club": "Burnley",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2580_imgbank_1691751345.png",
         "equipamentos": [
             {
@@ -2435,8 +2441,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 53.78886864528866,
+        "longitude": -2.2300328120633788,
         "url": "https://www.zerozero.pt/equipa/burnley/2580"
     },
     {
@@ -2452,8 +2458,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 45.56298366178074,
+        "longitude": -73.55256720493384,
         "url": "https://www.zerozero.pt/equipa/cf-montreal/9865"
     },
     {
@@ -2469,8 +2475,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.19987951360934,
+        "longitude": 9.137298478669763,
         "url": "https://www.zerozero.pt/equipa/cagliari/3720"
     },
     {
@@ -2486,8 +2492,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -23.28082072901187,
+        "longitude": -47.28763037508996,
         "url": "https://www.zerozero.pt/equipa/casa_pia/2543"
     },
     {
@@ -2503,8 +2509,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.04180107984028,
+        "longitude": 40.573279254262346,
         "url": "https://www.zerozero.pt/equipa/caykur-rizespor/86717"
     },
     {
@@ -2514,8 +2520,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/257515_imgbank_1686662478.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 35.22599481452561,
+        "longitude": -80.85298213483856,
         "url": "https://www.zerozero.pt/equipa/charlotte-fc/257515"
     },
     {
@@ -2531,20 +2537,20 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 35.68315653416516,
+        "longitude": -0.6363977415327168,
         "url": "https://www.zerozero.pt/equipa/chaves/2470"
     },
     {
-        "id": "867004",
+        "id": "chelsea",
         "club": "Chelsea",
         "stadium": null,
-        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/81_imgbank_1683906502.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
-        "url": "https://www.zerozero.pt/equipa/chelsea/867004"
+        "latitude": 51.48169561472826,
+        "longitude": -0.1910948909703831,
+        "url": "https://www.zerozero.pt/equipa/chelsea"
     },
     {
         "id": "2492",
@@ -2559,8 +2565,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.862177849268356,
+        "longitude": -87.616852395491,
         "url": "https://www.zerozero.pt/equipa/chicago-fire/2492"
     },
     {
@@ -2576,8 +2582,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.96830293737141,
+        "longitude": -83.01689495375423,
         "url": "https://www.zerozero.pt/equipa/columbus-crew/2494"
     },
     {
@@ -2593,8 +2599,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 45.81374536340787,
+        "longitude": 9.07217868117343,
         "url": "https://www.zerozero.pt/equipa/como-1907/61"
     },
     {
@@ -2668,7 +2674,7 @@
     {
         "id": "82",
         "club": "Everton",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/82_imgbank_1683906570.png",
         "equipamentos": [
             {
@@ -2838,7 +2844,7 @@
     {
         "id": "83",
         "club": "Fulham",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/83_imgbank_1683906668.png",
         "equipamentos": [
             {
@@ -3127,7 +3133,7 @@
     {
         "id": "84",
         "club": "Leeds United",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/84_imgbank_1683906764.png",
         "equipamentos": [
             {
@@ -3330,7 +3336,7 @@
     {
         "id": "2579",
         "club": "Nottingham Forest",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2579_imgbank_1712221459.png",
         "equipamentos": [
             {
@@ -3533,7 +3539,7 @@
     {
         "id": "91",
         "club": "Sunderland",
-        "stadium": "Jornada inaugural da Premier League homenageará Jota em todos os estádios",
+        "stadium": null,
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/91_imgbank_1695724560.png",
         "equipamentos": [
             {
@@ -3560,8 +3566,8 @@
             }
         ],
         "address": null,
-        "latitude": -21.1275374,
-        "longitude": -44.2434866,
+        "latitude": 52.45516557814551,
+        "longitude": 4.634988943963952,
         "url": "https://www.zerozero.pt/equipa/telstar/8241"
     },
     {
@@ -3611,8 +3617,8 @@
             }
         ],
         "address": null,
-        "latitude": 43.7026588,
-        "longitude": -0.263165,
+        "latitude": 49.27671253932062,
+        "longitude": -123.11204933153572,
         "url": "https://www.zerozero.pt/equipa/vancouver-whitecaps/8065"
     },
     {
