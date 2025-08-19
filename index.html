@@ -100,6 +100,60 @@
         </div>
     </div>
 
+    <!-- Club edit form -->
+    <div id="edit-form" class="hidden">
+        <div class="form-content">
+            <h2>Sugerir Alteração</h2>
+            <form id="club-edit-form">
+                <div class="form-group">
+                    <label for="edit-club-name">Nome do Clube:</label>
+                    <input type="text" id="edit-club-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-stadium">Estádio:</label>
+                    <input type="text" id="edit-club-stadium">
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-logo">URL do Logo:</label>
+                    <input type="url" id="edit-club-logo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-url">URL ZeroZero:</label>
+                    <input type="url" id="edit-club-url" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-latitude">Latitude:</label>
+                    <input type="number" id="edit-club-latitude" step="any" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-longitude">Longitude:</label>
+                    <input type="number" id="edit-club-longitude" step="any" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-address">Morada:</label>
+                    <input type="text" id="edit-club-address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="edit-club-filtro">Competições (opcional):</label>
+                    <input type="text" id="edit-club-filtro" placeholder="portugal-1liga-2024, europa-champions-2025">
+                    <small>Formato: pais-competicao-ano, separado por vírgulas</small>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" onclick="toggleEditForm()">Cancelar</button>
+                    <button type="submit">Submeter Alteração</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
