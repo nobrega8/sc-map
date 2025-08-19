@@ -51,7 +51,7 @@ function createPlaceholderIcon() {
     if (typeof L !== 'undefined') {
         // Create a simple placeholder icon for clubs not yet loaded
         return L.divIcon({
-            html: '<div class="placeholder-club-icon">⚽</div>',
+            html: '<div class="placeholder-club-icon"></div>',
             iconSize: [30, 30],
             className: 'placeholder-icon'
         });
@@ -479,10 +479,10 @@ function buildClubsList() {
         clubItem.className = 'club-item';
         clubItem.onclick = () => navigateToClub(club);
         
-        const logoUrl = club.logo || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23f0f0f0" stroke="%23ccc"/><text x="16" y="20" text-anchor="middle" font-size="16">⚽</text></svg>';
+        const logoUrl = club.logo || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23f0f0f0" stroke="%23ccc"/></svg>';
         
         clubItem.innerHTML = `
-            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32\\" height=\\"32\\" viewBox=\\"0 0 32 32\\"><circle cx=\\"16\\" cy=\\"16\\" r=\\"14\\" fill=\\"%23f0f0f0\\" stroke=\\"%23ccc\\"/><text x=\\"16\\" y=\\"20\\" text-anchor=\\"middle\\" font-size=\\"16\\">⚽</text></svg>'">
+            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32\\" height=\\"32\\" viewBox=\\"0 0 32 32\\"><circle cx=\\"16\\" cy=\\"16\\" r=\\"14\\" fill=\\"%23f0f0f0\\" stroke=\\"%23ccc\\"/></svg>'">
             <div class="club-info">
                 <div class="club-name">${club.club}</div>
                 ${club.stadium ? `<div class="club-stadium">${club.stadium}</div>` : ''}
