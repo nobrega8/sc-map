@@ -282,6 +282,7 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding-right: 5px;
 }
 
 /* Tri-phased dropdown system */
