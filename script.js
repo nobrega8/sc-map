@@ -86,13 +86,6 @@ function toggleCompetitionFilter() {
     const sidebar = document.getElementById('clubs-sidebar');
     if (sidebar) {
         sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
-        // Also adjust map margin
-        const map = document.getElementById('map');
-        if (sidebar.style.display === 'none') {
-            map.style.marginLeft = '0';
-        } else {
-            map.style.marginLeft = '320px';
-        }
     }
 }
 
@@ -482,7 +475,7 @@ function buildClubsList() {
         const logoUrl = club.logo || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23f0f0f0" stroke="%23ccc"/></svg>';
         
         clubItem.innerHTML = `
-            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32\\" height=\\"32\\" viewBox=\\"0 0 32 32\\"><circle cx=\\"16\\" cy=\\"16\\" r=\\"14\\" fill=\\"%23f0f0f0\\" stroke=\\"%23ccc\\"/></svg>'">
+            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml;charset=utf-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22 viewBox=%220 0 32 32%22><circle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23f0f0f0%22 stroke=%22%23ccc%22/></svg>'">
             <div class="club-info">
                 <div class="club-name">${club.club}</div>
                 ${club.stadium ? `<div class="club-stadium">${club.stadium}</div>` : ''}

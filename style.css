@@ -9,6 +9,17 @@ html, body {
     width: 100%;
 }
 
+/* Position Leaflet zoom controls to avoid sidebar overlap */
+.leaflet-top.leaflet-left {
+    left: 440px;
+    top: 20px;
+}
+
+/* Ensure zoom controls are above sidebar when sidebar is hidden */
+.leaflet-control-zoom {
+    transition: left 0.3s ease;
+}
+
 /* Enhanced frosted glass effects for popups */
 .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.15);
@@ -184,7 +195,7 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 320px;
+    width: 420px;
     height: 100vh;
     z-index: 1000;
     overflow-y: auto;
