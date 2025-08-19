@@ -46,9 +46,38 @@
                 <h3>Filtros</h3>
                 <div class="filter-controls">
                     <input type="text" id="club-search" placeholder="Procurar clube...">
-                    <div class="filter-options">
-                        <button class="filter-btn active" data-filter="all">Todas</button>
-                        <div id="competition-list"></div>
+                    
+                    <!-- Tri-phased dropdown system -->
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Região</div>
+                        <div class="dropdown" id="region-dropdown">
+                            <span id="region-selected">Todas as Regiões</span>
+                        </div>
+                        <div class="dropdown-menu" id="region-menu">
+                            <div class="dropdown-option selected" data-value="all">Todas as Regiões</div>
+                            <div class="dropdown-option" data-value="europa">Europa</div>
+                            <div class="dropdown-option" data-value="portugal">Portugal</div>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Liga</div>
+                        <div class="dropdown" id="league-dropdown">
+                            <span id="league-selected">Todas as Ligas</span>
+                        </div>
+                        <div class="dropdown-menu" id="league-menu">
+                            <div class="dropdown-option selected" data-value="all">Todas as Ligas</div>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Ano</div>
+                        <div class="dropdown" id="year-dropdown">
+                            <span id="year-selected">Todos os Anos</span>
+                        </div>
+                        <div class="dropdown-menu" id="year-menu">
+                            <div class="dropdown-option selected" data-value="all">Todos os Anos</div>
+                        </div>
                     </div>
                 </div>
             </div>
