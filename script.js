@@ -85,7 +85,7 @@ function createEquipmentHTML(equipamentos) {
 function toggleCompetitionFilter() {
     const sidebar = document.getElementById('clubs-sidebar');
     if (sidebar) {
-        sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
+        sidebar.classList.toggle('hidden');
     }
 }
 
