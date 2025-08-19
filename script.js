@@ -269,7 +269,22 @@ function updateLeagueOptions() {
                 const option = document.createElement('div');
                 option.className = 'dropdown-option';
                 option.dataset.value = league;
-                option.textContent = formatLeagueName(league);
+                
+                const textSpan = document.createElement('span');
+                textSpan.className = 'option-text';
+                textSpan.textContent = formatLeagueName(league);
+                option.appendChild(textSpan);
+                
+                const logo = getLeagueLogo(league);
+                if (logo) {
+                    const logoImg = document.createElement('img');
+                    logoImg.className = 'option-logo';
+                    logoImg.src = logo;
+                    logoImg.alt = formatLeagueName(league);
+                    logoImg.onerror = function() { this.style.display = 'none'; };
+                    option.appendChild(logoImg);
+                }
+                
                 leagueMenu.appendChild(option);
             });
         });
@@ -279,7 +294,22 @@ function updateLeagueOptions() {
             const option = document.createElement('div');
             option.className = 'dropdown-option';
             option.dataset.value = league;
-            option.textContent = formatLeagueName(league);
+            
+            const textSpan = document.createElement('span');
+            textSpan.className = 'option-text';
+            textSpan.textContent = formatLeagueName(league);
+            option.appendChild(textSpan);
+            
+            const logo = getLeagueLogo(league);
+            if (logo) {
+                const logoImg = document.createElement('img');
+                logoImg.className = 'option-logo';
+                logoImg.src = logo;
+                logoImg.alt = formatLeagueName(league);
+                logoImg.onerror = function() { this.style.display = 'none'; };
+                option.appendChild(logoImg);
+            }
+            
             leagueMenu.appendChild(option);
         });
     }
@@ -358,6 +388,19 @@ function formatLeagueName(league) {
                 .replace('afleiria', 'AF Leiria')
                 .replace('afguarda', 'AF Guarda')
                 .replace('afsantarém', 'AF Santarém');
+}
+
+function getLeagueLogo(league) {
+    const logoMap = {
+        'champions': 'https://logoeps.com/wp-content/uploads/2013/03/uefa-champions-league-vector-logo.png',
+        '1liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
+        '2liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
+        '3liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
+        'taca': 'https://upload.wikimedia.org/wikipedia/pt/thumb/d/db/Ta%C3%A7a_de_Portugal.png/150px-Ta%C3%A7a_de_Portugal.png',
+        'campeonato': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png'
+    };
+    
+    return logoMap[league] || null;
 }
 
 function applyFilters() {
