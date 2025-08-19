@@ -182,7 +182,10 @@ function loadVisibleMarkers() {
                         <div class="popup-title">${clube.club}</div>
                         ${stadiumInfo}
                         ${equipmentHTML}
-                        <a href="${clube.url}" target="_blank" class="popup-link">Ver no ZeroZero</a>
+                        <div class="popup-actions">
+                            <a href="${clube.url}" target="_blank" class="popup-link">Ver no ZeroZero</a>
+                            <button onclick="openEditForm('${clube.id}')" class="edit-button">Sugerir Alteração</button>
+                        </div>
                     </div>
                 `;
                 marker.bindPopup(popupHTML);
@@ -223,6 +226,41 @@ function toggleSubmissionForm() {
     if (form.classList.contains('hidden')) {
         document.getElementById('club-form').reset();
     }
+}
+
+function toggleEditForm() {
+    const form = document.getElementById('edit-form');
+    form.classList.toggle('hidden');
+    
+    // Reset form when closing
+    if (form.classList.contains('hidden')) {
+        document.getElementById('club-edit-form').reset();
+    }
+}
+
+function openEditForm(clubId) {
+    // Find the club data
+    const club = allClubs.find(c => c.id === clubId);
+    if (!club) {
+        alert('Clube não encontrado');
+        return;
+    }
+    
+    // Populate the form with current club data
+    document.getElementById('edit-club-name').value = club.club || '';
+    document.getElementById('edit-club-stadium').value = club.stadium || '';
+    document.getElementById('edit-club-logo').value = club.logo || '';
+    document.getElementById('edit-club-url').value = club.url || '';
+    document.getElementById('edit-club-latitude').value = club.latitude || '';
+    document.getElementById('edit-club-longitude').value = club.longitude || '';
+    document.getElementById('edit-club-address').value = club.address || '';
+    document.getElementById('edit-club-filtro').value = club.filtro ? club.filtro.join(', ') : '';
+    
+    // Store the original club ID for reference
+    document.getElementById('club-edit-form').setAttribute('data-club-id', clubId);
+    
+    // Show the form
+    document.getElementById('edit-form').classList.remove('hidden');
 }
 
 // Handle form submission
@@ -273,6 +311,61 @@ document.addEventListener('DOMContentLoaded', function() {
                 downloadSubmissions([clubData]);
                 toggleSubmissionForm();
                 alert('Submissão criada! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+            });
+    });
+    
+    // Handle edit form submission
+    const editForm = document.getElementById('club-edit-form');
+    editForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get the club ID being edited
+        const clubId = editForm.getAttribute('data-club-id');
+        
+        // Extract club ID from ZeroZero URL
+        const url = document.getElementById('edit-club-url').value;
+        const newClubId = extractClubId(url);
+        
+        // Process filtro field
+        const filtroInput = document.getElementById('edit-club-filtro').value;
+        let filtro = null;
+        if (filtroInput.trim()) {
+            filtro = filtroInput.split(',').map(f => f.trim()).filter(f => f.length > 0);
+        }
+        
+        const clubData = {
+            id: newClubId,
+            club: document.getElementById('edit-club-name').value,
+            stadium: document.getElementById('edit-club-stadium').value || null,
+            logo: document.getElementById('edit-club-logo').value,
+            equipamentos: [], // Keep empty for now, can be filled manually
+            address: document.getElementById('edit-club-address').value || null,
+            latitude: parseFloat(document.getElementById('edit-club-latitude').value),
+            longitude: parseFloat(document.getElementById('edit-club-longitude').value),
+            url: url,
+            originalId: clubId, // Add reference to original club for identification
+            action: 'edit' // Mark this as an edit action
+        };
+        
+        // Add filtro if provided
+        if (filtro && filtro.length > 0) {
+            clubData.filtro = filtro;
+        }
+        
+        // Load existing submissions or create new array
+        loadExistingSubmissions()
+            .then(submissions => {
+                submissions.push(clubData);
+                downloadSubmissions(submissions);
+                toggleEditForm();
+                alert('Alteração submetida! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+            })
+            .catch(err => {
+                console.error('Erro ao carregar submissões existentes:', err);
+                // If no existing file, create new one
+                downloadSubmissions([clubData]);
+                toggleEditForm();
+                alert('Alteração submetida! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
             });
     });
 });
