@@ -14,7 +14,8 @@
         "address": null,
         "latitude": 40.6434864,
         "longitude": -8.6542323,
-        "url": "https://www.zerozero.pt/equipa/beira-mar/2"
+        "url": "https://www.zerozero.pt/equipa/beira-mar/2",
+        "filtro": ["portugal-2liga-2024"]
     },
     {
         "id": "2178",
@@ -31,7 +32,8 @@
         "address": null,
         "latitude": 39.09468870445161,
         "longitude": -9.256681547301007,
-        "url": "https://www.zerozero.pt/equipa/torreense/2178"
+        "url": "https://www.zerozero.pt/equipa/torreense/2178",
+        "filtro": ["portugal-1liga-2024", "portugal-taca-2024"]
     },
     {
         "id": "3598",
@@ -48,7 +50,8 @@
         "address": null,
         "latitude": 39.239725857087585,
         "longitude": -9.309107208662232,
-        "url": "https://www.zerozero.pt/equipa/lourinhanense/3598"
+        "url": "https://www.zerozero.pt/equipa/lourinhanense/3598",
+        "filtro": ["portugal-3liga-2024"]
     },
     {
         "id": "19",
@@ -65,7 +68,8 @@
         "address": null,
         "latitude": 40.20289574659429,
         "longitude": -8.407569212880802,
-        "url": "https://www.zerozero.pt/equipa/academica-oaf/19"
+        "url": "https://www.zerozero.pt/equipa/academica-oaf/19",
+        "filtro": ["portugal-2liga-2024", "portugal-taca-2024"]
     },
     {
         "id": "3",
