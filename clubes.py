@@ -16,12 +16,7 @@ DELAY = 3
 
 # URLs base para competições portuguesas e principais europeias
 COMPETICOES = [
-    "https://www.zerozero.pt/competicao/af-algarve-i-divisao/1435",
-    "https://www.zerozero.pt/edicao/af-angra-do-heroismo-1-divisao-2024-25/198624",
-    "https://www.zerozero.pt/edicao/af-angra-do-heroismo-taca-24-25/191369",
-    "https://www.zerozero.pt/edicao/af-aveiro-campeonato-sabseg-2024-25-/189726",
-    "https://www.zerozero.pt/edicao/af-beja-i-divisao-2025-26/203186",
-    "https://www.zerozero.pt/edicao/af-braga-cleanwatts-pro-nacional-2025-26/203014"
+    "https://www.zerozero.pt/competicao/taca-de-portugal"
 ]
 
 def fazer_requisicao(url, max_tentativas=3):
