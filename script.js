@@ -86,8 +86,53 @@ function toggleCompetitionFilter() {
     const sidebar = document.getElementById('clubs-sidebar');
     if (sidebar) {
         sidebar.classList.toggle('hidden');
+        
+        // Update zoom controls position
+        updateZoomControlsPosition();
     }
 }
+
+// Update zoom controls position based on sidebar state
+function updateZoomControlsPosition() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    const mapElement = document.getElementById('map');
+    const zoomControls = mapElement.querySelector('.leaflet-top.leaflet-left');
+    
+    if (zoomControls) {
+        if (sidebar.classList.contains('hidden') || window.innerWidth <= 768) {
+            zoomControls.style.left = '20px';
+        } else {
+            zoomControls.style.left = '440px';
+        }
+    }
+}
+
+// Initialize mobile state on page load
+function initializeMobileState() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    
+    // Start with sidebar hidden on mobile
+    if (window.innerWidth <= 768) {
+        sidebar.classList.add('hidden');
+    }
+    
+    // Update zoom controls position
+    setTimeout(() => {
+        updateZoomControlsPosition();
+    }, 100);
+}
+
+// Handle window resize
+window.addEventListener('resize', function() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    
+    // If switching to mobile, hide sidebar
+    if (window.innerWidth <= 768) {
+        sidebar.classList.add('hidden');
+    }
+    
+    updateZoomControlsPosition();
+});
 
 function buildCompetitionList() {
     // Collect all unique competitions from clubs and organize them
@@ -562,6 +607,9 @@ function openEditForm(clubId) {
 
 // Handle form submission
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize mobile state
+    initializeMobileState();
+    
     const form = document.getElementById('club-form');
     form.addEventListener('submit', function(e) {
         e.preventDefault();

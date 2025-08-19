@@ -13,6 +13,12 @@ html, body {
 .leaflet-top.leaflet-left {
     left: 440px;
     top: 20px;
+    transition: left 0.3s ease;
+}
+
+/* When sidebar is hidden, move zoom controls to the left */
+#clubs-sidebar.hidden ~ #map .leaflet-top.leaflet-left {
+    left: 20px;
 }
 
 /* Ensure zoom controls are above sidebar when sidebar is hidden */
@@ -205,10 +211,10 @@ html, body {
 /* Left Sidebar */
 #clubs-sidebar {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 420px;
-    height: 100vh;
+    top: 20px;
+    left: 20px;
+    width: 380px;
+    height: calc(100vh - 40px);
     z-index: 1000;
     transition: transform 0.3s ease;
 }
@@ -221,8 +227,8 @@ html, body {
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 0 25px 25px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -236,11 +242,40 @@ html, body {
     margin-bottom: 0;
 }
 
+.sidebar-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 .sidebar-header h3 {
-    margin: 0 0 15px 0;
+    margin: 0;
     color: #2c3e50;
     font-size: 18px;
     font-weight: 500;
+}
+
+.sidebar-close-btn {
+    display: none;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.sidebar-close-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
 }
 
 .filter-controls {
@@ -706,4 +741,91 @@ html, body {
 
 .form-actions button[type="submit"]:hover {
     background: #2980b9;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    /* Sidebar adjustments for mobile */
+    #clubs-sidebar {
+        top: 10px;
+        left: 10px;
+        width: calc(100vw - 20px);
+        height: calc(100vh - 20px);
+        transform: translateX(-100%);
+    }
+    
+    #clubs-sidebar.hidden {
+        transform: translateX(-100%);
+    }
+    
+    #clubs-sidebar:not(.hidden) {
+        transform: translateX(0);
+    }
+    
+    /* Show close button on mobile */
+    .sidebar-close-btn {
+        display: flex !important;
+    }
+    
+    /* Adjust zoom controls for mobile */
+    .leaflet-top.leaflet-left {
+        left: 20px;
+        top: 20px;
+    }
+    
+    #clubs-sidebar.hidden ~ #map .leaflet-top.leaflet-left {
+        left: 20px;
+    }
+    
+    /* Adjust button positions for mobile */
+    #repo-button {
+        top: 10px;
+        right: 10px;
+    }
+    
+    #submit-button {
+        top: 10px;
+        right: 70px;
+    }
+    
+    #filter-button {
+        top: 10px;
+        right: 130px;
+    }
+    
+    /* Smaller buttons on mobile */
+    #repo-button a,
+    #submit-button button,
+    #filter-button button {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* Form adjustments for mobile */
+    .form-content {
+        width: 95%;
+        padding: 20px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Extra small screens */
+    #clubs-sidebar {
+        top: 5px;
+        left: 5px;
+        width: calc(100vw - 10px);
+        height: calc(100vh - 10px);
+    }
+    
+    /* Stack buttons vertically on very small screens */
+    #submit-button {
+        top: 65px;
+        right: 10px;
+    }
+    
+    #filter-button {
+        top: 120px;
+        right: 10px;
+    }
 }
