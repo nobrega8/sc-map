@@ -97,7 +97,17 @@ function formatCompetitionName(competition) {
                            .replace('champions', 'Champions League')
                            .replace('taca', 'Taça')
                            .replace('aflisboa', 'AF Lisboa')
-                           .replace('campeonato', 'Campeonato');
+                           .replace('campeonato', 'Campeonato')
+                           .replace('afsetubal', 'AF Setúbal')
+                           .replace('afbraga', 'AF Braga')
+                           .replace('afporto', 'AF Porto')
+                           .replace('afmadeira', 'AF Madeira')
+                           .replace('afviseu', 'AF Viseu')
+                           .replace('afbraganca', 'AF Bragança')
+                           .replace('afcoimbra', 'AF Coimbra')
+                           .replace('afleiria', 'AF Leiria')
+                           .replace('afguarda', 'AF Guarda')
+                           .replace('afsantarém', 'AF Santarém');
         const year = parts[2];
         return `${country} ${comp} ${year}`;
     }

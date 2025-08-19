@@ -16,7 +16,8 @@
         "longitude": -8.6542323,
         "url": "https://www.zerozero.pt/equipa/beira-mar/2",
         "filtro": [
-            "portugal-2liga-2024"
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
         ]
     },
     {
@@ -36,8 +37,8 @@
         "longitude": -9.256681547301007,
         "url": "https://www.zerozero.pt/equipa/torreense/2178",
         "filtro": [
-            "portugal-1liga-2024",
-            "portugal-taca-2024"
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
         ]
     },
     {
@@ -57,7 +58,7 @@
         "longitude": -9.309107208662232,
         "url": "https://www.zerozero.pt/equipa/lourinhanense/3598",
         "filtro": [
-            "portugal-3liga-2024"
+            "portugal-aflisboa-2025"
         ]
     },
     {
@@ -77,8 +78,8 @@
         "longitude": -8.407569212880802,
         "url": "https://www.zerozero.pt/equipa/academica-oaf/19",
         "filtro": [
-            "portugal-2liga-2024",
-            "portugal-taca-2024"
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
         ]
     },
     {
@@ -96,7 +97,11 @@
         "address": null,
         "latitude": 38.702135423428984,
         "longitude": -9.207755425230948,
-        "url": "https://www.zerozero.pt/equipa/belenenses/3"
+        "url": "https://www.zerozero.pt/equipa/belenenses/3",
+        "filtro": [
+            "portugal-taca-2025",
+            "portugal-3liga-2025"
+        ]
     },
     {
         "id": "22",
@@ -130,7 +135,11 @@
         "address": null,
         "latitude": 41.27144778991801,
         "longitude": -8.385628783445842,
-        "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13"
+        "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13",
+        "filtro": [
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "slbenfica",
@@ -147,7 +156,11 @@
         "address": null,
         "latitude": 38.7531359493634,
         "longitude": -9.184956307391019,
-        "url": "https://www.zerozero.pt/equipa/benfica"
+        "url": "https://www.zerozero.pt/equipa/benfica",
+        "filtro": [
+            "portugal-1liga-2025",
+            "europa-champions-2025"
+        ]
     },
     {
         "id": "23",
@@ -164,13 +177,17 @@
         "address": null,
         "latitude": 40.283083501011774,
         "longitude": -7.5124140865056,
-        "url": "https://www.zerozero.pt/equipa/sc-covilha/23"
+        "url": "https://www.zerozero.pt/equipa/sc-covilha/23",
+        "filtro": [
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "17",
         "club": "UD Leiria",
         "stadium": "Estádio Dr. Magalhães Pessoa",
-        "logo": "https://www.zerozero.pt/img_icon/logos/equipas/17_imgbank_1721993809.png",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas_a_data/4163_logo__20240701152629.png",
         "equipamentos": [
             {
                 "type": "desconhecido",
@@ -181,7 +198,11 @@
         "address": null,
         "latitude": 39.74900614105751,
         "longitude": -8.813235139326634,
-        "url": "https://www.zerozero.pt/equipa/ud-leiria/17"
+        "url": "https://www.zerozero.pt/equipa/ud-leiria/17",
+        "filtro": [
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "35",
@@ -198,7 +219,10 @@
         "address": null,
         "latitude": 38.53089809122608,
         "longitude": -8.89102867036612,
-        "url": "https://www.zerozero.pt/equipa/vitoria-fc/35"
+        "url": "https://www.zerozero.pt/equipa/vitoria-fc/35",
+        "filtro": [
+            "portugal-afsetubal-2025"
+        ]
     },
     {
         "id": "18",
@@ -215,7 +239,10 @@
         "address": null,
         "latitude": 41.4457685813183,
         "longitude": -8.301101264401753,
-        "url": "https://www.zerozero.pt/equipa/vitoria-sc"
+        "url": "https://www.zerozero.pt/equipa/vitoria-sc",
+        "filtro": [
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "3969",
@@ -232,7 +259,10 @@
         "address": null,
         "latitude": 39.09684056595246,
         "longitude": -9.326641777038024,
-        "url": "https://www.zerozero.pt/equipa/ponterrolense/3969"
+        "url": "https://www.zerozero.pt/equipa/ponterrolense/3969",
+        "filtro": [
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "73330",
@@ -266,7 +296,11 @@
         "address": null,
         "latitude": 38.788191243376325,
         "longitude": -9.374552542903107,
-        "url": "https://www.zerozero.pt/equipa/1-dezembro/3543"
+        "url": "https://www.zerozero.pt/equipa/1-dezembro/3543",
+        "filtro": [
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "11170",
@@ -277,7 +311,10 @@
         "address": null,
         "latitude": 39.154314230595524,
         "longitude": -9.289082445210541,
-        "url": "https://www.zerozero.pt/equipa/a-dos-cunhados/11170"
+        "url": "https://www.zerozero.pt/equipa/a-dos-cunhados/11170",
+        "filtro": [
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3936",
@@ -294,12 +331,15 @@
         "address": null,
         "latitude": 38.68598819894692,
         "longitude": -9.313964931991666,
-        "url": "https://www.zerozero.pt/equipa/ad-oeiras/3936"
+        "url": "https://www.zerozero.pt/equipa/ad-oeiras/3936",
+        "filtro": [
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "2175",
         "club": "FC Famalicão",
-        "stadium": "CD Tondela - FC Famalicão vai ser disputado no Estádio Municipal de Rio Maior",
+        "stadium": "",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2175_imgbank_1682583693.png",
         "equipamentos": [
             {
@@ -311,7 +351,10 @@
         "address": null,
         "latitude": 41.3759274,
         "longitude": -8.5359585,
-        "url": "https://www.zerozero.pt/equipa/fc-famalicao/2175"
+        "url": "https://www.zerozero.pt/equipa/fc-famalicao/2175",
+        "filtro": [
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "3555",
@@ -328,7 +371,10 @@
         "address": null,
         "latitude": 40.9322921,
         "longitude": -8.2504309,
-        "url": "https://www.zerozero.pt/equipa/fc-arouca/3555"
+        "url": "https://www.zerozero.pt/equipa/fc-arouca/3555",
+        "filtro": [
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "6",
@@ -345,7 +391,10 @@
         "address": null,
         "latitude": 41.3780317,
         "longitude": -8.3549951,
-        "url": "https://www.zerozero.pt/equipa/moreirense/6"
+        "url": "https://www.zerozero.pt/equipa/moreirense/6",
+        "filtro": [
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "253884",
@@ -362,7 +411,10 @@
         "address": null,
         "latitude": 38.7521562,
         "longitude": -9.2280007,
-        "url": "https://www.zerozero.pt/equipa/est-amadora/253884"
+        "url": "https://www.zerozero.pt/equipa/est-amadora/253884",
+        "filtro": [
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "1734",
@@ -379,7 +431,10 @@
         "address": null,
         "latitude": 38.7158618,
         "longitude": -9.4064087,
-        "url": "https://www.zerozero.pt/equipa/estoril-praia/1734"
+        "url": "https://www.zerozero.pt/equipa/estoril-praia/1734",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "31",
@@ -396,7 +451,10 @@
         "address": null,
         "latitude": 41.3627303,
         "longitude": -8.740132,
-        "url": "https://www.zerozero.pt/equipa/rio-ave/31"
+        "url": "https://www.zerozero.pt/equipa/rio-ave/31",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "1",
@@ -413,7 +471,10 @@
         "address": null,
         "latitude": 38.8983149,
         "longitude": -9.0361398,
-        "url": "https://www.zerozero.pt/equipa/fc-alverca/1"
+        "url": "https://www.zerozero.pt/equipa/fc-alverca/1",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "2412",
@@ -430,7 +491,10 @@
         "address": null,
         "latitude": 38.73754723128854,
         "longitude": -9.203863384003665,
-        "url": "https://www.zerozero.pt/equipa/casa-pia-ac/2412"
+        "url": "https://www.zerozero.pt/equipa/casa-pia-ac/2412",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "27",
@@ -447,7 +511,10 @@
         "address": null,
         "latitude": 32.6706231,
         "longitude": -16.8835636,
-        "url": "https://www.zerozero.pt/equipa/nacional/27"
+        "url": "https://www.zerozero.pt/equipa/nacional/27",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "32",
@@ -464,7 +531,10 @@
         "address": null,
         "latitude": 37.7639923,
         "longitude": -25.6228123,
-        "url": "https://www.zerozero.pt/equipa/santa-clara/32"
+        "url": "https://www.zerozero.pt/equipa/santa-clara/32",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "4336",
@@ -481,7 +551,10 @@
         "address": null,
         "latitude": 40.5119993,
         "longitude": -8.0827943,
-        "url": "https://www.zerozero.pt/equipa/cd-tondela/4336"
+        "url": "https://www.zerozero.pt/equipa/cd-tondela/4336",
+        "filtro":[
+            "portugal-1liga-2025"
+        ]
     },
     {
         "id": "1727",
@@ -498,7 +571,11 @@
         "address": null,
         "latitude": 41.1842636,
         "longitude": -8.6662164,
-        "url": "https://www.zerozero.pt/equipa/leixoes/1727"
+        "url": "https://www.zerozero.pt/equipa/leixoes/1727",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "33",
@@ -515,7 +592,11 @@
         "address": null,
         "latitude": 37.1356935,
         "longitude": -8.5398305,
-        "url": "https://www.zerozero.pt/equipa/portimonense/33"
+        "url": "https://www.zerozero.pt/equipa/portimonense/33",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2197",
@@ -532,7 +613,11 @@
         "address": null,
         "latitude": 41.3889481,
         "longitude": -8.3075383,
-        "url": "https://www.zerozero.pt/equipa/fc-vizela/2197"
+        "url": "https://www.zerozero.pt/equipa/fc-vizela/2197",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3599",
@@ -549,7 +634,11 @@
         "address": null,
         "latitude": 40.9847639,
         "longitude": -8.5469789,
-        "url": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599"
+        "url": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "20",
@@ -566,7 +655,11 @@
         "address": null,
         "latitude": 41.75091210572616,
         "longitude": -7.464759976350173,
-        "url": "https://www.zerozero.pt/equipa/gd-chaves/20"
+        "url": "https://www.zerozero.pt/equipa/gd-chaves/20",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "10",
@@ -583,7 +676,11 @@
         "address": null,
         "latitude": 37.0228852,
         "longitude": -7.9282722,
-        "url": "https://www.zerozero.pt/equipa/farense/10"
+        "url": "https://www.zerozero.pt/equipa/farense/10",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2199",
