@@ -404,7 +404,7 @@
     {
         "id": "2412",
         "club": "Casa Pia AC",
-        "stadium": "Estádio Municipal de Rio Maior",
+        "stadium": "Estádio Pina Manique",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2412_imgbank_1695724045.png",
         "equipamentos": [
             {
@@ -550,8 +550,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.75091210572616,
+        "longitude": -7.464759976350173,
         "url": "https://www.zerozero.pt/equipa/gd-chaves/20"
     },
     {
@@ -1156,8 +1156,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.80466373222238,
+        "longitude": -9.100927804763648,
         "url": "https://www.zerozero.pt/equipa/bobadelense/11206"
     },
     {
@@ -1207,8 +1207,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.97236569602664,
+        "longitude": -9.259398999207079,
         "url": "https://www.zerozero.pt/equipa/vila-f-rosario/10853"
     },
     {
@@ -1224,8 +1224,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.72141887668226,
+        "longitude": -9.347980245542473,
         "url": "https://www.zerozero.pt/equipa/u-tires/3882"
     },
     {
@@ -1269,8 +1269,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.77577811483653,
+        "longitude": -9.286761458736272,
         "url": "https://www.zerozero.pt/equipa/uniao-dos-santos/217690"
     },
     {
@@ -1320,8 +1320,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.77889295380311,
+        "longitude": -9.257015666174581,
         "url": "https://www.zerozero.pt/equipa/cd-belas/10219"
     },
     {
@@ -1331,8 +1331,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/74820_imgbank_1712921003.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.73074945174315,
+        "longitude": -9.20635828490921,
         "url": "https://www.zerozero.pt/equipa/csd-bairro-da-boavista/74820"
     },
     {
@@ -1353,8 +1353,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/86489_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.73038864450622,
+        "longitude": -9.206338956736062,
         "url": "https://www.zerozero.pt/equipa/fundacao-salesianos/86489"
     },
     {
@@ -3466,8 +3466,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.351042756354644,
+        "longitude": -121.92457670112056,
         "url": "https://www.zerozero.pt/equipa/sj-earthquakes/2501"
     },
     {
@@ -3483,8 +3483,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.2278982258627,
+        "longitude": 36.457461333963785,
         "url": "https://www.zerozero.pt/equipa/samsunspor/2148"
     },
     {
@@ -3494,8 +3494,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/323701_imgbank_1717687831.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 32.783968315123495,
+        "longitude": -117.12231858594416,
         "url": "https://www.zerozero.pt/equipa/san-diego-fc/323701"
     },
     {
@@ -3511,8 +3511,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 51.919489701462034,
+        "longitude": 4.433225501377098,
         "url": "https://www.zerozero.pt/equipa/sparta-rotterdam/4983"
     },
     {
@@ -3528,8 +3528,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -8.062955883072929,
+        "longitude": -34.902906974844804,
         "url": "https://www.zerozero.pt/equipa/sport/2257"
     },
     {
@@ -3539,14 +3539,14 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/268550_imgbank_1686662428.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.63105296935465,
+        "longitude": -90.21031942435641,
         "url": "https://www.zerozero.pt/equipa/st-louis-city-sc/268550"
     },
     {
         "id": "91",
         "club": "Sunderland",
-        "stadium": null,
+        "stadium": "Stadium of Light",
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/91_imgbank_1695724560.png",
         "equipamentos": [
             {
@@ -3556,8 +3556,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 54.914425300624764,
+        "longitude": -1.3882207984703518,
         "url": "https://www.zerozero.pt/equipa/sunderland/91"
     },
     {
@@ -3590,8 +3590,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 43.63303819083728,
+        "longitude": -79.41848745397144,
         "url": "https://www.zerozero.pt/equipa/toronto-fc/8512"
     },
     {
@@ -3607,8 +3607,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 43.58318059582874,
+        "longitude": 1.4339943531073507,
         "url": "https://www.zerozero.pt/equipa/toulouse/1140"
     },
     {
@@ -3641,8 +3641,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": -12.919527301863823,
+        "longitude": -38.42711143354613,
         "url": "https://www.zerozero.pt/equipa/vitoria/2259"
     },
     {
@@ -3652,8 +3652,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/69/2469_logo_20210105160816_bordj_bou_arreridj.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 36.140380418535365,
+        "longitude": 4.808073118659635,
         "url": "https://www.zerozero.pt/equipa/vitoria_guimaraes/2469"
     },
     {
@@ -3669,8 +3669,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 52.516982880401976,
+        "longitude": 6.120842253528518,
         "url": "https://www.zerozero.pt/equipa/zwolle/1938"
     }
 ]
