@@ -710,6 +710,30 @@ html, body {
     border-color: #3498db;
 }
 
+/* Highlight style for missing coordinates */
+.form-group.highlight-missing {
+    animation: highlightMissing 2s ease-in-out;
+}
+
+.form-group.highlight-missing input {
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+
+.form-group.highlight-missing label {
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+@keyframes highlightMissing {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
 .form-actions {
     display: flex;
     gap: 10px;

@@ -543,7 +543,9 @@ function navigateToClub(club) {
             marker.openPopup();
         }
     } else {
-        console.log('Navigate to club:', club.club, club.latitude, club.longitude);
+        // If club doesn't have coordinates, open edit form and highlight coordinates
+        console.log('Club missing coordinates:', club.club, club.latitude, club.longitude);
+        openEditForm(club.id, true); // Pass true to highlight missing coordinates
     }
 }
 
@@ -580,7 +582,7 @@ function toggleEditForm() {
     }
 }
 
-function openEditForm(clubId) {
+function openEditForm(clubId, highlightCoordinates = false) {
     // Find the club data
     const club = allClubs.find(c => c.id === clubId);
     if (!club) {
@@ -603,6 +605,33 @@ function openEditForm(clubId) {
     
     // Show the form
     document.getElementById('edit-form').classList.remove('hidden');
+    
+    // Highlight coordinate fields if requested (club missing coordinates)
+    if (highlightCoordinates) {
+        setTimeout(() => {
+            const latitudeGroup = document.getElementById('edit-club-latitude').closest('.form-group');
+            const longitudeGroup = document.getElementById('edit-club-longitude').closest('.form-group');
+            
+            if (latitudeGroup) {
+                latitudeGroup.classList.add('highlight-missing');
+                // Remove highlight after animation completes
+                setTimeout(() => {
+                    latitudeGroup.classList.remove('highlight-missing');
+                }, 2000);
+            }
+            
+            if (longitudeGroup) {
+                longitudeGroup.classList.add('highlight-missing');
+                // Remove highlight after animation completes
+                setTimeout(() => {
+                    longitudeGroup.classList.remove('highlight-missing');
+                }, 2000);
+            }
+            
+            // Focus on latitude field to draw attention
+            document.getElementById('edit-club-latitude').focus();
+        }, 100); // Small delay to ensure form is fully shown
+    }
 }
 
 // Handle form submission
