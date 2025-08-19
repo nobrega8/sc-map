@@ -720,14 +720,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 submissions.push(clubData);
                 downloadSubmissions(submissions);
                 toggleSubmissionForm();
-                alert('Submissão criada! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+                alert('Submissão criada com sucesso! Verifique os downloads e siga as instruções do painel tutorial.');
             })
             .catch(err => {
                 console.error('Erro ao carregar submissões existentes:', err);
                 // If no existing file, create new one
                 downloadSubmissions([clubData]);
                 toggleSubmissionForm();
-                alert('Submissão criada! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+                alert('Submissão criada com sucesso! Verifique os downloads e siga as instruções do painel tutorial.');
             });
     });
     
@@ -775,14 +775,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 submissions.push(clubData);
                 downloadSubmissions(submissions);
                 toggleEditForm();
-                alert('Alteração submetida! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+                alert('Alteração submetida com sucesso! Verifique os downloads e siga as instruções do painel tutorial.');
             })
             .catch(err => {
                 console.error('Erro ao carregar submissões existentes:', err);
                 // If no existing file, create new one
                 downloadSubmissions([clubData]);
                 toggleEditForm();
-                alert('Alteração submetida! O ficheiro submissions.json foi descarregado. Por favor, envie-o num Pull Request para o repositório.');
+                alert('Alteração submetida com sucesso! Verifique os downloads e siga as instruções do painel tutorial.');
             });
     });
 });
@@ -820,6 +820,11 @@ function downloadSubmissions(submissions) {
     document.body.removeChild(link);
     
     URL.revokeObjectURL(url);
+    
+    // Open GitHub issues page after download
+    setTimeout(() => {
+        window.open('https://github.com/nobrega8/sc-map/issues/new', '_blank');
+    }, 500); // Small delay to ensure download starts first
 }
 
 // Load club data and initialize lazy loading
