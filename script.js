@@ -1,33 +1,62 @@
-const map = L.map('map').setView([39.5, -8.0], 7);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
-}).addTo(map);
+// Initialize map if Leaflet is available, otherwise use fallback
+let map;
+if (typeof L !== 'undefined') {
+    map = L.map('map').setView([39.5, -8.0], 7);
+    
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+} else {
+    // Fallback when Leaflet is not available
+    console.warn('Leaflet not loaded, using fallback mode');
+    map = {
+        setView: function(coords, zoom) { console.log('Map setView:', coords, zoom); },
+        on: function(event, handler) { console.log('Map event handler:', event); },
+        getBounds: function() { 
+            return {
+                getNorth: () => 42,
+                getSouth: () => 37,
+                getEast: () => -6,
+                getWest: () => -10
+            };
+        }
+    };
+}
 
 // Global variables for club data and markers
 let allClubs = [];
 let activeMarkers = new Map();
 let loadMarkersTimeout;
-let currentFilter = 'all';
+let currentFilter = { region: 'all', league: 'all', year: 'all' };
 let availableCompetitions = new Set();
+let competitionStructure = {
+    europa: {},
+    portugal: {}
+};
 
 function criarIcon(logoUrl) {
-    return L.icon({
-        iconUrl: logoUrl,
-        iconSize: [50, 50],
-        className: 'club-icon'
-    });
+    if (typeof L !== 'undefined') {
+        return L.icon({
+            iconUrl: logoUrl,
+            iconSize: [50, 50],
+            className: 'club-icon'
+        });
+    }
+    return null; // Fallback
 }
 
 function createPlaceholderIcon() {
-    // Create a simple placeholder icon for clubs not yet loaded
-    return L.divIcon({
-        html: '<div class="placeholder-club-icon">⚽</div>',
-        iconSize: [30, 30],
-        className: 'placeholder-icon'
-    });
+    if (typeof L !== 'undefined') {
+        // Create a simple placeholder icon for clubs not yet loaded
+        return L.divIcon({
+            html: '<div class="placeholder-club-icon"></div>',
+            iconSize: [30, 30],
+            className: 'placeholder-icon'
+        });
+    }
+    return null; // Fallback
 }
 
 function createEquipmentHTML(equipamentos) {
@@ -52,96 +81,316 @@ function createEquipmentHTML(equipamentos) {
     return equipmentHTML;
 }
 
-// Competition filter functions
+// Competition filter functions (filter button now just shows/hides sidebar)
 function toggleCompetitionFilter() {
-    const filter = document.getElementById('competition-filter');
-    filter.classList.toggle('hidden');
+    const sidebar = document.getElementById('clubs-sidebar');
+    if (sidebar) {
+        sidebar.classList.toggle('hidden');
+        
+        // Update zoom controls position
+        updateZoomControlsPosition();
+    }
 }
 
+// Update zoom controls position based on sidebar state
+function updateZoomControlsPosition() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    const mapElement = document.getElementById('map');
+    const zoomControls = mapElement.querySelector('.leaflet-top.leaflet-left');
+    
+    if (zoomControls) {
+        if (sidebar.classList.contains('hidden') || window.innerWidth <= 768) {
+            zoomControls.style.left = '20px';
+        } else {
+            zoomControls.style.left = '440px';
+        }
+    }
+}
+
+// Initialize mobile state on page load
+function initializeMobileState() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    
+    // Start with sidebar hidden on mobile
+    if (window.innerWidth <= 768) {
+        sidebar.classList.add('hidden');
+    }
+    
+    // Update zoom controls position
+    setTimeout(() => {
+        updateZoomControlsPosition();
+    }, 100);
+}
+
+// Handle window resize
+window.addEventListener('resize', function() {
+    const sidebar = document.getElementById('clubs-sidebar');
+    
+    // If switching to mobile, hide sidebar
+    if (window.innerWidth <= 768) {
+        sidebar.classList.add('hidden');
+    }
+    
+    updateZoomControlsPosition();
+});
+
 function buildCompetitionList() {
-    // Collect all unique competitions from clubs
+    // Collect all unique competitions from clubs and organize them
     availableCompetitions.clear();
+    competitionStructure = { europa: {}, portugal: {} };
+    
     allClubs.forEach(club => {
         if (club.filtro && Array.isArray(club.filtro)) {
             club.filtro.forEach(competition => {
                 availableCompetitions.add(competition);
+                
+                // Parse competition string: e.g., "europa-champions-2025" or "portugal-1liga-2025"
+                const parts = competition.split('-');
+                if (parts.length >= 3) {
+                    const region = parts[0]; // europa, portugal
+                    const league = parts[1]; // champions, 1liga, etc.
+                    const year = parts[2]; // 2025
+                    
+                    if (!competitionStructure[region]) {
+                        competitionStructure[region] = {};
+                    }
+                    if (!competitionStructure[region][league]) {
+                        competitionStructure[region][league] = new Set();
+                    }
+                    competitionStructure[region][league].add(year);
+                }
             });
         }
     });
+    
+    // Initialize dropdown event handlers
+    initializeDropdowns();
+}
 
-    // Build the filter UI
-    const competitionList = document.getElementById('competition-list');
-    competitionList.innerHTML = '';
+function initializeDropdowns() {
+    // Region dropdown
+    const regionDropdown = document.getElementById('region-dropdown');
+    const regionMenu = document.getElementById('region-menu');
     
-    // Sort competitions alphabetically
-    const sortedCompetitions = Array.from(availableCompetitions).sort();
+    // League dropdown
+    const leagueDropdown = document.getElementById('league-dropdown');
+    const leagueMenu = document.getElementById('league-menu');
     
-    sortedCompetitions.forEach(competition => {
-        const button = document.createElement('button');
-        button.className = 'filter-btn';
-        button.setAttribute('data-filter', competition);
-        button.textContent = formatCompetitionName(competition);
-        button.onclick = () => setCompetitionFilter(competition);
-        competitionList.appendChild(button);
+    // Year dropdown
+    const yearDropdown = document.getElementById('year-dropdown');
+    const yearMenu = document.getElementById('year-menu');
+    
+    // Event handlers for dropdowns
+    regionDropdown.addEventListener('click', () => toggleDropdown('region'));
+    leagueDropdown.addEventListener('click', () => toggleDropdown('league'));
+    yearDropdown.addEventListener('click', () => toggleDropdown('year'));
+    
+    // Event handlers for dropdown options
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('dropdown-option')) {
+            handleDropdownSelection(e.target);
+        }
+        
+        // Close dropdowns when clicking outside
+        if (!e.target.closest('.dropdown-container')) {
+            closeAllDropdowns();
+        }
+    });
+    
+    // Populate league options based on current region
+    updateLeagueOptions();
+}
+
+function toggleDropdown(type) {
+    const menu = document.getElementById(`${type}-menu`);
+    const dropdown = document.getElementById(`${type}-dropdown`);
+    
+    // Close other dropdowns
+    ['region', 'league', 'year'].forEach(dropdownType => {
+        if (dropdownType !== type) {
+            document.getElementById(`${dropdownType}-menu`).classList.remove('show');
+            document.getElementById(`${dropdownType}-dropdown`).classList.remove('open');
+        }
+    });
+    
+    // Toggle current dropdown
+    menu.classList.toggle('show');
+    dropdown.classList.toggle('open');
+}
+
+function closeAllDropdowns() {
+    ['region', 'league', 'year'].forEach(type => {
+        document.getElementById(`${type}-menu`).classList.remove('show');
+        document.getElementById(`${type}-dropdown`).classList.remove('open');
     });
 }
 
-function formatCompetitionName(competition) {
-    // Convert "portugal-1liga-2024" to "Portugal 1ª Liga 2024"
-    const parts = competition.split('-');
-    if (parts.length >= 3) {
-        const country = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
-        const comp = parts[1].replace('1liga', '1ª Liga')
-                           .replace('2liga', '2ª Liga')
-                           .replace('3liga', '3ª Liga')
-                           .replace('champions', 'Champions League')
-                           .replace('taca', 'Taça')
-                           .replace('aflisboa', 'AF Lisboa')
-                           .replace('campeonato', 'Campeonato')
-                           .replace('afsetubal', 'AF Setúbal')
-                           .replace('afbraga', 'AF Braga')
-                           .replace('afporto', 'AF Porto')
-                           .replace('afmadeira', 'AF Madeira')
-                           .replace('afviseu', 'AF Viseu')
-                           .replace('afbraganca', 'AF Bragança')
-                           .replace('afcoimbra', 'AF Coimbra')
-                           .replace('afleiria', 'AF Leiria')
-                           .replace('afguarda', 'AF Guarda')
-                           .replace('afsantarém', 'AF Santarém');
-        const year = parts[2];
-        return `${country} ${comp} ${year}`;
+function handleDropdownSelection(option) {
+    const dropdown = option.closest('.dropdown-container');
+    const type = dropdown.querySelector('.dropdown').id.replace('-dropdown', '');
+    const value = option.dataset.value;
+    
+    // Update selection
+    currentFilter[type] = value;
+    
+    // Update UI
+    document.getElementById(`${type}-selected`).textContent = option.textContent;
+    
+    // Update selected state
+    dropdown.querySelectorAll('.dropdown-option').forEach(opt => opt.classList.remove('selected'));
+    option.classList.add('selected');
+    
+    // Close dropdown
+    document.getElementById(`${type}-menu`).classList.remove('show');
+    document.getElementById(`${type}-dropdown`).classList.remove('open');
+    
+    // Update dependent dropdowns
+    if (type === 'region') {
+        updateLeagueOptions();
+        updateYearOptions();
+    } else if (type === 'league') {
+        updateYearOptions();
     }
-    return competition;
+    
+    // Apply filter
+    applyFilters();
 }
 
-function setCompetitionFilter(filter) {
-    currentFilter = filter;
+function updateLeagueOptions() {
+    const leagueMenu = document.getElementById('league-menu');
+    const region = currentFilter.region;
     
-    // Update button states
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
+    leagueMenu.innerHTML = '<div class="dropdown-option selected" data-value="all">Todas as Ligas</div>';
     
-    if (filter === 'all') {
-        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
-    } else {
-        document.querySelector(`.filter-btn[data-filter="${filter}"]`).classList.add('active');
+    if (region === 'all') {
+        // Show all leagues from all regions
+        Object.keys(competitionStructure).forEach(regionKey => {
+            Object.keys(competitionStructure[regionKey]).forEach(league => {
+                const option = document.createElement('div');
+                option.className = 'dropdown-option';
+                option.dataset.value = league;
+                option.textContent = formatLeagueName(league);
+                leagueMenu.appendChild(option);
+            });
+        });
+    } else if (competitionStructure[region]) {
+        // Show only leagues from selected region
+        Object.keys(competitionStructure[region]).forEach(league => {
+            const option = document.createElement('div');
+            option.className = 'dropdown-option';
+            option.dataset.value = league;
+            option.textContent = formatLeagueName(league);
+            leagueMenu.appendChild(option);
+        });
     }
     
+    // Reset league selection
+    currentFilter.league = 'all';
+    document.getElementById('league-selected').textContent = 'Todas as Ligas';
+}
+
+function updateYearOptions() {
+    const yearMenu = document.getElementById('year-menu');
+    const region = currentFilter.region;
+    const league = currentFilter.league;
+    
+    yearMenu.innerHTML = '<div class="dropdown-option selected" data-value="all">Todos os Anos</div>';
+    
+    const years = new Set();
+    
+    if (region === 'all' && league === 'all') {
+        // Show all years
+        Object.keys(competitionStructure).forEach(regionKey => {
+            Object.keys(competitionStructure[regionKey]).forEach(leagueKey => {
+                competitionStructure[regionKey][leagueKey].forEach(year => years.add(year));
+            });
+        });
+    } else if (region === 'all' && league !== 'all') {
+        // Show years for specific league across all regions
+        Object.keys(competitionStructure).forEach(regionKey => {
+            if (competitionStructure[regionKey][league]) {
+                competitionStructure[regionKey][league].forEach(year => years.add(year));
+            }
+        });
+    } else if (region !== 'all' && league === 'all') {
+        // Show years for all leagues in specific region
+        if (competitionStructure[region]) {
+            Object.keys(competitionStructure[region]).forEach(leagueKey => {
+                competitionStructure[region][leagueKey].forEach(year => years.add(year));
+            });
+        }
+    } else if (region !== 'all' && league !== 'all') {
+        // Show years for specific league in specific region
+        if (competitionStructure[region] && competitionStructure[region][league]) {
+            competitionStructure[region][league].forEach(year => years.add(year));
+        }
+    }
+    
+    // Add year options sorted
+    Array.from(years).sort((a, b) => b.localeCompare(a)).forEach(year => {
+        const option = document.createElement('div');
+        option.className = 'dropdown-option';
+        option.dataset.value = year;
+        option.textContent = year;
+        yearMenu.appendChild(option);
+    });
+    
+    // Reset year selection
+    currentFilter.year = 'all';
+    document.getElementById('year-selected').textContent = 'Todos os Anos';
+}
+
+function formatLeagueName(league) {
+    return league.replace('1liga', '1ª Liga')
+                .replace('2liga', '2ª Liga')
+                .replace('3liga', '3ª Liga')
+                .replace('champions', 'Champions League')
+                .replace('taca', 'Taça')
+                .replace('aflisboa', 'AF Lisboa')
+                .replace('campeonato', 'Campeonato')
+                .replace('afsetubal', 'AF Setúbal')
+                .replace('afbraga', 'AF Braga')
+                .replace('afporto', 'AF Porto')
+                .replace('afmadeira', 'AF Madeira')
+                .replace('afviseu', 'AF Viseu')
+                .replace('afbraganca', 'AF Bragança')
+                .replace('afcoimbra', 'AF Coimbra')
+                .replace('afleiria', 'AF Leiria')
+                .replace('afguarda', 'AF Guarda')
+                .replace('afsantarém', 'AF Santarém');
+}
+
+function applyFilters() {
     // Reload markers with filter
     clearMarkers();
     loadVisibleMarkers();
+    
+    // Update clubs list to reflect filter
+    buildClubsList();
 }
 
 function clearMarkers() {
-    activeMarkers.forEach(marker => {
-        map.removeLayer(marker);
-    });
+    if (typeof L !== 'undefined') {
+        activeMarkers.forEach(marker => {
+            map.removeLayer(marker);
+        });
+    }
     activeMarkers.clear();
 }
 
 function shouldShowClub(club) {
-    if (currentFilter === 'all') {
+    // Check search filter first
+    const searchTerm = document.getElementById('club-search').value.toLowerCase();
+    if (searchTerm) {
+        const clubName = club.club.toLowerCase();
+        const stadiumName = club.stadium ? club.stadium.toLowerCase() : '';
+        if (!clubName.includes(searchTerm) && !stadiumName.includes(searchTerm)) {
+            return false;
+        }
+    }
+    
+    // Check competition filters
+    if (currentFilter.region === 'all' && currentFilter.league === 'all' && currentFilter.year === 'all') {
         return true;
     }
     
@@ -149,11 +398,30 @@ function shouldShowClub(club) {
         return false;
     }
     
-    return club.filtro.includes(currentFilter);
+    // Check if club matches any of the selected filter combinations
+    return club.filtro.some(competition => {
+        const parts = competition.split('-');
+        if (parts.length < 3) return false;
+        
+        const region = parts[0];
+        const league = parts[1];
+        const year = parts[2];
+        
+        const regionMatch = currentFilter.region === 'all' || currentFilter.region === region;
+        const leagueMatch = currentFilter.league === 'all' || currentFilter.league === league;
+        const yearMatch = currentFilter.year === 'all' || currentFilter.year === year;
+        
+        return regionMatch && leagueMatch && yearMatch;
+    });
 }
 
 // Load markers for clubs in the current viewport with a buffer
 function loadVisibleMarkers() {
+    if (typeof L === 'undefined') {
+        console.log('Leaflet not available, skipping marker loading');
+        return;
+    }
+    
     const startTime = performance.now();
     const bounds = map.getBounds();
     
@@ -225,9 +493,75 @@ function debouncedLoadVisibleMarkers() {
     loadMarkersTimeout = setTimeout(loadVisibleMarkers, 150);
 }
 
-// Add map event listeners for dynamic loading
-map.on('moveend', debouncedLoadVisibleMarkers);
-map.on('zoomend', debouncedLoadVisibleMarkers);
+// Add map event listeners for dynamic loading (only if Leaflet is available)
+if (typeof L !== 'undefined') {
+    map.on('moveend', debouncedLoadVisibleMarkers);
+    map.on('zoomend', debouncedLoadVisibleMarkers);
+}
+
+// Club list functions for sidebar
+function buildClubsList() {
+    const clubsList = document.getElementById('clubs-list');
+    if (!clubsList) return;
+    
+    clubsList.innerHTML = '';
+    
+    // Filter clubs based on current filter and search
+    const filteredClubs = allClubs.filter(club => shouldShowClub(club));
+    
+    // Sort clubs alphabetically
+    filteredClubs.sort((a, b) => a.club.localeCompare(b.club));
+    
+    filteredClubs.forEach(club => {
+        const clubItem = document.createElement('div');
+        clubItem.className = 'club-item';
+        clubItem.onclick = () => navigateToClub(club);
+        
+        const logoUrl = club.logo || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23f0f0f0" stroke="%23ccc"/></svg>';
+        
+        clubItem.innerHTML = `
+            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml;charset=utf-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22 viewBox=%220 0 32 32%22><circle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23f0f0f0%22 stroke=%22%23ccc%22/></svg>'">
+            <div class="club-info">
+                <div class="club-name">${club.club}</div>
+                ${club.stadium ? `<div class="club-stadium">${club.stadium}</div>` : ''}
+            </div>
+        `;
+        
+        clubsList.appendChild(clubItem);
+    });
+}
+
+function navigateToClub(club) {
+    if (club.latitude && club.longitude && typeof L !== 'undefined') {
+        // Pan to club location and zoom in
+        map.setView([club.latitude, club.longitude], 15);
+        
+        // If marker exists, open its popup
+        const clubKey = club.id;
+        const marker = activeMarkers.get(clubKey);
+        if (marker) {
+            marker.openPopup();
+        }
+    } else {
+        // If club doesn't have coordinates, open edit form and highlight coordinates
+        console.log('Club missing coordinates:', club.club, club.latitude, club.longitude);
+        openEditForm(club.id, true); // Pass true to highlight missing coordinates
+    }
+}
+
+function setupSearch() {
+    const searchInput = document.getElementById('club-search');
+    if (!searchInput) return;
+    
+    let searchTimeout;
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            applyFilters(); // Use applyFilters instead of just buildClubsList
+        }, 300); // Debounce search
+    });
+}
+
 function toggleSubmissionForm() {
     const form = document.getElementById('submission-form');
     form.classList.toggle('hidden');
@@ -248,7 +582,7 @@ function toggleEditForm() {
     }
 }
 
-function openEditForm(clubId) {
+function openEditForm(clubId, highlightCoordinates = false) {
     // Find the club data
     const club = allClubs.find(c => c.id === clubId);
     if (!club) {
@@ -271,10 +605,40 @@ function openEditForm(clubId) {
     
     // Show the form
     document.getElementById('edit-form').classList.remove('hidden');
+    
+    // Highlight coordinate fields if requested (club missing coordinates)
+    if (highlightCoordinates) {
+        setTimeout(() => {
+            const latitudeGroup = document.getElementById('edit-club-latitude').closest('.form-group');
+            const longitudeGroup = document.getElementById('edit-club-longitude').closest('.form-group');
+            
+            if (latitudeGroup) {
+                latitudeGroup.classList.add('highlight-missing');
+                // Remove highlight after animation completes
+                setTimeout(() => {
+                    latitudeGroup.classList.remove('highlight-missing');
+                }, 2000);
+            }
+            
+            if (longitudeGroup) {
+                longitudeGroup.classList.add('highlight-missing');
+                // Remove highlight after animation completes
+                setTimeout(() => {
+                    longitudeGroup.classList.remove('highlight-missing');
+                }, 2000);
+            }
+            
+            // Focus on latitude field to draw attention
+            document.getElementById('edit-club-latitude').focus();
+        }, 100); // Small delay to ensure form is fully shown
+    }
 }
 
 // Handle form submission
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize mobile state
+    initializeMobileState();
+    
     const form = document.getElementById('club-form');
     form.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -424,6 +788,12 @@ fetch('clubes.json')
         
         // Build competition filter list
         buildCompetitionList();
+        
+        // Build clubs list in sidebar
+        buildClubsList();
+        
+        // Setup search functionality
+        setupSearch();
         
         // Initial load of visible markers
         loadVisibleMarkers();
