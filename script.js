@@ -95,7 +95,9 @@ function formatCompetitionName(competition) {
                            .replace('2liga', '2ª Liga')
                            .replace('3liga', '3ª Liga')
                            .replace('champions', 'Champions League')
-                           .replace('taca', 'Taça');
+                           .replace('taca', 'Taça')
+                           .replace('aflisboa', 'AF Lisboa')
+                           .replace('campeonato', 'Campeonato');
         const year = parts[2];
         return `${country} ${comp} ${year}`;
     }

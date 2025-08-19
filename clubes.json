@@ -15,7 +15,9 @@
         "latitude": 40.6434864,
         "longitude": -8.6542323,
         "url": "https://www.zerozero.pt/equipa/beira-mar/2",
-        "filtro": ["portugal-taca-2025","portugal-campeonato-2025"]
+        "filtro": [
+            "portugal-2liga-2024"
+        ]
     },
     {
         "id": "2178",
@@ -33,7 +35,10 @@
         "latitude": 39.09468870445161,
         "longitude": -9.256681547301007,
         "url": "https://www.zerozero.pt/equipa/torreense/2178",
-        "filtro": ["portugal-taca-2025", "portugal-2liga-2025"]
+        "filtro": [
+            "portugal-1liga-2024",
+            "portugal-taca-2024"
+        ]
     },
     {
         "id": "3598",
@@ -51,7 +56,9 @@
         "latitude": 39.239725857087585,
         "longitude": -9.309107208662232,
         "url": "https://www.zerozero.pt/equipa/lourinhanense/3598",
-        "filtro": ["portugal-aflisboa-2025"]
+        "filtro": [
+            "portugal-3liga-2024"
+        ]
     },
     {
         "id": "19",
@@ -69,7 +76,10 @@
         "latitude": 40.20289574659429,
         "longitude": -8.407569212880802,
         "url": "https://www.zerozero.pt/equipa/academica-oaf/19",
-        "filtro": ["portugal-taca-2025","portugal-3liga-2025"]
+        "filtro": [
+            "portugal-2liga-2024",
+            "portugal-taca-2024"
+        ]
     },
     {
         "id": "3",
@@ -86,8 +96,7 @@
         "address": null,
         "latitude": 38.702135423428984,
         "longitude": -9.207755425230948,
-        "url": "https://www.zerozero.pt/equipa/belenenses/3",
-        "filtro": ["portugal-taca-2025", "portugal-3liga-2025"]
+        "url": "https://www.zerozero.pt/equipa/belenenses/3"
     },
     {
         "id": "22",
@@ -104,8 +113,7 @@
         "address": null,
         "latitude": 32.67894354172962,
         "longitude": -16.85744078106183,
-        "url": "https://www.zerozero.pt/equipa/uniao-madeira/22",
-        "filtro": []
+        "url": "https://www.zerozero.pt/equipa/uniao-madeira/22"
     },
     {
         "id": "13",
@@ -122,8 +130,7 @@
         "address": null,
         "latitude": 41.27144778991801,
         "longitude": -8.385628783445842,
-        "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13",
-        "filtro": ["portugal-taca-2025", "portugal-2liga-2025"]
+        "url": "https://www.zerozero.pt/equipa/pacos-de-ferreira/13"
     },
     {
         "id": "slbenfica",
@@ -140,8 +147,7 @@
         "address": null,
         "latitude": 38.7531359493634,
         "longitude": -9.184956307391019,
-        "url": "https://www.zerozero.pt/equipa/benfica",
-        "filtro": ["europa-champions-2025", "portugal-1liga-2025"]
+        "url": "https://www.zerozero.pt/equipa/benfica"
     },
     {
         "id": "23",
@@ -1017,7 +1023,7 @@
             }
         ],
         "address": null,
-        "latitude": 38.78966827979891, 
+        "latitude": 38.78966827979891,
         "longitude": -9.102083122632282,
         "url": "https://www.zerozero.pt/equipa/sacavenense/3644"
     },
@@ -1808,7 +1814,7 @@
         ],
         "address": null,
         "latitude": 38.86091479116397,
-        "longitude":  -9.32930670416812,
+        "longitude": -9.32930670416812,
         "url": "https://www.zerozero.pt/equipa/os-montelavarenses/7989"
     },
     {
@@ -3680,5 +3686,1601 @@
         "latitude": 52.516982880401976,
         "longitude": 6.120842253528518,
         "url": "https://www.zerozero.pt/equipa/zwolle/1938"
+    },
+    {
+        "id": "4321",
+        "club": "AD Castro Daire",
+        "stadium": "Complexo Desportivo de Castro Daire",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4321_imgbank_1683279746.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/21/4321_shirt_20230827123244_ad_castro_daire.png",
+                "alt_text": "ad castro daire"
+            }
+        ],
+        "address": null,
+        "latitude": 40.901935,
+        "longitude": -7.9283727,
+        "url": "https://www.zerozero.pt/equipa/ad-castro-daire/4321?epoca_id=155"
+    },
+    {
+        "id": "999999",
+        "club": "Ad Castro Daire Anadia",
+        "stadium": null,
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4_imgbank_1683238034.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/ad-castro-daire-anadia/999999?epoca_id=155"
+    },
+    {
+        "id": "6293",
+        "club": "ADC Correlhã",
+        "stadium": "Campo Municipal da Correlhã",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6293_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/93/6293_shirt_adc_correlha.jpg",
+                "alt_text": "adc correlhã"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/adc-correlha/6293?epoca_id=155"
+    },
+    {
+        "id": "11127",
+        "club": "AR São Martinho",
+        "stadium": "Estádio Comendador Abílio Ferreira de Oliveira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11127_imgbank_1683209789.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/27/11127_shirt_20210817151253_ar_sao_martinho.png",
+                "alt_text": "ar são martinho"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/ar-sao-martinho/11127?epoca_id=155"
+    },
+    {
+        "id": "7987",
+        "club": "Ac. Fundão",
+        "stadium": "Estádio Municipal do Fundão",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7987_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/87/7987_shirt_20190227111417_ac_fundao.png",
+                "alt_text": "ac. fundão"
+            }
+        ],
+        "address": null,
+        "latitude": 40.1451012,
+        "longitude": -7.4832746,
+        "url": "https://www.zerozero.pt/equipa/ac-fundao/7987?epoca_id=155"
+    },
+    {
+        "id": "29787",
+        "club": "AD Marco 09",
+        "stadium": "Estádio Municipal Marco de Canaveses",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/29787_imgbank_1733843528.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/87/29787_shirt_20240221084843_ad_marco_09.png",
+                "alt_text": "ad marco 09"
+            }
+        ],
+        "address": null,
+        "latitude": 41.1925345,
+        "longitude": -8.1453022,
+        "url": "https://www.zerozero.pt/equipa/ad-marco-09/29787?epoca_id=155"
+    },
+    {
+        "id": "3679",
+        "club": "Águias do Moradal",
+        "stadium": "Estádio do Ventoso",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3679_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/79/3679_shirt_20171117093633_aguias_do_moradal.png",
+                "alt_text": "águias do moradal"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/aguias-do-moradal/3679?epoca_id=155"
+    },
+    {
+        "id": "3548",
+        "club": "Alcochetense",
+        "stadium": "Estádio António Almeida Correia (Foni)",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3548_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/48/3548_shirt_20220725142538_alcochetense.png",
+                "alt_text": "alcochetense"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7543541,
+        "longitude": -8.9550211,
+        "url": "https://www.zerozero.pt/equipa/alcochetense/3548?epoca_id=155"
+    },
+    {
+        "id": "6772",
+        "club": "Almodôvar",
+        "stadium": "Complexo Desportivo Filipe Venâncio",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6772_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/72/6772_shirt_20241118145044_almodovar.jpg",
+                "alt_text": "almodôvar"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/almodovar/6772?epoca_id=155"
+    },
+    {
+        "id": "7992",
+        "club": "Alpendorada",
+        "stadium": "Estádio Municipal de Alpendorada",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/7992_imgbank_1683211931.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/92/7992_shirt_20220804105539_alpendorada.png",
+                "alt_text": "alpendorada"
+            }
+        ],
+        "address": null,
+        "latitude": 41.0883378,
+        "longitude": -8.2515993,
+        "url": "https://www.zerozero.pt/equipa/alpendorada/7992?epoca_id=155"
+    },
+    {
+        "id": "2183",
+        "club": "Amora FC",
+        "stadium": "Estádio da Medideira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2183_imgbank_1683026602.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/83/2183_shirt_20231227102055_amora_fc.png",
+                "alt_text": "amora fc"
+            }
+        ],
+        "address": null,
+        "latitude": 38.633085,
+        "longitude": -9.1166261,
+        "url": "https://www.zerozero.pt/equipa/amora-fc/2183?epoca_id=155"
+    },
+    {
+        "id": "3680",
+        "club": "Angrense",
+        "stadium": "Campo Municipal de Angra do Heroísmo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3680_imgbank_1683305191.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/80/3680_shirt_20181206103340_angrense.png",
+                "alt_text": "angrense"
+            }
+        ],
+        "address": null,
+        "latitude": 38.6536195,
+        "longitude": -27.2247438,
+        "url": "https://www.zerozero.pt/equipa/angrense/3680?epoca_id=155"
+    },
+    {
+        "id": "6491",
+        "club": "Ançã",
+        "stadium": "Complexo Desportivo de Ançã",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6491_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/91/6491_shirt_20220902123744_anca.png",
+                "alt_text": "ançã"
+            }
+        ],
+        "address": "EntradasJogadorEquipaValorBernardo OliveiraADCR Pereira-Afonso CoimbraLousanense-David AlmeidaPenelense-João SimãoNaval 1893-Afonso CarvalhoAcadémica OAF-Manuel RamosMarialvas-Afonso FernandesVigor Mocidade-Tiago MonteiroCarapinheirense-",
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/anca/6491?epoca_id=155"
+    },
+    {
+        "id": "12234",
+        "club": "Aparecida",
+        "stadium": "Estádio Vila Mítica",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12234_imgbank.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/aparecida/12234?epoca_id=155"
+    },
+    {
+        "id": "3562",
+        "club": "Benf. Castelo Branco",
+        "stadium": "Estádio Municipal Vale do Romeiro",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3562_imgbank_1683278820.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/62/3562_shirt_20240227122737_benf_castelo_branco.png",
+                "alt_text": "benf. castelo branco"
+            }
+        ],
+        "address": "EntradasJogadorEquipaValorNuno GasparPortimonense-Afonso VagarinhoFC Alverca-David PeresSanta Clara-Diogo CornélioSC Covilhã-Diogo TorradoAlcains-Éder DelgadoArronches e Benfica-Gabriel AmancioArronches e Benfica-Óscar GarciaSertanense-Pedro CorreiaCF Esperança dAndorra-SacraRD Águeda-Pedro VieiraSanta Clara-Fábio CelestinoFC Alverca-João CruzAc. Fundão-Tiago SantosAc. Fundão-Eden SilvaÁguias do Moradal-",
+        "latitude": 39.835275,
+        "longitude": -7.4951523,
+        "url": "https://www.zerozero.pt/equipa/benf-castelo-branco/3562?epoca_id=155"
+    },
+    {
+        "id": "3565",
+        "club": "Bragança",
+        "stadium": "Estádio Municipal Eng.º José Luís Pinheiro",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3565_imgbank_1683279117.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/65/3565_shirt_20250421123143_braganca.jpg",
+                "alt_text": "bragança"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/braganca/3565?epoca_id=155"
+    },
+    {
+        "id": "6296",
+        "club": "Brito SC",
+        "stadium": "Parque de Jogos do Brito SC",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6296_imgbank_1683212379.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/96/6296_shirt_20240219114646_brito_sc.png",
+                "alt_text": "brito sc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/brito-sc/6296?epoca_id=155"
+    },
+    {
+        "id": "6717",
+        "club": "CD Celoricense",
+        "stadium": "Estádio Municipal de Celorico de Basto",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6717_imgbank.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cd-celoricense/6717?epoca_id=155"
+    },
+    {
+        "id": "3574",
+        "club": "CD Cinfães",
+        "stadium": "Estádio Municipal Prof. Cerveira Pinto",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3574_imgbank_1729070532.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/74/3574_shirt_20171117094644_cinfaes.png",
+                "alt_text": "cd cinfães"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cd-cinfaes/3574?epoca_id=155"
+    },
+    {
+        "id": "4344",
+        "club": "CD Gouveia",
+        "stadium": "Estádio Municipal do Farvão",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4344_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/44/4344_shirt_20240227122752_cd_gouveia.png",
+                "alt_text": "cd gouveia"
+            }
+        ],
+        "address": null,
+        "latitude": 40.4857574,
+        "longitude": -7.5945006,
+        "url": "https://www.zerozero.pt/equipa/cd-gouveia/4344?epoca_id=155"
+    },
+    {
+        "id": "5677",
+        "club": "CD Lajense",
+        "stadium": "Campo Municipal das Lajes do Pico",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5677_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/77/5677_shirt_20190227113029_cd_lajense.png",
+                "alt_text": "cd lajense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cd-lajense/5677?epoca_id=155"
+    },
+    {
+        "id": "3687",
+        "club": "Camacha",
+        "stadium": "Complexo Desportivo da Camacha",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3687_imgbank_1683305131.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/87/3687_shirt_20240219114652_camacha.png",
+                "alt_text": "camacha"
+            }
+        ],
+        "address": null,
+        "latitude": 32.6720386,
+        "longitude": -16.8525194,
+        "url": "https://www.zerozero.pt/equipa/camacha/3687?epoca_id=155"
+    },
+    {
+        "id": "11048",
+        "club": "Carregal do Sal",
+        "stadium": "Estádio Nossa Senhora das Febres",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11048_imgbank.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 40.3956689,
+        "longitude": -8.6348365,
+        "url": "https://www.zerozero.pt/equipa/carregal-do-sal/11048?epoca_id=155"
+    },
+    {
+        "id": "5657",
+        "club": "Castrense",
+        "stadium": "Estádio Municipal 25 de Abril",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5657_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/57/5657_shirt_20171117083126_castrense.png",
+                "alt_text": "castrense"
+            }
+        ],
+        "address": null,
+        "latitude": 41.211805,
+        "longitude": -8.277222,
+        "url": "https://www.zerozero.pt/equipa/castrense/5657?epoca_id=155"
+    },
+    {
+        "id": "10926",
+        "club": "CD Celeirós",
+        "stadium": "Parque Desportivo Celeirós - O Feliz",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10926_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/26/10926_shirt_cd_celeiros.jpg",
+                "alt_text": "cd celeirós"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/cd-celeiros/10926?epoca_id=155"
+    },
+    {
+        "id": "3586",
+        "club": "CD Fátima",
+        "stadium": "Estádio Municipal de Fátima (Papa Francisco)",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3586_imgbank_1729088423.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/86/3586_shirt_20220902122848_cd_fatima.png",
+                "alt_text": "cd fátima"
+            }
+        ],
+        "address": null,
+        "latitude": 39.603228,
+        "longitude": -8.6632622,
+        "url": "https://www.zerozero.pt/equipa/cd-fatima/3586?epoca_id=155"
+    },
+    {
+        "id": "3696",
+        "club": "CD Mafra",
+        "stadium": "Estádio Municipal de Mafra",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3696_imgbank_1682587890.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/96/3696_shirt_20241118145029_cd_mafra.png",
+                "alt_text": "cd mafra"
+            }
+        ],
+        "address": null,
+        "latitude": 38.9408004,
+        "longitude": -9.341598,
+        "url": "https://www.zerozero.pt/equipa/cd-mafra/3696?epoca_id=155"
+    },
+    {
+        "id": "5684",
+        "club": "Charneca Caparica",
+        "stadium": "Campo do Cassapo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5684_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/84/5684_shirt_20190314100337_charneca_caparica.jpg",
+                "alt_text": "charneca caparica"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/charneca-caparica/5684?epoca_id=155"
+    },
+    {
+        "id": "6529",
+        "club": "Comércio e Indústria",
+        "stadium": "Campo da Bela Vista",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6529_imgbank_1733843444.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/6529_shirt_20190227110257_comercio_e_industria.png",
+                "alt_text": "comércio e indústria"
+            }
+        ],
+        "address": null,
+        "latitude": 41.1621572,
+        "longitude": -8.5088063,
+        "url": "https://www.zerozero.pt/equipa/comercio-e-industria/6529?epoca_id=155"
+    },
+    {
+        "id": "3688",
+        "club": "Eléctrico",
+        "stadium": "Estádio Municipal de Ponte de Sor",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3688_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/88/3688_shirt_20240919200440_electrico.png",
+                "alt_text": "eléctrico"
+            }
+        ],
+        "address": null,
+        "latitude": 39.2538683,
+        "longitude": -8.0132235,
+        "url": "https://www.zerozero.pt/equipa/electrico/3688?epoca_id=155"
+    },
+    {
+        "id": "3689",
+        "club": "Est. Calheta",
+        "stadium": "Campo Municipal dos Prazeres",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3689_imgbank_1710328717.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/89/3689_shirt_20250704104021_est_calheta.png",
+                "alt_text": "est. calheta"
+            }
+        ],
+        "address": null,
+        "latitude": 32.7517953,
+        "longitude": -17.2039904,
+        "url": "https://www.zerozero.pt/equipa/est-calheta/3689?epoca_id=155"
+    },
+    {
+        "id": "19572",
+        "club": "FC Urzelinense",
+        "stadium": "Campo da Urzelina",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/19572_imgbank_1699356172.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": 38.6474304,
+        "longitude": -28.1236877,
+        "url": "https://www.zerozero.pt/equipa/fc-urzelinense/19572?epoca_id=155"
+    },
+    {
+        "id": "3690",
+        "club": "Fayal",
+        "stadium": "Estádio da Alagoa",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3690_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/90/3690_shirt_20190227111210_fayal.png",
+                "alt_text": "fayal"
+            }
+        ],
+        "address": null,
+        "latitude": 38.5432638,
+        "longitude": -28.6217153,
+        "url": "https://www.zerozero.pt/equipa/fayal/3690?epoca_id=155"
+    },
+    {
+        "id": "3587",
+        "club": "Fazendense",
+        "stadium": "Estádio Dr. José Sousa Gomes",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3587_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/87/3587_shirt_20190227111214_fazendense.png",
+                "alt_text": "fazendense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/fazendense/3587?epoca_id=155"
+    },
+    {
+        "id": "5630",
+        "club": "FC Vinhais",
+        "stadium": "Estádio Municipal de Vinhais",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5630_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/30/5630_shirt_20240722115643_fc_vinhais.jpg",
+                "alt_text": "fc vinhais"
+            }
+        ],
+        "address": null,
+        "latitude": 41.8320396,
+        "longitude": -7.0025732,
+        "url": "https://www.zerozero.pt/equipa/fc-vinhais/5630?epoca_id=155"
+    },
+    {
+        "id": "6568",
+        "club": "Ferreira do Zêzere",
+        "stadium": "Campo Eng.º Lopo de Carvalho",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6568_imgbank_1742991710.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/68/6568_shirt_20210318101639_ferreira_do_zezere.png",
+                "alt_text": "ferreira do zêzere"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/ferreira-do-zezere/6568?epoca_id=155"
+    },
+    {
+        "id": "242683",
+        "club": "Florgrade FC",
+        "stadium": "Parque Desportivo do Buçaquinho",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/242683_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/83/242683_shirt_20240221084809_florgrade_fc.png",
+                "alt_text": "florgrade fc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/florgrade-fc/242683?epoca_id=155"
+    },
+    {
+        "id": "3583",
+        "club": "Fornos de Algodres",
+        "stadium": "Estádio Municipal Fornos de Algodres",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3583_imgbank_1740563759.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/83/3583_shirt_20181024102516_fornos_de_algodres.png",
+                "alt_text": "fornos de algodres"
+            }
+        ],
+        "address": null,
+        "latitude": 40.6229467,
+        "longitude": -7.5467411,
+        "url": "https://www.zerozero.pt/equipa/fornos-de-algodres/3583?epoca_id=155"
+    },
+    {
+        "id": "11041",
+        "club": "GD Resende",
+        "stadium": "Estádio Municipal de Fornelos",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11041_imgbank_1683209985.png",
+        "equipamentos": [],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/gd-resende/11041?epoca_id=155"
+    },
+    {
+        "id": "3692",
+        "club": "GD Lagoa",
+        "stadium": "Estádio Capitão Josino da Costa",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3692_imgbank_1730196764.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/92/3692_shirt_20240102095930_gd_lagoa.png",
+                "alt_text": "gd lagoa"
+            }
+        ],
+        "address": null,
+        "latitude": 37.1310059,
+        "longitude": -8.4501052,
+        "url": "https://www.zerozero.pt/equipa/gd-lagoa/3692?epoca_id=155"
+    },
+    {
+        "id": "6803",
+        "club": "GD Portel",
+        "stadium": "Estádio Municipal D. Nuno Álvares Pereira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6803_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/03/6803_shirt_20190227095411_gd_portel.png",
+                "alt_text": "gd portel"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/gd-portel/6803?epoca_id=155"
+    },
+    {
+        "id": "3669",
+        "club": "GD Valpaços",
+        "stadium": "Estádio da Cruz",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3669_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/69/3669_shirt_gd_valpacos.png",
+                "alt_text": "gd valpaços"
+            }
+        ],
+        "address": null,
+        "latitude": 41.6131204,
+        "longitude": -7.3073282,
+        "url": "https://www.zerozero.pt/equipa/gd-valpacos/3669?epoca_id=155"
+    },
+    {
+        "id": "8066",
+        "club": "JD Lajense",
+        "stadium": "Campo de Jogos Manuel Linhares Lima",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/8066_imgbank_1699356470.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/66/8066_shirt_lajense.png",
+                "alt_text": "jd lajense"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7606556,
+        "longitude": -27.1093924,
+        "url": "https://www.zerozero.pt/equipa/jd-lajense/8066?epoca_id=155"
+    },
+    {
+        "id": "3594",
+        "club": "Juventude Évora",
+        "stadium": "Estádio Juventude Sport Clube",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3594_imgbank_1683279591.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/94/3594_shirt_20240418082123_juventude_evora.png",
+                "alt_text": "juventude évora"
+            }
+        ],
+        "address": null,
+        "latitude": 38.5497821,
+        "longitude": -7.9026058,
+        "url": "https://www.zerozero.pt/equipa/juventude-evora/3594?epoca_id=155"
+    },
+    {
+        "id": "24",
+        "club": "Leça FC",
+        "stadium": "Estádio do Leça Futebol Clube",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/24_imgbank_1683038009.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/24/24_shirt_20250728174013_leca_fc.jpg",
+                "alt_text": "leça fc"
+            }
+        ],
+        "address": null,
+        "latitude": 41.2033443,
+        "longitude": -8.6893465,
+        "url": "https://www.zerozero.pt/equipa/leca-fc/24?epoca_id=155"
+    },
+    {
+        "id": "5681",
+        "club": "Limianos",
+        "stadium": "Estádio Municipal do Cruzeiro",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5681_imgbank_1730198569.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/81/5681_shirt_20240219114714_limianos.png",
+                "alt_text": "limianos"
+            }
+        ],
+        "address": null,
+        "latitude": 41.7674334,
+        "longitude": -8.5763188,
+        "url": "https://www.zerozero.pt/equipa/limianos/5681?epoca_id=155"
+    },
+    {
+        "id": "3596",
+        "club": "Louletano",
+        "stadium": "Estádio do Algarve",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3596_imgbank_1719413637.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/96/3596_shirt_20240730100835_louletano.jpg",
+                "alt_text": "louletano"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/louletano/3596?epoca_id=155"
+    },
+    {
+        "id": "2173",
+        "club": "Lusit. Évora",
+        "stadium": "Campo Estrela",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2173_imgbank_1754406112.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/73/2173_shirt_20240418082136_lusit_evora.png",
+                "alt_text": "lusit. évora"
+            }
+        ],
+        "address": null,
+        "latitude": 38.5622946,
+        "longitude": -7.9179118,
+        "url": "https://www.zerozero.pt/equipa/lusit-evora/2173?epoca_id=155"
+    },
+    {
+        "id": "3602",
+        "club": "Machico",
+        "stadium": "Estádio de Machico",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3602_imgbank_1683533033.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/02/3602_shirt_machico.png",
+                "alt_text": "machico"
+            }
+        ],
+        "address": null,
+        "latitude": 32.7288832,
+        "longitude": -16.7734106,
+        "url": "https://www.zerozero.pt/equipa/machico/3602?epoca_id=155"
+    },
+    {
+        "id": "3604",
+        "club": "Maria da Fonte",
+        "stadium": "Estádio dos Moinhos Novos",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3604_imgbank_1683533049.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/04/3604_shirt_20220816084500_maria_da_fonte.jpg",
+                "alt_text": "maria da fonte"
+            }
+        ],
+        "address": null,
+        "latitude": 41.5695207,
+        "longitude": -8.2641903,
+        "url": "https://www.zerozero.pt/equipa/maria-da-fonte/3604?epoca_id=155"
+    },
+    {
+        "id": "4345",
+        "club": "Marialvas",
+        "stadium": "Estádio Municipal de Cantanhede",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4345_imgbank_1730197788.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/45/4345_shirt_20220902123755_marialvas.png",
+                "alt_text": "marialvas"
+            }
+        ],
+        "address": null,
+        "latitude": 40.3630241,
+        "longitude": -8.6073847,
+        "url": "https://www.zerozero.pt/equipa/marialvas/4345?epoca_id=155"
+    },
+    {
+        "id": "3605",
+        "club": "Marinhense",
+        "stadium": "Estádio Municipal da Marinha Grande",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3605_imgbank_1720083853.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/05/3605_shirt_20240809184556_marinhense.png",
+                "alt_text": "marinhense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.7365662,
+        "longitude": -8.9312453,
+        "url": "https://www.zerozero.pt/equipa/marinhense/3605?epoca_id=155"
+    },
+    {
+        "id": "3608",
+        "club": "Mirandela",
+        "stadium": "Estádio São Sebastião",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3608_imgbank_1699891718.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/08/3608_shirt_20250806160404_mirandela.jpg",
+                "alt_text": "mirandela"
+            }
+        ],
+        "address": null,
+        "latitude": 37.7581541,
+        "longitude": -25.6770993,
+        "url": "https://www.zerozero.pt/equipa/mirandela/3608?epoca_id=155"
+    },
+    {
+        "id": "3610",
+        "club": "Monção",
+        "stadium": "Estádio Manuel Lima",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3610_imgbank_1683533333.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/10/3610_shirt_20230725161423_moncao.png",
+                "alt_text": "monção"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7606556,
+        "longitude": -27.1093924,
+        "url": "https://www.zerozero.pt/equipa/moncao/3610?epoca_id=155"
+    },
+    {
+        "id": "10812",
+        "club": "Moncarapachense",
+        "stadium": "Estádio Dr. António João Eusébio",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10812_imgbank_1683023196.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/12/10812_shirt_20240418082148_moncarapachense.png",
+                "alt_text": "moncarapachense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/moncarapachense/10812?epoca_id=155"
+    },
+    {
+        "id": "6701",
+        "club": "Mortágua FC",
+        "stadium": "Campo da Gandarada",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6701_imgbank_1683212240.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/01/6701_shirt_20240227123414_mortagua_fc.png",
+                "alt_text": "mortágua fc"
+            }
+        ],
+        "address": null,
+        "latitude": 40.4011098,
+        "longitude": -8.2294862,
+        "url": "https://www.zerozero.pt/equipa/mortagua-fc/6701?epoca_id=155"
+    },
+    {
+        "id": "32408",
+        "club": "Mosteirense",
+        "stadium": "Campo de Jogos da Basteira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/32408_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/08/32408_shirt_20190227114304_mosteirense.png",
+                "alt_text": "mosteirense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/mosteirense/32408?epoca_id=155"
+    },
+    {
+        "id": "215830",
+        "club": "Naval 1893",
+        "stadium": "Estádio Municipal José Bento Pessoa",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/215830_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/30/215830_shirt_20230504205809_naval_1893.png",
+                "alt_text": "naval 1893"
+            }
+        ],
+        "address": "EntradasJogadorEquipaValorAbdou DiédhiouBlack Bulls-Gui MonteiroAcadémica OAF (emp)-Dener1º Dezembro-Vincent DuduGD Cova-GalaRegressoEmpréstimoGonçalo MariaBelenenses-Rodrigo RodriguesMoreirense-Pedro CostaAmora FC-Lukass ZuravlovsBFC Daugavpils-Pedro AlvesLeixões-Rodrigo CoutinhoMachico-Bernardo SarmentoFC Famalicão-Tiago LopesBenf. Castelo Branco-Leonardo NunesNacional-Leonardo FerreiraMarinhense-Francisco ChulaGD Ilha-Nuno AndréUnião 1919-João NogueiraOvarense-Mateus ConstantinMarialvas-Maurício JúniorOvarense-Paulo GriloBeira-Mar-Vasco GuimarãesSourense-",
+        "latitude": 40.1627383,
+        "longitude": -8.8598115,
+        "url": "https://www.zerozero.pt/equipa/naval-1893/215830?epoca_id=155"
+    },
+    {
+        "id": "4011",
+        "club": "Nazarenos",
+        "stadium": "Estádio Municipal da Nazaré",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4011_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/11/4011_shirt_20230723113225_nazarenos.png",
+                "alt_text": "nazarenos"
+            }
+        ],
+        "address": null,
+        "latitude": 39.6086662,
+        "longitude": -9.0626481,
+        "url": "https://www.zerozero.pt/equipa/nazarenos/4011?epoca_id=155"
+    },
+    {
+        "id": "3615",
+        "club": "Nogueirense FC",
+        "stadium": "Estádio Municipal de Nogueira da Maia",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3615_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/15/3615_shirt_nogueirense_fc.png",
+                "alt_text": "nogueirense fc"
+            }
+        ],
+        "address": null,
+        "latitude": 41.2405597,
+        "longitude": -8.5913211,
+        "url": "https://www.zerozero.pt/equipa/nogueirense-fc/3615?epoca_id=155"
+    },
+    {
+        "id": "2180",
+        "club": "O Elvas",
+        "stadium": "Campo Domingos Carrilho Patalino",
+        "logo": "https://www.zerozero.pt/img_icon/logos/equipas/2180_imgbank_1750951096.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/80/2180_shirt_20240916183320_o_elvas.png",
+                "alt_text": "o elvas"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/o-elvas/2180?epoca_id=155"
+    },
+    {
+        "id": "11139",
+        "club": "Olímpico Montijo",
+        "stadium": "Campo da Liberdade",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11139_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/39/11139_shirt_20220929094520_olimpico_montijo.png",
+                "alt_text": "olímpico montijo"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7133668,
+        "longitude": -8.9676018,
+        "url": "https://www.zerozero.pt/equipa/olimpico-montijo/11139?epoca_id=155"
+    },
+    {
+        "id": "3702",
+        "club": "Operário Lagoa",
+        "stadium": "Estádio João Gualberto Borges Arruda",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3702_imgbank_1694700802.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/02/3702_shirt_20231019124626_operario_lagoa.jpg",
+                "alt_text": "operário lagoa"
+            }
+        ],
+        "address": null,
+        "latitude": 37.7417009,
+        "longitude": -25.5817267,
+        "url": "https://www.zerozero.pt/equipa/operario-lagoa/3702?epoca_id=155"
+    },
+    {
+        "id": "29",
+        "club": "Ovarense",
+        "stadium": "Estádio Marques da Silva",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/29_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/29_shirt_20231124130601_ovarense.jpg",
+                "alt_text": "ovarense"
+            }
+        ],
+        "address": null,
+        "latitude": 40.8646416,
+        "longitude": -8.6261499,
+        "url": "https://www.zerozero.pt/equipa/ovarense/29?epoca_id=155"
+    },
+    {
+        "id": "3625",
+        "club": "Peniche",
+        "stadium": "Estádio do Peniche",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3625_imgbank_1719413773.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/25/3625_shirt_20240227123425_peniche.png",
+                "alt_text": "peniche"
+            }
+        ],
+        "address": null,
+        "latitude": 39.3521934,
+        "longitude": -9.3627392,
+        "url": "https://www.zerozero.pt/equipa/peniche/3625?epoca_id=155"
+    },
+    {
+        "id": "3627",
+        "club": "Pontassolense",
+        "stadium": "Campo Municipal da Ponta do Sol",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3627_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/27/3627_shirt_pontassolense.png",
+                "alt_text": "pontassolense"
+            }
+        ],
+        "address": null,
+        "latitude": 32.7059258,
+        "longitude": -17.1171552,
+        "url": "https://www.zerozero.pt/equipa/pontassolense/3627?epoca_id=155"
+    },
+    {
+        "id": "5670",
+        "club": "Portalegrense",
+        "stadium": "Estádio Municipal de Portalegre",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5670_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/70/5670_shirt_portalegrense.png",
+                "alt_text": "portalegrense"
+            }
+        ],
+        "address": null,
+        "latitude": 39.2978996,
+        "longitude": -7.4336781,
+        "url": "https://www.zerozero.pt/equipa/portalegrense/5670?epoca_id=155"
+    },
+    {
+        "id": "67006",
+        "club": "PortimonenseB",
+        "stadium": "Centro de Formação Major David Neto",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/33_imgbank_1682584345.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/33/33_shirt_portimonense.png",
+                "alt_text": "portimonense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/portimonense/67006?epoca_id=155"
+    },
+    {
+        "id": "3629",
+        "club": "Portomosense",
+        "stadium": "Estádio Municipal de Porto de Mós",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3629_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/29/3629_shirt_20220902123405_portomosense.png",
+                "alt_text": "portomosense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/portomosense/3629?epoca_id=155"
+    },
+    {
+        "id": "3631",
+        "club": "Quarteirense",
+        "stadium": "Estádio Municipal de Quarteira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3631_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/31/3631_shirt_20240812120600_quarteirense.png",
+                "alt_text": "quarteirense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/quarteirense/3631?epoca_id=155"
+    },
+    {
+        "id": "3706",
+        "club": "Rabo de Peixe",
+        "stadium": "Campo de Jogos Bom Jesus",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3706_imgbank_1683304989.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/06/3706_shirt_20240227123447_rabo_de_peixe.png",
+                "alt_text": "rabo de peixe"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/rabo-de-peixe/3706?epoca_id=155"
+    },
+    {
+        "id": "3633",
+        "club": "Rebordelo",
+        "stadium": "Campo de Jogos de Rebordelo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3633_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/33/3633_shirt_20190227115201_rebordelo.png",
+                "alt_text": "rebordelo"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/rebordelo/3633?epoca_id=155"
+    },
+    {
+        "id": "3634",
+        "club": "Rebordosa AC",
+        "stadium": "Complexo Desportivo de Azevido",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3634_imgbank_1683305425.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/34/3634_shirt_20240221084927_rebordosa_ac.png",
+                "alt_text": "rebordosa ac"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/rebordosa-ac/3634?epoca_id=155"
+    },
+    {
+        "id": "3637",
+        "club": "Ribeira Brava",
+        "stadium": "Estádio Municipal da Ribeira Brava",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3637_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/37/3637_shirt_ribeira_brava.png",
+                "alt_text": "ribeira brava"
+            }
+        ],
+        "address": null,
+        "latitude": 32.6752118,
+        "longitude": -17.0630735,
+        "url": "https://www.zerozero.pt/equipa/ribeira-brava/3637?epoca_id=155"
+    },
+    {
+        "id": "14",
+        "club": "SC Salgueiros",
+        "stadium": "Complexo Desportivo Campanhã",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/14_imgbank_1683209239.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/14/14_shirt_20240221084933_sc_salgueiros.png",
+                "alt_text": "sc salgueiros"
+            }
+        ],
+        "address": null,
+        "latitude": 41.1587821,
+        "longitude": -8.5727248,
+        "url": "https://www.zerozero.pt/equipa/sc-salgueiros/14?epoca_id=155"
+    },
+    {
+        "id": "3942",
+        "club": "Samora Correia",
+        "stadium": "Campo da Murteira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3942_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/42/3942_shirt_20200413001756_samora_correia.png",
+                "alt_text": "samora correia"
+            }
+        ],
+        "address": null,
+        "latitude": 38.8570247,
+        "longitude": -9.19912,
+        "url": "https://www.zerozero.pt/equipa/samora-correia/3942?epoca_id=155"
+    },
+    {
+        "id": "11074",
+        "club": "SC Celoricense",
+        "stadium": "Estádio Municipal de Celorico da Beira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11074_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/74/11074_shirt_sc_celoricense.jpg",
+                "alt_text": "sc celoricense"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sc-celoricense/11074?epoca_id=155"
+    },
+    {
+        "id": "1175",
+        "club": "SC Espinho",
+        "stadium": "Parque de Jogos Joaquim Domingos Maia",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1175_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/75/1175_shirt_20210504120816_sc_espinho.png",
+                "alt_text": "sc espinho"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sc-espinho/1175?epoca_id=155"
+    },
+    {
+        "id": "6770",
+        "club": "Serpa",
+        "stadium": "Complexo Desportivo Manuel Baião",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6770_imgbank_1683211985.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/70/6770_shirt_20240418102859_serpa.png",
+                "alt_text": "serpa"
+            }
+        ],
+        "address": null,
+        "latitude": 37.9386889,
+        "longitude": -7.5957982,
+        "url": "https://www.zerozero.pt/equipa/serpa/6770?epoca_id=155"
+    },
+    {
+        "id": "3654",
+        "club": "Silves",
+        "stadium": "Estádio Dr. Francisco Vieira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3654_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/54/3654_shirt_20190227095556_silves.png",
+                "alt_text": "silves"
+            }
+        ],
+        "address": null,
+        "latitude": 37.1863022,
+        "longitude": -8.4423904,
+        "url": "https://www.zerozero.pt/equipa/silves/3654?epoca_id=155"
+    },
+    {
+        "id": "3655",
+        "club": "Sintrense",
+        "stadium": "Estádio do Sport União Sintrense",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3655_imgbank_1683305451.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/55/3655_shirt_20240418082019_sintrense.png",
+                "alt_text": "sintrense"
+            }
+        ],
+        "address": null,
+        "latitude": 38.7994021,
+        "longitude": -9.3769147,
+        "url": "https://www.zerozero.pt/equipa/sintrense/3655?epoca_id=155"
+    },
+    {
+        "id": "3657",
+        "club": "Sourense",
+        "stadium": "Campo Dr. António Coelho Rodrigues",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3657_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/57/3657_shirt_20230706082022_sourense.png",
+                "alt_text": "sourense"
+            }
+        ],
+        "address": null,
+        "latitude": 40.0616392,
+        "longitude": -8.6286742,
+        "url": "https://www.zerozero.pt/equipa/sourense/3657?epoca_id=155"
+    },
+    {
+        "id": "10574",
+        "club": "Sp. Viana",
+        "stadium": "Campo João Sousa Faria e Melo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/10574_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/74/10574_shirt_20190227095629_sp_viana.png",
+                "alt_text": "sp. viana"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/sp-viana/10574?epoca_id=155"
+    },
+    {
+        "id": "2174",
+        "club": "Tirsense",
+        "stadium": "Estádio Abel Alves de Figueiredo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/2174_imgbank_1683211304.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/74/2174_shirt_20240219114150_tirsense.png",
+                "alt_text": "tirsense"
+            }
+        ],
+        "address": null,
+        "latitude": 41.3437936,
+        "longitude": -8.4820368,
+        "url": "https://www.zerozero.pt/equipa/tirsense/2174?epoca_id=155"
+    },
+    {
+        "id": "3947",
+        "club": "U. Santarém",
+        "stadium": "Campo Chã das Padeiras",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3947_imgbank_1683304847.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/47/3947_shirt_20240227124008_u_santarem.png",
+                "alt_text": "u. santarém"
+            }
+        ],
+        "address": null,
+        "latitude": 39.2295837,
+        "longitude": -8.6927034,
+        "url": "https://www.zerozero.pt/equipa/u-santarem/3947?epoca_id=155"
+    },
+    {
+        "id": "34",
+        "club": "U. Lamas",
+        "stadium": "Estádio Comendador Henrique Amorim",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/34_imgbank_1728471715.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/34/34_shirt_20210322084648_u_lamas.png",
+                "alt_text": "u. lamas"
+            }
+        ],
+        "address": null,
+        "latitude": 40.9791498,
+        "longitude": -8.567557,
+        "url": "https://www.zerozero.pt/equipa/u-lamas/34?epoca_id=155"
+    },
+    {
+        "id": "3621",
+        "club": "USC Paredes",
+        "stadium": "Estádio Municipal das Laranjeiras",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3621_imgbank_1732615338.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/21/3621_shirt_20241126101001_usc_paredes.png",
+                "alt_text": "usc paredes"
+            }
+        ],
+        "address": "EntradasJogadorEquipaValorBuby KattyFC Zimbru-Miguel RodriguesFC Famalicão-Yuk Jin-youngVitória SC-José MacedoFeirense-André CoutinhoLeça FC-BaleloCaldas SC-Dénis DuarteVitória SC-Duarte CarvalhoAcadémica OAFCusto zeroValter ZacariasPetro de Luanda-Fábio MatosLeixões-Pedro AraújoU. Santarém-Tiago GonçalvesTirsense-Rúben FonsecaAD Sanjoanense-David VeigaFC Felgueiras-BennyBenf. Castelo Branco-",
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/usc-paredes/3621?epoca_id=155"
+    },
+    {
+        "id": "4337",
+        "club": "União da Serra",
+        "stadium": "Campo da Portela",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/4337_imgbank_1683278874.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/37/4337_shirt_20230127082755_uniao_da_serra.png",
+                "alt_text": "união da serra"
+            }
+        ],
+        "address": null,
+        "latitude": 41.3829083,
+        "longitude": -8.4110152,
+        "url": "https://www.zerozero.pt/equipa/uniao-da-serra/4337?epoca_id=155"
+    },
+    {
+        "id": "3668",
+        "club": "Valenciano",
+        "stadium": "Estádio Dr. Lourenço Raymundo",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3668_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/68/3668_shirt_valenciano.png",
+                "alt_text": "valenciano"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/valenciano/3668?epoca_id=155"
+    },
+    {
+        "id": "6768",
+        "club": "Vasco da Gama Vidigueira",
+        "stadium": "Estádio Municipal da Vidigueira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6768_imgbank_1712762803.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/68/6768_shirt_20240704085624_vasco_da_gama_vidigueira.jpg",
+                "alt_text": "vasco da gama vidigueira"
+            }
+        ],
+        "address": null,
+        "latitude": 38.2111192,
+        "longitude": -7.7948901,
+        "url": "https://www.zerozero.pt/equipa/vasco-da-gama-vidigueira/6768?epoca_id=155"
+    },
+    {
+        "id": "3672",
+        "club": "Vianense",
+        "stadium": "Estádio Dr. José de Matos",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3672_imgbank_1683305248.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/72/3672_shirt_20250210162000_vianense.jpg",
+                "alt_text": "vianense"
+            }
+        ],
+        "address": null,
+        "latitude": 41.6968086,
+        "longitude": -8.8385593,
+        "url": "https://www.zerozero.pt/equipa/vianense/3672?epoca_id=155"
+    },
+    {
+        "id": "6514",
+        "club": "Vidago",
+        "stadium": "Complexo Desportivo João de Oliveira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6514_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/14/6514_shirt_vidago.png",
+                "alt_text": "vidago"
+            }
+        ],
+        "address": null,
+        "latitude": 41.6425796,
+        "longitude": -7.5722717,
+        "url": "https://www.zerozero.pt/equipa/vidago/6514?epoca_id=155"
+    },
+    {
+        "id": "11160",
+        "club": "Vila Caiz",
+        "stadium": "Campo De Vila Caiz",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11160_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/60/11160_shirt_vila_caiz.jpg",
+                "alt_text": "vila caiz"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/vila-caiz/11160?epoca_id=155"
+    },
+    {
+        "id": "6292",
+        "club": "Vila Meã",
+        "stadium": "Estádio Municipal de Vila Meã",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6292_imgbank_1683212429.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/92/6292_shirt_20240221084950_vila_mea.png",
+                "alt_text": "vila meã"
+            }
+        ],
+        "address": null,
+        "latitude": 41.2525992,
+        "longitude": -8.1709583,
+        "url": "https://www.zerozero.pt/equipa/vila-mea/6292?epoca_id=155"
+    },
+    {
+        "id": "3673",
+        "club": "Vila Real",
+        "stadium": "Campo do Calvário",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/3673_imgbank_1729089127.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/73/3673_shirt_20240219114156_vila_real.png",
+                "alt_text": "vila real"
+            }
+        ],
+        "address": null,
+        "latitude": 41.1588801,
+        "longitude": -8.2200059,
+        "url": "https://www.zerozero.pt/equipa/vila-real/3673?epoca_id=155"
+    },
+    {
+        "id": "5659",
+        "club": "Vit. Sernache",
+        "stadium": "Estádio Municipal Nuno Álvares Pereira",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/5659_imgbank.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/59/5659_shirt_20240227124026_vit_sernache.png",
+                "alt_text": "vit. sernache"
+            }
+        ],
+        "address": null,
+        "latitude": 39.8068823,
+        "longitude": -8.1932356,
+        "url": "https://www.zerozero.pt/equipa/vit-sernache/5659?epoca_id=155"
     }
 ]
