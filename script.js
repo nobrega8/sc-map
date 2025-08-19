@@ -10,6 +10,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 let allClubs = [];
 let activeMarkers = new Map();
 let loadMarkersTimeout;
+let currentFilter = 'all';
+let availableCompetitions = new Set();
 
 function criarIcon(logoUrl) {
     return L.icon({
@@ -50,6 +52,94 @@ function createEquipmentHTML(equipamentos) {
     return equipmentHTML;
 }
 
+// Competition filter functions
+function toggleCompetitionFilter() {
+    const filter = document.getElementById('competition-filter');
+    filter.classList.toggle('hidden');
+}
+
+function buildCompetitionList() {
+    // Collect all unique competitions from clubs
+    availableCompetitions.clear();
+    allClubs.forEach(club => {
+        if (club.filtro && Array.isArray(club.filtro)) {
+            club.filtro.forEach(competition => {
+                availableCompetitions.add(competition);
+            });
+        }
+    });
+
+    // Build the filter UI
+    const competitionList = document.getElementById('competition-list');
+    competitionList.innerHTML = '';
+    
+    // Sort competitions alphabetically
+    const sortedCompetitions = Array.from(availableCompetitions).sort();
+    
+    sortedCompetitions.forEach(competition => {
+        const button = document.createElement('button');
+        button.className = 'filter-btn';
+        button.setAttribute('data-filter', competition);
+        button.textContent = formatCompetitionName(competition);
+        button.onclick = () => setCompetitionFilter(competition);
+        competitionList.appendChild(button);
+    });
+}
+
+function formatCompetitionName(competition) {
+    // Convert "portugal-1liga-2024" to "Portugal 1ª Liga 2024"
+    const parts = competition.split('-');
+    if (parts.length >= 3) {
+        const country = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+        const comp = parts[1].replace('1liga', '1ª Liga')
+                           .replace('2liga', '2ª Liga')
+                           .replace('3liga', '3ª Liga')
+                           .replace('champions', 'Champions League')
+                           .replace('taca', 'Taça');
+        const year = parts[2];
+        return `${country} ${comp} ${year}`;
+    }
+    return competition;
+}
+
+function setCompetitionFilter(filter) {
+    currentFilter = filter;
+    
+    // Update button states
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    if (filter === 'all') {
+        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+    } else {
+        document.querySelector(`.filter-btn[data-filter="${filter}"]`).classList.add('active');
+    }
+    
+    // Reload markers with filter
+    clearMarkers();
+    loadVisibleMarkers();
+}
+
+function clearMarkers() {
+    activeMarkers.forEach(marker => {
+        map.removeLayer(marker);
+    });
+    activeMarkers.clear();
+}
+
+function shouldShowClub(club) {
+    if (currentFilter === 'all') {
+        return true;
+    }
+    
+    if (!club.filtro || !Array.isArray(club.filtro)) {
+        return false;
+    }
+    
+    return club.filtro.includes(currentFilter);
+}
+
 // Load markers for clubs in the current viewport with a buffer
 function loadVisibleMarkers() {
     const startTime = performance.now();
@@ -73,9 +163,10 @@ function loadVisibleMarkers() {
             const clubKey = clube.id;
             const isInBufferedViewport = bufferedBounds.contains([clube.latitude, clube.longitude]);
             const hasMarker = activeMarkers.has(clubKey);
+            const shouldShow = shouldShowClub(clube);
             
-            if (isInBufferedViewport && !hasMarker) {
-                // Create marker for club in buffered viewport
+            if (isInBufferedViewport && !hasMarker && shouldShow) {
+                // Create marker for club in buffered viewport that matches filter
                 const marker = L.marker(
                     [clube.latitude, clube.longitude],
                     { icon: criarIcon(clube.logo) }
@@ -97,8 +188,8 @@ function loadVisibleMarkers() {
                 // Store the marker
                 activeMarkers.set(clubKey, marker);
                 markersAdded++;
-            } else if (!isInBufferedViewport && hasMarker) {
-                // Remove marker for club outside buffered viewport
+            } else if ((!isInBufferedViewport || !shouldShow) && hasMarker) {
+                // Remove marker for club outside buffered viewport or doesn't match filter
                 const marker = activeMarkers.get(clubKey);
                 map.removeLayer(marker);
                 activeMarkers.delete(clubKey);
@@ -142,6 +233,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const url = document.getElementById('club-url').value;
         const clubId = extractClubId(url);
         
+        // Process filtro field
+        const filtroInput = document.getElementById('club-filtro').value;
+        let filtro = null;
+        if (filtroInput.trim()) {
+            filtro = filtroInput.split(',').map(f => f.trim()).filter(f => f.length > 0);
+        }
+        
         const clubData = {
             id: clubId,
             club: document.getElementById('club-name').value,
@@ -153,6 +251,11 @@ document.addEventListener('DOMContentLoaded', function() {
             longitude: parseFloat(document.getElementById('club-longitude').value),
             url: url
         };
+        
+        // Add filtro if provided
+        if (filtro && filtro.length > 0) {
+            clubData.filtro = filtro;
+        }
         
         // Load existing submissions or create new array
         loadExistingSubmissions()
@@ -213,6 +316,9 @@ fetch('clubes.json')
     .then(data => {
         allClubs = data;
         console.log(`Loaded ${allClubs.length} clubs. Implementing lazy loading for better performance.`);
+        
+        // Build competition filter list
+        buildCompetitionList();
         
         // Initial load of visible markers
         loadVisibleMarkers();

@@ -36,7 +36,8 @@ Cada clube no `clubes.json` deve seguir esta estrutura:
     "address": "Morada do clube", --se nao souberes mete null
     "latitude": 40.123456,
     "longitude": -8.123456,
-    "url": "https://www.zerozero.pt/equipa/clube/id"
+    "url": "https://www.zerozero.pt/equipa/clube/id",
+    "filtro": ["portugal-1liga-2024", "europa-champions-2025"] --opcional: competições formato "pais-competicao-ano"
 }
 ```
 
