@@ -1,12 +1,13 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #map {
     height: 100%;
     width: 100%;
+    margin-left: 320px; /* Make room for sidebar */
 }
 
 /* Enhanced frosted glass effects for popups */
@@ -179,6 +180,140 @@ html, body {
     transform: scale(1.05);
 }
 
+/* Left Sidebar */
+#clubs-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.sidebar-content {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    margin-bottom: 30px;
+}
+
+.sidebar-header h3 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#club-search {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#club-search:focus {
+    outline: none;
+    border-color: rgba(52, 152, 219, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#club-search::placeholder {
+    color: rgba(44, 62, 80, 0.6);
+}
+
+.clubs-list-section {
+    flex: 1;
+}
+
+.clubs-list-section h3 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.clubs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+.club-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.club-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(52, 152, 219, 0.3);
+    transform: translateX(5px);
+}
+
+.club-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.club-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.club-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.club-stadium {
+    font-size: 12px;
+    color: #7f8c8d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* Submit button */
 #submit-button {
     position: fixed;
@@ -237,16 +372,8 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Competition filter panel */
+/* Competition filter panel - now hidden since moved to sidebar */
 #competition-filter {
-    position: fixed;
-    top: 80px;
-    right: 20px;
-    z-index: 1500;
-    max-width: 250px;
-}
-
-#competition-filter.hidden {
     display: none;
 }
 

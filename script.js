@@ -1,10 +1,29 @@
-const map = L.map('map').setView([39.5, -8.0], 7);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
-}).addTo(map);
+// Initialize map if Leaflet is available, otherwise use fallback
+let map;
+if (typeof L !== 'undefined') {
+    map = L.map('map').setView([39.5, -8.0], 7);
+    
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+} else {
+    // Fallback when Leaflet is not available
+    console.warn('Leaflet not loaded, using fallback mode');
+    map = {
+        setView: function(coords, zoom) { console.log('Map setView:', coords, zoom); },
+        on: function(event, handler) { console.log('Map event handler:', event); },
+        getBounds: function() { 
+            return {
+                getNorth: () => 42,
+                getSouth: () => 37,
+                getEast: () => -6,
+                getWest: () => -10
+            };
+        }
+    };
+}
 
 // Global variables for club data and markers
 let allClubs = [];
@@ -14,20 +33,26 @@ let currentFilter = 'all';
 let availableCompetitions = new Set();
 
 function criarIcon(logoUrl) {
-    return L.icon({
-        iconUrl: logoUrl,
-        iconSize: [50, 50],
-        className: 'club-icon'
-    });
+    if (typeof L !== 'undefined') {
+        return L.icon({
+            iconUrl: logoUrl,
+            iconSize: [50, 50],
+            className: 'club-icon'
+        });
+    }
+    return null; // Fallback
 }
 
 function createPlaceholderIcon() {
-    // Create a simple placeholder icon for clubs not yet loaded
-    return L.divIcon({
-        html: '<div class="placeholder-club-icon">⚽</div>',
-        iconSize: [30, 30],
-        className: 'placeholder-icon'
-    });
+    if (typeof L !== 'undefined') {
+        // Create a simple placeholder icon for clubs not yet loaded
+        return L.divIcon({
+            html: '<div class="placeholder-club-icon">⚽</div>',
+            iconSize: [30, 30],
+            className: 'placeholder-icon'
+        });
+    }
+    return null; // Fallback
 }
 
 function createEquipmentHTML(equipamentos) {
@@ -52,10 +77,19 @@ function createEquipmentHTML(equipamentos) {
     return equipmentHTML;
 }
 
-// Competition filter functions
+// Competition filter functions (filter button now just shows/hides sidebar)
 function toggleCompetitionFilter() {
-    const filter = document.getElementById('competition-filter');
-    filter.classList.toggle('hidden');
+    const sidebar = document.getElementById('clubs-sidebar');
+    if (sidebar) {
+        sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
+        // Also adjust map margin
+        const map = document.getElementById('map');
+        if (sidebar.style.display === 'none') {
+            map.style.marginLeft = '0';
+        } else {
+            map.style.marginLeft = '320px';
+        }
+    }
 }
 
 function buildCompetitionList() {
@@ -131,12 +165,17 @@ function setCompetitionFilter(filter) {
     // Reload markers with filter
     clearMarkers();
     loadVisibleMarkers();
+    
+    // Update clubs list to reflect filter
+    buildClubsList();
 }
 
 function clearMarkers() {
-    activeMarkers.forEach(marker => {
-        map.removeLayer(marker);
-    });
+    if (typeof L !== 'undefined') {
+        activeMarkers.forEach(marker => {
+            map.removeLayer(marker);
+        });
+    }
     activeMarkers.clear();
 }
 
@@ -154,6 +193,11 @@ function shouldShowClub(club) {
 
 // Load markers for clubs in the current viewport with a buffer
 function loadVisibleMarkers() {
+    if (typeof L === 'undefined') {
+        console.log('Leaflet not available, skipping marker loading');
+        return;
+    }
+    
     const startTime = performance.now();
     const bounds = map.getBounds();
     
@@ -225,9 +269,84 @@ function debouncedLoadVisibleMarkers() {
     loadMarkersTimeout = setTimeout(loadVisibleMarkers, 150);
 }
 
-// Add map event listeners for dynamic loading
-map.on('moveend', debouncedLoadVisibleMarkers);
-map.on('zoomend', debouncedLoadVisibleMarkers);
+// Add map event listeners for dynamic loading (only if Leaflet is available)
+if (typeof L !== 'undefined') {
+    map.on('moveend', debouncedLoadVisibleMarkers);
+    map.on('zoomend', debouncedLoadVisibleMarkers);
+}
+
+// Club list functions for sidebar
+function buildClubsList() {
+    const clubsList = document.getElementById('clubs-list');
+    if (!clubsList) return;
+    
+    clubsList.innerHTML = '';
+    
+    // Filter clubs based on current filter and search
+    const searchTerm = document.getElementById('club-search')?.value.toLowerCase() || '';
+    const filteredClubs = allClubs.filter(club => {
+        // Apply competition filter
+        const matchesFilter = shouldShowClub(club);
+        
+        // Apply search filter
+        const matchesSearch = !searchTerm || 
+            club.club.toLowerCase().includes(searchTerm) ||
+            (club.stadium && club.stadium.toLowerCase().includes(searchTerm));
+        
+        return matchesFilter && matchesSearch;
+    });
+    
+    // Sort clubs alphabetically
+    filteredClubs.sort((a, b) => a.club.localeCompare(b.club));
+    
+    filteredClubs.forEach(club => {
+        const clubItem = document.createElement('div');
+        clubItem.className = 'club-item';
+        clubItem.onclick = () => navigateToClub(club);
+        
+        const logoUrl = club.logo || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23f0f0f0" stroke="%23ccc"/><text x="16" y="20" text-anchor="middle" font-size="16">⚽</text></svg>';
+        
+        clubItem.innerHTML = `
+            <img src="${logoUrl}" alt="${club.club}" class="club-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"32\\" height=\\"32\\" viewBox=\\"0 0 32 32\\"><circle cx=\\"16\\" cy=\\"16\\" r=\\"14\\" fill=\\"%23f0f0f0\\" stroke=\\"%23ccc\\"/><text x=\\"16\\" y=\\"20\\" text-anchor=\\"middle\\" font-size=\\"16\\">⚽</text></svg>'">
+            <div class="club-info">
+                <div class="club-name">${club.club}</div>
+                ${club.stadium ? `<div class="club-stadium">${club.stadium}</div>` : ''}
+            </div>
+        `;
+        
+        clubsList.appendChild(clubItem);
+    });
+}
+
+function navigateToClub(club) {
+    if (club.latitude && club.longitude && typeof L !== 'undefined') {
+        // Pan to club location and zoom in
+        map.setView([club.latitude, club.longitude], 15);
+        
+        // If marker exists, open its popup
+        const clubKey = club.id;
+        const marker = activeMarkers.get(clubKey);
+        if (marker) {
+            marker.openPopup();
+        }
+    } else {
+        console.log('Navigate to club:', club.club, club.latitude, club.longitude);
+    }
+}
+
+function setupSearch() {
+    const searchInput = document.getElementById('club-search');
+    if (!searchInput) return;
+    
+    let searchTimeout;
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            buildClubsList();
+        }, 300); // Debounce search
+    });
+}
+
 function toggleSubmissionForm() {
     const form = document.getElementById('submission-form');
     form.classList.toggle('hidden');
@@ -424,6 +543,12 @@ fetch('clubes.json')
         
         // Build competition filter list
         buildCompetitionList();
+        
+        // Build clubs list in sidebar
+        buildClubsList();
+        
+        // Setup search functionality
+        setupSearch();
         
         // Initial load of visible markers
         loadVisibleMarkers();
