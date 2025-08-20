@@ -894,14 +894,51 @@ fetch('clubes.json')
     .catch(err => console.error('Erro ao carregar clubes.json:', err));
 
 // Ko-fi popup integration
+let kofiWidgetVisible = false;
+
 function openKofiPopup() {
     if (typeof kofiWidgetOverlay !== 'undefined') {
-        kofiWidgetOverlay.draw('nobrega', {
-            'type': 'floating-chat',
-            'floating-chat.donateButton.text': 'Pagar um café',
-            'floating-chat.donateButton.background-color': '#ff5e4d',
-            'floating-chat.donateButton.text-color': '#fff'
-        });
+        if (kofiWidgetVisible) {
+            // Try to close the widget if it's currently visible
+            try {
+                // Method 1: Try the close method if it exists
+                if (typeof kofiWidgetOverlay.close === 'function') {
+                    kofiWidgetOverlay.close();
+                } else {
+                    // Method 2: Try to remove Ko-fi elements from DOM
+                    const kofiElements = document.querySelectorAll('[id*="kofi"], [class*="kofi"]');
+                    kofiElements.forEach(element => {
+                        if (element.style.display !== 'none') {
+                            element.style.display = 'none';
+                        }
+                    });
+                }
+                kofiWidgetVisible = false;
+            } catch (error) {
+                console.log('Could not close Ko-fi widget programmatically');
+                // Fallback: refresh the widget
+                kofiWidgetVisible = false;
+            }
+        } else {
+            // Show the widget with improved positioning
+            kofiWidgetOverlay.draw('nobrega', {
+                'type': 'floating-chat',
+                'floating-chat.donateButton.text': 'Pagar um café',
+                'floating-chat.donateButton.background-color': '#ff5e4d',
+                'floating-chat.donateButton.text-color': '#fff'
+            });
+            kofiWidgetVisible = true;
+            
+            // Try to position the widget to the right after it's created
+            setTimeout(() => {
+                const kofiWidget = document.querySelector('[id*="kofi-widget"], [class*="kofi"]');
+                if (kofiWidget) {
+                    kofiWidget.style.right = '20px';
+                    kofiWidget.style.left = 'auto';
+                    kofiWidget.style.top = '70px'; // Position below the button
+                }
+            }, 100);
+        }
     } else {
         // Fallback if Ko-fi widget is not loaded
         window.open('https://ko-fi.com/nobrega', '_blank');

@@ -601,6 +601,25 @@ html, body {
     transform: scale(1.05);
 }
 
+/* Ko-fi widget positioning */
+div[id*="kofi"], 
+iframe[id*="kofi"] {
+    position: fixed !important;
+    right: 20px !important;
+    left: auto !important;
+    top: 70px !important;
+    z-index: 1001 !important;
+}
+
+/* Ko-fi overlay positioning */
+.kofi-overlay {
+    position: fixed !important;
+    right: 20px !important;
+    left: auto !important;
+    top: 70px !important;
+    z-index: 1001 !important;
+}
+
 /* Filter button */
 #filter-button {
     position: fixed;
