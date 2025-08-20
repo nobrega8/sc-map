@@ -306,11 +306,6 @@ function updateLeagueOptions() {
             option.className = 'dropdown-option';
             option.dataset.value = league;
             
-            const textSpan = document.createElement('span');
-            textSpan.className = 'option-text';
-            textSpan.textContent = formatLeagueName(league);
-            option.appendChild(textSpan);
-            
             const logo = getLeagueLogo(league);
             if (logo) {
                 const logoImg = document.createElement('img');
@@ -320,6 +315,11 @@ function updateLeagueOptions() {
                 logoImg.onerror = function() { this.style.display = 'none'; };
                 option.appendChild(logoImg);
             }
+            
+            const textSpan = document.createElement('span');
+            textSpan.className = 'option-text';
+            textSpan.textContent = formatLeagueName(league);
+            option.appendChild(textSpan);
             
             leagueMenu.appendChild(option);
         });
@@ -334,11 +334,6 @@ function updateLeagueOptions() {
             option.className = 'dropdown-option';
             option.dataset.value = league;
             
-            const textSpan = document.createElement('span');
-            textSpan.className = 'option-text';
-            textSpan.textContent = formatLeagueName(league);
-            option.appendChild(textSpan);
-            
             const logo = getLeagueLogo(league);
             if (logo) {
                 const logoImg = document.createElement('img');
@@ -348,6 +343,11 @@ function updateLeagueOptions() {
                 logoImg.onerror = function() { this.style.display = 'none'; };
                 option.appendChild(logoImg);
             }
+            
+            const textSpan = document.createElement('span');
+            textSpan.className = 'option-text';
+            textSpan.textContent = formatLeagueName(league);
+            option.appendChild(textSpan);
             
             leagueMenu.appendChild(option);
         });
