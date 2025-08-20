@@ -256,6 +256,31 @@ function handleDropdownSelection(option) {
     applyFilters();
 }
 
+function getLeagueOrder(league) {
+    // Define logical order for leagues (lower number = higher priority)
+    const orderMap = {
+        'champions': 1,     // Champions League - highest priority
+        '1liga': 2,         // 1ª Liga (First Division)
+        '2liga': 3,         // 2ª Liga (Second Division)
+        '3liga': 4,         // 3ª Liga (Third Division)
+        'taca': 5,          // Taça (Cup competitions)
+        'campeonato': 6,    // Campeonato
+        'aflisboa': 10,     // Regional associations start at 10
+        'afsetubal': 11,
+        'afbraga': 12,
+        'afporto': 13,
+        'afmadeira': 14,
+        'afviseu': 15,
+        'afbraganca': 16,
+        'afcoimbra': 17,
+        'afleiria': 18,
+        'afguarda': 19,
+        'afsantarém': 20
+    };
+    
+    return orderMap[league] || 999; // Unknown leagues go to the end
+}
+
 function updateLeagueOptions() {
     const leagueMenu = document.getElementById('league-menu');
     const region = currentFilter.region;
@@ -264,33 +289,47 @@ function updateLeagueOptions() {
     
     if (region === 'all') {
         // Show all leagues from all regions
+        const allLeagues = new Set();
         Object.keys(competitionStructure).forEach(regionKey => {
             Object.keys(competitionStructure[regionKey]).forEach(league => {
-                const option = document.createElement('div');
-                option.className = 'dropdown-option';
-                option.dataset.value = league;
-                
-                const textSpan = document.createElement('span');
-                textSpan.className = 'option-text';
-                textSpan.textContent = formatLeagueName(league);
-                option.appendChild(textSpan);
-                
-                const logo = getLeagueLogo(league);
-                if (logo) {
-                    const logoImg = document.createElement('img');
-                    logoImg.className = 'option-logo';
-                    logoImg.src = logo;
-                    logoImg.alt = formatLeagueName(league);
-                    logoImg.onerror = function() { this.style.display = 'none'; };
-                    option.appendChild(logoImg);
-                }
-                
-                leagueMenu.appendChild(option);
+                allLeagues.add(league);
             });
         });
+        
+        // Sort leagues by logical order
+        const sortedLeagues = Array.from(allLeagues).sort((a, b) => {
+            return getLeagueOrder(a) - getLeagueOrder(b);
+        });
+        
+        sortedLeagues.forEach(league => {
+            const option = document.createElement('div');
+            option.className = 'dropdown-option';
+            option.dataset.value = league;
+            
+            const textSpan = document.createElement('span');
+            textSpan.className = 'option-text';
+            textSpan.textContent = formatLeagueName(league);
+            option.appendChild(textSpan);
+            
+            const logo = getLeagueLogo(league);
+            if (logo) {
+                const logoImg = document.createElement('img');
+                logoImg.className = 'option-logo';
+                logoImg.src = logo;
+                logoImg.alt = formatLeagueName(league);
+                logoImg.onerror = function() { this.style.display = 'none'; };
+                option.appendChild(logoImg);
+            }
+            
+            leagueMenu.appendChild(option);
+        });
     } else if (competitionStructure[region]) {
-        // Show only leagues from selected region
-        Object.keys(competitionStructure[region]).forEach(league => {
+        // Show only leagues from selected region, sorted by logical order
+        const leagues = Object.keys(competitionStructure[region]).sort((a, b) => {
+            return getLeagueOrder(a) - getLeagueOrder(b);
+        });
+        
+        leagues.forEach(league => {
             const option = document.createElement('div');
             option.className = 'dropdown-option';
             option.dataset.value = league;
@@ -394,7 +433,7 @@ function getLeagueLogo(league) {
     const logoMap = {
         'champions': 'https://cdn-img.zerozero.pt/img/logos/competicoes/27_imgbank_lc_20250314102703.png',
         '1liga': 'https://cdn-img.zerozero.pt/img/logos/edicoes/175797_imgbank_.png',
-        '2liga': 'https://www.zerozero.pt/edicao/liga-portugal-2-meu-super-2025-26/201246',
+        '2liga': 'https://cdn-img.zerozero.pt/img/logos/competicoes/177_imgbank_l2_20250227173534.png',
         '3liga': 'https://cdn-img.zerozero.pt/img/logos/competicoes/5683_imgbank_l3_20250227173534.png',
         'taca': 'https://cdn-img.zerozero.pt/img/logos/edicoes/188527_imgbank_.png',
         'campeonato': 'https://cdn-img.zerozero.pt/img/logos/competicoes/2380_imgbank_cp_20250307185627.png',
