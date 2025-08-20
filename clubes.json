@@ -5397,5 +5397,39 @@
         "latitude": 39.8068823,
         "longitude": -8.1932356,
         "url": "https://www.zerozero.pt/equipa/vit-sernache/5659?epoca_id=155"
+    },
+        {
+        "id": "61886",
+        "club": "Sporting Clube de Nandufe",
+        "stadium": "Parque de Jogos Bairro Novo de Nandufe",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/61886_imgbank.png",
+        "equipamentos": [],
+        "address": "Rua dos Fundadores do Sporting Clube de Nandufe, 50 - Nandufe, 3460-355 - Tondela",
+        "latitude": 40.538043,
+        "longitude": -8.082529,
+        "url": "https://www.zerozero.pt/equipa/sc-nandufe/61886"
     }
+	{
+        "id": "11046",
+        "club": "Besteiros Futebol Clube",
+        "stadium": "Campo da Corte",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11046_imgbank.png",
+        "equipamentos": [],
+        "address": "Rua Nossa Senhora do Campo, 57 3465-054 Campo de Besteiros",
+        "latitude": 40.561497,
+        "longitude": -8.125544,
+        "url": "https://www.zerozero.pt/equipa/besteiros-fc/11046"
+    }
+	{
+        "id": "6694",
+        "club": "Clube Atlético de Molelos",
+        "stadium": "Campo do Vale da Pata",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6694_imgbank.png",
+        "equipamentos": [],
+        "address": "Morada Clube Atlético de Molelos Vale da Pata - Molelos 3460 Tondela",
+        "latitude": 40.533976,
+        "longitude": -8.109359,
+        "url": "https://www.zerozero.pt/equipa/molelos/6694"
+    }
+]
 ]
