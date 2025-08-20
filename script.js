@@ -892,3 +892,18 @@ fetch('clubes.json')
         console.log(`${clubsWithLogos} clubs have logos. Only loading logos for clubs in viewport.`);
     })
     .catch(err => console.error('Erro ao carregar clubes.json:', err));
+
+// Ko-fi popup integration
+function openKofiPopup() {
+    if (typeof kofiWidgetOverlay !== 'undefined') {
+        kofiWidgetOverlay.draw('nobrega', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Pagar um café',
+            'floating-chat.donateButton.background-color': '#ff5e4d',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+    } else {
+        // Fallback if Ko-fi widget is not loaded
+        window.open('https://ko-fi.com/nobrega', '_blank');
+    }
+}
