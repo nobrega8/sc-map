@@ -697,7 +697,12 @@
         "address": null,
         "latitude": 40.8418112,
         "longitude": -8.4704214,
-        "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199"
+        "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
+
     },
     {
         "id": "1728",
@@ -714,7 +719,11 @@
         "address": null,
         "latitude": 40.9266318,
         "longitude": -8.5459213,
-        "url": "https://www.zerozero.pt/equipa/feirense/1728"
+        "url": "https://www.zerozero.pt/equipa/feirense/1728",
+                "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2181",
@@ -731,7 +740,12 @@
         "address": null,
         "latitude": 40.6595417,
         "longitude": -7.9004499,
-        "url": "https://www.zerozero.pt/equipa/academico/2181"
+        "url": "https://www.zerozero.pt/equipa/academico/2181",
+                "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
+
     },
     {
         "id": "30",
@@ -748,7 +762,11 @@
         "address": null,
         "latitude": 41.211805,
         "longitude": -8.277222,
-        "url": "https://www.zerozero.pt/equipa/fc-penafiel/30"
+        "url": "https://www.zerozero.pt/equipa/fc-penafiel/30",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "11129",
