@@ -29,6 +29,15 @@
         </button>
     </div>
 
+    <!-- Ko-fi button -->
+    <div id="kofi-button">
+        <button onclick="openKofiPopup()" title="Pagar um café ☕">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18,6V4A2,2 0 0,0 16,2H4A2,2 0 0,0 2,4V11A4,4 0 0,0 6,15H8V19A2,2 0 0,0 10,21H14A2,2 0 0,0 16,19V15H18A2,2 0 0,0 20,13V8A2,2 0 0,0 18,6M16,13H14V19H10V13H6A2,2 0 0,1 4,11V4H16V6H18V13Z"/>
+            </svg>
+        </button>
+    </div>
+
     <!-- Competition filter -->
     <div id="filter-button">
         <button onclick="toggleCompetitionFilter()" title="Filtrar competições">
@@ -261,6 +270,7 @@
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script src="script.js"></script>
 </body>
 </html>
