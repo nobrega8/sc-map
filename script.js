@@ -392,12 +392,14 @@ function formatLeagueName(league) {
 
 function getLeagueLogo(league) {
     const logoMap = {
-        'champions': 'https://logoeps.com/wp-content/uploads/2013/03/uefa-champions-league-vector-logo.png',
-        '1liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
-        '2liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
-        '3liga': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png',
-        'taca': 'https://upload.wikimedia.org/wikipedia/pt/thumb/d/db/Ta%C3%A7a_de_Portugal.png/150px-Ta%C3%A7a_de_Portugal.png',
-        'campeonato': 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/91/Liga_Portugal_Betclic.png/240px-Liga_Portugal_Betclic.png'
+        'champions': 'https://cdn-img.zerozero.pt/img/logos/competicoes/27_imgbank_lc_20250314102703.png',
+        '1liga': 'https://cdn-img.zerozero.pt/img/logos/edicoes/175797_imgbank_.png',
+        '2liga': 'https://www.zerozero.pt/edicao/liga-portugal-2-meu-super-2025-26/201246',
+        '3liga': 'https://cdn-img.zerozero.pt/img/logos/competicoes/5683_imgbank_l3_20250227173534.png',
+        'taca': 'https://cdn-img.zerozero.pt/img/logos/edicoes/188527_imgbank_.png',
+        'campeonato': 'https://cdn-img.zerozero.pt/img/logos/competicoes/2380_imgbank_cp_20250307185627.png',
+        'aflisboa': 'https://cdn-img.zerozero.pt/img/logos/associacoes/2_af_lisboa_imgbank.png',
+        'afsetubal': 'https://cdn-img.zerozero.pt/img/logos/associacoes/15_af_setubal_imgbank.png'
     };
     
     return logoMap[league] || null;
