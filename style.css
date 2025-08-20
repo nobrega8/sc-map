@@ -374,8 +374,8 @@ html, body {
     color: #2c3e50;
     font-size: 14px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 8px;
 }
 
 .dropdown-option:hover {
@@ -390,7 +390,7 @@ html, body {
 }
 
 .option-text {
-    flex: 1;
+    white-space: nowrap;
 }
 
 .option-flag {
@@ -401,9 +401,9 @@ html, body {
 .option-logo {
     width: 20px;
     height: 20px;
-    margin-left: 8px;
     border-radius: 3px;
     object-fit: contain;
+    flex-shrink: 0;
 }
 
 .dropdown-label {
