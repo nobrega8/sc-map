@@ -547,7 +547,7 @@ html, body {
 #submit-button {
     position: fixed;
     top: 20px;
-    right: 200px;
+    right: 140px;
     z-index: 1000;
 }
 
@@ -576,7 +576,7 @@ html, body {
 #kofi-button {
     position: fixed;
     top: 20px;
-    right: 80px;
+    right: 200px;
     z-index: 1000;
 }
 
@@ -609,6 +609,8 @@ iframe[id*="kofi"] {
     left: auto !important;
     top: 70px !important;
     z-index: 1001 !important;
+    transform: scale(0.8) !important;
+    transform-origin: top right !important;
 }
 
 /* Ko-fi overlay positioning */
@@ -618,13 +620,15 @@ iframe[id*="kofi"] {
     left: auto !important;
     top: 70px !important;
     z-index: 1001 !important;
+    transform: scale(0.8) !important;
+    transform-origin: top right !important;
 }
 
 /* Filter button */
 #filter-button {
     position: fixed;
     top: 20px;
-    right: 140px;
+    right: 80px;
     z-index: 1000;
 }
 
@@ -878,17 +882,17 @@ iframe[id*="kofi"] {
     
     #submit-button {
         top: 10px;
-        right: 130px;
+        right: 70px;
     }
     
     #kofi-button {
         top: 10px;
-        right: 25px;
+        right: 130px;
     }
     
     #filter-button {
         top: 10px;
-        right: 85px;
+        right: 25px;
     }
     
     /* Smaller buttons on mobile */
@@ -924,12 +928,12 @@ iframe[id*="kofi"] {
     }
     
     #kofi-button {
-        top: 120px;
+        top: 10px;
         right: 10px;
     }
     
     #filter-button {
-        top: 175px;
+        top: 120px;
         right: 10px;
     }
 }
