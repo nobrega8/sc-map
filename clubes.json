@@ -5398,7 +5398,7 @@
         "longitude": -8.1932356,
         "url": "https://www.zerozero.pt/equipa/vit-sernache/5659?epoca_id=155"
     },
-        {
+    {
         "id": "61886",
         "club": "Sporting Clube de Nandufe",
         "stadium": "Parque de Jogos Bairro Novo de Nandufe",
@@ -5408,7 +5408,7 @@
         "latitude": 40.538043,
         "longitude": -8.082529,
         "url": "https://www.zerozero.pt/equipa/sc-nandufe/61886"
-    }
+    },
 	{
         "id": "11046",
         "club": "Besteiros Futebol Clube",
@@ -5419,7 +5419,7 @@
         "latitude": 40.561497,
         "longitude": -8.125544,
         "url": "https://www.zerozero.pt/equipa/besteiros-fc/11046"
-    }
+    },
 	{
         "id": "6694",
         "club": "Clube Atlético de Molelos",
@@ -5431,5 +5431,4 @@
         "longitude": -8.109359,
         "url": "https://www.zerozero.pt/equipa/molelos/6694"
     }
-]
 ]
