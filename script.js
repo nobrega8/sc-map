@@ -433,7 +433,7 @@ function getLeagueLogo(league) {
     const logoMap = {
         'champions': 'https://cdn-img.zerozero.pt/img/logos/competicoes/27_imgbank_lc_20250314102703.png',
         '1liga': 'https://cdn-img.zerozero.pt/img/logos/edicoes/175797_imgbank_.png',
-        '2liga': 'https://cdn-img.zerozero.pt/img/logos/competicoes/177_imgbank_l2_20250227173534.png',
+        '2liga': 'https://cdn-img.zerozero.pt/img/logos/edicoes/187796_imgbank_.png',
         '3liga': 'https://cdn-img.zerozero.pt/img/logos/competicoes/5683_imgbank_l3_20250227173534.png',
         'taca': 'https://cdn-img.zerozero.pt/img/logos/edicoes/188527_imgbank_.png',
         'campeonato': 'https://cdn-img.zerozero.pt/img/logos/competicoes/2380_imgbank_cp_20250307185627.png',
