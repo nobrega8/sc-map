@@ -10,7 +10,7 @@ import os
 import csv
 import hashlib
 
-# Configure logging
+# Configure loggings
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
