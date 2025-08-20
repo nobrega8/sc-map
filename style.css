@@ -513,11 +513,9 @@ html, body {
 .club-logo {
     width: 32px;
     height: 32px;
-    border-radius: 50%;
+    border-radius: 8px;
     margin-right: 12px;
     object-fit: contain;
-    background: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .club-info {
