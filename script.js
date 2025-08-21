@@ -265,18 +265,19 @@ function getLeagueOrder(league) {
         '3liga': 4,         // 3ª Liga (Third Division)
         'taca': 5,          // Taça (Cup competitions)
         'campeonato': 6,    // Campeonato
-        'afalgarve': 7,     // AF Algarve
-        'aflisboa': 10,     // Regional associations start at 10
-        'afsetubal': 11,
-        'afbraga': 12,
-        'afporto': 13,
-        'afmadeira': 14,
-        'afviseu': 15,
-        'afbraganca': 16,
-        'afcoimbra': 17,
-        'afleiria': 18,
-        'afguarda': 19,
-        'afsantarém': 20
+        // AFs em ordem alfabética
+        'afalgarve': 10,
+        'afbraga': 11,
+        'afbraganca': 12,
+        'afcoimbra': 13,
+        'afguarda': 14,
+        'afleiria': 15,
+        'aflisboa': 16,
+        'afmadeira': 17,
+        'afporto': 18,
+        'afsetubal': 19,
+        'afsantarém': 20,
+        'afviseu': 21
     };
     
     return orderMap[league] || 999; // Unknown leagues go to the end
