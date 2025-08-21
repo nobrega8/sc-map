@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soccer Club Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
@@ -26,6 +29,26 @@
         </button>
     </div>
 
+    <!-- Ko-fi button -->
+    <div id="kofi-button">
+        <button onclick="openKofiPopup()" title="Pagar um café ☕">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4 18 Q4 20 6 20 L16 20 Q18 20 18 18 L18 8 Q18 6 16 6 L6 6 Q4 6 4 8 Z" 
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- Pega -->
+                <path d="M18 10 Q21 10 21 13 Q21 16 18 16" 
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                
+                <!-- Vapor -->
+                <path d="M8 3 L8 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 3 L12 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M16 3 L16 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+    </div>
+
+
     <!-- Competition filter -->
     <div id="filter-button">
         <button onclick="toggleCompetitionFilter()" title="Filtrar competições">
@@ -33,6 +56,73 @@
                 <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
             </svg>
         </button>
+    </div>
+
+    <!-- Left Sidebar -->
+    <div id="clubs-sidebar">
+        <div class="sidebar-content">
+            <!-- Filter section moved here -->
+            <div class="sidebar-header">
+                <div class="sidebar-title-row">
+                    <h3>Filtros</h3>
+                    <button id="sidebar-close" class="sidebar-close-btn" onclick="toggleCompetitionFilter()" title="Fechar">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="filter-controls">
+                    <input type="text" id="club-search" placeholder="Procurar clube...">
+                    
+                    <!-- Tri-phased dropdown system -->
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Região</div>
+                        <div class="dropdown" id="region-dropdown">
+                            <span id="region-selected">Todas as Regiões</span>
+                        </div>
+                        <div class="dropdown-menu" id="region-menu">
+                            <div class="dropdown-option selected" data-value="all">Todas as Regiões</div>
+                            <div class="dropdown-option" data-value="europa">
+                                <span class="option-text">Europa</span>
+                                <span class="option-flag">🇪🇺</span>
+                            </div>
+                            <div class="dropdown-option" data-value="portugal">
+                                <span class="option-text">Portugal</span>
+                                <span class="option-flag">🇵🇹</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Liga</div>
+                        <div class="dropdown" id="league-dropdown">
+                            <span id="league-selected">Todas as Ligas</span>
+                        </div>
+                        <div class="dropdown-menu" id="league-menu">
+                            <div class="dropdown-option selected" data-value="all">Todas as Ligas</div>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown-container">
+                        <div class="dropdown-label">Ano</div>
+                        <div class="dropdown" id="year-dropdown">
+                            <span id="year-selected">Todos os Anos</span>
+                        </div>
+                        <div class="dropdown-menu" id="year-menu">
+                            <div class="dropdown-option selected" data-value="all">Todos os Anos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Clubs list -->
+            <div class="clubs-list-section">
+                <h3>Clubes</h3>
+                <div id="clubs-list" class="clubs-list">
+                    <!-- Clubs will be populated here -->
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Competition filter panel -->
@@ -50,6 +140,23 @@
     <div id="submission-form" class="hidden">
         <div class="form-content">
             <h2>Submeter Novo Clube</h2>
+            
+            <!-- Tutorial panel -->
+            <div class="tutorial-panel">
+                <h4>
+                    <svg class="tutorial-icon" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+                    </svg>
+                    Como submeter o seu clube
+                </h4>
+                <p><strong>Após submeter o formulário:</strong></p>
+                <ol>
+                    <li>Um ficheiro <strong>submissions.json</strong> será descarregado automaticamente</li>
+                    <li>Uma página do GitHub será aberta para criar um novo issue</li>
+                    <li>Anexe o ficheiro JSON ao issue e envie a sua submissão</li>
+                </ol>
+            </div>
+            
             <form id="club-form">
                 <div class="form-group">
                     <label for="club-name">Nome do Clube:</label>
@@ -104,6 +211,23 @@
     <div id="edit-form" class="hidden">
         <div class="form-content">
             <h2>Sugerir Alteração</h2>
+            
+            <!-- Tutorial panel -->
+            <div class="tutorial-panel">
+                <h4>
+                    <svg class="tutorial-icon" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+                    </svg>
+                    Como submeter a sua alteração
+                </h4>
+                <p><strong>Após submeter as alterações:</strong></p>
+                <ol>
+                    <li>Um ficheiro <strong>submissions.json</strong> será descarregado automaticamente</li>
+                    <li>Uma página do GitHub será aberta para criar um novo issue</li>
+                    <li>Anexe o ficheiro JSON ao issue e envie a sua submissão</li>
+                </ol>
+            </div>
+            
             <form id="club-edit-form">
                 <div class="form-group">
                     <label for="edit-club-name">Nome do Clube:</label>
@@ -157,6 +281,7 @@
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script src="script.js"></script>
 </body>
 </html>
