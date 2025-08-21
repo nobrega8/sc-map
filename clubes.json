@@ -697,7 +697,11 @@
         "address": null,
         "latitude": 40.8418112,
         "longitude": -8.4704214,
-        "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199"
+        "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "1728",
@@ -714,7 +718,11 @@
         "address": null,
         "latitude": 40.9266318,
         "longitude": -8.5459213,
-        "url": "https://www.zerozero.pt/equipa/feirense/1728"
+        "url": "https://www.zerozero.pt/equipa/feirense/1728",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2181",
@@ -731,7 +739,11 @@
         "address": null,
         "latitude": 40.6595417,
         "longitude": -7.9004499,
-        "url": "https://www.zerozero.pt/equipa/academico/2181"
+        "url": "https://www.zerozero.pt/equipa/academico/2181",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "30",
@@ -748,7 +760,11 @@
         "address": null,
         "latitude": 41.211805,
         "longitude": -8.277222,
-        "url": "https://www.zerozero.pt/equipa/fc-penafiel/30"
+        "url": "https://www.zerozero.pt/equipa/fc-penafiel/30",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "11129",
@@ -765,7 +781,11 @@
         "address": null,
         "latitude": 41.3559387,
         "longitude": -8.1907976,
-        "url": "https://www.zerozero.pt/equipa/fc-felgueiras/11129"
+        "url": "https://www.zerozero.pt/equipa/fc-felgueiras/11129",
+        "filtro":[
+            "portugal-2liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2172",
@@ -782,7 +802,10 @@
         "address": null,
         "latitude": 37.0292357,
         "longitude": -7.8485194,
-        "url": "https://www.zerozero.pt/equipa/olhanense/2172"
+        "url": "https://www.zerozero.pt/equipa/olhanense/2172",
+        "filtro":[
+            "portugal-afalgarve-2025"
+        ]
     },
     {
         "id": "2191",
@@ -799,7 +822,11 @@
         "address": null,
         "latitude": 41.4471519,
         "longitude": -8.1690937,
-        "url": "https://www.zerozero.pt/equipa/fafe/2191"
+        "url": "https://www.zerozero.pt/equipa/fafe/2191",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "4330",
@@ -816,7 +843,11 @@
         "address": null,
         "latitude": 41.2820554,
         "longitude": -8.0757742,
-        "url": "https://www.zerozero.pt/equipa/amarante-fc/4330"
+        "url": "https://www.zerozero.pt/equipa/amarante-fc/4330",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "36",
@@ -833,7 +864,11 @@
         "address": null,
         "latitude": 41.3794188,
         "longitude": -8.7598689,
-        "url": "https://www.zerozero.pt/equipa/varzim/36"
+        "url": "https://www.zerozero.pt/equipa/varzim/36",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3664",
@@ -850,7 +885,11 @@
         "address": null,
         "latitude": 41.3331182,
         "longitude": -8.5644689,
-        "url": "https://www.zerozero.pt/equipa/trofense/3664"
+        "url": "https://www.zerozero.pt/equipa/trofense/3664",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3554",
@@ -867,7 +906,11 @@
         "address": null,
         "latitude": 40.4276839,
         "longitude": -8.4400437,
-        "url": "https://www.zerozero.pt/equipa/anadia-fc/3554"
+        "url": "https://www.zerozero.pt/equipa/anadia-fc/3554",
+        "filtro":[
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3642",
@@ -884,7 +927,11 @@
         "address": null,
         "latitude": 40.949911,
         "longitude": -8.5570739,
-        "url": "https://www.zerozero.pt/equipa/s-joao-ver/3642"
+        "url": "https://www.zerozero.pt/equipa/s-joao-ver/3642",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3676",
@@ -901,7 +948,11 @@
         "address": null,
         "latitude": 41.6494206,
         "longitude": -8.4230603,
-        "url": "https://www.zerozero.pt/equipa/vilaverdense-fc/3676"
+        "url": "https://www.zerozero.pt/equipa/vilaverdense-fc/3676",
+        "filtro":[
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2185",
@@ -918,7 +969,11 @@
         "address": null,
         "latitude": 40.8982398,
         "longitude": -8.4989063,
-        "url": "https://www.zerozero.pt/equipa/ad-sanjoanense/2185"
+        "url": "https://www.zerozero.pt/equipa/ad-sanjoanense/2185",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2170",
@@ -935,7 +990,11 @@
         "address": null,
         "latitude": 38.7097014,
         "longitude": -9.1808232,
-        "url": "https://www.zerozero.pt/equipa/atletico-cp/2170"
+        "url": "https://www.zerozero.pt/equipa/atletico-cp/2170",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "2182",
@@ -952,7 +1011,11 @@
         "address": null,
         "latitude": 39.4032268,
         "longitude": -9.1264713,
-        "url": "https://www.zerozero.pt/equipa/caldas-sc/2182"
+        "url": "https://www.zerozero.pt/equipa/caldas-sc/2182",
+        "filtro":[
+            "portugal-3liga-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3618",
@@ -969,7 +1032,11 @@
         "address": null,
         "latitude": 40.3693983,
         "longitude": -8.023016,
-        "url": "https://www.zerozero.pt/equipa/fc-oliv-hospital/3618"
+        "url": "https://www.zerozero.pt/equipa/fc-oliv-hospital/3618",
+        "filtro":[
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3601",
@@ -986,7 +1053,11 @@
         "address": null,
         "latitude": 38.6717842,
         "longitude": -27.2559348,
-        "url": "https://www.zerozero.pt/equipa/lusitania-dos-acores/3601"
+        "url": "https://www.zerozero.pt/equipa/lusitania-dos-acores/3601",
+        "filtro":[
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3597",
@@ -1003,7 +1074,8 @@
         "address": null,
         "latitude": 38.827999346415154,
         "longitude": -9.165090825307251,
-        "url": "https://www.zerozero.pt/equipa/gs-loures/3597"
+        "url": "https://www.zerozero.pt/equipa/gs-loures/3597",
+        "filtro":[]
     },
     {
         "id": "2176",
@@ -1020,7 +1092,11 @@
         "address": null,
         "latitude": 38.74346317187642,
         "longitude": -9.109756357616181,
-        "url": "https://www.zerozero.pt/equipa/oriental/2176"
+        "url": "https://www.zerozero.pt/equipa/oriental/2176",
+        "filtro":[
+            "portugal-campeonato-2025",
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3963",
@@ -1037,7 +1113,8 @@
         "address": null,
         "latitude": 38.77467765504918,
         "longitude": -9.145442074753763,
-        "url": "https://www.zerozero.pt/equipa/alta-de-lisboa/3963"
+        "url": "https://www.zerozero.pt/equipa/alta-de-lisboa/3963",
+        "filtro":[]
     },
     {
         "id": "3558",
@@ -1054,7 +1131,11 @@
         "address": null,
         "latitude": 38.9342324,
         "longitude": -9.2564742,
-        "url": "https://www.zerozero.pt/equipa/at-malveira/3558"
+        "url": "https://www.zerozero.pt/equipa/at-malveira/3558",
+        "filtro":[
+            "portugal-taca-2025",
+            "portugal-campeonato-2025"
+        ]
     },
     {
         "id": "3700",
@@ -1071,7 +1152,10 @@
         "address": null,
         "latitude": 38.77438551857168,
         "longitude": -9.10238443305758,
-        "url": "https://www.zerozero.pt/equipa/desportivo-o-moscavide/3700"
+        "url": "https://www.zerozero.pt/equipa/desportivo-o-moscavide/3700",
+        "filtro":[
+            "portugal-taca-2025"
+        ]
     },
     {
         "id": "3632",
