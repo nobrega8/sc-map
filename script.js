@@ -265,6 +265,7 @@ function getLeagueOrder(league) {
         '3liga': 4,         // 3ª Liga (Third Division)
         'taca': 5,          // Taça (Cup competitions)
         'campeonato': 6,    // Campeonato
+        'afalgarve': 7,     // AF Algarve
         'aflisboa': 10,     // Regional associations start at 10
         'afsetubal': 11,
         'afbraga': 12,
@@ -426,7 +427,8 @@ function formatLeagueName(league) {
                 .replace('afcoimbra', 'AF Coimbra')
                 .replace('afleiria', 'AF Leiria')
                 .replace('afguarda', 'AF Guarda')
-                .replace('afsantarém', 'AF Santarém');
+                .replace('afsantarém', 'AF Santarém')
+                .replace('afalgarve', 'AF Algarve');
 }
 
 function getLeagueLogo(league) {
@@ -438,7 +440,8 @@ function getLeagueLogo(league) {
         'taca': 'https://cdn-img.zerozero.pt/img/logos/edicoes/188527_imgbank_.png',
         'campeonato': 'https://cdn-img.zerozero.pt/img/logos/competicoes/2380_imgbank_cp_20250307185627.png',
         'aflisboa': 'https://cdn-img.zerozero.pt/img/logos/associacoes/2_af_lisboa_imgbank.png',
-        'afsetubal': 'https://cdn-img.zerozero.pt/img/logos/associacoes/15_af_setubal_imgbank.png'
+        'afsetubal': 'https://cdn-img.zerozero.pt/img/logos/associacoes/15_af_setubal_imgbank.png',
+        'afalgarve': 'https://cdn-img.zerozero.pt/img/logos/associacoes/16_af_algarve_imgbank.png'
     };
     
     return logoMap[league] || null;
