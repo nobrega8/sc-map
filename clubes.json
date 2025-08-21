@@ -1296,8 +1296,8 @@
             }
         ],
         "address": null,
-        "latitude": 41.297658,
-        "longitude": -7.7460478,
+        "latitude": 38.8572376293797,
+        "longitude": -9.140803346547193,
         "url": "https://www.zerozero.pt/equipa/at-tojal/10223",
         "filtro":[
             "portugal-aflisboa-2025"
@@ -1432,7 +1432,10 @@
         "address": null,
         "latitude": 38.7144913,
         "longitude": -9.2457005,
-        "url": "https://www.zerozero.pt/equipa/linda-a-velha/7990"
+        "url": "https://www.zerozero.pt/equipa/linda-a-velha/7990",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10853",
@@ -1449,7 +1452,10 @@
         "address": null,
         "latitude": 38.97236569602664,
         "longitude": -9.259398999207079,
-        "url": "https://www.zerozero.pt/equipa/vila-f-rosario/10853"
+        "url": "https://www.zerozero.pt/equipa/vila-f-rosario/10853",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3882",
@@ -1466,7 +1472,10 @@
         "address": null,
         "latitude": 38.72141887668226,
         "longitude": -9.347980245542473,
-        "url": "https://www.zerozero.pt/equipa/u-tires/3882"
+        "url": "https://www.zerozero.pt/equipa/u-tires/3882",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11178",
@@ -1477,7 +1486,10 @@
         "address": null,
         "latitude": 39.058424073756186,
         "longitude": -9.32222755451446,
-        "url": "https://www.zerozero.pt/equipa/arneiros/11178"
+        "url": "https://www.zerozero.pt/equipa/arneiros/11178",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "6393",
@@ -1494,7 +1506,10 @@
         "address": null,
         "latitude": 38.929071,
         "longitude": -9.2280052,
-        "url": "https://www.zerozero.pt/equipa/venda-do-pinheiro/6393"
+        "url": "https://www.zerozero.pt/equipa/venda-do-pinheiro/6393",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "217690",
@@ -1511,7 +1526,10 @@
         "address": null,
         "latitude": 38.77577811483653,
         "longitude": -9.286761458736272,
-        "url": "https://www.zerozero.pt/equipa/uniao-dos-santos/217690"
+        "url": "https://www.zerozero.pt/equipa/uniao-dos-santos/217690",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3908",
@@ -1528,7 +1546,10 @@
         "address": null,
         "latitude": 38.8045797,
         "longitude": -9.1382946,
-        "url": "https://www.zerozero.pt/equipa/aguias-de-camarate/3908"
+        "url": "https://www.zerozero.pt/equipa/aguias-de-camarate/3908",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10852",
@@ -1545,7 +1566,10 @@
         "address": null,
         "latitude": 38.9554059,
         "longitude": -9.2406369,
-        "url": "https://www.zerozero.pt/equipa/jerumelo/10852"
+        "url": "https://www.zerozero.pt/equipa/jerumelo/10852",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10219",
@@ -1562,7 +1586,10 @@
         "address": null,
         "latitude": 38.77889295380311,
         "longitude": -9.257015666174581,
-        "url": "https://www.zerozero.pt/equipa/cd-belas/10219"
+        "url": "https://www.zerozero.pt/equipa/cd-belas/10219",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "74820",
@@ -1573,7 +1600,10 @@
         "address": null,
         "latitude": 38.73074945174315,
         "longitude": -9.20635828490921,
-        "url": "https://www.zerozero.pt/equipa/csd-bairro-da-boavista/74820"
+        "url": "https://www.zerozero.pt/equipa/csd-bairro-da-boavista/74820",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11207",
@@ -1584,7 +1614,10 @@
         "address": null,
         "latitude": 38.8168018,
         "longitude": -9.1528206,
-        "url": "https://www.zerozero.pt/equipa/ponte-frielas/11207"
+        "url": "https://www.zerozero.pt/equipa/ponte-frielas/11207",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "86489",
@@ -1595,7 +1628,10 @@
         "address": null,
         "latitude": 38.73038864450622,
         "longitude": -9.206338956736062,
-        "url": "https://www.zerozero.pt/equipa/fundacao-salesianos/86489"
+        "url": "https://www.zerozero.pt/equipa/fundacao-salesianos/86489",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11181",
@@ -1612,7 +1648,10 @@
         "address": null,
         "latitude": 39.06903502454939,
         "longitude": -9.376806771849955,
-        "url": "https://www.zerozero.pt/equipa/sao-pedro/11181"
+        "url": "https://www.zerozero.pt/equipa/sao-pedro/11181",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "12819",
@@ -1629,7 +1668,10 @@
         "address": null,
         "latitude": 38.7261865,
         "longitude": -9.3327264,
-        "url": "https://www.zerozero.pt/equipa/aboboda/12819"
+        "url": "https://www.zerozero.pt/equipa/aboboda/12819",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "12335",
@@ -1646,7 +1688,10 @@
         "address": null,
         "latitude": 38.72174866928,
         "longitude": -9.1209798054947,
-        "url": "https://www.zerozero.pt/equipa/operario-lisboa/12335"
+        "url": "https://www.zerozero.pt/equipa/operario-lisboa/12335",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11169",
@@ -1663,7 +1708,10 @@
         "address": null,
         "latitude": 39.15382366186873,
         "longitude": -9.30907988395396,
-        "url": "https://www.zerozero.pt/equipa/sobreirense/11169"
+        "url": "https://www.zerozero.pt/equipa/sobreirense/11169",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3571",
@@ -1680,7 +1728,10 @@
         "address": null,
         "latitude": 39.0230782,
         "longitude": -8.9768885,
-        "url": "https://www.zerozero.pt/equipa/carregado/3571"
+        "url": "https://www.zerozero.pt/equipa/carregado/3571",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "6394",
@@ -1697,7 +1748,10 @@
         "address": null,
         "latitude": 38.78249349327527,
         "longitude": -9.342206574480407,
-        "url": "https://www.zerozero.pt/equipa/mem-martins-sc/6394"
+        "url": "https://www.zerozero.pt/equipa/mem-martins-sc/6394",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "12775",
@@ -1714,7 +1768,10 @@
         "address": null,
         "latitude": 38.9810618,
         "longitude": -9.0787625,
-        "url": "https://www.zerozero.pt/equipa/arrudense/12775"
+        "url": "https://www.zerozero.pt/equipa/arrudense/12775",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10851",
@@ -1725,7 +1782,10 @@
         "address": null,
         "latitude": 38.81311571505277,
         "longitude": -9.441660128923075,
-        "url": "https://www.zerozero.pt/equipa/mucifalense/10851"
+        "url": "https://www.zerozero.pt/equipa/mucifalense/10851",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3881",
@@ -1742,7 +1802,10 @@
         "address": null,
         "latitude": 38.8655259,
         "longitude": -9.0704266,
-        "url": "https://www.zerozero.pt/equipa/at-povoense/3881"
+        "url": "https://www.zerozero.pt/equipa/at-povoense/3881",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11182",
@@ -1757,9 +1820,12 @@
             }
         ],
         "address": null,
-        "latitude": 40.1900948,
-        "longitude": -7.589851,
-        "url": "https://www.zerozero.pt/equipa/coutada/11182"
+        "latitude": 39.085121437779286,
+        "longitude": -9.367269608452446,
+        "url": "https://www.zerozero.pt/equipa/coutada/11182",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10224",
@@ -1776,7 +1842,10 @@
         "address": null,
         "latitude": 38.77464690862352,
         "longitude": -9.145396508908929,
-        "url": "https://www.zerozero.pt/equipa/aguias-da-musgueira/10224"
+        "url": "https://www.zerozero.pt/equipa/aguias-da-musgueira/10224",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "323311",
@@ -1793,7 +1862,10 @@
         "address": null,
         "latitude": 38.73481514979938,
         "longitude": -9.119717980635555,
-        "url": "https://www.zerozero.pt/equipa/tecnico-fc/323311"
+        "url": "https://www.zerozero.pt/equipa/tecnico-fc/323311",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "57746",
@@ -1815,7 +1887,10 @@
         "address": null,
         "latitude": 38.8156676,
         "longitude": -9.1177736,
-        "url": "https://www.zerozero.pt/equipa/catujalense/12544"
+        "url": "https://www.zerozero.pt/equipa/catujalense/12544",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3674",
@@ -1832,7 +1907,10 @@
         "address": null,
         "latitude": 38.95613607529068,
         "longitude": -8.985046580800653,
-        "url": "https://www.zerozero.pt/equipa/vilafranquense/3674"
+        "url": "https://www.zerozero.pt/equipa/vilafranquense/3674",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "3907",
@@ -1849,7 +1927,10 @@
         "address": null,
         "latitude": 39.9141181,
         "longitude": -8.8767937,
-        "url": "https://www.zerozero.pt/equipa/fontainhas/3907"
+        "url": "https://www.zerozero.pt/equipa/fontainhas/3907",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11193",
@@ -1866,7 +1947,10 @@
         "address": null,
         "latitude": 38.68566391337351,
         "longitude": -9.333704425914506,
-        "url": "https://www.zerozero.pt/equipa/carcavelos/11193"
+        "url": "https://www.zerozero.pt/equipa/carcavelos/11193",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10878",
@@ -1883,7 +1967,10 @@
         "address": null,
         "latitude": 38.7378165,
         "longitude": -9.3128737,
-        "url": "https://www.zerozero.pt/equipa/talaide/10878"
+        "url": "https://www.zerozero.pt/equipa/talaide/10878",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11191",
@@ -1900,7 +1987,10 @@
         "address": null,
         "latitude": 38.7812301,
         "longitude": -9.3209903,
-        "url": "https://www.zerozero.pt/equipa/rio-de-mouro/11191"
+        "url": "https://www.zerozero.pt/equipa/rio-de-mouro/11191",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10857",
@@ -1917,7 +2007,10 @@
         "address": null,
         "latitude": 38.8218751,
         "longitude": -9.0947429,
-        "url": "https://www.zerozero.pt/equipa/sc-sanjoanense/10857"
+        "url": "https://www.zerozero.pt/equipa/sc-sanjoanense/10857",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "11203",
@@ -1934,7 +2027,10 @@
         "address": null,
         "latitude": 38.866395837681736,
         "longitude": -9.425543453455399,
-        "url": "https://www.zerozero.pt/equipa/mtba/11203"
+        "url": "https://www.zerozero.pt/equipa/mtba/11203",
+        "filtro":[
+            "portugal-aflisboa-2025"
+        ]
     },
     {
         "id": "10881",
