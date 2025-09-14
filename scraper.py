@@ -33,6 +33,14 @@ def extrair_id_clube(url):
     if match:
         return match.group(1)
     
+    # Padrão 4: Para URLs sem ID explícito, gerar um identificador baseado no nome da equipa
+    # Exemplo: /equipa/psv?epoca_id=155 -> "psv"
+    match = re.search(r'/equipa/([^/?]+)', url)
+    if match:
+        team_name = match.group(1)
+        # Retorna o nome da equipa como identificador único
+        return f"team_{team_name}"
+    
     return None
 
 def descobrir_clubes_competicao(url_competicao, max_clubes=50):
