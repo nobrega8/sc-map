@@ -4131,8 +4131,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.7466390153482,
+        "longitude": -8.613576251084885,
         "url": "https://www.zerozero.pt/equipa/adc-correlha/6293?epoca_id=155"
     },
     {
@@ -4148,8 +4148,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.36061316434517, 
+        "longitude": -8.368099897931728,
         "url": "https://www.zerozero.pt/equipa/ar-sao-martinho/11127?epoca_id=155"
     },
     {
@@ -4199,8 +4199,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.95910448669395, 
+        "longitude": -7.815130600090869,
         "url": "https://www.zerozero.pt/equipa/aguias-do-moradal/3679?epoca_id=155"
     },
     {
@@ -4233,8 +4233,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.52597752571847, 
+        "longitude": -8.061882992688771,
         "url": "https://www.zerozero.pt/equipa/almodovar/6772?epoca_id=155"
     },
     {
@@ -4301,8 +4301,8 @@
             }
         ],
         "address": "EntradasJogadorEquipaValorBernardo OliveiraADCR Pereira-Afonso CoimbraLousanense-David AlmeidaPenelense-João SimãoNaval 1893-Afonso CarvalhoAcadémica OAF-Manuel RamosMarialvas-Afonso FernandesVigor Mocidade-Tiago MonteiroCarapinheirense-",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.27005434695653,
+        "longitude": -8.524913849820958,
         "url": "https://www.zerozero.pt/equipa/anca/6491?epoca_id=155"
     },
     {
@@ -4312,8 +4312,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/12234_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.28920408816142,
+        "longitude": -8.204689613324344,
         "url": "https://www.zerozero.pt/equipa/aparecida/12234?epoca_id=155"
     },
     {
@@ -4346,8 +4346,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.80319695345344, 
+        "longitude": -6.770169874800443,
         "url": "https://www.zerozero.pt/equipa/braganca/3565?epoca_id=155"
     },
     {
@@ -4363,8 +4363,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.45068085630693, 
+        "longitude": -8.361802812317674,
         "url": "https://www.zerozero.pt/equipa/brito-sc/6296?epoca_id=155"
     },
     {
@@ -4374,8 +4374,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/6717_imgbank.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.395821495251234,
+        "longitude": -7.990818165599313,
         "url": "https://www.zerozero.pt/equipa/cd-celoricense/6717?epoca_id=155"
     },
     {
@@ -4391,8 +4391,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.074471771788495,
+        "longitude":  -8.100380873738377,
         "url": "https://www.zerozero.pt/equipa/cd-cinfaes/3574?epoca_id=155"
     },
     {
@@ -4425,8 +4425,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.40180401257236, 
+        "longitude": -28.253363955792775,
         "url": "https://www.zerozero.pt/equipa/cd-lajense/5677?epoca_id=155"
     },
     {
@@ -4487,8 +4487,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.51973510907993, 
+        "longitude": -8.45660413500552,
         "url": "https://www.zerozero.pt/equipa/cd-celeiros/10926?epoca_id=155"
     },
     {
@@ -4538,8 +4538,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.62527651635225, 
+        "longitude": -9.202798291405513,
         "url": "https://www.zerozero.pt/equipa/charneca-caparica/5684?epoca_id=155"
     },
     {
@@ -4634,8 +4634,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.179157355988394, 
+        "longitude": -8.577753914261734,
         "url": "https://www.zerozero.pt/equipa/fazendense/3587?epoca_id=155"
     },
     {
@@ -4668,8 +4668,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.69650305066348,
+        "longitude": -8.295539487659099,
         "url": "https://www.zerozero.pt/equipa/ferreira-do-zezere/6568?epoca_id=155"
     },
     {
@@ -4685,8 +4685,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.94336101074555, 
+        "longitude": -8.638769889471122,
         "url": "https://www.zerozero.pt/equipa/florgrade-fc/242683?epoca_id=155"
     },
     {
@@ -4713,8 +4713,8 @@
         "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/11041_imgbank_1683209985.png",
         "equipamentos": [],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.10822449303067,
+        "longitude": -7.973277912736934,
         "url": "https://www.zerozero.pt/equipa/gd-resende/11041?epoca_id=155"
     },
     {
@@ -4849,8 +4849,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.088193123234035, 
+        "longitude": -7.974689798580479,
         "url": "https://www.zerozero.pt/equipa/louletano/3596?epoca_id=155"
     },
     {
@@ -4985,8 +4985,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.08121103144664,
+        "longitude": -7.788055501431724,
         "url": "https://www.zerozero.pt/equipa/moncarapachense/10812?epoca_id=155"
     },
     {
@@ -5019,8 +5019,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.186300132474564,
+        "longitude": -7.285180853999007,
         "url": "https://www.zerozero.pt/equipa/mosteirense/32408?epoca_id=155"
     },
     {
@@ -5087,8 +5087,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 38.8770224409073,
+        "longitude":  -7.157493732885737,
         "url": "https://www.zerozero.pt/equipa/o-elvas/2180?epoca_id=155"
     },
     {
@@ -5206,8 +5206,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.12551714929764, 
+        "longitude": -8.546165594659042,
         "url": "https://www.zerozero.pt/equipa/portimonense/67006?epoca_id=155"
     },
     {
@@ -5223,8 +5223,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 39.604024672611196,
+        "longitude": -8.812823995948163,
         "url": "https://www.zerozero.pt/equipa/portomosense/3629?epoca_id=155"
     },
     {
@@ -5240,8 +5240,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.0772021889786, 
+        "longitude": -8.110896770535177,
         "url": "https://www.zerozero.pt/equipa/quarteirense/3631?epoca_id=155"
     },
     {
@@ -5257,8 +5257,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 37.8099510265387,
+        "longitude":  -25.576887051234717,
         "url": "https://www.zerozero.pt/equipa/rabo-de-peixe/3706?epoca_id=155"
     },
     {
@@ -5274,8 +5274,8 @@
             }
         ],
         "address": null,
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.727913943955926, 
+        "longitude": -7.158905031861978,
         "url": "https://www.zerozero.pt/equipa/rebordelo/3633?epoca_id=155"
     },
     {
