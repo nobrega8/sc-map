@@ -432,7 +432,7 @@
         "latitude": 38.7158618,
         "longitude": -9.4064087,
         "url": "https://www.zerozero.pt/equipa/estoril-praia/1734",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -452,7 +452,7 @@
         "latitude": 41.3627303,
         "longitude": -8.740132,
         "url": "https://www.zerozero.pt/equipa/rio-ave/31",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -472,7 +472,7 @@
         "latitude": 38.8983149,
         "longitude": -9.0361398,
         "url": "https://www.zerozero.pt/equipa/fc-alverca/1",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -492,7 +492,7 @@
         "latitude": 38.73754723128854,
         "longitude": -9.203863384003665,
         "url": "https://www.zerozero.pt/equipa/casa-pia-ac/2412",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -512,7 +512,7 @@
         "latitude": 32.6706231,
         "longitude": -16.8835636,
         "url": "https://www.zerozero.pt/equipa/nacional/27",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -532,7 +532,7 @@
         "latitude": 37.7639923,
         "longitude": -25.6228123,
         "url": "https://www.zerozero.pt/equipa/santa-clara/32",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -552,7 +552,7 @@
         "latitude": 40.5119993,
         "longitude": -8.0827943,
         "url": "https://www.zerozero.pt/equipa/cd-tondela/4336",
-        "filtro":[
+        "filtro": [
             "portugal-1liga-2025"
         ]
     },
@@ -572,7 +572,7 @@
         "latitude": 41.1842636,
         "longitude": -8.6662164,
         "url": "https://www.zerozero.pt/equipa/leixoes/1727",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -593,7 +593,7 @@
         "latitude": 37.1356935,
         "longitude": -8.5398305,
         "url": "https://www.zerozero.pt/equipa/portimonense/33",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -614,7 +614,7 @@
         "latitude": 41.3889481,
         "longitude": -8.3075383,
         "url": "https://www.zerozero.pt/equipa/fc-vizela/2197",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -635,7 +635,7 @@
         "latitude": 40.9847639,
         "longitude": -8.5469789,
         "url": "https://www.zerozero.pt/equipa/lusitania-de-lourosa/3599",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -656,7 +656,7 @@
         "latitude": 41.75091210572616,
         "longitude": -7.464759976350173,
         "url": "https://www.zerozero.pt/equipa/gd-chaves/20",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -677,7 +677,7 @@
         "latitude": 37.0228852,
         "longitude": -7.9282722,
         "url": "https://www.zerozero.pt/equipa/farense/10",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -698,11 +698,10 @@
         "latitude": 40.8418112,
         "longitude": -8.4704214,
         "url": "https://www.zerozero.pt/equipa/ud-oliveirense/2199",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
-
     },
     {
         "id": "1728",
@@ -720,7 +719,7 @@
         "latitude": 40.9266318,
         "longitude": -8.5459213,
         "url": "https://www.zerozero.pt/equipa/feirense/1728",
-                "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -741,11 +740,10 @@
         "latitude": 40.6595417,
         "longitude": -7.9004499,
         "url": "https://www.zerozero.pt/equipa/academico/2181",
-                "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
-
     },
     {
         "id": "30",
@@ -763,7 +761,7 @@
         "latitude": 41.211805,
         "longitude": -8.277222,
         "url": "https://www.zerozero.pt/equipa/fc-penafiel/30",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -784,7 +782,7 @@
         "latitude": 41.3559387,
         "longitude": -8.1907976,
         "url": "https://www.zerozero.pt/equipa/fc-felgueiras/11129",
-        "filtro":[
+        "filtro": [
             "portugal-2liga-2025",
             "portugal-taca-2025"
         ]
@@ -805,7 +803,7 @@
         "latitude": 37.0292357,
         "longitude": -7.8485194,
         "url": "https://www.zerozero.pt/equipa/olhanense/2172",
-        "filtro":[
+        "filtro": [
             "portugal-afalgarve-2025"
         ]
     },
@@ -825,7 +823,7 @@
         "latitude": 41.4471519,
         "longitude": -8.1690937,
         "url": "https://www.zerozero.pt/equipa/fafe/2191",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -846,7 +844,7 @@
         "latitude": 41.2820554,
         "longitude": -8.0757742,
         "url": "https://www.zerozero.pt/equipa/amarante-fc/4330",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -867,7 +865,7 @@
         "latitude": 41.3794188,
         "longitude": -8.7598689,
         "url": "https://www.zerozero.pt/equipa/varzim/36",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -888,7 +886,7 @@
         "latitude": 41.3331182,
         "longitude": -8.5644689,
         "url": "https://www.zerozero.pt/equipa/trofense/3664",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -909,7 +907,7 @@
         "latitude": 40.4276839,
         "longitude": -8.4400437,
         "url": "https://www.zerozero.pt/equipa/anadia-fc/3554",
-        "filtro":[
+        "filtro": [
             "portugal-campeonato-2025",
             "portugal-taca-2025"
         ]
@@ -930,7 +928,7 @@
         "latitude": 40.949911,
         "longitude": -8.5570739,
         "url": "https://www.zerozero.pt/equipa/s-joao-ver/3642",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -951,7 +949,7 @@
         "latitude": 41.6494206,
         "longitude": -8.4230603,
         "url": "https://www.zerozero.pt/equipa/vilaverdense-fc/3676",
-        "filtro":[
+        "filtro": [
             "portugal-campeonato-2025",
             "portugal-taca-2025"
         ]
@@ -972,7 +970,7 @@
         "latitude": 40.8982398,
         "longitude": -8.4989063,
         "url": "https://www.zerozero.pt/equipa/ad-sanjoanense/2185",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -993,7 +991,7 @@
         "latitude": 38.7097014,
         "longitude": -9.1808232,
         "url": "https://www.zerozero.pt/equipa/atletico-cp/2170",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -1014,7 +1012,7 @@
         "latitude": 39.4032268,
         "longitude": -9.1264713,
         "url": "https://www.zerozero.pt/equipa/caldas-sc/2182",
-        "filtro":[
+        "filtro": [
             "portugal-3liga-2025",
             "portugal-taca-2025"
         ]
@@ -1035,7 +1033,7 @@
         "latitude": 40.3693983,
         "longitude": -8.023016,
         "url": "https://www.zerozero.pt/equipa/fc-oliv-hospital/3618",
-        "filtro":[
+        "filtro": [
             "portugal-campeonato-2025",
             "portugal-taca-2025"
         ]
@@ -1056,7 +1054,7 @@
         "latitude": 38.6717842,
         "longitude": -27.2559348,
         "url": "https://www.zerozero.pt/equipa/lusitania-dos-acores/3601",
-        "filtro":[
+        "filtro": [
             "portugal-campeonato-2025",
             "portugal-taca-2025"
         ]
@@ -1077,7 +1075,7 @@
         "latitude": 38.827999346415154,
         "longitude": -9.165090825307251,
         "url": "https://www.zerozero.pt/equipa/gs-loures/3597",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1097,7 +1095,7 @@
         "latitude": 38.74346317187642,
         "longitude": -9.109756357616181,
         "url": "https://www.zerozero.pt/equipa/oriental/2176",
-        "filtro":[
+        "filtro": [
             "portugal-campeonato-2025",
             "portugal-taca-2025"
         ]
@@ -1118,7 +1116,7 @@
         "latitude": 38.77467765504918,
         "longitude": -9.145442074753763,
         "url": "https://www.zerozero.pt/equipa/alta-de-lisboa/3963",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1138,7 +1136,7 @@
         "latitude": 38.9342324,
         "longitude": -9.2564742,
         "url": "https://www.zerozero.pt/equipa/at-malveira/3558",
-        "filtro":[
+        "filtro": [
             "portugal-taca-2025",
             "portugal-campeonato-2025"
         ]
@@ -1159,7 +1157,7 @@
         "latitude": 38.77438551857168,
         "longitude": -9.10238443305758,
         "url": "https://www.zerozero.pt/equipa/desportivo-o-moscavide/3700",
-        "filtro":[
+        "filtro": [
             "portugal-taca-2025"
         ]
     },
@@ -1179,7 +1177,7 @@
         "latitude": 38.751921631110996,
         "longitude": -9.27000393776758,
         "url": "https://www.zerozero.pt/equipa/real-sc/3632",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1199,7 +1197,7 @@
         "latitude": 38.8107102,
         "longitude": -9.3665298,
         "url": "https://www.zerozero.pt/equipa/sp-lourel/3958",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1219,7 +1217,7 @@
         "latitude": 38.78966827979891,
         "longitude": -9.102083122632282,
         "url": "https://www.zerozero.pt/equipa/sacavenense/3644",
-        "filtro":[
+        "filtro": [
             "portugal-taca-2025"
         ]
     },
@@ -1239,7 +1237,7 @@
         "latitude": 38.9661287,
         "longitude": -9.4105556,
         "url": "https://www.zerozero.pt/equipa/ericeirense/3957",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1259,7 +1257,7 @@
         "latitude": 39.236819716569116,
         "longitude": -9.06270912054545,
         "url": "https://www.zerozero.pt/equipa/associacao-murteirense/28970",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1279,7 +1277,7 @@
         "latitude": 38.77467167574203,
         "longitude": -9.318496792579072,
         "url": "https://www.zerozero.pt/equipa/atletico-cacem/3880",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1299,7 +1297,7 @@
         "latitude": 38.8572376293797,
         "longitude": -9.140803346547193,
         "url": "https://www.zerozero.pt/equipa/at-tojal/10223",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1319,7 +1317,7 @@
         "latitude": 38.70003988193956,
         "longitude": -9.440456902153961,
         "url": "https://www.zerozero.pt/equipa/gds-cascais/7943",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1339,7 +1337,7 @@
         "latitude": 38.87422988778116,
         "longitude": -9.079519272225252,
         "url": "https://www.zerozero.pt/equipa/gd-vialonga/3671",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1353,7 +1351,7 @@
         "latitude": 38.710282024785045,
         "longitude": -9.181975288357114,
         "url": "https://www.zerozero.pt/equipa/santo-antonio-lisboa/10880",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1373,7 +1371,7 @@
         "latitude": 38.74350732243668,
         "longitude": -9.227048389423246,
         "url": "https://www.zerozero.pt/equipa/damaiense/11188",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1393,7 +1391,7 @@
         "latitude": 38.80466373222238,
         "longitude": -9.100927804763648,
         "url": "https://www.zerozero.pt/equipa/bobadelense/11206",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1413,7 +1411,7 @@
         "latitude": 38.84517781150943,
         "longitude": -9.089666021657775,
         "url": "https://www.zerozero.pt/equipa/santa-iria/10856",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1433,7 +1431,7 @@
         "latitude": 38.7144913,
         "longitude": -9.2457005,
         "url": "https://www.zerozero.pt/equipa/linda-a-velha/7990",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1453,7 +1451,7 @@
         "latitude": 38.97236569602664,
         "longitude": -9.259398999207079,
         "url": "https://www.zerozero.pt/equipa/vila-f-rosario/10853",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1473,7 +1471,7 @@
         "latitude": 38.72141887668226,
         "longitude": -9.347980245542473,
         "url": "https://www.zerozero.pt/equipa/u-tires/3882",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1487,7 +1485,7 @@
         "latitude": 39.058424073756186,
         "longitude": -9.32222755451446,
         "url": "https://www.zerozero.pt/equipa/arneiros/11178",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1507,7 +1505,7 @@
         "latitude": 38.929071,
         "longitude": -9.2280052,
         "url": "https://www.zerozero.pt/equipa/venda-do-pinheiro/6393",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1527,7 +1525,7 @@
         "latitude": 38.77577811483653,
         "longitude": -9.286761458736272,
         "url": "https://www.zerozero.pt/equipa/uniao-dos-santos/217690",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1547,7 +1545,7 @@
         "latitude": 38.8045797,
         "longitude": -9.1382946,
         "url": "https://www.zerozero.pt/equipa/aguias-de-camarate/3908",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1567,7 +1565,7 @@
         "latitude": 38.9554059,
         "longitude": -9.2406369,
         "url": "https://www.zerozero.pt/equipa/jerumelo/10852",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1587,7 +1585,7 @@
         "latitude": 38.77889295380311,
         "longitude": -9.257015666174581,
         "url": "https://www.zerozero.pt/equipa/cd-belas/10219",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1601,7 +1599,7 @@
         "latitude": 38.73074945174315,
         "longitude": -9.20635828490921,
         "url": "https://www.zerozero.pt/equipa/csd-bairro-da-boavista/74820",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1615,7 +1613,7 @@
         "latitude": 38.8168018,
         "longitude": -9.1528206,
         "url": "https://www.zerozero.pt/equipa/ponte-frielas/11207",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1629,7 +1627,7 @@
         "latitude": 38.73038864450622,
         "longitude": -9.206338956736062,
         "url": "https://www.zerozero.pt/equipa/fundacao-salesianos/86489",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1649,7 +1647,7 @@
         "latitude": 39.06903502454939,
         "longitude": -9.376806771849955,
         "url": "https://www.zerozero.pt/equipa/sao-pedro/11181",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1669,7 +1667,7 @@
         "latitude": 38.7261865,
         "longitude": -9.3327264,
         "url": "https://www.zerozero.pt/equipa/aboboda/12819",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1689,7 +1687,7 @@
         "latitude": 38.72174866928,
         "longitude": -9.1209798054947,
         "url": "https://www.zerozero.pt/equipa/operario-lisboa/12335",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1709,7 +1707,7 @@
         "latitude": 39.15382366186873,
         "longitude": -9.30907988395396,
         "url": "https://www.zerozero.pt/equipa/sobreirense/11169",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1729,7 +1727,7 @@
         "latitude": 39.0230782,
         "longitude": -8.9768885,
         "url": "https://www.zerozero.pt/equipa/carregado/3571",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1749,7 +1747,7 @@
         "latitude": 38.78249349327527,
         "longitude": -9.342206574480407,
         "url": "https://www.zerozero.pt/equipa/mem-martins-sc/6394",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1769,7 +1767,7 @@
         "latitude": 38.9810618,
         "longitude": -9.0787625,
         "url": "https://www.zerozero.pt/equipa/arrudense/12775",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1783,7 +1781,7 @@
         "latitude": 38.81311571505277,
         "longitude": -9.441660128923075,
         "url": "https://www.zerozero.pt/equipa/mucifalense/10851",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1803,7 +1801,7 @@
         "latitude": 38.8655259,
         "longitude": -9.0704266,
         "url": "https://www.zerozero.pt/equipa/at-povoense/3881",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1823,7 +1821,7 @@
         "latitude": 39.085121437779286,
         "longitude": -9.367269608452446,
         "url": "https://www.zerozero.pt/equipa/coutada/11182",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1843,7 +1841,7 @@
         "latitude": 38.77464690862352,
         "longitude": -9.145396508908929,
         "url": "https://www.zerozero.pt/equipa/aguias-da-musgueira/10224",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1863,7 +1861,7 @@
         "latitude": 38.73481514979938,
         "longitude": -9.119717980635555,
         "url": "https://www.zerozero.pt/equipa/tecnico-fc/323311",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1888,7 +1886,7 @@
         "latitude": 38.8156676,
         "longitude": -9.1177736,
         "url": "https://www.zerozero.pt/equipa/catujalense/12544",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1908,7 +1906,7 @@
         "latitude": 38.95613607529068,
         "longitude": -8.985046580800653,
         "url": "https://www.zerozero.pt/equipa/vilafranquense/3674",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1928,7 +1926,7 @@
         "latitude": 39.9141181,
         "longitude": -8.8767937,
         "url": "https://www.zerozero.pt/equipa/fontainhas/3907",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1948,7 +1946,7 @@
         "latitude": 38.68566391337351,
         "longitude": -9.333704425914506,
         "url": "https://www.zerozero.pt/equipa/carcavelos/11193",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1968,7 +1966,7 @@
         "latitude": 38.7378165,
         "longitude": -9.3128737,
         "url": "https://www.zerozero.pt/equipa/talaide/10878",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -1988,7 +1986,7 @@
         "latitude": 38.7812301,
         "longitude": -9.3209903,
         "url": "https://www.zerozero.pt/equipa/rio-de-mouro/11191",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2008,7 +2006,7 @@
         "latitude": 38.8218751,
         "longitude": -9.0947429,
         "url": "https://www.zerozero.pt/equipa/sc-sanjoanense/10857",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2028,7 +2026,7 @@
         "latitude": 38.866395837681736,
         "longitude": -9.425543453455399,
         "url": "https://www.zerozero.pt/equipa/mtba/11203",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2048,7 +2046,7 @@
         "latitude": 38.749052557005044,
         "longitude": -9.169822857805041,
         "url": "https://www.zerozero.pt/equipa/palmense/10881",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2062,7 +2060,7 @@
         "latitude": 38.801051382096,
         "longitude": -9.235444934661542,
         "url": "https://www.zerozero.pt/equipa/fc-despertar/15003",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2082,7 +2080,7 @@
         "latitude": 38.7027915,
         "longitude": -9.2287735,
         "url": "https://www.zerozero.pt/equipa/alges/10876",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2102,7 +2100,7 @@
         "latitude": 38.775919,
         "longitude": -9.1952159,
         "url": "https://www.zerozero.pt/equipa/udr-santa-maria/11194",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2122,7 +2120,7 @@
         "latitude": 39.00447417352549,
         "longitude": -9.286202957372035,
         "url": "https://www.zerozero.pt/equipa/sc-livramento/10854",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2136,7 +2134,7 @@
         "latitude": 38.6871065,
         "longitude": -9.3350395,
         "url": "https://www.zerozero.pt/equipa/nova-sbe/243899",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2156,7 +2154,7 @@
         "latitude": 38.86091479116397,
         "longitude": -9.32930670416812,
         "url": "https://www.zerozero.pt/equipa/os-montelavarenses/7989",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2176,7 +2174,7 @@
         "latitude": 38.91486882152413,
         "longitude": -9.3181838224951,
         "url": "https://www.zerozero.pt/equipa/igreja-nova/6392",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2190,7 +2188,7 @@
         "latitude": 39.0204759,
         "longitude": -9.1556705,
         "url": "https://www.zerozero.pt/equipa/monte-agraco/11198",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2210,7 +2208,7 @@
         "latitude": 38.7234024,
         "longitude": -9.2262578,
         "url": "https://www.zerozero.pt/equipa/leoes-porto-salvo/323483",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2230,7 +2228,7 @@
         "latitude": 38.80786426942413,
         "longitude": -9.33327261825644,
         "url": "https://www.zerozero.pt/equipa/rd-algueirao/12674",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2250,7 +2248,7 @@
         "latitude": 39.04576805752226,
         "longitude": -9.001966346705172,
         "url": "https://www.zerozero.pt/equipa/alenquer-e-benfica/3905",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2264,7 +2262,7 @@
         "latitude": 39.0594691,
         "longitude": -9.3454433,
         "url": "https://www.zerozero.pt/equipa/pedra/11177",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2284,7 +2282,7 @@
         "latitude": 38.7293967,
         "longitude": -9.3036149,
         "url": "https://www.zerozero.pt/equipa/porto-salvo/10879",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2304,7 +2302,7 @@
         "latitude": 38.793270182530996,
         "longitude": -9.326630355035629,
         "url": "https://www.zerozero.pt/equipa/uniao-merces/12716",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2324,7 +2322,7 @@
         "latitude": 38.7889296113371,
         "longitude": -9.18902212350775,
         "url": "https://www.zerozero.pt/equipa/cac/3935",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2344,7 +2342,7 @@
         "latitude": 38.778346455342664,
         "longitude": -9.205458785178982,
         "url": "https://www.zerozero.pt/equipa/tenente-valdez/12545",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2358,7 +2356,7 @@
         "latitude": 38.92141305759614,
         "longitude": -9.292780764615035,
         "url": "https://www.zerozero.pt/equipa/alcainca-ac/11197",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2378,7 +2376,7 @@
         "latitude": 38.743212339234105,
         "longitude": -9.22674515212149,
         "url": "https://www.zerozero.pt/equipa/lisboa-sc/32132",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2398,7 +2396,7 @@
         "latitude": 38.70004841165095,
         "longitude": -9.440713060589218,
         "url": "https://www.zerozero.pt/equipa/assoc-torre/3962",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2418,7 +2416,7 @@
         "latitude": 38.76206127583298,
         "longitude": -9.10759562143579,
         "url": "https://www.zerozero.pt/equipa/sl-olivais/3708",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2438,7 +2436,7 @@
         "latitude": 38.823634546689355,
         "longitude": -9.144602949814324,
         "url": "https://www.zerozero.pt/equipa/sc-frielas/11201",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2458,7 +2456,7 @@
         "latitude": 38.74309196918266,
         "longitude": -9.4549701330054,
         "url": "https://www.zerozero.pt/equipa/malveira-da-serra/11185",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2478,7 +2476,7 @@
         "latitude": 40.2369927,
         "longitude": -8.5117919,
         "url": "https://www.zerozero.pt/equipa/juventude-castanheira/3967",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2498,7 +2496,7 @@
         "latitude": 38.76384652815955,
         "longitude": -9.12742242513575,
         "url": "https://www.zerozero.pt/equipa/olivais-sul/8368",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2512,7 +2510,7 @@
         "latitude": 40.2369927,
         "longitude": -8.5117919,
         "url": "https://www.zerozero.pt/equipa/freiria/7988",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -2532,7 +2530,7 @@
         "latitude": 38.79165886098004,
         "longitude": -9.355195650323417,
         "url": "https://www.zerozero.pt/equipa/arsenal-72/15002",
-        "filtro":[
+        "filtro": [
             "portugal-aflisboa-2025"
         ]
     },
@@ -4148,7 +4146,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.36061316434517, 
+        "latitude": 41.36061316434517,
         "longitude": -8.368099897931728,
         "url": "https://www.zerozero.pt/equipa/ar-sao-martinho/11127?epoca_id=155"
     },
@@ -4199,7 +4197,7 @@
             }
         ],
         "address": null,
-        "latitude": 39.95910448669395, 
+        "latitude": 39.95910448669395,
         "longitude": -7.815130600090869,
         "url": "https://www.zerozero.pt/equipa/aguias-do-moradal/3679?epoca_id=155"
     },
@@ -4233,7 +4231,7 @@
             }
         ],
         "address": null,
-        "latitude": 37.52597752571847, 
+        "latitude": 37.52597752571847,
         "longitude": -8.061882992688771,
         "url": "https://www.zerozero.pt/equipa/almodovar/6772?epoca_id=155"
     },
@@ -4346,7 +4344,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.80319695345344, 
+        "latitude": 41.80319695345344,
         "longitude": -6.770169874800443,
         "url": "https://www.zerozero.pt/equipa/braganca/3565?epoca_id=155"
     },
@@ -4363,7 +4361,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.45068085630693, 
+        "latitude": 41.45068085630693,
         "longitude": -8.361802812317674,
         "url": "https://www.zerozero.pt/equipa/brito-sc/6296?epoca_id=155"
     },
@@ -4392,7 +4390,7 @@
         ],
         "address": null,
         "latitude": 41.074471771788495,
-        "longitude":  -8.100380873738377,
+        "longitude": -8.100380873738377,
         "url": "https://www.zerozero.pt/equipa/cd-cinfaes/3574?epoca_id=155"
     },
     {
@@ -4425,7 +4423,7 @@
             }
         ],
         "address": null,
-        "latitude": 38.40180401257236, 
+        "latitude": 38.40180401257236,
         "longitude": -28.253363955792775,
         "url": "https://www.zerozero.pt/equipa/cd-lajense/5677?epoca_id=155"
     },
@@ -4487,7 +4485,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.51973510907993, 
+        "latitude": 41.51973510907993,
         "longitude": -8.45660413500552,
         "url": "https://www.zerozero.pt/equipa/cd-celeiros/10926?epoca_id=155"
     },
@@ -4538,7 +4536,7 @@
             }
         ],
         "address": null,
-        "latitude": 38.62527651635225, 
+        "latitude": 38.62527651635225,
         "longitude": -9.202798291405513,
         "url": "https://www.zerozero.pt/equipa/charneca-caparica/5684?epoca_id=155"
     },
@@ -4634,7 +4632,7 @@
             }
         ],
         "address": null,
-        "latitude": 39.179157355988394, 
+        "latitude": 39.179157355988394,
         "longitude": -8.577753914261734,
         "url": "https://www.zerozero.pt/equipa/fazendense/3587?epoca_id=155"
     },
@@ -4685,7 +4683,7 @@
             }
         ],
         "address": null,
-        "latitude": 40.94336101074555, 
+        "latitude": 40.94336101074555,
         "longitude": -8.638769889471122,
         "url": "https://www.zerozero.pt/equipa/florgrade-fc/242683?epoca_id=155"
     },
@@ -4748,7 +4746,7 @@
         ],
         "address": null,
         "latitude": 38.302757456213136,
-        "longitude":  -7.697059026633028,
+        "longitude": -7.697059026633028,
         "url": "https://www.zerozero.pt/equipa/gd-portel/6803?epoca_id=155"
     },
     {
@@ -4849,7 +4847,7 @@
             }
         ],
         "address": null,
-        "latitude": 37.088193123234035, 
+        "latitude": 37.088193123234035,
         "longitude": -7.974689798580479,
         "url": "https://www.zerozero.pt/equipa/louletano/3596?epoca_id=155"
     },
@@ -5088,7 +5086,7 @@
         ],
         "address": null,
         "latitude": 38.8770224409073,
-        "longitude":  -7.157493732885737,
+        "longitude": -7.157493732885737,
         "url": "https://www.zerozero.pt/equipa/o-elvas/2180?epoca_id=155"
     },
     {
@@ -5206,7 +5204,7 @@
             }
         ],
         "address": null,
-        "latitude": 37.12551714929764, 
+        "latitude": 37.12551714929764,
         "longitude": -8.546165594659042,
         "url": "https://www.zerozero.pt/equipa/portimonense/67006?epoca_id=155"
     },
@@ -5240,7 +5238,7 @@
             }
         ],
         "address": null,
-        "latitude": 37.0772021889786, 
+        "latitude": 37.0772021889786,
         "longitude": -8.110896770535177,
         "url": "https://www.zerozero.pt/equipa/quarteirense/3631?epoca_id=155"
     },
@@ -5258,7 +5256,7 @@
         ],
         "address": null,
         "latitude": 37.8099510265387,
-        "longitude":  -25.576887051234717,
+        "longitude": -25.576887051234717,
         "url": "https://www.zerozero.pt/equipa/rabo-de-peixe/3706?epoca_id=155"
     },
     {
@@ -5274,7 +5272,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.727913943955926, 
+        "latitude": 41.727913943955926,
         "longitude": -7.158905031861978,
         "url": "https://www.zerozero.pt/equipa/rebordelo/3633?epoca_id=155"
     },
@@ -5291,7 +5289,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.21790591778444, 
+        "latitude": 41.21790591778444,
         "longitude": -8.407384595279021,
         "url": "https://www.zerozero.pt/equipa/rebordosa-ac/3634?epoca_id=155"
     },
@@ -5359,7 +5357,7 @@
             }
         ],
         "address": null,
-        "latitude": 40.632255520764076, 
+        "latitude": 40.632255520764076,
         "longitude": -7.404768814029279,
         "url": "https://www.zerozero.pt/equipa/sc-celoricense/11074?epoca_id=155"
     },
@@ -5376,7 +5374,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.00499529340398, 
+        "latitude": 41.00499529340398,
         "longitude": -8.574100196286777,
         "url": "https://www.zerozero.pt/equipa/sc-espinho/1175?epoca_id=155"
     },
@@ -5461,7 +5459,7 @@
             }
         ],
         "address": null,
-        "latitude": 38.33313718710915, 
+        "latitude": 38.33313718710915,
         "longitude": -7.995783762833356,
         "url": "https://www.zerozero.pt/equipa/sp-viana/10574?epoca_id=155"
     },
@@ -5529,8 +5527,8 @@
             }
         ],
         "address": "EntradasJogadorEquipaValorBuby KattyFC Zimbru-Miguel RodriguesFC Famalicão-Yuk Jin-youngVitória SC-José MacedoFeirense-André CoutinhoLeça FC-BaleloCaldas SC-Dénis DuarteVitória SC-Duarte CarvalhoAcadémica OAFCusto zeroValter ZacariasPetro de Luanda-Fábio MatosLeixões-Pedro AraújoU. Santarém-Tiago GonçalvesTirsense-Rúben FonsecaAD Sanjoanense-David VeigaFC Felgueiras-BennyBenf. Castelo Branco-",
-        "latitude": 41.20248776445056, 
-        "longitude":-8.332835097595988,
+        "latitude": 41.20248776445056,
+        "longitude": -8.332835097595988,
         "url": "https://www.zerozero.pt/equipa/usc-paredes/3621?epoca_id=155"
     },
     {
@@ -5564,7 +5562,7 @@
         ],
         "address": null,
         "latitude": 42.03013648888157,
-        "longitude":  -8.6403808359657,
+        "longitude": -8.6403808359657,
         "url": "https://www.zerozero.pt/equipa/valenciano/3668?epoca_id=155"
     },
     {
@@ -5631,7 +5629,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.238547479225964, 
+        "latitude": 41.238547479225964,
         "longitude": -8.138001230324154,
         "url": "https://www.zerozero.pt/equipa/vila-caiz/11160?epoca_id=155"
     },
@@ -5697,7 +5695,7 @@
         "longitude": -8.082529,
         "url": "https://www.zerozero.pt/equipa/sc-nandufe/61886"
     },
-	{
+    {
         "id": "11046",
         "club": "Besteiros Futebol Clube",
         "stadium": "Campo da Corte",
@@ -5708,7 +5706,7 @@
         "longitude": -8.125544,
         "url": "https://www.zerozero.pt/equipa/besteiros-fc/11046"
     },
-	{
+    {
         "id": "6694",
         "club": "Clube Atlético de Molelos",
         "stadium": "Campo do Vale da Pata",
@@ -5718,5 +5716,39 @@
         "latitude": 40.533976,
         "longitude": -8.109359,
         "url": "https://www.zerozero.pt/equipa/molelos/6694"
+    },
+    {
+        "id": "95985",
+        "club": "Pafos FC",
+        "stadium": "Geroskipou Stadium",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/95985_imgbank_1688028718.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/85/95985_shirt_20210508194635_pafos_fc.png",
+                "alt_text": "pafos fc"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/pafos-fc/95985?epoca_id=155"
+    },
+    {
+        "id": "1831",
+        "club": "Kairat2026",
+        "stadium": "Tsentralniy Almaty",
+        "logo": "https://cdn-img.zerozero.pt/img/logos/equipas/1831_imgbank_1690462967.png",
+        "equipamentos": [
+            {
+                "type": "desconhecido",
+                "url": "https://www.zerozero.pt/img/logos/equipas/31/1831_shirt_20220701183300_kairat.png",
+                "alt_text": "kairat"
+            }
+        ],
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "url": "https://www.zerozero.pt/equipa/kairat/1831?epoca_id=155"
     }
 ]
