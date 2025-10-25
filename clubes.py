@@ -16,7 +16,24 @@ DELAY = 3
 
 # URLs base para competições portuguesas e principais europeias
 COMPETICOES = [
-    "https://www.zerozero.pt/competicao/taca-de-portugal"
+        "https://www.zerozero.pt/edicao/af-algarve-1-divisao-1-fase-2025-26/203185" ,
+        "https://www.zerozero.pt/competicao/af-aveiro-campeonato-de-elite",
+        "https://www.zerozero.pt/competicao/af-beja-i-divisao",
+        "https://www.zerozero.pt/competicao/af-braga-pro-nacional",
+        "https://www.zerozero.pt/competicao/af-braganca-divisao-honra",
+        "https://www.zerozero.pt/competicao/af-castelo-branco-i-divisao",
+        "https://www.zerozero.pt/competicao/af-evora-divisao-elite-pro-nacional",
+        "https://www.zerozero.pt/competicao/af-coimbra-divisao-elite",
+        "https://www.zerozero.pt/competicao/af-guarda-1-divisao",
+        "https://www.zerozero.pt/competicao/af-leiria-divisao-honra",
+        "https://www.zerozero.pt/competicao/af-madeira-divisao-de-honra",
+        "https://www.zerozero.pt/competicao/af-portalegre-taca-honra",
+        "https://www.zerozero.pt/competicao/af-porto-divisao-liga-pro-2383",
+        "https://www.zerozero.pt/competicao/af-santarem-1-divisao",
+        "https://www.zerozero.pt/competicao/af-setubal-i-divisao",
+        "https://www.zerozero.pt/competicao/af-viana-do-castelo-1-divisao",
+        "https://www.zerozero.pt/competicao/af-vila-real-divisao-de-honra",
+        "https://www.zerozero.pt/competicao/af-viseu-divisao-honra"
 ]
 
 def fazer_requisicao(url, max_tentativas=3):

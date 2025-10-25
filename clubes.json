@@ -5765,7 +5765,7 @@
         ],
         "address": null,
         "latitude": 51.44224188778303,
-        "longitude":  5.46766234052848,
+        "longitude": 5.46766234052848,
         "url": "https://www.zerozero.pt/equipa/psv?epoca_id=155"
     },
     {
@@ -5781,7 +5781,7 @@
             }
         ],
         "address": null,
-        "latitude": 40.42147274217007, 
+        "latitude": 40.42147274217007,
         "longitude": 49.99694860180851,
         "url": "https://www.zerozero.pt/equipa/qarabag?epoca_id=155"
     },
@@ -5798,7 +5798,7 @@
             }
         ],
         "address": null,
-        "latitude": 50.067793563783184, 
+        "latitude": 50.067793563783184,
         "longitude": 14.47172455426128,
         "url": "https://www.zerozero.pt/equipa/slavia-praha?epoca_id=155"
     },
@@ -5815,7 +5815,7 @@
             }
         ],
         "address": null,
-        "latitude": 37.94689904374973, 
+        "latitude": 37.94689904374973,
         "longitude": 23.664610130906976,
         "url": "https://www.zerozero.pt/equipa/olympiacos?epoca_id=155"
     },
@@ -5832,7 +5832,7 @@
             }
         ],
         "address": null,
-        "latitude": 48.841529194611226, 
+        "latitude": 48.841529194611226,
         "longitude": 2.2532971632010272,
         "url": "https://www.zerozero.pt/equipa/paris-sg?epoca_id=155"
     },
@@ -5849,7 +5849,7 @@
             }
         ],
         "address": null,
-        "latitude": 51.19350829574975, 
+        "latitude": 51.19350829574975,
         "longitude": 3.1808314551451087,
         "url": "https://www.zerozero.pt/equipa/club-brugge?epoca_id=155"
     },
@@ -5866,7 +5866,7 @@
             }
         ],
         "address": null,
-        "latitude": 50.068910796184035, 
+        "latitude": 50.068910796184035,
         "longitude": 8.645686539448466,
         "url": "https://www.zerozero.pt/equipa/eintracht-frankfurt?epoca_id=155"
     },
@@ -5884,7 +5884,7 @@
         ],
         "address": null,
         "latitude": 43.72809032912602,
-        "longitude":  7.4162730188733965,
+        "longitude": 7.4162730188733965,
         "url": "https://www.zerozero.pt/equipa/monaco?epoca_id=155"
     },
     {
@@ -5900,7 +5900,7 @@
             }
         ],
         "address": null,
-        "latitude": 43.27023351397002, 
+        "latitude": 43.27023351397002,
         "longitude": 5.3955152196136416,
         "url": "https://www.zerozero.pt/equipa/marseille?epoca_id=155"
     },
@@ -5917,7 +5917,7 @@
             }
         ],
         "address": null,
-        "latitude": 40.828293244348046, 
+        "latitude": 40.828293244348046,
         "longitude": 14.193361463452963,
         "url": "https://www.zerozero.pt/equipa/napoli?epoca_id=155"
     },
@@ -5935,7 +5935,7 @@
         ],
         "address": null,
         "latitude": 51.60470626975661,
-        "longitude":  -0.06633708209295287,
+        "longitude": -0.06633708209295287,
         "url": "https://www.zerozero.pt/equipa/tottenham?epoca_id=155"
     },
     {
@@ -5968,7 +5968,7 @@
             }
         ],
         "address": null,
-        "latitude": 67.27693186212969, 
+        "latitude": 67.27693186212969,
         "longitude": 14.385171584468653,
         "url": "https://www.zerozero.pt/equipa/bodo-glimt?epoca_id=155"
     },
@@ -5985,7 +5985,7 @@
             }
         ],
         "address": null,
-        "latitude": 48.21893846966752, 
+        "latitude": 48.21893846966752,
         "longitude": 11.625085766930432,
         "url": "https://www.zerozero.pt/equipa/bayern-munchen?epoca_id=155"
     },
@@ -6002,7 +6002,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.36477506265234, 
+        "latitude": 41.36477506265234,
         "longitude": 2.1556953802764904,
         "url": "https://www.zerozero.pt/equipa/barcelona?epoca_id=155"
     },
@@ -6020,7 +6020,7 @@
         ],
         "address": null,
         "latitude": 40.45288556749496,
-        "longitude":  -3.68809411004073,
+        "longitude": -3.68809411004073,
         "url": "https://www.zerozero.pt/equipa/real-madrid?epoca_id=155"
     },
     {
@@ -6036,7 +6036,7 @@
             }
         ],
         "address": null,
-        "latitude": 51.49280210664602, 
+        "latitude": 51.49280210664602,
         "longitude": 7.451900279193552,
         "url": "https://www.zerozero.pt/equipa/borussia-dortmund?epoca_id=155"
     },
@@ -6053,7 +6053,7 @@
             }
         ],
         "address": null,
-        "latitude": 55.68101119409297, 
+        "latitude": 55.68101119409297,
         "longitude": 12.4986516534335,
         "url": "https://www.zerozero.pt/equipa/fc-kobenhavn?epoca_id=155"
     },
@@ -6070,7 +6070,7 @@
             }
         ],
         "address": null,
-        "latitude": 41.10324793731071, 
+        "latitude": 41.10324793731071,
         "longitude": 28.99109046991489,
         "url": "https://www.zerozero.pt/equipa/galatasaray?epoca_id=155"
     },
@@ -6088,7 +6088,7 @@
         ],
         "address": null,
         "latitude": 45.47798777657764,
-        "longitude":  9.123982380986156,
+        "longitude": 9.123982380986156,
         "url": "https://www.zerozero.pt/equipa/internazionale?epoca_id=155"
     },
     {
@@ -6104,7 +6104,7 @@
             }
         ],
         "address": null,
-        "latitude": 45.10955911967491, 
+        "latitude": 45.10955911967491,
         "longitude": 7.641606228268261,
         "url": "https://www.zerozero.pt/equipa/juventus?epoca_id=155"
     },
@@ -6121,7 +6121,7 @@
             }
         ],
         "address": null,
-        "latitude": 40.4361370327263, 
+        "latitude": 40.4361370327263,
         "longitude": -3.5995736325709125,
         "url": "https://www.zerozero.pt/equipa/atletico-de-madrid?epoca_id=155"
     },
@@ -6138,7 +6138,7 @@
             }
         ],
         "address": null,
-        "latitude": 43.26418223769705, 
+        "latitude": 43.26418223769705,
         "longitude": -2.94916411302077,
         "url": "https://www.zerozero.pt/equipa/athletic?epoca_id=155"
     },
@@ -6155,7 +6155,7 @@
             }
         ],
         "address": null,
-        "latitude": 39.94415378439587, 
+        "latitude": 39.94415378439587,
         "longitude": -0.10346325839936145,
         "url": "https://www.zerozero.pt/equipa/villarreal?epoca_id=155"
     },
@@ -6172,7 +6172,7 @@
             }
         ],
         "address": null,
-        "latitude": 50.81790363192718, 
+        "latitude": 50.81790363192718,
         "longitude": 4.329714309258517,
         "url": "https://www.zerozero.pt/equipa/union-st-gilloise?epoca_id=155"
     },
@@ -6189,7 +6189,7 @@
             }
         ],
         "address": null,
-        "latitude": 45.7090600237446, 
+        "latitude": 45.7090600237446,
         "longitude": 9.680869838837598,
         "url": "https://www.zerozero.pt/equipa/atalanta?epoca_id=155"
     },
@@ -6207,7 +6207,7 @@
         ],
         "address": null,
         "latitude": 51.03869437938451,
-        "longitude":  7.002213648145932,
+        "longitude": 7.002213648145932,
         "url": "https://www.zerozero.pt/equipa/bayer-leverkusen?epoca_id=155"
     },
     {
@@ -6223,7 +6223,7 @@
             }
         ],
         "address": null,
-        "latitude": 52.314460641413106, 
+        "latitude": 52.314460641413106,
         "longitude": 4.942202751586601,
         "url": "https://www.zerozero.pt/equipa/ajax?epoca_id=155"
     }
