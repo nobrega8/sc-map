@@ -94,10 +94,24 @@ def descobrir_clubes_multiplas_competicoes():
     Descobre clubes de múltiplas competições portuguesas
     """
     competicoes = [
-        "https://www.zerozero.pt/edicao.php?id_edicao=175650",  # Liga Portugal 2024-25
-        "https://www.zerozero.pt/edicao.php?id_edicao=175651",  # Liga Portugal 2 2024-25
-        "https://www.zerozero.pt/edicao.php?id_edicao=175652",  # Campeonato de Portugal 2024-25
-        "https://www.zerozero.pt/edicao.php?id_edicao=175653",  # Liga 3 2024-25
+        "https://www.zerozero.pt/edicao/af-algarve-1-divisao-1-fase-2025-26/203185" ,
+        "https://www.zerozero.pt/competicao/af-aveiro-campeonato-de-elite",
+        "https://www.zerozero.pt/competicao/af-beja-i-divisao",
+        "https://www.zerozero.pt/competicao/af-braga-pro-nacional",
+        "https://www.zerozero.pt/competicao/af-braganca-divisao-honra",
+        "https://www.zerozero.pt/competicao/af-castelo-branco-i-divisao",
+        "https://www.zerozero.pt/competicao/af-evora-divisao-elite-pro-nacional",
+        "https://www.zerozero.pt/competicao/af-coimbra-divisao-elite",
+        "https://www.zerozero.pt/competicao/af-guarda-1-divisao",
+        "https://www.zerozero.pt/competicao/af-leiria-divisao-honra",
+        "https://www.zerozero.pt/competicao/af-madeira-divisao-de-honra",
+        "https://www.zerozero.pt/competicao/af-portalegre-taca-honra",
+        "https://www.zerozero.pt/competicao/af-porto-divisao-liga-pro-2383",
+        "https://www.zerozero.pt/competicao/af-santarem-1-divisao",
+        "https://www.zerozero.pt/competicao/af-setubal-i-divisao",
+        "https://www.zerozero.pt/competicao/af-viana-do-castelo-1-divisao",
+        "https://www.zerozero.pt/competicao/af-vila-real-divisao-de-honra",
+        "https://www.zerozero.pt/competicao/af-viseu-divisao-honra"
     ]
     
     todos_clubes = {}
